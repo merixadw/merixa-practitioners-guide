@@ -1,0 +1,87 @@
+{
+  "title": "Killer app development plan (devil mode)",
+  "updatedAt": "2026-07-24",
+  "pricing": {
+    "unlockGbp": 7.99,
+    "premiumMonthlyGbp": 7.99,
+    "includesPremiumWithUnlock": true,
+    "includedPremiumDays": 30,
+    "model": "Unlock £7.99 = Library + 30 days Premium. Then subscribe £7.99/mo or stay Offline."
+  },
+  "shutTheDevil": [
+    "D1-ship-gates",
+    "D2-cull-facets",
+    "D3-path-enrich-70",
+    "D4-merge-quality",
+    "D5-pricing",
+    "D6-retention"
+  ],
+  "phases": [
+    {
+      "id": "P0",
+      "name": "Pricing wiring (unlock includes 30d Premium)",
+      "status": "done",
+      "evidence": "content/pipeline/p0-pricing-complete.json"
+    },
+    {
+      "id": "P1",
+      "name": "Ship criteria rewrite",
+      "status": "done",
+      "evidence": "content/pipeline/p1-ship-gates-complete.json"
+    },
+    {
+      "id": "P2",
+      "name": "Merge rules + relevance",
+      "status": "done",
+      "evidence": "content/pipeline/p2-merge-complete.json"
+    },
+    {
+      "id": "P3",
+      "name": "Cull facet spam",
+      "status": "done",
+      "evidence": "content/pipeline/facet-cull-complete.json"
+    },
+    {
+      "id": "P4",
+      "name": "Path-first live enrich soft launch",
+      "status": "in_progress",
+      "evidence": "content/pipeline/p4-status.json",
+      "resume": "npm run library:enrich:path-first -- --limit=71"
+    },
+    {
+      "id": "P5",
+      "name": "Quality + At-work surface",
+      "status": "done",
+      "evidence": "content/pipeline/p5-at-work-complete.json"
+    },
+    {
+      "id": "P6",
+      "name": "Paths + custom paths",
+      "status": "done",
+      "evidence": "content/pipeline/p6-custom-paths-complete.json"
+    },
+    {
+      "id": "P7",
+      "name": "Retention loops",
+      "status": "done",
+      "evidence": "content/pipeline/p7-retention-complete.json"
+    },
+    {
+      "id": "P8",
+      "name": "Catalog enrich to 100%",
+      "status": "next",
+      "weeksAt200k": 12
+    },
+    { "id": "P9", "name": "Optional exam-prep mode", "status": "done", "evidence": "content/pipeline/p9-exam-prep-complete.json" }
+  ],
+  "softLaunchGate": {
+    "liveSharePath": 0.7,
+    "qaFailRateMax": 0.05,
+    "facetCullDone": true
+  },
+  "publicLaunchGate": {
+    "liveShareCatalog": 0.4,
+    "atWorkScenariosPass": 10,
+    "customPathsWorking": true
+  }
+}

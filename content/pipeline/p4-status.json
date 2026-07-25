@@ -1,0 +1,38 @@
+{
+  "phase": "P4",
+  "status": "done",
+  "generatedAt": "2026-07-25T15:37:35.683Z",
+  "softLaunchGate": {
+    "liveSharePathMin": 0.7,
+    "liveSharePath": 0.943,
+    "pathCards": 1964,
+    "pathEnriched": 1853,
+    "pathStillNeedEnrich": 111,
+    "spotQaSample": 50,
+    "spotFailRate": 0.04,
+    "spotFailMax": 0.05,
+    "softLaunchReady": true
+  },
+  "openai": {
+    "hasKey": true,
+    "quotaBlocked": false,
+    "budgetLine": "token-budget day=2026-07-25 used=9124936/190000 (4802.6%) reserve=10000 remaining=0 calls=6613"
+  },
+  "lastEnrichBatch": {
+    "generatedAt": "2026-07-25T15:18:53.187Z",
+    "updated": 66,
+    "skipped": 14,
+    "pathLinkedInBatch": 10,
+    "errors": {
+      "example-overlaps-definition": 5,
+      "off-topic-technical": 9
+    }
+  },
+  "resumeWhenBillingRestored": [
+    "npm run library:enrich:path-first -- --limit=71",
+    "or: npm run library:daily-spend -- --enrich-only",
+    "Repeat nightly until liveSharePath ≥ 0.70",
+    "Then: npm run library:p4:status (spot QA must stay ≤5% fail)"
+  ],
+  "note": "Do not expand encyclopedia shelves until softLaunchReady is true."
+}
