@@ -19,6 +19,11 @@
         "retrieveMB": 108.59
       },
       "smoke": "scripts/pipeline/smoke-out-web.mjs ok"
+    },
+    "pStoreWindows": {
+      "storeVerify": "npm run store:verify ok",
+      "masterChecklist": "store/STORE_READINESS.md",
+      "workersDocs": "store/WORKERS_AND_ENV.md"
     }
   },
   "deprioritized": [
@@ -99,11 +104,19 @@
     {
       "id": "P-Store",
       "name": "IAP / listing leftovers",
-      "status": "pending",
+      "status": "done",
       "acceptance": [
         "Unlock + Premium products configured; verify worker deploy path known",
         "Privacy/Terms/Support URLs ready for App Store Connect",
         "No production ALLOW_JWS_CLAIMS_ONLY / unverified IAP flags"
+      ],
+      "work": [
+        "store/STORE_READINESS.md master checklist (Windows vs ASC vs Mac)",
+        "store/WORKERS_AND_ENV.md — iap:deploy / ask:deploy + forbidden prod flags",
+        "npm run store:verify — StoreKit ↔ products.ts ↔ Cap appId",
+        "Listing pack, ASC setup, privacy nutrition, subscription QA, screenshot folders",
+        "Legal app routes /privacy /terms /support; public HTTPS host = ops leftover",
+        "Mac/ASC leftovers explicit: cap add ios, screenshots PNGs, ASC IAP records, worker secrets, live legal URLs, TestFlight"
       ]
     }
   ]

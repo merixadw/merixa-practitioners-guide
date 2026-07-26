@@ -1,15 +1,19 @@
-# App Store Connect setup (P3)
+# App Store Connect setup (P-Store)
 
 Do this in a browser — no Mac required for the ASC record. Keep
-`store/APP_STORE_CONNECT.md` open for copy/paste.
+`store/APP_STORE_CONNECT.md` and `store/STORE_READINESS.md` open.
+
+Master path: **Cap prep (Windows)** → **ASC (browser)** → **Mac binary / screenshots** → **TestFlight** → **Submit**.
 
 ## Before you start
 
 - [ ] Apple Developer Program membership active
-- [ ] Legal URLs live HTTPS (`/privacy/`, `/terms/`, `/support/`)
-- [ ] Bundle ID ready: `uk.co.merixa.practitionersguide`
-- [ ] IAP verify worker deployed (`npm run iap:deploy`) with Apple API secrets
-- [ ] Ask worker deployed (`npm run ask:deploy`) for live AI
+- [ ] Legal URLs live HTTPS (see URLs in `APP_STORE_CONNECT.md`; app routes `/privacy/`, `/terms/`, `/support/`)
+- [ ] Bundle ID ready: `uk.co.merixa.practitionersguide` (matches Cap `appId`)
+- [ ] `npm run store:verify` passes (StoreKit ↔ code IDs)
+- [ ] IAP verify worker deployed (`npm run iap:deploy`) with Apple API secrets — see `WORKERS_AND_ENV.md`
+- [ ] Ask worker deployed (`npm run ask:deploy`) for live AI Premium
+- [ ] Production builds will set `NEXT_PUBLIC_MERIXA_IAP_VERIFY_URL` (+ Ask URL); never `IAP_ALLOW_UNVERIFIED`
 
 ## 1. Register the Bundle ID
 
@@ -51,7 +55,7 @@ Do this in a browser — no Mac required for the ASC record. Keep
 4. Price: £7.99 / €8.99 / $9.99 (Apple price tiers closest match)
 5. Localization (en_GB + en_US):
    - Display name: `Guide Unlock`
-   - Description: `Full Practitioner's Guide with offline Library, Paths, and Saved. Corpus updates over the air.`
+   - Description: `Full Practitioner's Guide with offline Library, Paths, and Saved. Includes AI Premium for 30 days. Corpus updates over the air.`
 
 ### Subscription group — Merixa AI Coach
 
@@ -66,8 +70,8 @@ Do this in a browser — no Mac required for the ASC record. Keep
    - Price: £7.99 / €8.99 / $9.99
    - Display name: `AI Premium`
    - Description: `Live coach with daily pace (~10 asks / up to 5 heavy). Spreadsheet demos, board pack, judgement, stress-test.`
-4. Single paid subscription level (Premium). Lite SKU not for new sale.
-5. No free trial required for v1
+4. Single paid subscription level for new buyers (Premium). Lite SKU not for new sale.
+5. Free trial not required — unlock already includes 30 days of Premium in-app
 6. Submit IAPs with the first binary
 
 ## 5. Version 1.0 listing

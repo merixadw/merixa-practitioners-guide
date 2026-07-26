@@ -1,92 +1,94 @@
 {
-  "generatedAt": "2026-07-25T17:29:00.938Z",
+  "generatedAt": "2026-07-26T11:37:27.623Z",
   "dryRun": false,
-  "limit": 200,
+  "limit": 500,
   "idFilter": null,
-  "donorPool": 3338,
-  "updated": 101,
-  "stillOffAfterRewrite": 0,
-  "remainingNeedingRelevance": 0,
+  "donorPool": 14612,
+  "updated": 119,
+  "stillOffAfterRewrite": 80,
+  "remainingNeedingRelevance": 80,
   "methods": {
-    "generic-on-topic": 71,
-    "donor:library:0.86": 1,
-    "donor:library:1.00": 19,
-    "donor:library:0.75": 4,
-    "donor:library:0.67": 4,
-    "donor:library:0.83": 2
+    "donor:library:1.00": 10,
+    "donor:library:0.57": 3,
+    "donor:library:0.67": 84,
+    "generic-on-topic": 11,
+    "donor:library:0.60": 1,
+    "donor:library:0.71": 2,
+    "donor:library:0.83": 1,
+    "family:impairment-cgu": 7
   },
   "samples": [
     {
-      "id": "accounting-treatment-for-mines-and-quarries-excluding-inventories-and-re-feda52a03b",
-      "title": "Accounting treatment for mines and quarries (excluding inventories and revenue): Group Reporting",
-      "method": "generic-on-topic",
+      "id": "ifrs-enc-accounting-for-business-combinations-purchase-price-allo-ywnjb3vudg",
+      "title": "Accounting for Business Combinations: Purchase Price Allocation",
+      "method": "donor:library:1.00",
       "stillOff": false,
-      "openRelevance": 1,
-      "defHead": "Accounting treatment for mines and quarries (excluding inventories and revenue): Group Reporting is the working definition of Accounting treatment for mines and",
-      "bodyHead": "Apply “Accounting treatment for mines and quarries (excluding inventories and revenue): Group Reporting” with explicit inputs, assumptions, "
+      "openRelevance": 0.5,
+      "defHead": "Tax accounting for business combinations involves the recognition and measurement of deferred tax assets and liabilities arising from the acquisition of a busin",
+      "bodyHead": "Deferred tax assets and liabilities in a business combination are measured based on the temporary differences between the fair values of acq"
     },
     {
-      "id": "ma-activity-based-budgeting",
-      "title": "Activity-based budgeting",
-      "method": "generic-on-topic",
-      "stillOff": false,
-      "openRelevance": 1,
-      "defHead": "Activity-based budgeting is the working definition of Activity-based budgeting in Management reporting: the inputs or tests used, the figure or qualitative conc",
-      "bodyHead": "Apply “Activity-based budgeting” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting presentation to"
+      "id": "tax-accounting-for-income-tax-treatment-of-tax-credits-in-fi-ywnjb3vudg",
+      "title": "Accounting for income tax treatment of tax credits in financial reports",
+      "method": "donor:library:0.57",
+      "stillOff": true,
+      "openRelevance": 0.3333333333333333,
+      "defHead": "Accounting for income tax uncertainties requires recognising provisions for probable tax liabilities and disclosing significant uncertainties. Entities must use",
+      "bodyHead": "If “Accounting for income tax uncertainties in financial reports” is ignored this period, owners decide without a faithful measure — cash, c"
     },
     {
-      "id": "business-law-ethics-corner-589-9504341f7a",
-      "title": "BUSINESS LAW & ETHICS CORNER 589",
-      "method": "generic-on-topic",
+      "id": "tax-accounting-for-tax-effects-of-royalty-payments-in-transf-ywnjb3vudg",
+      "title": "Accounting for tax effects of royalty payments in transfer pricing",
+      "method": "donor:library:1.00",
       "stillOff": false,
       "openRelevance": 1,
-      "defHead": "BUSINESS LAW & ETHICS CORNER 589 is the working definition of BUSINESS LAW & ETHICS CORNER 589 in Strategy and performance: the inputs or tests used, the figure",
-      "bodyHead": "Apply “BUSINESS LAW & ETHICS CORNER 589” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting present"
+      "defHead": "Accounting for tax effects of royalty payments in transfer pricing: Royalty payments between related parties must comply with transfer pricing regulations to en",
+      "bodyHead": "If “Accounting for transfer pricing effects on royalty payments” is ignored this period, owners decide without a faithful measure — cash, co"
     },
     {
-      "id": "business-law-ethics-corner-591-5321a99ad8",
-      "title": "BUSINESS LAW & ETHICS CORNER 591",
-      "method": "generic-on-topic",
+      "id": "tax-accounting-for-tax-impacts-of-government-grant-amendment-ywnjb3vudg",
+      "title": "Accounting for tax impacts of government grant amendments",
+      "method": "donor:library:0.67",
       "stillOff": false,
       "openRelevance": 1,
-      "defHead": "BUSINESS LAW & ETHICS CORNER 591 is the working definition of BUSINESS LAW & ETHICS CORNER 591 in Strategy and performance: the inputs or tests used, the figure",
-      "bodyHead": "Apply “BUSINESS LAW & ETHICS CORNER 591” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting present"
+      "defHead": "Accounting for tax impacts of government grant amendments: When government grants are modified, the tax impacts must be reassessed and accounted for in financia",
+      "bodyHead": "If “Accounting for tax impacts of government grant modifications” is ignored this period, owners decide without a faithful measure — cash, c"
     },
     {
-      "id": "project-enc-capitalisation-gate-for-build",
-      "title": "Capitalisation gate for build",
+      "id": "tax-best-practices-for-managing-deferred-tax-liabilities-dis-ymvzdcbwcm",
+      "title": "Best practices for managing deferred tax liabilities disclosures",
       "method": "generic-on-topic",
       "stillOff": false,
       "openRelevance": 1,
-      "defHead": "Capitalisation gate for build is the working definition of Capitalisation gate for build in Project delivery: the inputs or tests used, the figure or qualitativ",
-      "bodyHead": "Apply “Capitalisation gate for build” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting presentati"
+      "defHead": "Best practices for managing deferred tax liabilities disclosures is the working definition of Best practices for managing deferred tax liabilities disclosures i",
+      "bodyHead": "Apply “Best practices for managing deferred tax liabilities disclosures” with explicit inputs, assumptions, and a stated range of outcomes. "
     },
     {
-      "id": "frm-cva-detail",
-      "title": "CVA (applied)",
-      "method": "generic-on-topic",
+      "id": "ias-8-estimates",
+      "title": "Changes in accounting estimates",
+      "method": "donor:library:0.60",
       "stillOff": false,
       "openRelevance": 1,
-      "defHead": "CVA (applied) is the working definition of CVA (applied) in Risk management: the inputs or tests used, the figure or qualitative conclusion produced, and the pa",
-      "bodyHead": "Apply “CVA (applied)” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting presentation to the cash o"
+      "defHead": "IAS 8 - Accounting Policies, Changes in Accounting Estimates and Errors: policy selection, policy changes, estimates, prior-period errors or restatements IAS 8 ",
+      "bodyHead": "IAS 8 - Accounting Policies, Changes in Accounting Estimates and Errors: policy selection, policy changes, estimates, prior-period errors or"
     },
     {
-      "id": "definition-of-dac-and-fa-alert-note-d2370f19b3",
-      "title": "Definition of DAC and FA (Alert Note)",
-      "method": "generic-on-topic",
-      "stillOff": false,
-      "openRelevance": 1,
-      "defHead": "Definition of DAC and FA (Alert Note) is the working definition of Definition of DAC and FA (Alert Note) in Management reporting: the inputs or tests used, the ",
-      "bodyHead": "Apply “Definition of DAC and FA (Alert Note)” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting pr"
+      "id": "ifrs-enc-consolidation-accounting-for-intercompany-transaction-el-y29uc29saw",
+      "title": "Consolidation: accounting for intercompany transaction eliminations",
+      "method": "donor:library:1.00",
+      "stillOff": true,
+      "openRelevance": 0.2,
+      "defHead": "Consolidation is the process of combining the financial statements of a parent company and its subsidiaries into a single set of financial statements, presentin",
+      "bodyHead": "Determining control is central to consolidation and involves assessing power over investees, exposure to variable returns, and the ability t"
     },
     {
-      "id": "economic-crime-and-corporate-transparency-act-2023-9f8984e9a4",
-      "title": "Economic Crime and Corporate Transparency Act 2023",
+      "id": "ifrs-enc-contingencies-risk-evaluation-and-disclosure-practices-y29udgluz2",
+      "title": "Contingencies: risk evaluation and disclosure practices",
       "method": "generic-on-topic",
       "stillOff": false,
       "openRelevance": 1,
-      "defHead": "Economic Crime and Corporate Transparency Act 2023 is the working definition of Economic Crime and Corporate Transparency Act 2023 in Financial reporting: the i",
-      "bodyHead": "Apply “Economic Crime and Corporate Transparency Act 2023” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any "
+      "defHead": "Contingencies: risk evaluation and disclosure practices is the working definition of Contingencies in Risk management: the inputs or tests used, the figure or q",
+      "bodyHead": "Apply “Contingencies: risk evaluation and disclosure practices” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile"
     }
   ]
 }

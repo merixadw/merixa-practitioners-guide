@@ -1,2 +1,7 @@
 *
 !.gitignore
+!README.md
+!6.7/
+!6.7/.gitkeep
+!6.1/
+!6.1/.gitkeep

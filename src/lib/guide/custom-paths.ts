@@ -264,7 +264,7 @@ export async function saveCustomPath(input: {
       payload: compressed.bytes.buffer.slice(
         compressed.bytes.byteOffset,
         compressed.bytes.byteOffset + compressed.bytes.byteLength,
-      ),
+      ) as ArrayBuffer,
       storedBytes: compressed.bytes.byteLength,
       // Keep path inline for simple reads; payload is backup for large objects.
       path: input.path,

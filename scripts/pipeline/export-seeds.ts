@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { SEED_CARDS } from "../../src/lib/guide/seed-cards.ts";
+import { SEED_CARDS } from "../../src/lib/guide/seed-cards";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const OUT = join(ROOT, "content", "pipeline", "seed-cards.json");

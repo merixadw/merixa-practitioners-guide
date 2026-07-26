@@ -124,6 +124,7 @@
     "learn:circle": "node scripts/pipeline/circle.mjs",
     "ask:deploy": "npx wrangler deploy --config wrangler.ask.toml",
     "iap:deploy": "npx wrangler deploy --config wrangler.iap.toml",
+    "store:verify": "node scripts/pipeline/verify-storekit-products.mjs",
     "build:web:smoke": "node scripts/pipeline/smoke-out-web.mjs",
     "dev:turbo": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --turbopack",
     "cap:check": "node scripts/pipeline/cap-ready.mjs",

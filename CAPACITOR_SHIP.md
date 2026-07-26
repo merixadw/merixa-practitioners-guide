@@ -48,6 +48,8 @@ NEXT_PUBLIC_MERIXA_GUIDE_ASK_URL=https://your-ask.workers.dev
 
 Never ship `NEXT_PUBLIC_IAP_ALLOW_UNVERIFIED=true` or worker `ALLOW_JWS_CLAIMS_ONLY=true` in production.
 
+Store path (listing, workers, IAP QA): `store/STORE_READINESS.md` · deploy env: `store/WORKERS_AND_ENV.md` · product IDs: `npm run store:verify`.
+
 ---
 
 ## npm scripts
@@ -58,6 +60,7 @@ Never ship `NEXT_PUBLIC_IAP_ALLOW_UNVERIFIED=true` or worker `ALLOW_JWS_CLAIMS_O
 | `npm run cap:check` | Assert `webDir=out` + `smoke-out-web` |
 | `npm run cap:sync` | Sync **existing** platforms only (honest no-op if stub) |
 | `npm run cap:prep` | `build:web` + `cap:check` (full Windows prep) |
+| `npm run store:verify` | Assert StoreKit ↔ code product IDs + Cap appId |
 | `npm run ios:sync` | `build:web` + `cap sync ios` — **requires real ios/ (Mac)** |
 | `npm run android:sync` | `build:web` + `cap sync android` — requires `android/` |
 | `npm run cap:open` | `npx cap open ios` — Mac / Xcode only |

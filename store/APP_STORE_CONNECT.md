@@ -50,8 +50,10 @@ Unlock once for the full Guide:
 • Saved — on-device shelf for review
 • Corpus updates over the air while you stay offline-capable
 
-Optional AI coaching (Apple subscription):
-• AI Premium — live assisted training with spreadsheet demos, board pack, stress-test, judgement
+Guide unlock includes AI Premium for 30 days. After that month, subscribe to keep live coaching — or stay on the offline Guide with no pressure.
+
+Optional AI Premium (Apple subscription):
+• Live assisted training — spreadsheet demos, board pack, stress-test, judgement
 • Daily pace (~10 live asks · up to 5 heavy) that resets tomorrow — not a monthly burn
 • Library stays open when today’s pace is used
 
@@ -67,13 +69,13 @@ finance,IFRS,CFA,FRM,ACCA,CGMA,audit,practitioner,tutor,spreadsheet,cash,control
 ## Promotional text (170 chars, editable anytime)
 
 ```
-Unlock the Guide once for offline Tutor, Library, and Paths. Add AI Lite or Premium for live spreadsheet coaching — managed in Apple Subscriptions.
+Unlock once for offline Tutor, Library, and Paths — AI Premium included for 30 days. Then subscribe for live coaching, or keep the offline Guide.
 ```
 
 ## What's New (1.0)
 
 ```
-First release: offline Tutor + Library + Paths, OTA corpus growth, AI Lite and AI Premium with spreadsheet walkthroughs, What’s new, and continue-path home.
+First release: offline Tutor + Library + Paths, OTA corpus growth, Guide unlock with 30 days of AI Premium included, then optional AI Premium for live spreadsheet coaching.
 ```
 
 ## App Review notes
@@ -83,16 +85,20 @@ Paste into **App Review Information → Notes**:
 ```
 No Merixa user accounts. Entitlements are Apple ID + StoreKit restore after server verify.
 
+Commercial offer:
+• Guide Unlock (non-consumable uk.co.merixa.practitionersguide.unlock) — offline Library/Paths/Saved + AI Premium included for 30 days from unlock.
+• AI Premium (uk.co.merixa.practitionersguide.ai.premium.monthly) — only online coach sold after the included month.
+• Legacy AI Lite (uk.co.merixa.practitionersguide.ai.lite.monthly) — not sold; restore/verify only for existing subscribers.
+
 Demo path (Sandbox Apple ID):
-1. Launch app → Unlock Guide with product uk.co.merixa.practitionersguide.unlock (or Restore).
-2. Tutor: ask for a paced offline lesson (works without AI sub).
-3. Library → open a concept → Spreadsheet demo requires AI Lite or Premium.
-4. Subscribe AI Lite (uk.co.merixa.practitionersguide.ai.lite.monthly) → ask for a live spreadsheet walkthrough.
-5. Upgrade to AI Premium (uk.co.merixa.practitionersguide.ai.premium.monthly) in the same subscription group → Judgement / Harder example / Implication drill.
-6. Downgrade Lite ↔ Premium and cancel only via iOS Settings → Apple ID → Subscriptions (by design).
+1. Launch → Unlock Guide (or Restore).
+2. Tutor: paced offline lesson works without a paid subscription after unlock.
+3. During the included Premium month (or after subscribing Premium): Library → concept → Spreadsheet demo / Board pack / Judgement chips.
+4. Subscribe AI Premium if the included month has ended.
+5. Cancel Premium only via iOS Settings → Apple ID → Subscriptions (by design). Guide unlock remains.
 
 Privacy / Terms / Support URLs are on the paywall and Support page.
-IAP receipts are verified with Apple before unlock; AI asks require an active Lite/Premium entitlement.
+IAP receipts are verified with Apple before unlock; live AI asks require an active Premium entitlement (or included unlock month).
 ```
 
 ## Copyright

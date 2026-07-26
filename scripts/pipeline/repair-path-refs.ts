@@ -291,7 +291,13 @@ function main() {
     const card = {
       id: deadId,
       title: step.title,
-      body: composeUniqueBody({ definition, formula: step.formula }),
+      body: composeUniqueBody({
+        definition,
+        formula: step.formula,
+        interpretation: undefined,
+        related: undefined,
+        extra: undefined,
+      }),
       bodies: ["IFRS", "ACCA", "Merixa"],
       tags: [
         "ifrs-ias-path",
