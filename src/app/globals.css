@@ -1003,6 +1003,60 @@ h2 {
   margin-bottom: 0.35rem;
 }
 
+.paths-filters .chip-rail {
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+@media (max-width: 480px) {
+  .paths-filters .chip-rail.soft {
+    flex-wrap: wrap;
+    overflow: visible;
+    row-gap: 0.35rem;
+  }
+}
+
+.guide-detail-shell {
+  padding: 1.25rem 1rem 2rem;
+}
+
+.guide-detail-shell .empty-state {
+  margin-top: 1.5rem;
+}
+
+.chat-home-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0.85rem 0 0.35rem;
+}
+
+.chat-home-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--touch);
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--forest);
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.chat-home-link.quiet {
+  color: var(--ink-soft);
+  font-weight: 650;
+}
+
+.path-packs-loading {
+  margin-bottom: 0.5rem;
+  padding: 0.85rem 0.75rem;
+}
+
 .library-filters .chip-rail.soft {
   flex-wrap: wrap;
   overflow: visible;
@@ -1432,6 +1486,11 @@ h2 {
 .empty-state p {
   margin: 0.35rem 0 0;
   font-size: 0.78rem;
+}
+
+.empty-state .path-continue,
+.empty-state .chat-home-links {
+  margin-top: 0.85rem;
 }
 
 .ask-layout {

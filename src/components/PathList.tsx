@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import {
   pathShelf,
   shelvePaths,
@@ -316,6 +316,7 @@ export function PathList({
   );
   const [packsReady, setPacksReady] = useState(() => Boolean(pathsProp));
   const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
   const [shelfFilter, setShelfFilter] = useState<"all" | PathShelf>("all");
   const [bodyFilter, setBodyFilter] = useState<BodyId | "all">("all");
   const [progressFilter, setProgressFilter] =
@@ -383,12 +384,13 @@ export function PathList({
     [catalog, insights, ready],
   );
 
-  const normalizedQuery = query.trim().toLowerCase();
+  const normalizedQuery = deferredQuery.trim().toLowerCase();
   const filtersOn =
     shelfFilter !== "all" ||
     bodyFilter !== "all" ||
     progressFilter !== "all" ||
-    Boolean(normalizedQuery);
+    Boolean(query.trim());
+  const searchPending = query.trim() !== deferredQuery.trim();
 
   const filtered = useMemo(() => {
     return ranked.filter((path) => {
@@ -465,9 +467,10 @@ export function PathList({
         Browse journeys offline. Live path training unlocks with AI Premium.
       </p>
       {!packsReady ? (
-        <p className="muted" role="status">
-          Loading practice shelves…
-        </p>
+        <div className="empty-state path-packs-loading" aria-busy="true">
+          <h2>Loading paths</h2>
+          <p>Fetching practice shelves onto this device…</p>
+        </div>
       ) : null}
 
       <div className="library-filters paths-filters">
@@ -553,6 +556,7 @@ export function PathList({
         </div>
 
         <div className="list-meta" role="status">
+          {searchPending ? "Updating… · " : ""}
           {filtered.length.toLocaleString("en-GB")}{" "}
           {filtered.length === 1 ? "path" : "paths"}
           {shelfFilter === "all" ? "" : ` · ${shelfFilterLabel}`}
@@ -561,10 +565,16 @@ export function PathList({
         </div>
       </div>
 
-      {filtered.length === 0 && !showYoursEmpty ? (
+      {packsReady && filtered.length === 0 && !showYoursEmpty ? (
         <div className="empty-state">
           <h2>No match</h2>
-          <p>Clear filters, or try a shorter search.</p>
+          <p>
+            Clear filters, try a shorter search, or browse{" "}
+            <Link href="/library/" className="inline-ml-link">
+              Library
+            </Link>{" "}
+            concepts first.
+          </p>
           <button type="button" className="path-continue" onClick={clearFilters}>
             Clear filters
           </button>

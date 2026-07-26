@@ -424,9 +424,9 @@ export function ConceptDetail({
           </section>
         )}
 
-        {workflowTasks.length > 0 ? (
-          <section className="teach-block" aria-label="In your workflow">
-            <p className="section-label">In your workflow</p>
+        <section className="teach-block" aria-label="In your workflow">
+          <p className="section-label">In your workflow</p>
+          {workflowTasks.length > 0 ? (
             <ul className="task-list">
               {workflowTasks.map((task) => (
                 <li key={task.id}>
@@ -444,8 +444,13 @@ export function ConceptDetail({
                 </li>
               ))}
             </ul>
-          </section>
-        ) : null}
+          ) : (
+            <p className="concept-body-rich at-work-empty-copy">
+              No linked workplace tasks on this card yet — use Tutor or a Path
+              step to practise the move.
+            </p>
+          )}
+        </section>
 
         {launchMode === "premium" ? (
           <Link
@@ -536,9 +541,14 @@ export function ConceptDetail({
           </section>
         ) : null}
 
-        {evidenceQuotes.length > 0 ? (
-          <details className="teach-block concept-explore">
-            <summary>Evidence from sources</summary>
+        <details className="teach-block concept-explore">
+          <summary>
+            Evidence from sources
+            {evidenceQuotes.length > 0
+              ? ` (${evidenceQuotes.length})`
+              : " (none yet)"}
+          </summary>
+          {evidenceQuotes.length > 0 ? (
             <ul className="source-list">
               {evidenceQuotes.map((quote) => (
                 <li key={quote.text.slice(0, 48)}>
@@ -552,8 +562,13 @@ export function ConceptDetail({
                 </li>
               ))}
             </ul>
-          </details>
-        ) : null}
+          ) : (
+            <p className="concept-body-rich at-work-empty-copy">
+              No distinct source quotes on this card yet. Official links above
+              (when present) remain the citation trail.
+            </p>
+          )}
+        </details>
 
         {cycle.paths.length > 0 ? (
           <section className="teach-block">

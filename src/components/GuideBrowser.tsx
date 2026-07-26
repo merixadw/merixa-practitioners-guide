@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import type { BodyId, CatalogCard, GuideCard, GuideDomain } from "@/lib/guide/types";
 import { ALL_BODIES } from "@/lib/guide/types";
 import { catalogCardAsListCard } from "@/lib/guide/catalog-utils";
@@ -14,6 +14,8 @@ import { GuideCardTile } from "./GuideCardTile";
 import { useHabits } from "./HabitsProvider";
 
 const PAGE_SIZE = 24;
+/** Habit ranking is O(n log n); skip it on wide unfiltered 14k result sets. */
+const RANK_CAP = 480;
 
 /**
  * Topic chips map to workplace categories.
@@ -193,6 +195,7 @@ export function GuideBrowser() {
   const cards = catalog?.cards ?? [];
   const { insights, track, ready } = useHabits();
   const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
   const [body, setBody] = useState<BodyId | "all">("all");
   const [topic, setTopic] = useState<TopicId>("all");
   const [shown, setShown] = useState(PAGE_SIZE);
@@ -209,13 +212,17 @@ export function GuideBrowser() {
     };
   }, [query, track]);
 
+  useEffect(() => {
+    setShown(PAGE_SIZE);
+  }, [deferredQuery, body, topic]);
+
   const catalogSize = useMemo(
     () => cards.filter((card) => isVisibleInLibraryBrowse(card)).length,
     [cards],
   );
 
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLowerCase();
+    const normalized = deferredQuery.trim().toLowerCase();
     const selectedTopic = TOPICS.find((item) => item.id === topic) ?? TOPICS[0];
 
     const matched = cards.filter((card) => {
@@ -223,10 +230,11 @@ export function GuideBrowser() {
       if (body !== "all" && !card.bodies.includes(body)) return false;
       if (!matchesTopic(card, selectedTopic)) return false;
 
+      // Catalog browse — keep haystack light (no full body) for 14k cards.
+      if (!normalized) return true;
       const haystack = [
         card.title,
         "teaser" in card ? card.teaser : "",
-        "body" in card ? card.body : "",
         card.classification?.domain ?? "",
         card.classification?.topic ?? "",
         card.tags.join(" "),
@@ -234,22 +242,26 @@ export function GuideBrowser() {
       ]
         .join(" ")
         .toLowerCase();
-      const queryMatches = !normalized || haystack.includes(normalized);
-      return queryMatches;
+      return haystack.includes(normalized);
     });
 
     const asGuide = matched.map((card) => catalogCardAsListCard(card));
+    const byQuality = () =>
+      [...asGuide].sort((left, right) => {
+        const quality =
+          (right.qualityScore ?? 0.5) - (left.qualityScore ?? 0.5);
+        return quality !== 0 ? quality : left.title.localeCompare(right.title);
+      });
 
-    if (ready) return rankCardsForLearner(asGuide, insights);
-    return [...asGuide].sort((left, right) => {
-      const quality =
-        (right.qualityScore ?? 0.5) - (left.qualityScore ?? 0.5);
-      return quality !== 0 ? quality : left.title.localeCompare(right.title);
-    });
-  }, [body, cards, insights, query, ready, topic]);
+    if (ready && asGuide.length > 0 && asGuide.length <= RANK_CAP) {
+      return rankCardsForLearner(asGuide, insights);
+    }
+    return byQuality();
+  }, [body, cards, deferredQuery, insights, ready, topic]);
 
   const visible = filtered.slice(0, shown);
   const filtersOn = body !== "all" || topic !== "all" || Boolean(query.trim());
+  const searchPending = query.trim() !== deferredQuery.trim();
 
   useEffect(() => {
     // Prefetch detail shards for the next Show more page
@@ -265,10 +277,10 @@ export function GuideBrowser() {
   if (!catalogReady) {
     return (
       <div className="screen-stack library-browse">
-        <p className="screen-lead">Preparing library…</p>
-        <p className="list-meta" role="status">
-          {statusLine}
-        </p>
+        <div className="empty-state" aria-busy="true">
+          <h2>Preparing library</h2>
+          <p>{statusLine || "Loading the on-device catalog…"}</p>
+        </div>
       </div>
     );
   }
@@ -276,11 +288,20 @@ export function GuideBrowser() {
   if (catalogError && cards.length === 0) {
     return (
       <div className="screen-stack library-browse">
-        <p className="screen-lead">Library catalog unavailable.</p>
-        <p className="list-meta">{catalogError}</p>
-        <p className="list-meta">
-          Run <code>npm run library:seamless</code> then reload.
-        </p>
+        <div className="empty-state">
+          <h2>Library unavailable</h2>
+          <p>
+            The on-device catalog did not load
+            {catalogError ? ` (${catalogError})` : ""}. Reload the app, or open{" "}
+            <Link href="/paths/" className="inline-ml-link">
+              Paths
+            </Link>{" "}
+            if you already have journeys cached.
+          </p>
+          <p className="list-meta">
+            Developers: run <code>npm run library:seamless</code> then rebuild.
+          </p>
+        </div>
       </div>
     );
   }
@@ -375,6 +396,7 @@ export function GuideBrowser() {
       </div>
 
       <div className="list-meta" role="status">
+        {searchPending ? "Updating… · " : ""}
         {filtered.length.toLocaleString("en-GB")}{" "}
         {filtered.length === 1 ? "concept" : "concepts"}
         {body === "all" ? "" : ` · ${bodyLabel(body)}`}
@@ -384,7 +406,11 @@ export function GuideBrowser() {
       </div>
       </div>
 
-      <section className="list-stack library-list" aria-label="Concepts">
+      <section
+        className="list-stack library-list"
+        aria-label="Concepts"
+        aria-busy={searchPending}
+      >
         {visible.map((card, index) => (
           <GuideCardTile
             key={card.id}
@@ -402,6 +428,20 @@ export function GuideBrowser() {
               </Link>{" "}
               for a guided route.
             </p>
+            {filtersOn ? (
+              <button
+                type="button"
+                className="path-continue"
+                onClick={() => {
+                  setBody("all");
+                  setTopic("all");
+                  setQuery("");
+                  resetResults();
+                }}
+              >
+                Clear filters
+              </button>
+            ) : null}
           </div>
         ) : null}
       </section>

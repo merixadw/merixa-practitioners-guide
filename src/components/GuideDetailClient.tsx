@@ -4,6 +4,7 @@
  * Client shell for /guide/[id] — card body comes from public/corpus shards.
  * Static export stamps one shell HTML per id; useParams() reads the live URL.
  */
+import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ConceptDetail } from "@/components/ConceptDetail";
@@ -17,10 +18,12 @@ export function GuideDetailClient() {
   const rawId = typeof params?.id === "string" ? params.id : "";
   const [card, setCard] = useState<GuideCard | null>(null);
   const [missing, setMissing] = useState(false);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!rawId || rawId === "_shell") {
       setMissing(true);
+      setLoadError(null);
       return;
     }
 
@@ -34,6 +37,7 @@ export function GuideDetailClient() {
     const controller = new AbortController();
     setCard(null);
     setMissing(false);
+    setLoadError(null);
 
     void (async () => {
       try {
@@ -48,8 +52,12 @@ export function GuideDetailClient() {
           return;
         }
         setCard(detail);
-      } catch {
-        if (!controller.signal.aborted) setMissing(true);
+      } catch (error) {
+        if (controller.signal.aborted) return;
+        setLoadError(
+          error instanceof Error ? error.message : "Could not load concept",
+        );
+        setMissing(true);
       }
     })();
 
@@ -58,17 +66,38 @@ export function GuideDetailClient() {
 
   if (missing) {
     return (
-      <main className="guide-detail-shell">
-        <p className="muted">This concept was not found in the on-device library.</p>
-        <a href="/library/">Back to Library</a>
+      <main className="screen-stack guide-detail-shell">
+        <div className="empty-state">
+          <h2>Concept not found</h2>
+          <p>
+            {loadError
+              ? `Could not open this concept (${loadError}).`
+              : "This concept is not in the on-device library."}{" "}
+            Browse the Library or pick a Path instead.
+          </p>
+          <div className="chat-home-links">
+            <Link href="/library/" className="chat-home-link">
+              Library
+            </Link>
+            <Link href="/paths/" className="chat-home-link">
+              Paths
+            </Link>
+            <Link href="/" className="chat-home-link quiet">
+              Tutor
+            </Link>
+          </div>
+        </div>
       </main>
     );
   }
 
   if (!card) {
     return (
-      <main className="guide-detail-shell" aria-busy="true">
-        <p className="muted">Loading concept…</p>
+      <main className="screen-stack guide-detail-shell" aria-busy="true">
+        <div className="empty-state">
+          <h2>Loading concept</h2>
+          <p className="muted">Opening from the on-device library…</p>
+        </div>
       </main>
     );
   }

@@ -1,18 +1,21 @@
 import { GuideDetailClient } from "@/components/GuideDetailClient";
+import { loadDevGuideStaticParams } from "@/lib/guide/dev-guide-params";
 
 /**
  * Static export cannot SSG 14k guide pages (OOM / incomplete out/).
- * Emit one shell (`_shell`); `scripts/pipeline/stamp-guide-shell.mjs` copies
- * that HTML to every catalog id. The client reads `useParams()` from the URL
- * and loads the card from `/corpus/details/*.json`.
+ * Production emits one shell (`_shell`); stamp-guide-shell copies it to every id.
+ * The client reads `useParams()` and loads `/corpus/details/*.json`.
  *
- * Must be a literal `false` — static export rejects `dynamicParams: true`,
- * and a NODE_ENV ternary is not reliably inlined by the production bundler.
+ * `dynamicParams` must be a static boolean (Next 16). Keep it false; in next
+ * dev, generateStaticParams lists catalog ids from disk so deep links resolve.
  */
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [{ id: "_shell" }];
+  if (process.env.NODE_ENV === "production") {
+    return [{ id: "_shell" }];
+  }
+  return loadDevGuideStaticParams();
 }
 
 export default function ConceptPage() {

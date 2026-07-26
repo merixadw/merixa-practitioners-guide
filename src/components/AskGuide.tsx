@@ -167,17 +167,22 @@ export function AskGuide() {
   }, [aiTier, saved]);
 
   const starters = insights.starters;
+  const askWorkerConfigured = Boolean(
+    process.env.NEXT_PUBLIC_MERIXA_GUIDE_ASK_URL?.trim(),
+  );
   const statusLine = !ready
     ? "…"
     : !corpusReady
       ? corpusStatus
       : aiTier === "premium"
-        ? tutorFocus === "exam"
-          ? "Premium · Exam drill"
-          : "Premium · Workplace"
+        ? !askWorkerConfigured
+          ? "Premium · live coach offline"
+          : tutorFocus === "exam"
+            ? "Premium · Exam drill"
+            : "Premium · Workplace"
         : corpusStatus.includes("offline")
           ? "Offline · library ready"
-          : "Offline";
+          : "Offline coach";
   const showFollowUps =
     !busy && queue.length === 0 && messages.some((m) => m.role === "tutor");
 
@@ -201,6 +206,18 @@ export function AskGuide() {
       return {
         title: "Exam drill ready",
         body: "LOS-style checks on Guide cards — stem, trap, model answer. Workplace coaching stays one tap away.",
+      };
+    }
+    if (aiTier === "premium" && !askWorkerConfigured) {
+      return {
+        title: "Library-first",
+        body: "Live Premium coach needs a configured ask worker. Browse Library and Paths offline — answers still ground in your on-device cards.",
+      };
+    }
+    if (aiTier === "offline") {
+      return {
+        title: "Ask away",
+        body: "Offline coach uses your on-device library. Open Library or Paths anytime — unlock Premium for live answers when online.",
       };
     }
     return { title: "Ready", body: insights.welcome };
@@ -779,6 +796,7 @@ export function AskGuide() {
     draft.trim().length >= 2 &&
     !(aiTier === "premium" && fairUseExhausted);
   const empty = messages.length === 0;
+  const emptyWelcome = empty && !busy ? welcomeCopy() : null;
 
   return (
     <div className="chat-shell">
@@ -819,9 +837,24 @@ export function AskGuide() {
       />
 
       <div className="chat-thread" ref={listRef} aria-live="polite">
-        {empty && !busy ? (
+        {emptyWelcome ? (
           <div className="chat-empty">
-            <p className="chat-empty-title">Ask away</p>
+            <p className="chat-empty-title">{emptyWelcome.title}</p>
+            <p className="chat-empty-copy">{emptyWelcome.body}</p>
+            <nav className="chat-home-links" aria-label="Start here">
+              <Link href="/library/" className="chat-home-link">
+                Browse Library
+              </Link>
+              <Link href="/paths/" className="chat-home-link">
+                Open Paths
+              </Link>
+            </nav>
+            {aiTier === "premium" && !askWorkerConfigured ? (
+              <p className="chat-empty-copy">
+                Premium is unlocked on-device, but the live ask worker URL is not
+                set — Tutor stays extractive from your library until it is.
+              </p>
+            ) : null}
             {fairUseExhausted ? (
               <p className="chat-empty-copy">
                 Today&apos;s live pace is resting ({fairUseAskCount}/

@@ -63,12 +63,20 @@
     {
       "id": "P-UX",
       "name": "Library / Paths / Ask polish for ship",
-      "status": "pending",
+      "status": "done",
       "acceptance": [
         "Tutor home usable offline with seamless corpus",
         "Library browse + open concept detail from shards",
         "Paths filters (shelf/body/progress/search) work with full 861+ list after hydrate",
         "Saved + retention sheets do not block first run"
+      ],
+      "work": [
+        "Library: deferred search, RANK_CAP, light haystack, corpus miss empty-state",
+        "Paths: deferred search, loading/empty states, mobile chip wrap",
+        "GuideDetailClient: loading/missing empty-states + Library/Paths links",
+        "ConceptDetail: workplace empty copy + evidence expander empty state",
+        "Ask: first-run Library/Paths links; offline vs missing ask-worker messaging",
+        "Dev deep links: generateStaticParams lists catalog ids (dynamicParams stays literal false)"
       ]
     },
     {
