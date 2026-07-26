@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-26T10:27:56.800Z",
+  "indexCards": 14217,
+  "seamlessCards": 14264,
+  "indexSeamlessGap": 0,
+  "buckets": {
+    "inSeamless": 14264,
+    "quarantined": 0,
+    "publishFilterRejected": 0,
+    "corrupt": 0
+  },
+  "bucketSumExcludingInSeamless": 0,
+  "fullyClassified": true,
+  "unexplainedCount": 0,
+  "byPrimaryReason": {},
+  "samplesByPrimary": {},
+  "unexplainedSample": [],
+  "successMetric": {
+    "gapAtMost50": true,
+    "fullyClassified": true,
+    "planBuckets": [
+      "inSeamless",
+      "quarantined",
+      "publishFilterRejected",
+      "corrupt"
+    ],
+    "note": "Success when gap≤50 OR buckets {quarantined,publishFilterRejected,corrupt} sum to gap with unexplained=0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-26T10:48:10.998Z",
+  "scannedFiles": 150,
+  "residualCount": 0,
+  "dualWriterResidual": false,
+  "residuals": [],
+  "protocol": {
+    "lockFile": "content/pipeline/index.lock",
+    "helper": "scripts/pipeline/index-holder.mjs",
+    "writePath": "scripts/lib/safe-index-write.mjs → atomicWriteFile + unionMergeWithDiskIndex",
+    "rule": "One holder at a time; never raw writeFileSync(INDEX_PATH)"
+  }
+}

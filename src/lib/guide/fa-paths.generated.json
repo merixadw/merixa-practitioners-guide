@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fa-path-fsa-mechanics",
+    "title": "Financial reporting mechanics",
+    "summary": "How statements link, accruals flow, and analysts rebuild economic reality from GAAP/IFRS numbers.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "fsa-mechanics-s1",
+        "title": "Accrual versus cash basis",
+        "summary": "Accrual accounting records revenue when earned and expenses when incurred; cash basis when cash moves. Analysts…",
+        "cardId": "fa-accrual-vs-cash"
+      },
+      {
+        "id": "fsa-mechanics-s2",
+        "title": "Articulation of financial statements",
+        "summary": "The three primary statements articulate: net income flows to retained earnings; cash flow explains balance sheet cash…",
+        "cardId": "fa-articulation"
+      },
+      {
+        "id": "fsa-mechanics-s3",
+        "title": "Non-recurring and special items",
+        "summary": "Items unlikely to persist — restructuring, impairments, gains on disposal. Analysts normalise for run-rate…",
+        "cardId": "fa-non-recurring-items"
+      },
+      {
+        "id": "fsa-mechanics-s4",
+        "title": "Accounting estimates and judgments",
+        "summary": "Depreciation lives, credit loss provisions, fair values, and pension assumptions embed management judgment in reported…",
+        "cardId": "fa-accounting-estimates"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-income-statement",
+    "title": "Income statement analysis",
+    "summary": "Revenue recognition, margins, operating leverage, and earnings composition.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "income-statement-s1",
+        "title": "Revenue quality",
+        "summary": "Revenue quality assesses sustainability, timing, and collectability of top line — bill-and-hold, channel stuffing, and…",
+        "cardId": "fa-revenue-quality"
+      },
+      {
+        "id": "income-statement-s2",
+        "title": "Gross margin analysis",
+        "summary": "Gross margin reflects pricing power and input cost control at product level before operating…",
+        "cardId": "fa-gross-margin-analysis"
+      },
+      {
+        "id": "income-statement-s3",
+        "title": "Operating margin and EBIT",
+        "summary": "Operating margin is EBIT over revenue — core profitability before financing and tax…",
+        "cardId": "fa-operating-margin"
+      },
+      {
+        "id": "income-statement-s4",
+        "title": "EBITDA and adjustments",
+        "summary": "EBITDA adds back D&A; adjusted EBITDA further removes items analysts deem non-recurring. Document every…",
+        "cardId": "fa-ebitda-adjustments"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-balance-sheet",
+    "title": "Balance sheet and liquidity",
+    "summary": "Working capital, leverage, off-balance sheet exposures, and solvency.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "balance-sheet-s1",
+        "title": "Working capital analysis",
+        "summary": "Net working capital (current assets − current liabilities) funds the operating cycle. Changes drive cash…",
+        "cardId": "fa-working-capital"
+      },
+      {
+        "id": "balance-sheet-s2",
+        "title": "Liquidity ratios",
+        "summary": "Current and quick ratios measure short-term obligation coverage. Context matters — industry and…",
+        "cardId": "fa-liquidity-ratios"
+      },
+      {
+        "id": "balance-sheet-s3",
+        "title": "Financial leverage overview",
+        "summary": "Leverage magnifies ROE but raises default risk. Analysts combine book and market measures with coverage…",
+        "cardId": "fa-leverage-overview"
+      },
+      {
+        "id": "balance-sheet-s4",
+        "title": "Off-balance sheet items",
+        "summary": "Operating leases (pre/post IFRS 16), unconsolidated JVs, guarantees, and SPVs can hide economic…",
+        "cardId": "fa-off-balance-sheet"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-cash-flow",
+    "title": "Cash flow analysis",
+    "summary": "Operating, investing, and financing cash flows; free cash flow; cash conversion.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "cash-flow-s1",
+        "title": "Operating cash flow versus net income",
+        "summary": "Sustained OCF below net income may signal aggressive accruals; OCF above NI can mean working capital release (possibly…",
+        "cardId": "fa-ocf-vs-ni"
+      },
+      {
+        "id": "cash-flow-s2",
+        "title": "Free cash flow",
+        "summary": "FCF is cash available after maintaining/replacing assets — typically OCF minus capex. Definition must be…",
+        "cardId": "fa-free-cash-flow"
+      },
+      {
+        "id": "cash-flow-s3",
+        "title": "Capital expenditure analysis",
+        "summary": "Capex maintains versus grows capacity. Compare capex to D&A and to management…",
+        "cardId": "fa-capex-analysis"
+      },
+      {
+        "id": "cash-flow-s4",
+        "title": "Cash flow ratios",
+        "summary": "Cash interest coverage, cash debt service, and FCF yield connect cash to debt and equity…",
+        "cardId": "fa-cash-flow-ratios"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-ratio-analysis",
+    "title": "Ratio analysis and DuPont",
+    "summary": "Profitability, activity, liquidity, and solvency ratios; ROE decomposition.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "ratio-analysis-s1",
+        "title": "Three-step DuPont analysis",
+        "summary": "ROE = net profit margin × asset turnover × financial leverage. Shows whether ROE is driven by margin, efficiency, or…",
+        "cardId": "fa-dupont-3"
+      },
+      {
+        "id": "ratio-analysis-s2",
+        "title": "Five-step DuPont analysis",
+        "summary": "Extends DuPont to tax and interest burden: ROE = tax burden × interest burden × EBIT margin × asset turnover ×…",
+        "cardId": "fa-dupont-5"
+      },
+      {
+        "id": "ratio-analysis-s3",
+        "title": "Peer benchmarking",
+        "summary": "Ratios gain meaning versus peers, history, and industry median — adjust for accounting policy…",
+        "cardId": "fa-peer-benchmarking"
+      },
+      {
+        "id": "ratio-analysis-s4",
+        "title": "Common-size statements",
+        "summary": "Express each line as % of revenue (I/S) or total assets (B/S) to compare scale-different…",
+        "cardId": "fa-common-size"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-quality",
+    "title": "Earnings quality and adjustments",
+    "summary": "Normalisation, red flags, and pro forma analysis for valuation inputs.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "quality-s1",
+        "title": "Earnings quality",
+        "summary": "High-quality earnings are persistent, cash-backed, and from core operations with conservative…",
+        "cardId": "fa-earnings-quality"
+      },
+      {
+        "id": "quality-s2",
+        "title": "Accruals ratio",
+        "summary": "Accruals measure non-cash component of earnings. High accruals vs peers can predict mean…",
+        "cardId": "fa-accruals-ratio"
+      },
+      {
+        "id": "quality-s3",
+        "title": "Pro forma and adjusted EPS",
+        "summary": "Companies report non-GAAP metrics. Analysts must reconcile to GAAP and limit adjustments to truly non-recurring…",
+        "cardId": "fa-pro-forma-eps"
+      },
+      {
+        "id": "quality-s4",
+        "title": "Related-party transactions",
+        "summary": "Transactions with insiders or affiliates can transfer value. Disclosure and pricing fairness…",
+        "cardId": "fa-related-party"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-corporate-finance",
+    "title": "Corporate finance for analysts",
+    "summary": "Capital structure, dividends, cost of capital, and value creation.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "corporate-finance-s1",
+        "title": "Capital structure",
+        "summary": "Mix of debt and equity financing affects WACC, risk, and flexibility. Target structure reflects industry and…",
+        "cardId": "fa-capital-structure"
+      },
+      {
+        "id": "corporate-finance-s2",
+        "title": "Weighted average cost of capital",
+        "summary": "WACC is the blended required return on debt and equity weighted by market values. Discount rate for FCFF…",
+        "cardId": "fa-wacc-overview"
+      },
+      {
+        "id": "corporate-finance-s3",
+        "title": "Cost of equity",
+        "summary": "Required return for equity investors — CAPM, build-up, or multifactor…",
+        "cardId": "fa-cost-of-equity"
+      },
+      {
+        "id": "corporate-finance-s4",
+        "title": "FCFF and FCFE",
+        "summary": "FCFF is cash to all capital providers; FCFE to equity after debt flows. Match discount rate to cash flow…",
+        "cardId": "fa-fcff-fcfe"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-equity-valuation",
+    "title": "Equity valuation",
+    "summary": "DCF, dividends, multiples, and residual income for intrinsic value.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "equity-valuation-s1",
+        "title": "Discounted cash flow valuation",
+        "summary": "DCF values an asset as PV of expected future cash flows at an appropriate risk-adjusted discount…",
+        "cardId": "fa-dcf-overview"
+      },
+      {
+        "id": "equity-valuation-s2",
+        "title": "Dividend discount model",
+        "summary": "Values equity as PV of expected dividends. Best for stable, high-payout…",
+        "cardId": "fa-ddm"
+      },
+      {
+        "id": "equity-valuation-s3",
+        "title": "Multiples valuation",
+        "summary": "Relative value using EV/EBITDA, P/E, P/B vs peers. Requires comparable economics and…",
+        "cardId": "fa-multiples-valuation"
+      },
+      {
+        "id": "equity-valuation-s4",
+        "title": "Residual income model",
+        "summary": "Value = book value plus PV of excess returns (ROE − ke) on book…",
+        "cardId": "fa-residual-income"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-fixed-income-analytics",
+    "title": "Fixed income analytics",
+    "summary": "Yield measures, duration, credit spreads, and bond valuation for analysts.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "fixed-income-analytics-s1",
+        "title": "Bond yield measures",
+        "summary": "Current yield, YTM, YTC, and simple yield serve different purposes for pricing and…",
+        "cardId": "fa-yield-measures"
+      },
+      {
+        "id": "fixed-income-analytics-s2",
+        "title": "Spot and forward rates",
+        "summary": "Spot curve prices zero-coupon cash flows; forward rates imply future borrowing…",
+        "cardId": "fa-spot-forward"
+      },
+      {
+        "id": "fixed-income-analytics-s3",
+        "title": "Duration and convexity",
+        "summary": "Duration estimates price sensitivity to yield; convexity refines for large…",
+        "cardId": "fa-duration-convexity-fa"
+      },
+      {
+        "id": "fixed-income-analytics-s4",
+        "title": "Credit spread analysis",
+        "summary": "Spread over benchmark reflects default and liquidity risk. Relative value and migration analysis for credit…",
+        "cardId": "fa-credit-spread-analysis"
+      }
+    ]
+  },
+  {
+    "id": "fa-path-quant-analyst",
+    "title": "Quantitative tools for analysts",
+    "summary": "TVM, statistics, and regression applied to forecasting and risk.",
+    "bodies": [
+      "CFA",
+      "ACCA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "quant-analyst-s1",
+        "title": "Time value of money",
+        "summary": "Money today exceeds money later due to opportunity cost. Foundation of DCF and bond…",
+        "cardId": "fa-tvm"
+      },
+      {
+        "id": "quant-analyst-s2",
+        "title": "Annuities and perpetuities",
+        "summary": "Regular cash flow patterns with closed-form PV — loan schedules, DDM terminal…",
+        "cardId": "fa-annuity-perpetuity"
+      },
+      {
+        "id": "quant-analyst-s3",
+        "title": "Regression for forecasting",
+        "summary": "Linear regression estimates relationships for forecasting drivers — sales vs GDP, margins vs…",
+        "cardId": "fa-regression-forecast"
+      },
+      {
+        "id": "quant-analyst-s4",
+        "title": "Hypothesis testing for analysts",
+        "summary": "Test whether observed differences (returns, margins) are statistically distinguishable from…",
+        "cardId": "fa-hypothesis-analyst"
+      }
+    ]
+  }
+]

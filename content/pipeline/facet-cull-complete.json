@@ -1,0 +1,11 @@
+{
+  "phase": "P3",
+  "status": "done",
+  "completedAt": "2026-07-23T17:56:24.876Z",
+  "cullShareOfClones": 0.975,
+  "quarantineCount": 2945,
+  "keptLenses": 74,
+  "cloneCountBefore": 3019,
+  "meetsCullTarget": true,
+  "report": "content/pipeline/facet-cull-report.json"
+}

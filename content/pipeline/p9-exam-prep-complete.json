@@ -1,0 +1,35 @@
+{
+  "phase": "P9",
+  "status": "done",
+  "completedAt": "2026-07-23T19:09:57.289Z",
+  "checks": [
+    {
+      "id": "exam-drill-in-strip",
+      "ok": true
+    },
+    {
+      "id": "exam-drill-light-lane",
+      "ok": true
+    },
+    {
+      "id": "quiz-aliases-exam-drill",
+      "ok": true
+    },
+    {
+      "id": "focus-reorders-exam",
+      "ok": true
+    },
+    {
+      "id": "catalog-mentions-exam-drill",
+      "ok": true
+    }
+  ],
+  "deliverables": [
+    "CoachActionId exam_drill — LOS-style Premium light lane",
+    "Tutor Workplace | Exam drill focus (mpg-tutor-focus-v1)",
+    "Saved → Exam drill; quiz deep-links alias to exam_drill",
+    "workers/ask.js prompt v4 + Exam drill light routing",
+    "Catalog / upsell labels mention Exam drill without renaming workplace brand"
+  ],
+  "note": "Redeploy ask worker for prompt v4. Workplace At-work quality remains the primary brand."
+}

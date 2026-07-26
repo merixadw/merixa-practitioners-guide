@@ -1,0 +1,70 @@
+{
+  "finishedAt": "2026-07-23T12:29:01.501Z",
+  "changedCards": 8,
+  "totalCards": 5919,
+  "byField": {
+    "body": 6,
+    "workedExample": 2,
+    "teachingSummary": 1
+  },
+  "samples": [
+    {
+      "id": "accounting-treatment-of-saas-software-configuration-99ab5b326d",
+      "title": "Accounting treatment of SAAS software: Configuration",
+      "fields": [
+        "body"
+      ]
+    },
+    {
+      "id": "ias-38-intangible-assets-control-8c56d239c7",
+      "title": "IAS 38 Intangible assets: Control",
+      "fields": [
+        "body"
+      ]
+    },
+    {
+      "id": "ifrs-accounting-standards-505883d2f9",
+      "title": "IFRS Accounting Standards",
+      "fields": [
+        "body"
+      ]
+    },
+    {
+      "id": "fa-implied-equity-risk-premium",
+      "title": "Implied ERP from market level",
+      "fields": [
+        "workedExample"
+      ]
+    },
+    {
+      "id": "crma-resource-management",
+      "title": "Internal audit resource management",
+      "fields": [
+        "workedExample"
+      ]
+    },
+    {
+      "id": "non-controlling-interest-393-408-0906241c5e",
+      "title": "Non controlling interest 393 408",
+      "fields": [
+        "body",
+        "teachingSummary"
+      ]
+    },
+    {
+      "id": "notes-forming-part-of-the-consolidated-financial-statements-aafa8308cd",
+      "title": "Notes forming part of the consolidated financial statements",
+      "fields": [
+        "body"
+      ]
+    },
+    {
+      "id": "purchase-price-allocation-ppa-check-list-attention-1d4cea8f88",
+      "title": "Purchase Price Allocation PPA Check List: Attention",
+      "fields": [
+        "body"
+      ]
+    }
+  ],
+  "policy": "Removed commercial company/product brands; kept regulations, professional bodies, and legal/regulator names."
+}

@@ -1,0 +1,284 @@
+{
+  "generatedAt": "2026-07-26T09:59:59.900Z",
+  "catalog": {
+    "totalCards": 14217,
+    "visibleCards": 14216,
+    "seamlessCards": 10636,
+    "paths": 261,
+    "cardsInAnyPath": 2805
+  },
+  "denominatorCounts": {
+    "indexCards": 14217,
+    "seamlessCards": 10636,
+    "pathCards": 2777,
+    "visibleCards": 14216,
+    "withEnrichedAt": 3056,
+    "seamlessWithEnrichedAt": 2922,
+    "pathWithEnrichedAt": 2669,
+    "indexSeamlessGap": 3581
+  },
+  "competitiveTargets": {
+    "deepShare": 0.85,
+    "enrichedGateShare": 0.7,
+    "officialCoverage": 0.85,
+    "maxWeakShare": 0.1,
+    "averageDepth": 1200,
+    "pathMembershipShare": 0.4,
+    "minDefinition": 280,
+    "minExample": 450,
+    "minTrap": 150,
+    "minImplication": 80,
+    "minTrigger": 40,
+    "minQuality": 0.78
+  },
+  "metrics": {
+    "deepShare": {
+      "current": 0.45,
+      "target": 0.85,
+      "gap": 0.39999999999999997,
+      "met": false
+    },
+    "enrichedGateShare": {
+      "current": 0.427,
+      "target": 0.7,
+      "gap": 0.27299999999999996,
+      "met": false
+    },
+    "officialCoverage": {
+      "current": 0.999,
+      "target": 0.85,
+      "gap": 0,
+      "met": true
+    },
+    "weakShare": {
+      "current": 0,
+      "target": 0.1,
+      "gap": 0,
+      "met": true
+    },
+    "averageDepth": {
+      "current": 3628,
+      "target": 1200,
+      "gap": 0,
+      "met": true
+    },
+    "pathMembershipShare": {
+      "current": 0.195,
+      "target": 0.4,
+      "gap": 0.20500000000000002,
+      "met": false
+    }
+  },
+  "competitivenessScore": 50,
+  "competitivenessScoreIsNotShipGate": true,
+  "shipMetrics": {
+    "liveShareIndex": {
+      "current": 0.215,
+      "target": 0.4,
+      "gap": 0.18500000000000003,
+      "met": false
+    },
+    "liveShareSeamless": {
+      "current": 0.275,
+      "target": 0.4,
+      "gap": 0.125,
+      "met": false
+    },
+    "liveShareCatalog": {
+      "current": 0.275,
+      "target": 0.4,
+      "gap": 0.125,
+      "met": false
+    },
+    "liveSharePath": {
+      "current": 0.961,
+      "target": 0.7,
+      "gap": 0,
+      "met": true
+    },
+    "templateShare": {
+      "current": 0,
+      "target": 0.15,
+      "gap": 0,
+      "met": true
+    },
+    "topicMismatchShare": {
+      "current": 0.008,
+      "target": 0.02,
+      "gap": 0,
+      "met": true
+    },
+    "qaFailRate": {
+      "current": 0.008,
+      "target": 0.05,
+      "gap": 0,
+      "met": true
+    },
+    "denominatorCounts": {
+      "indexCards": 14217,
+      "seamlessCards": 10636,
+      "pathCards": 2777,
+      "visibleCards": 14216,
+      "withEnrichedAt": 3056,
+      "seamlessWithEnrichedAt": 2922,
+      "pathWithEnrichedAt": 2669,
+      "indexSeamlessGap": 3581
+    },
+    "denominators": {
+      "liveShareIndex": "enrichedAt / totalIndexCards",
+      "liveShareSeamless": "enrichedAt ∩ seamless / seamlessCards (public gate)",
+      "liveShareCatalog": "alias of liveShareSeamless (public gate)",
+      "liveSharePath": "enrichedAt ∩ pathCards / pathCards (soft gate)"
+    },
+    "note": "Ship gates use liveSharePath (soft) and liveShareSeamless/Catalog (public). competitivenessScore is structural only — not a ship gate."
+  },
+  "verdict": "below-competitive-structural",
+  "counts": {
+    "deep": 6392,
+    "fullGate": 6074,
+    "withOfficial": 14205,
+    "weak": 0,
+    "enrichedAt": 3055,
+    "pathEnrichedAt": 2669,
+    "inPaths": 2777,
+    "templateHits": 0,
+    "topicMismatch": 119,
+    "averageDepth": 3628
+  },
+  "missingFields": {
+    "definition": 5119,
+    "example": 7796,
+    "trap": 6127,
+    "implication": 5882,
+    "trigger": 6439,
+    "overlappingExample": 279
+  },
+  "cardsStillNeededForCompetitive": {
+    "deep": 5692,
+    "fullGate": 3878,
+    "official": 0,
+    "weakUpgrade": 0,
+    "pathLink": 2910,
+    "liveEnrichPath": 0,
+    "liveEnrichCatalog": 1333
+  },
+  "byDomain": {
+    "Financial reporting": {
+      "total": 4036,
+      "deep": 2252,
+      "fullGate": 2142,
+      "official": 4025,
+      "weak": 0,
+      "deepShare": 0.558,
+      "fullGateShare": 0.531,
+      "officialShare": 0.997,
+      "weakShare": 0
+    },
+    "Risk management": {
+      "total": 3221,
+      "deep": 1214,
+      "fullGate": 1203,
+      "official": 3221,
+      "weak": 0,
+      "deepShare": 0.377,
+      "fullGateShare": 0.373,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Management reporting": {
+      "total": 1897,
+      "deep": 1199,
+      "fullGate": 1022,
+      "official": 1897,
+      "weak": 0,
+      "deepShare": 0.632,
+      "fullGateShare": 0.539,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Governance and controls": {
+      "total": 1582,
+      "deep": 809,
+      "fullGate": 808,
+      "official": 1582,
+      "weak": 0,
+      "deepShare": 0.511,
+      "fullGateShare": 0.511,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Internal control and governance": {
+      "total": 1285,
+      "deep": 0,
+      "fullGate": 0,
+      "official": 1285,
+      "weak": 0,
+      "deepShare": 0,
+      "fullGateShare": 0,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Financial management": {
+      "total": 1147,
+      "deep": 248,
+      "fullGate": 235,
+      "official": 1147,
+      "weak": 0,
+      "deepShare": 0.216,
+      "fullGateShare": 0.205,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Strategy and performance": {
+      "total": 533,
+      "deep": 359,
+      "fullGate": 356,
+      "official": 533,
+      "weak": 0,
+      "deepShare": 0.674,
+      "fullGateShare": 0.668,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Audit and assurance": {
+      "total": 435,
+      "deep": 245,
+      "fullGate": 245,
+      "official": 435,
+      "weak": 0,
+      "deepShare": 0.563,
+      "fullGateShare": 0.563,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Sustainability": {
+      "total": 69,
+      "deep": 60,
+      "fullGate": 57,
+      "official": 69,
+      "weak": 0,
+      "deepShare": 0.87,
+      "fullGateShare": 0.826,
+      "officialShare": 1,
+      "weakShare": 0
+    },
+    "Project delivery": {
+      "total": 11,
+      "deep": 6,
+      "fullGate": 6,
+      "official": 11,
+      "weak": 0,
+      "deepShare": 0.545,
+      "fullGateShare": 0.545,
+      "officialShare": 1,
+      "weakShare": 0
+    }
+  },
+  "nextActions": [
+    "Live-enrich 1333 more catalog cards (public liveShareCatalog≥40%).",
+    "Rewrite 119 topic-mismatched cards (library:rewrite:relevance / enrich:relevance).",
+    "Enrich 3878 cards to full teaching gate (def/example/trap/implication/trigger).",
+    "Deepen 5692 cards to deep pack (def≥280, example≥450).",
+    "Link 2910 more cards into learning paths."
+  ]
+}

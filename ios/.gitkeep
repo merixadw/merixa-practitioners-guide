@@ -1,0 +1,13 @@
+# Native iOS shell — create on a Mac with Xcode (P3):
+#
+#   npx cap add ios
+#   npm run ios:sync
+#   npx cap open ios
+#
+# Attach storekit/Products.storekit to the Xcode scheme
+# (Edit Scheme → Run → Options → StoreKit Configuration).
+#
+# Then follow:
+#   store/ASC_SETUP.md
+#   store/SCREENSHOTS.md
+#   store/SUBSCRIPTION_TESTS.md

@@ -1,0 +1,717 @@
+{
+  "updatedAt": "2026-07-25T20:06:39.390Z",
+  "items": [
+    {
+      "cardId": "tax-accounting-for-tax-effects-of-government-grants-with-con-ywnjb3vudg",
+      "title": "Accounting for tax effects of government grants with conditions",
+      "workedExample": "A manufacturing company receives a government grant of $500,000 contingent on creating 50 new jobs within two years. The grant is recognized as income over the period the jobs are created. For tax purposes, the grant is taxable only when the condition is fulfilled. At the end of year one, the company has created 30 jobs and expects to meet the full target. It recognizes $300,000 of grant income an",
+      "teachingSummary": "Accounting for tax effects of government grants with conditions involves recognizing the tax consequences arising from grants that are contingent upon meeting specific criteria. These conditions affect the timing or amount of taxable income, requiring careful assessment of whethe",
+      "queuedAt": "2026-07-25T20:06:39.259Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-impairment-testing-asset-recoverable-amounts-aw1wywlybw",
+      "title": "Impairment Testing: Asset Recoverable Amounts",
+      "workedExample": "A company holds a piece of machinery with a carrying amount of $5 million. Management estimates the fair value less costs to sell at $4.5 million based on recent market transactions and the value in use at $4 million, calculated by discounting expected future cash flows over five years at an appropriate discount rate. Since the recoverable amount is the higher of these two values, it is $4.5 milli",
+      "teachingSummary": "Impairment testing involves assessing whether an asset's carrying amount exceeds its recoverable amount, which is the higher of its fair value less costs to sell and its value in use. The recoverable amount represents the maximum economic benefit expected from the asset. If the c",
+      "queuedAt": "2026-07-25T20:04:02.440Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ma-integrated-variance-analysis-frameworks-aw50zwdyyx",
+      "title": "Integrated Variance Analysis Frameworks",
+      "workedExample": "A manufacturing company applies an integrated variance analysis framework to its monthly management report. The finance team consolidates price variance on raw materials, volume variance on production output, and labor efficiency variance into one report. For example, raw material price variance shows a $50,000 unfavorable movement due to supplier cost increases, while volume variance indicates a ",
+      "teachingSummary": "Integrated Variance Analysis Frameworks systematically combine various variance types—such as price, volume, mix, efficiency, and spending variances—into a unified structure to provide a holistic view of organizational performance. This framework enables management to trace varia",
+      "queuedAt": "2026-07-25T19:58:11.915Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-financial-instruments-workplace-risk-management-zmluyw5jaw",
+      "title": "Financial instruments: workplace risk management",
+      "workedExample": "A corporate treasury team holds a portfolio of fixed-rate bonds classified at amortized cost. To manage interest rate risk, they enter into interest rate swap contracts designated as cash flow hedges. The risk management team assesses credit risk by reviewing counterparty credit ratings monthly and monitors market risk through daily value-at-risk reports. Hedge effectiveness is documented quarterl",
+      "teachingSummary": "Financial instruments workplace risk management encompasses the identification, assessment, and mitigation of risks arising from financial assets and liabilities. It involves managing credit risk, market risk, and liquidity risk associated with financial instruments, ensuring app",
+      "queuedAt": "2026-07-25T19:54:30.284Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-employee-benefits-workplace-accounting-for-multi-employe-zw1wbg95zw",
+      "title": "Employee benefits: workplace accounting for multi-employer plans",
+      "workedExample": "A manufacturing company participates in a multi-employer pension plan covering several employers. The plan does not provide detailed information about the company’s specific share of plan assets or liabilities. During the year, the company contributes $500,000 to the plan. Because the plan’s data is insufficient for defined benefit accounting, the company recognizes the $500,000 as an expense in t",
+      "teachingSummary": "Employee benefits accounting for multi-employer plans depends on the availability of sufficient information about the plan's assets and liabilities. When detailed data is unavailable, the plan is accounted for as a defined contribution plan, with contributions recognized as expen",
+      "queuedAt": "2026-07-25T19:53:14.330Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-employee-benefits-defined-benefit-plan-accounting-zw1wbg95zw",
+      "title": "Employee Benefits: Defined Benefit Plan Accounting",
+      "workedExample": "At the end of the reporting period, Company X calculates its defined benefit obligation at $10 million based on actuarial assumptions discounted at 4%. The fair value of plan assets is $8 million, resulting in a net defined benefit liability of $2 million. During the year, actuarial losses of $0.5 million arise due to changes in mortality assumptions and lower-than-expected asset returns. These lo",
+      "teachingSummary": "Defined benefit plan accounting involves measuring the present value of the defined benefit obligation (DBO), which represents the estimated future pension payments to employees, discounted using a high-quality corporate bond rate. Plan assets are measured at fair value and deduc",
+      "queuedAt": "2026-07-25T19:48:55.460Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ma-cost-structure-optimization-for-improved-management-repo-y29zdcbzdh",
+      "title": "Cost structure optimization for improved management reporting",
+      "workedExample": "A manufacturing firm historically incurred high fixed costs due to owning expensive machinery and facilities, resulting in significant operating leverage. To optimize its cost structure, the firm decided to outsource part of its production, converting some fixed costs into variable costs linked to output volume. This shift reduced fixed overhead by $500,000 annually and introduced variable costs o",
+      "teachingSummary": "Cost structure optimization for improved management reporting is the process of analyzing and adjusting the balance between fixed and variable costs within an organization to enhance financial flexibility and the clarity of management information. By aligning cost behavior more c",
+      "queuedAt": "2026-07-25T19:47:15.826Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-close-process-controls-for-tax-provision-accuracy-y2xvc2ugch",
+      "title": "Close Process Controls for Tax Provision Accuracy",
+      "workedExample": "During the quarterly financial close, the tax accounting team uses a standardized checklist to verify the accuracy of the tax provision. They begin by reconciling deferred tax asset and liability balances from the prior period to the current general ledger. Next, they validate the tax rates applied against the latest enacted rates and review temporary differences identified from fixed asset schedu",
+      "teachingSummary": "Close process controls for tax provision accuracy are systematic procedures embedded within the financial close cycle to ensure the tax provisions reported are complete, accurate, and compliant. These controls encompass reconciliation of tax-related balances, validation of tax ca",
+      "queuedAt": "2026-07-25T19:36:46.496Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-recognition-criteria-for-uncertain-tax-positions-cmvjb2duax",
+      "title": "Recognition Criteria for Uncertain Tax Positions",
+      "workedExample": "A manufacturing company claims a $2 million deduction for capital expenditures under a new tax incentive. The tax authority questions the eligibility, initiating a dispute. After consulting tax advisors and reviewing similar cases, the company estimates a 60% chance that $1.5 million of the deduction will be disallowed. The company recognizes a provision of $900,000 (60% of $1.5 million) in its fi",
+      "teachingSummary": "Recognition criteria for uncertain tax positions require an entity to evaluate whether it is probable that a tax authority will accept the tax treatment applied to a transaction or event. This involves assessing the likelihood of sustaining the tax position upon examination and w",
+      "queuedAt": "2026-07-25T19:27:58.981Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-financial-reporting-for-transfer-pricing-disputes-zmluyw5jaw",
+      "title": "Financial reporting for transfer pricing disputes",
+      "workedExample": "During the year-end financial close, a multinational company is under audit by a tax authority regarding its intercompany pricing policies. Based on legal advice and transfer pricing documentation, management estimates a probable additional tax liability of $1 million. The company recognizes a provision for this amount in its financial statements. In the notes, it discloses the nature of the dispu",
+      "teachingSummary": "Financial reporting for transfer pricing disputes requires entities to identify, measure, and disclose provisions related to probable tax adjustments arising from transfer pricing audits or challenges. This involves assessing the likelihood of an outflow of resources to settle ta",
+      "queuedAt": "2026-07-25T19:24:44.008Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-consolidation-accounting-for-non-controlling-interest-ch-y29uc29saw",
+      "title": "Consolidation: accounting for non-controlling interest changes",
+      "workedExample": "A parent company owns 80% of a subsidiary and non-controlling interests own 20%. The parent decides to purchase an additional 5% from the non-controlling shareholders for $500,000. Before the transaction, the subsidiary’s net assets attributable to NCI are $2 million (20% of $10 million net assets). After the purchase, the parent owns 85%, and NCI reduces to 15%. The carrying amount of NCI decreas",
+      "teachingSummary": "Consolidation accounting for non-controlling interest (NCI) changes addresses how a parent company accounts for transactions that alter its ownership percentage in a subsidiary without losing control. These changes include acquiring additional shares from or selling shares to non",
+      "queuedAt": "2026-07-25T19:18:35.657Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "business-law-ethics-corner-589-9504341f7a",
+      "title": "BUSINESS LAW & ETHICS CORNER 589",
+      "workedExample": "In a quarterly strategy and performance review, the finance team identifies a significant deviation in BUSINESS LAW & ETHICS CORNER 589 compared to the plan. They document the base figure reflecting legal compliance risks and ethical considerations, perform a stress test simulating adverse regulatory scenarios, and link the results to cash flow forecasts and risk metrics. The appendix includes leg",
+      "teachingSummary": "BUSINESS LAW & ETHICS CORNER 589 refers to a specific, actionable measure within strategy execution that integrates legal and ethical considerations into performance assessment. It involves defining clear inputs or tests, producing a quantitative or qualitative conclusion, and li",
+      "queuedAt": "2026-07-25T19:15:56.910Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "crma-root-cause-analysis",
+      "title": "Root cause analysis",
+      "workedExample": "During the quarterly audit, the assurance team identified a recurring variance in inventory valuation. The root cause analysis owner documented that the primary driver was inconsistent application of stock counting procedures, supported by a 5% variance range derived from recent cycle counts. The evidence trail included stock count reports, process walkthroughs, and control test results. The team ",
+      "teachingSummary": "Root cause analysis is a systematic process used in audit and assurance to identify the fundamental reasons behind findings, rather than merely addressing their symptoms. It enables teams to develop targeted solutions that prevent recurrence of issues by focusing on underlying ca",
+      "queuedAt": "2026-07-25T19:12:14.933Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "crma-risk-based-audit-planning",
+      "title": "Risk-based audit planning",
+      "workedExample": "An internal audit team is preparing the annual audit plan for a manufacturing company. They review the latest enterprise risk management report, which highlights increased cyber security threats and supply chain disruptions. Incident logs reveal recent minor breaches and delayed shipments. Stakeholders express concern about compliance with new data protection regulations. Using this information, t",
+      "teachingSummary": "Risk-based audit planning is a systematic approach to prioritising internal audit activities by focusing resources on areas with the highest risk relative to organisational objectives. It integrates inputs from enterprise risk management, incident reports, and stakeholder concern",
+      "queuedAt": "2026-07-25T19:12:07.475Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-group-relief-surrender-dwsgz3jvdx",
+      "title": "UK group relief surrender",
+      "workedExample": "Company A owns 80% of Company B, forming a qualifying UK group. In the current accounting period, Company A incurs a trading loss of £500,000, while Company B reports a taxable profit of £400,000. Company A formally agrees in writing to surrender £400,000 of its trading losses to Company B before the tax return deadline. Company B uses this surrendered loss to offset its £400,000 profit, reducing ",
+      "teachingSummary": "UK group relief surrender is a tax mechanism allowing companies within a qualifying UK group to transfer current-year trading losses from one group company to another that has taxable profits in the same accounting period. This transfer reduces the recipient company’s taxable inc",
+      "queuedAt": "2026-07-25T19:07:14.585Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "crma-continuous-auditing",
+      "title": "Continuous auditing",
+      "workedExample": "An audit team implements continuous auditing for a company’s revenue recognition controls. Automated routines extract transaction data daily, flagging anomalies such as unusual discounts or timing shifts. The audit lead documents that the acceptable range for revenue variance is ±2%, based on historical trends and risk appetite. Evidence is stored in a secure appendix linked to the audit pack. The",
+      "teachingSummary": "Continuous auditing is an automated, recurring process that collects and evaluates audit evidence continuously rather than relying on periodic, point-in-time samples. It enables auditors and assurance professionals to provide timely, decision-useful information to stakeholders su",
+      "queuedAt": "2026-07-25T19:00:57.507Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "coso-internal-audit-coso",
+      "title": "Internal audit and COSO",
+      "workedExample": "A company’s internal audit team is tasked with reviewing the effectiveness of its risk assessment and control activities in line with the COSO framework for the current fiscal year. The audit lead documents the decision to focus on cybersecurity controls due to recent threat intelligence, estimating residual risk levels between 15% and 25%. The team gathers evidence from system logs, incident repo",
+      "teachingSummary": "Internal audit and COSO integration involves aligning internal audit activities with the COSO framework to comprehensively evaluate governance, risk management, and control processes. This integration ensures that internal audit work is systematically mapped to COSO components, f",
+      "queuedAt": "2026-07-25T18:53:22.246Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-convexity",
+      "title": "Convexity",
+      "workedExample": "A portfolio manager holds a bond priced at $1,000 with a modified duration of 5 and a convexity of 60. If the yield increases by 1% (0.01), the approximate price change is calculated using ΔP/P ≈ −ModDur×Δy + ½×Convexity×(Δy)². Substituting values: ΔP/P ≈ −5×0.01 + 0.5×60×(0.01)² = −0.05 + 0.003 = −0.047 or −4.7%. The new estimated price is $1,000 × (1 − 0.047) = $953. This convexity adjustment re",
+      "teachingSummary": "Convexity measures the curvature in the relationship between a bond's price and its yield, capturing the second-order sensitivity beyond duration. It refines the estimate of price changes for large interest rate movements by accounting for the nonlinear price-yield relationship. ",
+      "queuedAt": "2026-07-25T18:51:06.169Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ma-high-low-method",
+      "title": "High–low method",
+      "workedExample": "A manufacturing company wants to estimate the variable cost per unit for its product. In January, the highest activity month, the company produced 10,000 units with total costs of $150,000. In February, the lowest activity month, it produced 4,000 units with total costs of $90,000. Using the high–low method, the variable cost per unit is calculated as ($150,000 - $90,000) ÷ (10,000 - 4,000) = $60,",
+      "teachingSummary": "The high–low method is a management accounting technique used to separate mixed costs into their fixed and variable components by analyzing the highest and lowest levels of activity within a period. It provides a straightforward approach to estimate variable cost per unit by divi",
+      "queuedAt": "2026-07-25T18:50:02.187Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "frm-credit-valuation-formula",
+      "title": "CVA formula",
+      "workedExample": "A bank holds a derivative contract with a counterparty, where the Loss Given Default (LGD) is 60%. Expected Exposure (EE) at three future time points are $1,000,000, $800,000, and $500,000. The corresponding Probabilities of Default (PD) are 1%, 1.5%, and 2%, and Discount Factors (DF) are 0.98, 0.95, and 0.92 respectively. Applying the formula: CVA ≈ LGD × Σ(EE × PD × DF) = 0.6 × [(1,000,000 × 0.0",
+      "teachingSummary": "The Credit Valuation Adjustment (CVA) formula quantifies the expected loss from counterparty credit risk embedded in derivative contracts. It calculates the discounted expected loss arising if the counterparty defaults before the contract matures. The formula approximates CVA as ",
+      "queuedAt": "2026-07-25T18:44:19.985Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ma-accounting-rate-return",
+      "title": "Accounting rate of return (ARR)",
+      "workedExample": "A company invests $100,000 in new machinery expected to last 5 years. The machinery will generate annual accounting profits of $20,000 after depreciation. The average investment is calculated as (Initial investment + Residual value) ÷ 2; assuming no residual value, average investment is $100,000 ÷ 2 = $50,000. The ARR is then $20,000 ÷ $50,000 × 100% = 40%. This means the investment is expected to",
+      "teachingSummary": "The Accounting Rate of Return (ARR) is a financial metric used in management accounting to evaluate the profitability of an investment relative to its average book value. It is calculated as the average annual accounting profit generated by the investment divided by the average i",
+      "queuedAt": "2026-07-25T18:42:14.921Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "strategy-enc-working-capital-strategy-d29ya2luzy",
+      "title": "Working capital strategy",
+      "workedExample": "During the monthly strategy and performance review, the company reports 9% sales growth alongside a £6.2 million increase in net working capital. Treasury analysis reveals DSO increased by 5 days, DIO by 3 days, while DPO remained flat, lengthening the cash conversion cycle by approximately 8 days, equating to about £4.8 million of cash tied up. The commercial team explains the increase as a promo",
+      "teachingSummary": "Working capital strategy focuses on managing the operating liquidity embedded in receivables, inventory, and payables that finance the cash conversion cycle. It is quantified using net working capital (current assets minus current liabilities) and days metrics such as Days Sales ",
+      "queuedAt": "2026-07-25T18:38:09.547Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "audit-enc-fraud-risk-brainstorming-change-control-gate",
+      "title": "Fraud risk brainstorming — change-control gate",
+      "workedExample": "During an external audit of a financial services company, the audit team identified that several system updates were implemented in the quarter without documented approval or testing evidence. The team raised a 'Fraud risk brainstorming — change-control gate' issue, requiring the IT change management owner to provide a current figure quantifying the number of changes, the rationale for each, and t",
+      "teachingSummary": "Fraud risk brainstorming — change-control gate refers to the systematic evaluation of risks related to changes in systems and processes, focusing on how these changes are requested, approved, tested, and deployed to prevent unauthorized or untested modifications entering producti",
+      "queuedAt": "2026-07-25T18:36:16.700Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-group-relief-surrender-dwsgz3jvdx",
+      "title": "UK group relief surrender",
+      "workedExample": "Company A owns 80% of Company B, forming a qualifying UK group. In the current accounting period, Company A incurs a trading loss of £500,000, while Company B reports taxable profits of £400,000. Before the tax return deadline, Company A formally agrees in writing to surrender £400,000 of its trading losses to Company B. Company B uses this surrendered loss to offset its £400,000 profit, reducing ",
+      "teachingSummary": "UK group relief surrender is a tax mechanism allowing companies within a qualifying UK group to transfer current-year trading losses from one group company to another that has taxable profits in the same accounting period. This transfer reduces the recipient company’s taxable inc",
+      "queuedAt": "2026-07-25T18:34:06.135Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "strategy-enc-strategy-map-cascading-risk-register-link",
+      "title": "Strategy map cascading — risk register link",
+      "workedExample": "In a quarterly board review, the finance team presents the strategy map highlighting the objective to expand into a new market segment. The risk register identifies key risks such as regulatory approval delays and supply chain disruptions, each assigned to specific risk owners. The risk owner for regulatory approval documents the current status, likelihood, and impact estimates, supported by corre",
+      "teachingSummary": "Strategy map cascading — risk register link refers to the alignment and integration between an organization's strategic objectives, as depicted in a strategy map, and the detailed risks captured in the risk register. This linkage ensures that risks relevant to strategic goals are",
+      "queuedAt": "2026-07-25T18:33:06.033Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "project-enc-real-options-in-projects-post-implementation-review",
+      "title": "Real options in projects — post-implementation review",
+      "workedExample": "A project delivery board is reviewing a £40 million infrastructure build with a contractual exit option after completing phase 1. The static NPV of the entire project is calculated at £2 million. However, by retaining the right to abandon the project after investing £12 million in a pilot phase, the board estimates the flexibility value of this real option to be between £5 million and £7 million, ",
+      "teachingSummary": "Real options in projects — post-implementation review refers to the evaluation of managerial flexibility in capital projects after initial implementation phases. It recognizes the value of decisions to stop, scale, defer, or redeploy a project based on new information, rather tha",
+      "queuedAt": "2026-07-25T18:29:53.552Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "gov-enc-nomination-committee-skills-matrix",
+      "title": "Nomination committee skills matrix",
+      "workedExample": "During the quarterly board pack preparation, the nomination committee chair compiles the skills matrix reflecting the current board members’ expertise in areas such as finance, risk management, digital transformation, and regulatory compliance. For example, the matrix shows that out of nine directors, six have strong financial expertise, four have digital experience, and three have risk management",
+      "teachingSummary": "The nomination committee skills matrix is a structured tool used by boards, particularly under the UK Corporate Governance Code, to map and assess the collective skills, experience, and diversity of board members. It provides a clear overview of the competencies available at the ",
+      "queuedAt": "2026-07-25T18:27:34.241Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-etr-bridge-permanent-differences",
+      "title": "ETR bridge permanent differences",
+      "workedExample": "A company reports a profit before tax of $1,000,000 with a statutory tax rate of 30%, implying a statutory tax expense of $300,000. However, the actual tax expense reported is $270,000, resulting in an effective tax rate of 27%. The tax team prepares an ETR bridge and identifies permanent differences totaling $100,000, composed of $50,000 tax-exempt interest income and $50,000 non-deductible fines",
+      "teachingSummary": "An Effective Tax Rate (ETR) bridge for permanent differences is a financial reporting tool that explains the gap between the statutory tax rate and the effective tax rate by isolating the impact of permanent differences. Permanent differences are items of income or expense recogn",
+      "queuedAt": "2026-07-25T18:21:55.599Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "frm-cva-detail",
+      "title": "CVA (applied)",
+      "workedExample": "In a quarterly risk management review, the finance team identifies a significant increase in CVA (applied) for a major counterparty due to a downgrade in their credit rating. The team calculates the base CVA (applied) figure as $2 million, reflecting the expected credit loss on outstanding derivatives. They also perform a stress test scenario, increasing the default probability by 50%, which raise",
+      "teachingSummary": "CVA (applied), or Credit Valuation Adjustment (applied), is a risk management measure that quantifies the expected loss from counterparty credit risk in derivative and financial instrument portfolios. It reflects the adjustment to the fair value of these instruments to account fo",
+      "queuedAt": "2026-07-25T17:55:10.742Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-portfolio-return",
+      "title": "Portfolio expected return",
+      "workedExample": "A portfolio manager oversees a portfolio consisting of three assets: Asset A with an expected return of 8%, Asset B with 12%, and Asset C with 5%. The portfolio weights are 50% for Asset A, 30% for Asset B, and 20% for Asset C. Using the formula E[R_p] = Σ w_i × E[R_i], the portfolio expected return is calculated as (0.50 × 8%) + (0.30 × 12%) + (0.20 × 5%) = 4% + 3.6% + 1% = 8.6%. The manager docu",
+      "teachingSummary": "Portfolio expected return is the weighted average of the expected returns of individual assets within a portfolio, where each asset's expected return is multiplied by its proportionate weight in the portfolio. This measure provides a single figure representing the anticipated ret",
+      "queuedAt": "2026-07-25T17:53:46.707Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-us-us-beat-irs-exam-readiness-dxmgymvhdd",
+      "title": "US BEAT: IRS exam readiness",
+      "workedExample": "During quarterly financial close, the tax team identifies a significant increase in the BEAT tax base due to changes in intercompany payments. They calculate the BEAT liability as $5 million, supported by detailed schedules of deductible payments and related party transactions. The finance lead documents this figure in the board pack, including a stress test scenario where the BEAT liability could",
+      "teachingSummary": "US BEAT: IRS exam readiness refers to the comprehensive evaluation and documentation process that ensures a company’s Base Erosion and Anti-Abuse Tax (BEAT) position is accurately measured, supported by evidence, and linked to financial reporting decisions. This concept involves ",
+      "queuedAt": "2026-07-25T17:38:41.543Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-atad-interest-limitation-statutory-vs-ifrs-tax-note-zxugyxrhzc",
+      "title": "EU ATAD interest limitation: statutory vs IFRS tax note",
+      "workedExample": "A multinational corporation reports EBITDA of €10 million for the fiscal year. Under the EU ATAD rule, deductible net interest expense is capped at 30% of EBITDA, limiting deductible interest to €3 million. The company incurs €5 million of interest expense, so €2 million is disallowed for tax purposes, increasing taxable income by that amount. At a 25% tax rate, current tax payable increases by €0",
+      "teachingSummary": "The EU ATAD interest limitation rule restricts the amount of net interest expense deductible for corporate tax purposes within the European Union, typically capping it at 30% of EBITDA to prevent excessive debt financing and base erosion. This statutory tax limitation affects tax",
+      "queuedAt": "2026-07-25T15:06:52.975Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "strategy-enc-sapin-ii-facilitation-payment-prohibition-c2fwaw4gaw",
+      "title": "Sapin II facilitation payment prohibition",
+      "workedExample": "A multinational company with operations in France reviews its compliance pack ahead of the quarterly board meeting. The compliance officer documents that no facilitation payments were identified during the period, supported by updated risk mapping and third-party diligence reports. They estimate a zero exposure figure with a sensitivity analysis showing a potential minor risk if new agents are eng",
+      "teachingSummary": "The Sapin II facilitation payment prohibition is a key element within France’s Sapin II anti-corruption framework that forbids facilitation payments—small bribes intended to expedite routine governmental actions. It requires organizations to integrate this prohibition into their ",
+      "queuedAt": "2026-07-25T14:58:08.906Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-us-us-w-9-w-8-collection-controls-dxmgdy05ic",
+      "title": "US W-9 / W-8 collection controls",
+      "workedExample": "A finance team is preparing the quarterly tax compliance report. They identify the key control as the process of collecting valid W-9 and W-8 forms from all active vendors before payment processing. The control owner, the tax compliance manager, maintains a register showing 95% of vendors have valid forms on file. For the remaining 5%, follow-up actions are documented with deadlines. The team docu",
+      "teachingSummary": "US W-9 / W-8 collection controls are key internal controls designed to ensure the accurate and timely collection of IRS tax forms W-9 and W-8 from vendors and payees. These forms establish taxpayer identification and withholding status, which directly impact tax reporting and wit",
+      "queuedAt": "2026-07-25T14:47:36.879Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-esg-wacc-adjustment",
+      "title": "ESG cost of capital adjustment",
+      "workedExample": "A manufacturing company with a base WACC of 8% is evaluating a new capital investment. The ESG team conducts an assessment and identifies significant environmental risks related to emissions and waste management, recommending a 50 basis point upward adjustment to the WACC. The finance team documents an adjusted WACC of 8.5% in the board pack, linking this to the ESG risk premium supported by third",
+      "teachingSummary": "ESG cost of capital adjustment is the process of modifying a company's weighted average cost of capital (WACC) to incorporate environmental, social, and governance (ESG) risks or strengths. This adjustment involves adding or subtracting basis points to the base WACC to reflect th",
+      "queuedAt": "2026-07-25T14:40:00.080Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "crma-residual-risk",
+      "title": "Residual risk",
+      "workedExample": "A financial institution identifies a credit risk related to a portfolio of loans. After implementing credit scoring models and enhanced monitoring controls, the risk team assesses the residual risk as a 3% probability of default with a potential loss of $2 million. They document the control effectiveness based on recent audit results, explain the assumptions behind the 3% figure, and outline scena",
+      "teachingSummary": "Residual risk is the level of risk that remains after all risk mitigation controls have been applied. It reflects the true exposure considering both the design and operating effectiveness of controls, rather than optimistic assumptions. Residual risk serves as a critical input fo",
+      "queuedAt": "2026-07-25T14:28:32.931Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "coso-change-management-ic",
+      "title": "Change management controls",
+      "workedExample": "An IT department plans to upgrade the company’s payroll system software. The change management process begins with documenting the change request, including the purpose and expected benefits. The change owner conducts an impact assessment, identifying potential risks to payroll accuracy and data security. Approval is obtained from the IT governance committee before scheduling the upgrade. The chan",
+      "teachingSummary": "Change management controls are formal procedures and policies designed to oversee and regulate modifications to IT systems, applications, or infrastructure to minimize risks associated with unauthorized or erroneous changes. These controls ensure that all changes are properly doc",
+      "queuedAt": "2026-07-25T14:20:45.457Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-terminal-value-multiple",
+      "title": "Terminal value (exit multiple)",
+      "workedExample": "A financial manager is preparing a valuation for a mid-sized manufacturing company with a five-year forecast. The terminal year EBITDA is projected at $50 million. Based on comparable companies, an exit EV/EBITDA multiple of 8x is selected. Applying the formula, Terminal Value = $50 million × 8 = $400 million. The manager documents the rationale for the multiple, referencing recent transactions an",
+      "teachingSummary": "Terminal value (exit multiple) is a valuation technique used to estimate the value of a business beyond the forecast period by applying an exit multiple to a terminal year financial metric, such as EBITDA or EBIT. This approach captures the continuing value of the business at the",
+      "queuedAt": "2026-07-25T14:11:06.063Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-target-debt-ratio",
+      "title": "Target debt ratio",
+      "workedExample": "A company’s finance team sets a target debt ratio of 40% for long-term planning, meaning debt should represent 40% of total capital market value. The CFO prepares a financial management pack documenting this target with supporting market data, including bond prices and equity valuations, and stress tests showing outcomes if debt rises to 50% or falls to 30%. The pack includes a reconciliation of t",
+      "teachingSummary": "The target debt ratio represents a company’s long-term capital structure objective, expressed as the proportion of debt relative to total capital, used primarily to calculate the weighted average cost of capital (WACC) and to guide credit rating assessments. It differs from the c",
+      "queuedAt": "2026-07-25T14:09:37.066Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-retention-ratio",
+      "title": "Retention ratio",
+      "workedExample": "A company reports a net income of $10 million for the fiscal year. It declares dividends totaling $3 million. The retention ratio is calculated as (10 million - 3 million) ÷ 10 million = 0.7 or 70%. The finance director documents this figure in the quarterly board pack, explaining that 70% of earnings are retained to fund expansion projects. The evidence trail includes the dividend declaration min",
+      "teachingSummary": "Retention ratio is the proportion of a company's net income that is retained and reinvested in the business rather than paid out as dividends. It complements the payout ratio and is calculated as (Net Income minus Dividends) divided by Net Income. This ratio provides decision-use",
+      "queuedAt": "2026-07-25T13:59:22.857Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-reinvestment-risk",
+      "title": "Reinvestment risk",
+      "workedExample": "A corporate treasury holds a 5-year bond paying 6% annual coupons. The treasury plans to reinvest each coupon payment to maintain overall yield. At issuance, the expected reinvestment rate is 4%, but market rates fluctuate. The treasury models scenarios where reinvestment rates vary between 3% and 5%. For example, if the first coupon of $60 is reinvested at 3%, the future value after 4 years will ",
+      "teachingSummary": "Reinvestment risk is the uncertainty that arises when the coupons or interest payments received from fixed income investments must be reinvested at future interest rates that are unknown at the time of the initial investment. This risk affects the realised return on the investmen",
+      "queuedAt": "2026-07-25T13:57:44.548Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-quality-of-earnings",
+      "title": "Quality of earnings (OCF/NI benchmark)",
+      "workedExample": "A financial controller reviews the quarterly board pack and notices that the operating cash flow (OCF) is $1.2 million while net income (NI) is $1.5 million, yielding an OCF/NI ratio of 0.8. Over the past four quarters, this ratio has declined from 1.0 to 0.8, and days sales outstanding (DSO) have increased by 15 days, indicating slower cash collection. The accruals ratio has also risen, and there",
+      "teachingSummary": "Quality of earnings (OCF/NI benchmark) assesses the reliability of reported net income by comparing it to operating cash flow over multiple periods. This measure evaluates how much of the profit is backed by actual cash generation, highlighting earnings sustainability and potenti",
+      "queuedAt": "2026-07-25T13:51:42.452Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-deriv-time-value",
+      "title": "Option time value",
+      "workedExample": "A company holds a call option on a stock with a strike price of $50, currently trading at $55. The option premium is $7. The intrinsic value is $5 (current price $55 minus strike $50). The option time value is therefore $2 ($7 premium minus $5 intrinsic). The finance team documents this figure in the monthly board pack, explaining that the $2 reflects expected volatility and three months until exp",
+      "teachingSummary": "Option time value represents the portion of an option's premium that exceeds its intrinsic value, reflecting the compensation investors require for the uncertainty and time remaining until the option's expiry. It quantifies the value attributed to potential favorable price moveme",
+      "queuedAt": "2026-07-25T13:43:17.599Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-mm-with-taxes",
+      "title": "MM with corporate taxes",
+      "workedExample": "A company with an unleveraged value (V_U) of $100 million plans to issue $40 million in debt. The corporate tax rate (T) is 30%. Applying MM with corporate taxes, the leveraged firm value (V_L) is calculated as V_L = V_U + T×D = $100 million + 0.30 × $40 million = $112 million. The finance team documents this calculation in the financial management pack, including the assumptions on tax rates and ",
+      "teachingSummary": "MM with corporate taxes refers to the adjustment of a firm's value to reflect the tax shield benefits arising from debt financing. According to this concept, the value of a leveraged firm (V_L) equals the value of an unleveraged firm (V_U) plus the present value of tax savings on",
+      "queuedAt": "2026-07-25T13:40:53.324Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-bank-npl-ratio",
+      "title": "Non-performing loan ratio",
+      "workedExample": "A bank reports gross loans of $500 million at the end of the quarter. Within this portfolio, $25 million are classified as non-performing loans due to payments overdue by more than 90 days. The risk management team calculates the NPL ratio as (25 million ÷ 500 million) × 100% = 5%. This figure is documented in the financial management pack with supporting loan-level data, stress test scenarios sho",
+      "teachingSummary": "The non-performing loan (NPL) ratio is a key asset quality indicator used in financial management to assess the proportion of loans that are in default or close to default relative to the total gross loans. It is calculated by dividing non-performing loans by gross loans and expr",
+      "queuedAt": "2026-07-25T13:37:47.272Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-net-profit-margin",
+      "title": "Net profit margin",
+      "workedExample": "A manufacturing company reports revenue of $10 million and net income of $1.2 million for the fiscal year, resulting in a net profit margin of 12%. The finance director documents this figure in the monthly board pack, explaining that the margin improved from 10% the prior year due to efficiency gains and favorable tax planning. The evidence pack includes reconciliations from the income statement, ",
+      "teachingSummary": "Net profit margin measures a company's bottom-line profitability by dividing net income by revenue and expressing the result as a percentage. It captures the comprehensive profitability after accounting for all operating expenses, financing costs, and taxes, reflecting both opera",
+      "queuedAt": "2026-07-25T13:37:01.576Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-mirr",
+      "title": "Modified IRR (MIRR)",
+      "workedExample": "A company evaluates a 3-year project with initial investment outflows of $100,000 at time zero and subsequent cash inflows of $40,000, $50,000, and $60,000 at the end of years 1, 2, and 3 respectively. The firm’s cost of capital is 10%. First, the positive cash flows are compounded to year 3: $40,000*(1.10)^2 = $48,400; $50,000*(1.10)^1 = $55,000; $60,000*(1.10)^0 = $60,000; totaling $163,400. The",
+      "teachingSummary": "Modified Internal Rate of Return (MIRR) is a financial metric that improves upon the traditional IRR by assuming reinvestment of positive cash flows at the firm’s cost of capital rather than the IRR itself. This adjustment resolves issues such as multiple IRRs and unrealistic rei",
+      "queuedAt": "2026-07-25T13:34:36.648Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "frm-marginal-var",
+      "title": "Marginal VaR",
+      "workedExample": "A risk manager oversees a portfolio with a total VaR of $10 million at a 99% confidence level. The portfolio includes Asset A with a 10% weight. To compute Asset A's Marginal VaR, the manager increases Asset A's weight by 0.1% to 10.1%, recalculates the portfolio VaR, and finds it rises to $10.05 million. The Marginal VaR for Asset A is therefore approximately ($10.05M - $10M) / 0.001 = $50 millio",
+      "teachingSummary": "Marginal VaR (Marginal Value at Risk) quantifies the incremental contribution of an individual asset or position to the overall portfolio VaR, representing the sensitivity of portfolio risk to a small change in that asset's weight. It is mathematically defined as the partial deri",
+      "queuedAt": "2026-07-25T13:32:51.561Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "frm-kurtosis",
+      "title": "Kurtosis and fat tails",
+      "workedExample": "A risk manager observes that the loss distribution of a trading portfolio exhibits an excess kurtosis of 4, indicating significantly fatter tails than normal. To address this, the manager documents the decision to adjust the risk metrics this quarter, specifying the excess kurtosis figure and its derivation from historical loss data. They reconcile this with the VaR model outputs, noting that stan",
+      "teachingSummary": "Kurtosis measures the heaviness of the tails of a probability distribution compared to a normal distribution. Excess kurtosis, calculated as Kurt(X) minus 3, quantifies the degree to which extreme outcomes (fat tails) occur more frequently than under normal assumptions. Positive ",
+      "queuedAt": "2026-07-25T13:26:42.444Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "fa-consensus-revision-trend",
+      "title": "Consensus revision trend",
+      "workedExample": "A financial management team monitors earnings estimates for a key business unit. Thirty days ago, the consensus earnings forecast was $10 million. The current consensus, based on updated analyst reports and internal forecasts, is $11 million. The consensus revision trend is calculated as ($11 million - $10 million) ÷ $10 million = 0.10, or a 10% upward revision. The team documents the sources of t",
+      "teachingSummary": "Consensus revision trend measures the directional change in financial estimates, typically earnings, over a recent period such as 30 or 90 days. It quantifies momentum in analyst or management forecasts by comparing the current consensus estimate to the prior consensus, expressed",
+      "queuedAt": "2026-07-25T12:44:33.918Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-ias-12-uncertain-tax-positions",
+      "title": "IAS 12 uncertain tax positions",
+      "workedExample": "A multinational company identifies a tax position related to transfer pricing adjustments that tax authorities may challenge. The tax team evaluates the likelihood of acceptance and concludes it is not probable the authorities will accept the position. They estimate a potential liability range of $2 million to $5 million. The finance team documents this in the financial reporting pack, including t",
+      "teachingSummary": "IAS 12 uncertain tax positions refer to tax treatments where there is uncertainty about whether tax authorities will accept the position taken by an entity. Recognition of a liability or asset for such positions is required only when it is probable that the tax authority will not",
+      "queuedAt": "2026-07-25T12:22:05.904Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ifrs-enc-ias-28-impairment-of-associates",
+      "title": "IAS 28 impairment of associates",
+      "workedExample": "A company holds a 30% investment in an associate reported at a carrying amount of $50 million, including allocated goodwill of $10 million and corporate assets of $5 million. During the quarterly review, the associate’s actual performance falls short of the latest board-approved plan by 15%, triggering an impairment indicator. The finance team prepares a value in use model projecting cash flows fo",
+      "teachingSummary": "IAS 28 impairment of associates addresses the assessment of whether the carrying amount of an investment in an associate exceeds its recoverable amount, defined as the higher of its value in use and fair value less costs of disposal. This impairment test is triggered by indicator",
+      "queuedAt": "2026-07-25T12:16:57.144Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-transfer-pricing-evidence-pack-for-owners-dwsgdhjhbn",
+      "title": "UK transfer pricing: evidence pack for owners",
+      "workedExample": "During the quarterly close, the finance team identifies that the transfer price for intercompany software licensing has shifted due to updated market comparables. The transfer pricing owner prepares an evidence pack documenting: (1) the decision to update the transfer price reflecting new benchmarking data; (2) the estimated price range of £1.2m to £1.4m and the rationale for selecting £1.3m; (3) ",
+      "teachingSummary": "UK transfer pricing refers to the prices charged for goods, services, or intangibles exchanged between divisions or entities within a multinational group operating in the UK. These prices directly impact divisional profitability, tax liabilities, and managerial incentives, making",
+      "queuedAt": "2026-07-25T12:04:23.863Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-deferred-tax-on-revaluations-frs-102-dwsgzgvmzx",
+      "title": "UK deferred tax on revaluations FRS 102",
+      "workedExample": "A company revalues its property from £1,000,000 to £1,200,000 at the year-end. The tax base remains at £1,000,000 because tax depreciation is based on historical cost. The temporary difference is £200,000. Assuming a tax rate of 20%, a deferred tax liability of £40,000 is recognized. The finance team documents the decision to recognize this deferred tax liability in the financial reporting pack, i",
+      "teachingSummary": "UK deferred tax on revaluations under FRS 102 arises from temporary differences between the carrying amount of an asset or liability and its tax base, specifically when assets are revalued. Deferred tax reflects the future tax consequences of these revaluations, ensuring that the",
+      "queuedAt": "2026-07-25T12:00:09.177Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-dac7-platforms-statutory-vs-ifrs-tax-note-zxugzgfjny",
+      "title": "EU DAC7 platforms: statutory vs IFRS tax note",
+      "workedExample": "A digital platform operating in the EU reports €1,000,000 of gross transaction value under DAC7, which tax authorities require to be recognized fully in the current period for tax purposes. However, under IFRS, the platform recognizes only €900,000 of revenue in the current period due to timing of service delivery. This creates a €100,000 temporary difference. Applying the 25% corporate tax rate, ",
+      "teachingSummary": "EU DAC7 platforms are digital platforms operating in the European Union subject to the DAC7 directive, which imposes enhanced tax transparency and reporting obligations. The statutory tax reporting under DAC7 often differs in timing and measurement from IFRS accounting recognitio",
+      "queuedAt": "2026-07-25T11:52:14.247Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ma-relevant-cost",
+      "title": "Relevant cost",
+      "workedExample": "A manufacturing company is considering outsourcing a component currently produced in-house. The relevant costs include the variable production costs saved by outsourcing, the incremental cost of purchasing from the supplier, and any additional logistics expenses. Fixed overhead costs allocated to the component are excluded since they will remain unchanged. The finance manager documents the decisio",
+      "teachingSummary": "Relevant cost refers to the future cash flows that differ between decision alternatives and are therefore pertinent to managerial decision-making. It excludes sunk costs and committed costs, which do not change regardless of the decision and thus are irrelevant. This concept help",
+      "queuedAt": "2026-07-25T11:28:41.498Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ias-16-property-plant-and-equipment-discounting-a5a8d046cc",
+      "title": "IAS 16 Property, plant and equipment: Discounting",
+      "workedExample": "A company acquires a manufacturing machine for $1,000,000. The company is legally required to dismantle the machine and restore the site in 5 years, estimated to cost $100,000 in nominal terms. Applying a discount rate of 5%, the present value of the dismantling obligation is calculated as $100,000 / (1.05^5) ≈ $78,352. This amount is added to the machine's cost, making the total initial carrying ",
+      "teachingSummary": "IAS 16 Property, Plant and Equipment requires that the cost of an item of property, plant, and equipment (PPE) includes the present value of the expected costs to dismantle and remove the asset and restore the site, when such obligations exist. Discounting is applied to these fut",
+      "queuedAt": "2026-07-25T11:05:24.080Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "project-procurement-class-notes-performance-based-154fe910c3",
+      "title": "Project Procurement Class notes: Performance based",
+      "workedExample": "A construction company enters into a performance-based contract to build a bridge, with payment milestones tied to achieving specific structural integrity tests, completion of key phases within set timelines, and adherence to environmental standards. The contract specifies that 30% of payment is released after successful completion of foundation work verified by an independent engineer, 40% upon p",
+      "teachingSummary": "Performance-based project procurement is a contracting approach where payment and contract terms are directly linked to the achievement of specified performance outcomes or deliverables rather than detailed inputs or processes. This method emphasizes results, incentivizing suppli",
+      "queuedAt": "2026-07-25T10:58:54.150Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "capital-expenditure-fixed-assets-and-major-overhauls-purpose-ffcc42b303",
+      "title": "Capital expenditure, fixed assets and major overhauls: Purpose",
+      "workedExample": "A manufacturing company invests $500,000 to purchase a new machine expected to operate for 10 years. This initial purchase is capital expenditure and recorded as a fixed asset. After five years, the company undertakes a major overhaul costing $120,000 to replace key components, extending the machine’s useful life by an additional 4 years. The overhaul cost is capitalized and depreciated over the e",
+      "teachingSummary": "Capital expenditure (CapEx) refers to funds used by an entity to acquire, upgrade, or extend the life of fixed assets such as property, plant, and equipment (PPE). The purpose of CapEx is to enhance the productive capacity, efficiency, or useful life of these assets, supporting l",
+      "queuedAt": "2026-07-25T10:53:22.447Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-atad-exit-tax-ias-12-measurement-bridge-zxugyxrhzc",
+      "title": "EU ATAD exit tax: IAS 12 measurement bridge",
+      "workedExample": "A multinational group transfers the tax residence of its subsidiary from an EU member state to a non-EU country. The subsidiary’s equipment has a carrying amount of €1,000,000 and a tax base of €700,000. Under ATAD, the deemed disposal value for exit tax purposes is set at €1,200,000. The temporary difference for deferred tax recognition is therefore €200,000, calculated as €1,200,000 (deemed disp",
+      "teachingSummary": "The EU Anti-Tax Avoidance Directive (ATAD) exit tax requires entities to recognize a deferred tax liability on unrealized gains arising when a taxpayer transfers its tax residence or assets out of an EU member state. Under IAS 12, this deferred tax liability is measured by reconc",
+      "queuedAt": "2026-07-25T10:51:30.462Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "frs-102-updates-explainer-june-2026-37a2dfb1cd",
+      "title": "FRS 102 updates explainer June 2026",
+      "workedExample": "A software company enters into a contract in July 2026 to deliver a software license and provide installation services for a total fee of £120,000. Under the updated FRS 102 guidance, the company identifies two distinct performance obligations: the software license and the installation service. The software license is delivered upfront, transferring control immediately, while the installation serv",
+      "teachingSummary": "FRS 102 updates as of June 2026 introduce key amendments to the recognition and measurement of revenue, aligning with evolving business practices and regulatory expectations. These updates clarify the timing of revenue recognition, especially for contracts with customers, and ref",
+      "queuedAt": "2026-07-25T10:50:07.083Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "capital-expenditure-fixed-assets-and-major-overhauls-re-forecasting-25ab419843",
+      "title": "Capital expenditure, fixed assets and major overhauls: Re Forecasting",
+      "workedExample": "A manufacturing company initially budgeted $1 million for capital expenditure on a new production line and $200,000 for a major overhaul of existing machinery in the upcoming fiscal year. Six months into the year, operational demands increased, and the machinery’s condition assessment indicated more extensive repairs were needed. The finance team reforecasted the major overhaul cost to $350,000 an",
+      "teachingSummary": "Capital expenditure refers to funds used by an entity to acquire, upgrade, or extend the life of fixed assets such as property, plant, and equipment (PPE). Major overhauls are significant maintenance activities that restore or improve the asset’s capacity or extend its useful lif",
+      "queuedAt": "2026-07-25T10:46:15.852Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "coso-walkthrough-coso",
+      "title": "Walkthrough testing",
+      "workedExample": "An auditor is assessing the controls over the purchase-to-pay process. They select one purchase transaction and trace it from the purchase requisition, through approval by the purchasing manager, receipt of goods, matching of the purchase order with the invoice, to the final payment authorization. The auditor reviews supporting documents such as requisition forms, approval emails, receiving report",
+      "teachingSummary": "Walkthrough testing is an audit procedure used to verify the design and implementation of internal controls by tracing a single transaction through the entire accounting system. It involves following the transaction from initiation through authorization, processing, and recording",
+      "queuedAt": "2026-07-25T10:43:12.150Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "gov-enc-share-dealing-closed-periods",
+      "title": "Share dealing closed periods",
+      "workedExample": "A listed company’s board establishes a closed period starting 30 days before the announcement of its annual financial results and ending 24 hours after the results are published. During this period, the CFO and other designated insiders must not buy or sell the company’s shares. For instance, the CFO planned to sell shares on the 15th day of the closed period but, recognizing the restriction, post",
+      "teachingSummary": "Share dealing closed periods are specific timeframes during which directors, senior executives, and certain employees are prohibited from trading the company’s shares. These periods typically coincide with the lead-up to the release of financial results or other significant corpo",
+      "queuedAt": "2026-07-25T10:37:35.882Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "ma-environmental-management-accounting",
+      "title": "Environmental management accounting",
+      "workedExample": "A manufacturing company implements EMA by tracking the costs associated with hazardous waste disposal, energy consumption, and water usage. The finance team collaborates with the environmental department to collect data from utility bills and waste management invoices for the past quarter. They identify that hazardous waste disposal costs $50,000, energy costs $120,000, and water costs $30,000. By",
+      "teachingSummary": "Environmental management accounting (EMA) integrates environmental and financial information to support decision-making that improves both environmental and economic performance. It involves identifying, collecting, analyzing, and reporting costs and benefits related to environme",
+      "queuedAt": "2026-07-25T10:15:43.964Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-group-relief-surrender-dwsgz3jvdx",
+      "title": "UK group relief surrender",
+      "workedExample": "Company A owns 80% of Company B, forming a qualifying UK group. In the current accounting period, Company A incurs a trading loss of £500,000, while Company B reports a taxable profit of £400,000. Company A formally agrees in writing to surrender £400,000 of its trading losses to Company B. Company B uses this surrendered loss to offset its £400,000 profit, reducing its taxable income to zero and ",
+      "teachingSummary": "UK group relief surrender is a tax mechanism allowing companies within a qualifying UK group to transfer current year trading losses from one group member to another with taxable profits in the same accounting period. This transfer reduces the recipient company’s taxable income, ",
+      "queuedAt": "2026-07-25T09:00:51.359Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-etr-bridge-permanent-differences",
+      "title": "ETR bridge permanent differences",
+      "workedExample": "A company reports a profit before tax of $1,000,000 with a statutory tax rate of 30%. The effective tax expense reported is $270,000, implying an effective tax rate of 27%. To explain this, the tax team prepares an ETR bridge and identifies permanent differences totaling $100,000, comprising $50,000 of tax-exempt interest income and $50,000 of non-deductible fines. Applying the 30% statutory rate ",
+      "teachingSummary": "An Effective Tax Rate (ETR) bridge for permanent differences is a financial reporting tool that explains the gap between the statutory tax rate and the entity’s effective tax rate by isolating the impact of permanent differences. Permanent differences are items of income or expen",
+      "queuedAt": "2026-07-25T08:38:02.998Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-group-relief-evidence-pack-for-owners-dwsgz3jvdx",
+      "title": "UK group relief: evidence pack for owners",
+      "workedExample": "ParentCo owns 80% of SubsidiaryCo, which incurred trading losses of £500,000 in the current tax year. ParentCo intends to claim group relief to offset these losses against its taxable profits of £1,000,000. The tax team compiles an evidence pack including the share register confirming ParentCo’s 80% ownership, shareholder agreements detailing rights and control, and board meeting minutes verifying",
+      "teachingSummary": "UK group relief allows companies within the same corporate group to offset current-year trading losses of one group company against the taxable profits of another, reducing the overall group tax liability. To claim this relief, the claimant must demonstrate qualifying ownership a",
+      "queuedAt": "2026-07-25T08:16:35.011Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-atad-exit-tax-ias-12-measurement-bridge-zxugyxrhzc",
+      "title": "EU ATAD exit tax: IAS 12 measurement bridge",
+      "workedExample": "A multinational group transfers the tax residence of its subsidiary from an EU member state to a non-EU country. The subsidiary’s equipment has a carrying amount of €1,000,000 and a tax base of €700,000. Under ATAD, the deemed disposal value for exit tax purposes is set at €1,200,000. The temporary difference for deferred tax recognition is therefore €200,000, calculated as €1,200,000 (deemed disp",
+      "teachingSummary": "The EU Anti-Tax Avoidance Directive (ATAD) exit tax requires entities to recognize a deferred tax liability on unrealized gains arising when a taxpayer transfers its tax residence or assets out of an EU member state. Under IAS 12, this deferred tax liability is measured by reconc",
+      "queuedAt": "2026-07-25T07:20:26.072Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-us-us-asc-740-indefinite-reinvestment-assertion-dxmgyxnjid",
+      "title": "US ASC 740 indefinite reinvestment assertion",
+      "workedExample": "A multinational corporation’s foreign subsidiary reports $10 million in undistributed earnings at the fiscal year-end. Management reviews the subsidiary’s strategic expansion plans and concludes these earnings will be reinvested indefinitely to fund overseas projects. The U.S. corporate tax rate is 21%, and the foreign tax rate is 15%. If repatriated, the deferred tax liability would be calculated",
+      "teachingSummary": "The US ASC 740 indefinite reinvestment assertion is a tax accounting principle applied when a company assumes that certain undistributed earnings of its foreign subsidiaries will be permanently reinvested outside the United States. Under this assertion, no deferred U.S. income ta",
+      "queuedAt": "2026-07-25T06:37:04.482Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-etr-bridge-permanent-differences",
+      "title": "ETR bridge permanent differences",
+      "workedExample": "A company reports a profit before tax of $1,000,000 with a statutory tax rate of 30%. The tax expense reported is $270,000, resulting in an effective tax rate of 27%. To explain this, the tax team prepares an ETR bridge and identifies permanent differences totaling $100,000, comprising $50,000 of tax-exempt interest income and $50,000 of non-deductible fines. Applying the 30% tax rate, the tax eff",
+      "teachingSummary": "An Effective Tax Rate (ETR) bridge for permanent differences is a financial reporting tool that reconciles the statutory tax rate to the entity’s effective tax rate by isolating the impact of permanent differences. Permanent differences are income or expense items recognized in a",
+      "queuedAt": "2026-07-25T04:59:15.340Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "coso-deficiency-grading",
+      "title": "Control deficiency severity",
+      "workedExample": "During the quarterly internal audit, the finance team identified that the monthly reconciliation of bank statements was not consistently performed within the required timeframe. The delay could lead to undetected errors or fraud affecting cash balances. The audit team evaluated the deficiency and determined it as a significant deficiency because while the risk of misstatement existed, compensating",
+      "teachingSummary": "Control deficiency severity refers to the magnitude and potential impact of a weakness identified in an organization's internal control system. It assesses how significantly the deficiency could impair the achievement of control objectives, such as reliable financial reporting or",
+      "queuedAt": "2026-07-25T02:44:46.734Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "frm-liquidity-adjusted-var",
+      "title": "Liquidity-adjusted VaR (LVaR)",
+      "workedExample": "A risk manager assesses the 1-day VaR of a bond portfolio at $2 million with a 99% confidence level. However, the bonds are thinly traded, and unwinding the entire position would realistically take 5 days, during which price impact and bid-ask spreads could cause additional losses estimated at $500,000. By adding this liquidation cost horizon to the standard VaR, the Liquidity-adjusted VaR (LVaR) ",
+      "teachingSummary": "Liquidity-adjusted Value at Risk (LVaR) is a risk metric that extends traditional Value at Risk (VaR) by incorporating the costs and risks associated with liquidating positions over a realistic time horizon. Unlike standard VaR, which assumes immediate liquidation at market price",
+      "queuedAt": "2026-07-25T02:06:28.499Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-vat-input-tax-evidence-pack-for-owners-dwsgdmf0ig",
+      "title": "UK VAT input tax: evidence pack for owners",
+      "workedExample": "A finance manager at a UK-based consultancy purchases computer equipment costing £12,000 plus £2,400 VAT. To reclaim the £2,400 input tax, the manager collects the supplier’s VAT invoice showing the supplier’s VAT registration number, invoice date, description of goods, and VAT amount. The invoice is stored in the company’s electronic accounting system along with a purchase order and payment confi",
+      "teachingSummary": "UK VAT input tax refers to the Value Added Tax a business pays on purchases and expenses which can be reclaimed from HMRC, subject to specific rules and evidence requirements. To support input tax claims, businesses must maintain a comprehensive evidence pack including valid VAT ",
+      "queuedAt": "2026-07-25T01:33:57.414Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-group-tax-consolidation",
+      "title": "Group tax consolidation mindset",
+      "workedExample": "A multinational corporate group with five subsidiaries operates in different jurisdictions. The tax team consolidates the subsidiaries’ taxable profits and losses to determine the group’s overall tax liability. For instance, Subsidiary A reports a taxable profit of $2 million, while Subsidiary B incurs a loss of $1 million. By consolidating, the group offsets the loss against the profit, reducing ",
+      "teachingSummary": "Group tax consolidation mindset refers to the strategic and operational approach adopted by finance and tax professionals when managing the tax affairs of a corporate group as a single entity. This mindset involves recognizing the group’s combined taxable income, losses, and tax ",
+      "queuedAt": "2026-07-25T01:29:49.598Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-us-us-cfc-look-through-rules-dxmgy2zjig",
+      "title": "US CFC look-through rules",
+      "workedExample": "A US shareholder owns 100% of CFC A, which in turn owns 100% of CFC B. In the current year, CFC B earns $1 million in interest income from unrelated parties and pays a $200,000 dividend to CFC A. Under the US CFC look-through rules, the $200,000 dividend received by CFC A from CFC B is treated as if CFC A earned the interest income directly. Therefore, the $1 million interest income is 'looked thr",
+      "teachingSummary": "US CFC look-through rules apply to controlled foreign corporations (CFCs) owned by US shareholders, allowing the US tax system to look through certain types of income earned by lower-tier CFCs to the upper-tier CFC or US shareholder. These rules prevent income from being indefini",
+      "queuedAt": "2026-07-24T23:12:40.380Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-us-us-asc-740-intraperiod-oci-tax-dxmgyxnjid",
+      "title": "US ASC 740 intraperiod OCI tax",
+      "workedExample": "A company reports a $100,000 unrealized gain on available-for-sale securities in OCI for the current period. The applicable tax rate is 30%. Under ASC 740 intraperiod tax allocation, the company calculates the tax effect on this gain as $30,000 (30% of $100,000). This $30,000 tax expense is recognized in OCI, reducing the net OCI gain to $70,000. Separately, the company reports $200,000 of pretax ",
+      "teachingSummary": "US ASC 740 intraperiod OCI tax refers to the accounting treatment of income taxes within a single reporting period, specifically how tax effects are allocated to components of other comprehensive income (OCI) rather than net income. This approach ensures that the tax consequences",
+      "queuedAt": "2026-07-24T22:38:45.949Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-stamp-duty-land-tax-accounts-to-ct-reconciliation-dwsgc3rhbx",
+      "title": "UK stamp duty land tax: accounts to CT reconciliation",
+      "workedExample": "A company purchases a commercial property on 15 March 2023, incurring an SDLT liability of £50,000. The accounting team records the SDLT expense in the financial statements for the year ended 31 March 2023. However, for Corporation Tax purposes, the SDLT deduction is only allowable when the payment is made, which occurs on 10 April 2023, in the next accounting period. During the CT reconciliation,",
+      "teachingSummary": "UK Stamp Duty Land Tax (SDLT) is a tax payable on land and property transactions in the UK. For corporate entities, the amounts recorded in the accounting records for SDLT must be reconciled to the figures reported in the Corporation Tax (CT) computations to ensure consistency an",
+      "queuedAt": "2026-07-24T22:17:16.384Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-tax-provisioning-calendar-uk-gaap-dwsgdgf4ih",
+      "title": "UK tax provisioning calendar UK GAAP",
+      "workedExample": "A UK-based company prepares its financial statements for the year ending 31 December. The finance team sets a tax provisioning calendar that includes preparing interim tax estimates by 30 June and final tax provisions by 31 December. By mid-January, they calculate the current tax liability based on the taxable profit of £1,000,000, applying the 19% corporation tax rate, resulting in a provision of",
+      "teachingSummary": "The UK tax provisioning calendar under UK GAAP refers to the scheduled process and timeline for recognizing, measuring, and reporting current and deferred tax liabilities and assets in financial statements. It ensures that tax provisions align with the company's accounting period",
+      "queuedAt": "2026-07-24T22:11:28.009Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-uk-uk-cop9-fraud-investigation-awareness-dwsgy29wos",
+      "title": "UK COP9 fraud investigation awareness",
+      "workedExample": "A mid-sized UK company receives a COP9 notice from HM Revenue & Customs indicating a suspected fraudulent VAT claim. The finance director immediately informs the audit committee and engages external legal counsel to review the allegations. The company initiates an internal review of VAT returns for the relevant periods and preserves all related documentation. The external auditors assess the poten",
+      "teachingSummary": "UK COP9 fraud investigation awareness refers to the understanding and recognition of the UK’s Criminal Offence Procedure 9 (COP9) notices, which are formal communications issued by tax authorities to notify individuals or entities of a suspected tax fraud investigation. These not",
+      "queuedAt": "2026-07-24T21:33:02.704Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-payments-on-account",
+      "title": "Payments on account",
+      "workedExample": "A consulting firm estimates its tax liability for the current year to be $100,000 based on prior year profits. The tax authority requires two payments on account, each equal to 50% of the previous year's tax liability. The firm pays $50,000 six months into the year and another $50,000 at the end of the year. When the final tax return is filed, the actual tax liability is assessed at $110,000. The ",
+      "teachingSummary": "Payments on account are advance tax payments made by a taxpayer towards their anticipated tax liability for a given period. These payments are typically required by tax authorities to be made in installments before the final tax assessment is completed, helping to spread the tax ",
+      "queuedAt": "2026-07-24T21:23:07.445Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-ias-12-pillar-two-exceptions-temporary-awfzideyih",
+      "title": "IAS 12 Pillar Two exceptions temporary",
+      "workedExample": "A multinational company recognizes a deferred tax liability of $2 million related to accelerated depreciation for tax purposes. However, a portion of this temporary difference relates to a tax credit that is exempt under Pillar Two rules. The company identifies that $500,000 of the deferred tax liability falls under the Pillar Two exceptions and excludes this amount from the Pillar Two minimum tax",
+      "teachingSummary": "IAS 12 Pillar Two exceptions temporary refer to specific temporary differences that are excluded from the scope of the global minimum tax rules under Pillar Two, as they relate to deferred tax accounting. These exceptions arise because certain temporary differences, such as those",
+      "queuedAt": "2026-07-24T21:20:47.050Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-group-relief-mechanics",
+      "title": "Group relief mechanics",
+      "workedExample": "A parent company owns 100% of two subsidiaries, Subsidiary A and Subsidiary B. In the current tax year, Subsidiary A reports a taxable profit of $500,000, while Subsidiary B incurs a trading loss of $300,000. Under group relief mechanics, Subsidiary B can surrender its $300,000 loss to Subsidiary A, reducing Subsidiary A's taxable profit to $200,000. The companies must complete the necessary tax f",
+      "teachingSummary": "Group relief mechanics refer to the process and rules by which losses, profits, or tax attributes of one company within a corporate group can be transferred or surrendered to another group company to reduce the overall tax liability of the group. This mechanism allows companies w",
+      "queuedAt": "2026-07-24T21:20:17.352Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-proof-of-intra-eu-transport-zxugchjvb2",
+      "title": "EU proof of intra-EU transport",
+      "workedExample": "A company in Germany sells machinery to a customer in France. To apply the zero VAT rate, the German supplier obtains a signed transport contract with a logistics provider, a consignment note showing the goods were dispatched from Berlin, and a delivery receipt signed by the French customer upon arrival. These documents are retained in the supplier’s records. When audited, the supplier presents th",
+      "teachingSummary": "EU proof of intra-EU transport is documentation required to demonstrate that goods have been transported between member states of the European Union. This proof is essential for applying the zero-rate VAT on intra-community supplies of goods. The documentation must unambiguously ",
+      "queuedAt": "2026-07-24T21:05:18.768Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-local-business-taxes-trade-tax-zxugbg9jyw",
+      "title": "EU local business taxes trade tax",
+      "workedExample": "A manufacturing company based in Munich reports an accounting profit before tax of €1,000,000 for the fiscal year. To calculate trade tax, the company adjusts this profit by adding back €50,000 of non-deductible expenses and deducting €20,000 of allowable deductions, resulting in a trade income of €1,030,000. The municipal multiplier in Munich is 490%. The base tax rate is 3.5%, so the trade tax r",
+      "teachingSummary": "EU local business taxes, specifically trade tax, are municipal taxes levied on the income of businesses operating within certain EU member states, notably Germany. Trade tax is calculated based on the taxable income of a business, adjusted by specific additions and deductions def",
+      "queuedAt": "2026-07-24T21:02:22.225Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-distance-selling-b2c-goods-zxugzglzdg",
+      "title": "EU distance selling B2C goods",
+      "workedExample": "A French online retailer sells €12,000 worth of goods to consumers in Germany during the calendar year. Since the sales exceed the €10,000 EU-wide threshold, the retailer must register for VAT in Germany and charge German VAT rates on those sales. The retailer registers for the OSS scheme, files a quarterly VAT return covering all EU distance sales, and remits the VAT collected to the French tax a",
+      "teachingSummary": "EU distance selling B2C goods refers to the sale of tangible goods by a business to consumers located in different EU member states without the consumer physically present at the seller’s location. This concept is critical for determining the correct value-added tax (VAT) treatme",
+      "queuedAt": "2026-07-24T20:59:57.632Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-dac7-platforms-ias-12-measurement-bridge-zxugzgfjny",
+      "title": "EU DAC7 platforms: IAS 12 measurement bridge",
+      "workedExample": "A digital platform operating in the EU reports €1,000,000 of gross transaction value under DAC7, which leads to a taxable income recognition timing difference compared to its accounting revenue recognition. The accounting profit includes €900,000 recognized in the current period, while tax authorities require recognition of the full €1,000,000 for tax purposes immediately. This €100,000 difference",
+      "teachingSummary": "EU DAC7 platforms refer to digital platforms operating within the European Union that are subject to the DAC7 directive, which mandates enhanced tax transparency and reporting obligations. IAS 12 measurement bridge in this context involves reconciling the temporary differences ar",
+      "queuedAt": "2026-07-24T19:46:15.873Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-eu-eu-atad-exit-tax-statutory-vs-ifrs-tax-note-zxugyxrhzc",
+      "title": "EU ATAD exit tax: statutory vs IFRS tax note",
+      "workedExample": "A multinational company headquartered in Germany decides to relocate a subsidiary's tax residence to a non-EU country. German tax law imposes an exit tax on unrealized capital gains of €5 million on the subsidiary's assets at a 25% tax rate, resulting in a €1.25 million statutory exit tax liability. Under IFRS, the company evaluates whether this exit tax represents a temporary difference. Since th",
+      "teachingSummary": "The EU Anti-Tax Avoidance Directive (ATAD) exit tax is a statutory tax charge imposed when a company transfers assets or its tax residence out of an EU member state, aiming to prevent tax base erosion. Under IFRS, the recognition and measurement of this exit tax differ from statu",
+      "queuedAt": "2026-07-24T19:38:24.967Z",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "cardId": "tax-deferred-tax-on-unrealised-profits",
+      "title": "Deferred tax on unrealised profits",
+      "workedExample": "A company sells goods internally between its divisions at a profit, but the goods remain in inventory at the reporting date. The inventory's carrying amount includes a profit of $100,000 not yet realised for tax purposes because tax is only charged on sales to external customers. The tax rate is 30%. The company recognises a deferred tax liability of $30,000 (30% × $100,000) to reflect the future ",
+      "teachingSummary": "Deferred tax on unrealised profits arises when an entity recognises profits in its financial statements that have not yet been realised for tax purposes, typically due to differences in the timing of income recognition between accounting standards and tax regulations. This create",
+      "queuedAt": "2026-07-24T19:14:10.831Z",
+      "model": "gpt-4.1-mini"
+    }
+  ]
+}

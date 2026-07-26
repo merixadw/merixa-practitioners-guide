@@ -1,0 +1,29 @@
+{
+  "incidentId": "2026-07-22-enrichment-wipe",
+  "severity": "high",
+  "acknowledged": true,
+  "summary": "OpenAI-enriched Library card bodies were destroyed by teacher/circle during expansion-perfection-cycle. Enrichment progress counters survived; card text did not.",
+  "facts": {
+    "enrichStateTotalUpdated": 4858,
+    "enrichStateProcessedIds": 1100,
+    "processedIdsStillInIndexAfterWipe": 0,
+    "enrichedAtFlagsRemaining": 49,
+    "wipeVector": "scripts/pipeline/teacher.mjs previously rmSync(content/corpus) then rewrote only synthesis concepts",
+    "trigger": "expansion-perfection-cycle phase 6 → circle.mjs → runTeacher (~2026-07-22T11:50Z)",
+    "evidence": [
+      "content/pipeline/enrich-library-state.json",
+      "content/pipeline/enrich-library-run.log",
+      "content/pipeline/enrich-library-run-2.log",
+      "content/pipeline/expansion-perfection-cycle-run.log (coverage after: inIndex 0)"
+    ],
+    "recoverability": "Enriched prose not recoverable from local disk (no git history of large index). Must re-enrich via OpenAI when quota available."
+  },
+  "rootCause": "Aggressive automation ran a destructive republish path without a pre-check that cardCount/enrichedCount would drop, and without a restore backup.",
+  "fixesApplied": [
+    "teacher merges previousIndex instead of wiping corpus",
+    "library:rebuild passes previousIndex into teacher",
+    "pre-teacher index.json backup under content/pipeline/backups/",
+    "perfect-cycle skips circle unless --allow-circle"
+  ],
+  "productTrustNote": "Learner purchases (Guide unlock / AI Premium) are StoreKit entitlements and on-device saved cards — separate from Merixa corpus pipelines. Paid coach access must not imply Merixa can silently delete published Library depth without backup; pipeline safeguards above are the operational control."
+}

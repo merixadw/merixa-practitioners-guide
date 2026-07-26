@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-07-25T17:29:00.938Z",
+  "dryRun": false,
+  "limit": 200,
+  "idFilter": null,
+  "donorPool": 3338,
+  "updated": 101,
+  "stillOffAfterRewrite": 0,
+  "remainingNeedingRelevance": 0,
+  "methods": {
+    "generic-on-topic": 71,
+    "donor:library:0.86": 1,
+    "donor:library:1.00": 19,
+    "donor:library:0.75": 4,
+    "donor:library:0.67": 4,
+    "donor:library:0.83": 2
+  },
+  "samples": [
+    {
+      "id": "accounting-treatment-for-mines-and-quarries-excluding-inventories-and-re-feda52a03b",
+      "title": "Accounting treatment for mines and quarries (excluding inventories and revenue): Group Reporting",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "Accounting treatment for mines and quarries (excluding inventories and revenue): Group Reporting is the working definition of Accounting treatment for mines and",
+      "bodyHead": "Apply “Accounting treatment for mines and quarries (excluding inventories and revenue): Group Reporting” with explicit inputs, assumptions, "
+    },
+    {
+      "id": "ma-activity-based-budgeting",
+      "title": "Activity-based budgeting",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "Activity-based budgeting is the working definition of Activity-based budgeting in Management reporting: the inputs or tests used, the figure or qualitative conc",
+      "bodyHead": "Apply “Activity-based budgeting” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting presentation to"
+    },
+    {
+      "id": "business-law-ethics-corner-589-9504341f7a",
+      "title": "BUSINESS LAW & ETHICS CORNER 589",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "BUSINESS LAW & ETHICS CORNER 589 is the working definition of BUSINESS LAW & ETHICS CORNER 589 in Strategy and performance: the inputs or tests used, the figure",
+      "bodyHead": "Apply “BUSINESS LAW & ETHICS CORNER 589” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting present"
+    },
+    {
+      "id": "business-law-ethics-corner-591-5321a99ad8",
+      "title": "BUSINESS LAW & ETHICS CORNER 591",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "BUSINESS LAW & ETHICS CORNER 591 is the working definition of BUSINESS LAW & ETHICS CORNER 591 in Strategy and performance: the inputs or tests used, the figure",
+      "bodyHead": "Apply “BUSINESS LAW & ETHICS CORNER 591” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting present"
+    },
+    {
+      "id": "project-enc-capitalisation-gate-for-build",
+      "title": "Capitalisation gate for build",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "Capitalisation gate for build is the working definition of Capitalisation gate for build in Project delivery: the inputs or tests used, the figure or qualitativ",
+      "bodyHead": "Apply “Capitalisation gate for build” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting presentati"
+    },
+    {
+      "id": "frm-cva-detail",
+      "title": "CVA (applied)",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "CVA (applied) is the working definition of CVA (applied) in Risk management: the inputs or tests used, the figure or qualitative conclusion produced, and the pa",
+      "bodyHead": "Apply “CVA (applied)” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting presentation to the cash o"
+    },
+    {
+      "id": "definition-of-dac-and-fa-alert-note-d2370f19b3",
+      "title": "Definition of DAC and FA (Alert Note)",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "Definition of DAC and FA (Alert Note) is the working definition of Definition of DAC and FA (Alert Note) in Management reporting: the inputs or tests used, the ",
+      "bodyHead": "Apply “Definition of DAC and FA (Alert Note)” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any accounting pr"
+    },
+    {
+      "id": "economic-crime-and-corporate-transparency-act-2023-9f8984e9a4",
+      "title": "Economic Crime and Corporate Transparency Act 2023",
+      "method": "generic-on-topic",
+      "stillOff": false,
+      "openRelevance": 1,
+      "defHead": "Economic Crime and Corporate Transparency Act 2023 is the working definition of Economic Crime and Corporate Transparency Act 2023 in Financial reporting: the i",
+      "bodyHead": "Apply “Economic Crime and Corporate Transparency Act 2023” with explicit inputs, assumptions, and a stated range of outcomes. Reconcile any "
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{"id":"frm-equity-opening-auction-gap-limit-zxf1axr5ig","title":"Equity opening auction gap limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-index-rebalance-flow-risk-buffer-aw5kzxggcm","title":"Index rebalance flow risk buffer","shelfTag":"frm-encyclopedia"}
+{"id":"frm-dividend-future-versus-cash-basis-desk-limit-zgl2awrlbm","title":"Dividend future versus cash basis desk limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-volatility-surface-sticky-delta-stress-pack-dm9syxrpbg","title":"Volatility surface sticky-delta stress pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cross-gamma-fx-equity-hybrid-inventory-y3jvc3mtz2","title":"Cross-gamma FX equity hybrid inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-bond-future-cheapest-to-deliver-switch-risk-ym9uzcbmdx","title":"Bond future cheapest-to-deliver switch risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-commodity-calendar-spread-liquidity-horizon-y29tbw9kax","title":"Commodity calendar spread liquidity horizon","shelfTag":"frm-encyclopedia"}
+{"id":"frm-repo-specialness-squeeze-stress-cmvwbybzcg","title":"Repo specialness squeeze stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-inflation-breakeven-curve-twist-set-aw5mbgf0aw","title":"Inflation breakeven curve twist set","shelfTag":"frm-encyclopedia"}
+{"id":"frm-variance-swap-versus-realised-vol-hedge-slip-dmfyawfuy2","title":"Variance swap versus realised vol hedge slip","shelfTag":"frm-encyclopedia"}
+{"id":"frm-options-pin-risk-expiry-concentration-b3b0aw9ucy","title":"Options pin risk expiry concentration","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-risk-factor-mapping-orphan-report-bwfya2v0ih","title":"Market risk factor mapping orphan report","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intraday-limit-utilisation-heat-clock-aw50cmfkyx","title":"Intraday limit utilisation heat clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-proxy-hedge-effectiveness-decay-alert-chjvehkgag","title":"Proxy hedge effectiveness decay alert","shelfTag":"frm-encyclopedia"}
+{"id":"frm-jump-to-default-equity-single-name-add-on-anvtcc10by","title":"Jump-to-default equity single-name add-on","shelfTag":"frm-encyclopedia"}
+{"id":"frm-commodity-storage-and-convenience-yield-risk-y29tbw9kax","title":"Commodity storage and convenience yield risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-fx-fixing-risk-window-inventory-znggzml4aw","title":"FX fixing risk window inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-structured-note-issuer-secondary-liquidity-c3rydwn0dx","title":"Structured note issuer secondary liquidity","shelfTag":"frm-encyclopedia"}
+{"id":"frm-vol-of-vol-risk-on-exotic-books-dm9slw9mlx","title":"Vol-of-vol risk on exotic books","shelfTag":"frm-encyclopedia"}
+{"id":"frm-basis-between-cds-index-and-single-names-ymfzaxmgym","title":"Basis between CDS index and single names","shelfTag":"frm-encyclopedia"}
+{"id":"frm-treasury-curve-pca-residual-risk-cap-dhjlyxn1cn","title":"Treasury curve PCA residual risk cap","shelfTag":"frm-encyclopedia"}
+{"id":"frm-equity-borrow-recall-stress-playbook-zxf1axr5ig","title":"Equity borrow recall stress playbook","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-risk-holiday-calendar-misalignment-bwfya2v0ih","title":"Market risk holiday calendar misalignment","shelfTag":"frm-encyclopedia"}
+{"id":"frm-option-early-exercise-american-risk-report-b3b0aw9uig","title":"Option early-exercise American risk report","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cleared-vs-otc-margin-procyclicality-buffer-y2xlyxjlzc","title":"Cleared vs OTC margin procyclicality buffer","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sector-rotation-stress-for-equity-desks-c2vjdg9yih","title":"Sector rotation stress for equity desks","shelfTag":"frm-encyclopedia"}
+{"id":"frm-digital-asset-weekend-gap-policy-zglnaxrhbc","title":"Digital asset weekend gap policy","shelfTag":"frm-encyclopedia"}
+{"id":"frm-mortgage-pipeline-fallout-hedge-slippage-bw9ydgdhz2","title":"Mortgage pipeline fallout hedge slippage","shelfTag":"frm-encyclopedia"}
+{"id":"frm-municipal-curve-tax-exempt-basis-risk-bxvuawnpcg","title":"Municipal curve tax-exempt basis risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-volatility-risk-premium-term-structure-limit-dm9syxrpbg","title":"Volatility risk premium term-structure limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-on-the-run-off-the-run-liquidity-switch-b24tdghllx","title":"On-the-run off-the-run liquidity switch","shelfTag":"frm-encyclopedia"}
+{"id":"frm-delta-one-synthetic-versus-cash-tracking-error-zgvsdgetb2","title":"Delta-one synthetic versus cash tracking error","shelfTag":"frm-encyclopedia"}
+{"id":"frm-commodity-quality-and-location-basis-book-y29tbw9kax","title":"Commodity quality and location basis book","shelfTag":"frm-encyclopedia"}
+{"id":"frm-interest-rate-bermudan-exercise-boundary-risk-aw50zxjlc3","title":"Interest rate bermudan exercise boundary risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-equity-dividend-forecast-revision-var-zxf1axr5ig","title":"Equity dividend forecast revision VaR","shelfTag":"frm-encyclopedia"}
+{"id":"frm-fx-correlation-break-stress-for-quanto-znggy29ycm","title":"FX correlation break stress for quanto","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-abuse-surveillance-alert-risk-feed-bwfya2v0ig","title":"Market abuse surveillance alert risk feed","shelfTag":"frm-encyclopedia"}
+{"id":"frm-block-trade-liquidity-impact-add-on-ymxvy2sgdh","title":"Block trade liquidity impact add-on","shelfTag":"frm-encyclopedia"}
+{"id":"frm-yield-curve-butterfly-residual-limit-ewllbgqgy3","title":"Yield curve butterfly residual limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-carbon-allowance-auction-timing-risk-y2fyym9uig","title":"Carbon allowance auction timing risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-prepayment-model-update-p-l-attribution-chjlcgf5bw","title":"Prepayment model update P&L attribution","shelfTag":"frm-encyclopedia"}
+{"id":"frm-equity-correl-book-dispersion-stress-zxf1axr5ig","title":"Equity correl book dispersion stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-treasury-futures-delivery-option-value-risk-dhjlyxn1cn","title":"Treasury futures delivery option value risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-risk-capital-rniv-inventory-freeze-bwfya2v0ih","title":"Market risk capital RNIV inventory freeze","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intraday-credit-spread-jump-desk-halt-aw50cmfkyx","title":"Intraday credit spread jump desk halt","shelfTag":"frm-encyclopedia"}
+{"id":"frm-option-assignment-physical-delivery-capacity-b3b0aw9uig","title":"Option assignment physical delivery capacity","shelfTag":"frm-encyclopedia"}
+{"id":"frm-hedge-accounting-ineffectiveness-risk-feed-agvkz2ugyw","title":"Hedge accounting ineffectiveness risk feed","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sovereign-cds-quanto-and-dual-currency-risk-c292zxjlaw","title":"Sovereign CDS quanto and dual-currency risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-etf-premium-discount-stress-for-mm-zxrmihbyzw","title":"ETF premium discount stress for MM","shelfTag":"frm-encyclopedia"}
+{"id":"frm-rate-option-smile-wing-liquidity-charge-cmf0zsbvch","title":"Rate option smile wing liquidity charge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-multi-curve-ois-discounting-residual-risk-bxvsdgkty3","title":"Multi-curve OIS discounting residual risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-equity-event-vol-crush-limit-into-earnings-zxf1axr5ig","title":"Equity event vol crush limit into earnings","shelfTag":"frm-encyclopedia"}
+{"id":"frm-physical-power-shape-risk-hourly-book-cgh5c2ljyw","title":"Physical power shape risk hourly book","shelfTag":"frm-encyclopedia"}
+{"id":"frm-convertible-bond-equity-credit-hybrid-greek-y29udmvydg","title":"Convertible bond equity credit hybrid Greek","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-risk-backtesting-exception-cluster-rule-bwfya2v0ih","title":"Market risk backtesting exception cluster rule","shelfTag":"frm-encyclopedia"}
+{"id":"frm-fx-nondeliverable-forward-fixing-risk-znggbm9uzg","title":"FX nondeliverable forward fixing risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-structured-rates-bermudan-vega-bucket-report-c3rydwn0dx","title":"Structured rates bermudan vega bucket report","shelfTag":"frm-encyclopedia"}
+{"id":"frm-collateral-transformation-desk-market-risk-y29sbgf0zx","title":"Collateral transformation desk market risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-equity-total-return-swap-financing-reset-risk-zxf1axr5ih","title":"Equity total return swap financing reset risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-weather-derivative-basis-to-physical-load-d2vhdghlci","title":"Weather derivative basis to physical load","shelfTag":"frm-encyclopedia"}
+{"id":"frm-obligor-early-warning-signal-escalation-clock-b2jsawdvci","title":"Obligor early-warning signal escalation clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-covenant-headroom-forecast-versus-actual-y292zw5hbn","title":"Covenant headroom forecast versus actual","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trade-finance-soft-commodities-fraud-screen-dhjhzgugzm","title":"Trade finance soft-commodities fraud screen","shelfTag":"frm-encyclopedia"}
+{"id":"frm-leveraged-loan-ebitda-add-back-challenge-bgv2zxjhz2","title":"Leveraged loan EBITDA add-back challenge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cre-exit-liquidity-by-asset-class-stress-y3jligv4ax","title":"CRE exit liquidity by asset class stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-supply-chain-finance-buyer-continuity-risk-c3vwcgx5lw","title":"Supply-chain finance buyer continuity risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-insurance-exclusion-operability-map-y3jlzgl0ig","title":"Credit insurance exclusion operability map","shelfTag":"frm-encyclopedia"}
+{"id":"frm-multi-obligor-project-finance-completion-risk-bxvsdgktb2","title":"Multi-obligor project finance completion risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-retail-pd-seasonality-overlay-control-cmv0ywlsih","title":"Retail PD seasonality overlay control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-wrong-way-collateral-equity-correlation-book-d3jvbmctd2","title":"Wrong-way collateral equity correlation book","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sovereign-transfer-and-convertibility-pack-c292zxjlaw","title":"Sovereign transfer and convertibility pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-banking-book-fair-value-credit-spread-risk-ymfua2luzy","title":"Banking book fair-value credit spread risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-obligor-group-look-through-spv-test-b2jsawdvci","title":"Obligor group look-through SPV test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trade-credit-insurance-claim-lag-lgd-dhjhzgugy3","title":"Trade credit insurance claim lag LGD","shelfTag":"frm-encyclopedia"}
+{"id":"frm-revolving-ead-crisis-draw-assumption-cmv2b2x2aw","title":"Revolving EAD crisis draw assumption","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-approval-condition-subsequent-test-y3jlzgl0ig","title":"Credit approval condition subsequent test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sector-dual-default-correlation-uplift-c2vjdg9yig","title":"Sector dual-default correlation uplift","shelfTag":"frm-encyclopedia"}
+{"id":"frm-forbearance-multiple-touch-indicator-zm9yymvhcm","title":"Forbearance multiple-touch indicator","shelfTag":"frm-encyclopedia"}
+{"id":"frm-commodity-producer-hedge-effectiveness-credit-y29tbw9kax","title":"Commodity producer hedge effectiveness credit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-lgd-downturn-cure-versus-liquidation-mix-bgdkigrvd2","title":"LGD downturn cure versus liquidation mix","shelfTag":"frm-encyclopedia"}
+{"id":"frm-bank-counterparty-network-contagion-add-on-ymfuaybjb3","title":"Bank counterparty network contagion add-on","shelfTag":"frm-encyclopedia"}
+{"id":"frm-invoice-finance-concentration-debtor-cap-aw52b2ljzs","title":"Invoice finance concentration debtor cap","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-risk-model-override-governance-log-y3jlzgl0ih","title":"Credit risk model override governance log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-collateral-valuation-frequency-by-volatility-y29sbgf0zx","title":"Collateral valuation frequency by volatility","shelfTag":"frm-encyclopedia"}
+{"id":"frm-country-risk-ceiling-exception-board-pack-y291bnryes","title":"Country risk ceiling exception board pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sme-thin-file-pd-challenger-model-c21lihroaw","title":"SME thin-file PD challenger model","shelfTag":"frm-encyclopedia"}
+{"id":"frm-shipping-charter-rate-credit-stress-c2hpchbpbm","title":"Shipping charter-rate credit stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-netting-opinion-jurisdiction-inventory-bmv0dgluzy","title":"Netting opinion jurisdiction inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-migration-matrix-through-cycle-test-y3jlzgl0ig","title":"Credit migration matrix through-cycle test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-obligor-esg-controversy-credit-overlay-b2jsawdvci","title":"Obligor ESG controversy credit overlay","shelfTag":"frm-encyclopedia"}
+{"id":"frm-synthetic-securitisation-attachment-monitor-c3ludghldg","title":"Synthetic securitisation attachment monitor","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trade-finance-sanctions-hit-credit-unwind-dhjhzgugzm","title":"Trade finance sanctions hit credit unwind","shelfTag":"frm-encyclopedia"}
+{"id":"frm-retail-hardship-programme-cure-definition-cmv0ywlsig","title":"Retail hardship programme cure definition","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ccr-wrong-way-fx-on-em-counterparty-y2nyihdyb2","title":"CCR wrong-way FX on EM counterparty","shelfTag":"frm-encyclopedia"}
+{"id":"frm-acquisition-leverage-bridge-credit-monitor-ywnxdwlzax","title":"Acquisition leverage bridge credit monitor","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-limit-intra-day-peak-versus-eod-y3jlzgl0ig","title":"Credit limit intra-day peak versus EOD","shelfTag":"frm-encyclopedia"}
+{"id":"frm-obligor-audit-opinion-emphasis-credit-flag-b2jsawdvci","title":"Obligor audit opinion emphasis credit flag","shelfTag":"frm-encyclopedia"}
+{"id":"frm-project-finance-offtaker-downgrade-cascade-chjvamvjdc","title":"Project finance offtaker downgrade cascade","shelfTag":"frm-encyclopedia"}
+{"id":"frm-collateral-repossession-cost-in-lgd-y29sbgf0zx","title":"Collateral repossession cost in LGD","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-risk-appetite-name-concentration-y3jlzgl0ih","title":"Credit risk appetite name concentration %","shelfTag":"frm-encyclopedia"}
+{"id":"frm-structured-credit-waterfall-breach-test-c3rydwn0dx","title":"Structured credit waterfall breach test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-banking-book-hedge-cra-mismatch-risk-ymfua2luzy","title":"Banking book hedge CRA mismatch risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-obligor-liquidity-runway-credit-metric-b2jsawdvci","title":"Obligor liquidity runway credit metric","shelfTag":"frm-encyclopedia"}
+{"id":"frm-export-credit-agency-claim-process-drill-zxhwb3j0ig","title":"Export credit agency claim process drill","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-portfolio-sector-limit-unused-headroom-y3jlzgl0ih","title":"Credit portfolio sector limit unused headroom","shelfTag":"frm-encyclopedia"}
+{"id":"frm-default-definition-operationalisation-test-zgvmyxvsdc","title":"Default definition operationalisation test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-margin-loan-concentrated-collateral-call-chain-bwfyz2luig","title":"Margin loan concentrated collateral call chain","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-risk-stress-reverse-severity-find-y3jlzgl0ih","title":"Credit risk stress reverse severity find","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-event-taxonomy-dual-class-rule-b3agcmlzay","title":"Op risk event taxonomy dual-class rule","shelfTag":"frm-encyclopedia"}
+{"id":"frm-rcsa-residual-versus-incident-actuals-recon-cmnzysbyzx","title":"RCSA residual versus incident actuals recon","shelfTag":"frm-encyclopedia"}
+{"id":"frm-kri-threshold-change-control-pack-a3jpihrocm","title":"KRI threshold change control pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-scenario-workshop-facilitator-independence-c2nlbmfyaw","title":"Scenario workshop facilitator independence","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-loss-boundary-with-credit-charge-off-b3agbg9zcy","title":"Op loss boundary with credit charge-off","shelfTag":"frm-encyclopedia"}
+{"id":"frm-change-the-bank-residual-register-link-y2hhbmdlih","title":"Change the-bank residual register link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-conduct-remediation-completeness-qa-sample-y29uzhvjdc","title":"Conduct remediation completeness QA sample","shelfTag":"frm-encyclopedia"}
+{"id":"frm-third-party-exit-plan-operability-drill-dghpcmqtcg","title":"Third-party exit plan operability drill","shelfTag":"frm-encyclopedia"}
+{"id":"frm-payment-fraud-mule-account-pattern-feed-cgf5bwvudc","title":"Payment fraud mule-account pattern feed","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-capital-insurance-recoverability-test-b3agcmlzay","title":"Op risk capital insurance recoverability test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-change-dual-run-exit-criteria-bw9kzwwgy2","title":"Model change dual-run exit criteria","shelfTag":"frm-encyclopedia"}
+{"id":"frm-privileged-access-joiner-mover-leaver-clock-chjpdmlszw","title":"Privileged access joiner mover leaver clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-business-continuity-dependency-map-assure-ynvzaw5lc3","title":"Business continuity dependency map assure","shelfTag":"frm-encyclopedia"}
+{"id":"frm-customer-complaint-root-cause-theme-capital-y3vzdg9tzx","title":"Customer complaint root-cause theme capital","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-data-lineage-for-loss-database-b3agcmlzay","title":"Op risk data lineage for loss database","shelfTag":"frm-encyclopedia"}
+{"id":"frm-internal-fraud-collusion-scenario-pack-aw50zxjuyw","title":"Internal fraud collusion scenario pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-regulatory-reporting-misstatement-op-event-cmvndwxhdg","title":"Regulatory reporting misstatement op event","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cloud-shared-responsibility-control-matrix-y2xvdwqgc2","title":"Cloud shared-responsibility control matrix","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-appetite-cascade-to-process-kris-b3agcmlzay","title":"Op risk appetite cascade to process KRIs","shelfTag":"frm-encyclopedia"}
+{"id":"frm-physical-security-cash-in-transit-stress-cgh5c2ljyw","title":"Physical security cash-in-transit stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ai-tool-shadow-it-op-risk-inventory-ywkgdg9vbc","title":"AI tool shadow IT op risk inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-settlement-fail-cascade-liquidity-op-link-c2v0dgxlbw","title":"Settlement fail cascade liquidity op link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-vendor-concentration-single-region-outage-dmvuzg9yig","title":"Vendor concentration single-region outage","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-control-automation-false-sense-b3agcmlzay","title":"Op risk control automation false sense","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trading-error-fat-finger-limit-util-alert-dhjhzgluzy","title":"Trading error fat-finger limit util alert","shelfTag":"frm-encyclopedia"}
+{"id":"frm-legal-privilege-boundary-in-loss-data-bgvnywwgch","title":"Legal privilege boundary in loss data","shelfTag":"frm-encyclopedia"}
+{"id":"frm-resilience-important-business-service-map-cmvzawxpzw","title":"Resilience important business service map","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-scenario-correlation-capital-copula-b3agcmlzay","title":"Op risk scenario correlation capital copula","shelfTag":"frm-encyclopedia"}
+{"id":"frm-conduct-sales-quality-sample-risk-feed-y29uzhvjdc","title":"Conduct sales quality sample risk feed","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cyber-ransomware-recovery-time-capital-y3lizxigcm","title":"Cyber ransomware recovery time capital","shelfTag":"frm-encyclopedia"}
+{"id":"frm-outsourcing-notification-regulatory-clock-b3v0c291cm","title":"Outsourcing notification regulatory clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-issue-ageing-severity-inflation-b3agcmlzay","title":"Op risk issue ageing severity inflation","shelfTag":"frm-encyclopedia"}
+{"id":"frm-payments-reconciliation-break-ageing-kri-cgf5bwvudh","title":"Payments reconciliation break ageing KRI","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-input-poisoning-detection-control-bw9kzwwgaw","title":"Model input poisoning detection control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-physical-document-retention-breach-event-cgh5c2ljyw","title":"Physical document retention breach event","shelfTag":"frm-encyclopedia"}
+{"id":"frm-third-line-findings-recurrence-op-theme-dghpcmqtbg","title":"Third-line findings recurrence op theme","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trading-book-cancel-amend-surveillance-link-dhjhzgluzy","title":"Trading book cancel amend surveillance link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-hr-key-person-concentration-risk-register-ahiga2v5lx","title":"HR key-person concentration risk register","shelfTag":"frm-encyclopedia"}
+{"id":"frm-customer-data-subject-request-backlog-risk-y3vzdg9tzx","title":"Customer data subject request backlog risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-capital-orc-threshold-evidence-b3agcmlzay","title":"Op risk capital ORC threshold evidence","shelfTag":"frm-encyclopedia"}
+{"id":"frm-branch-cash-discrepancy-pattern-analytics-ynjhbmnoig","title":"Branch cash discrepancy pattern analytics","shelfTag":"frm-encyclopedia"}
+{"id":"frm-change-freeze-exception-risk-acceptance-y2hhbmdlig","title":"Change freeze exception risk acceptance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-vendor-fourth-party-subprocessor-inventory-dmvuzg9yig","title":"Vendor fourth-party subprocessor inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-board-pack-near-miss-section-b3agcmlzay","title":"Op risk board pack near-miss section","shelfTag":"frm-encyclopedia"}
+{"id":"frm-identity-federation-failure-customer-impact-awrlbnrpdh","title":"Identity federation failure customer impact","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trade-surveillance-model-drift-op-flag-dhjhzgugc3","title":"Trade surveillance model drift op flag","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-insurance-captive-recovery-lag-b3agcmlzay","title":"Op risk insurance captive recovery lag","shelfTag":"frm-encyclopedia"}
+{"id":"frm-robotic-process-exception-queue-risk-cm9ib3rpyy","title":"Robotic process exception queue risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-crisis-communication-approval-risk-control-y3jpc2lzig","title":"Crisis communication approval risk control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-taxonomy-regulatory-mapping-pack-b3agcmlzay","title":"Op risk taxonomy regulatory mapping pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-lcr-outflow-assumption-product-mapping-bgnyig91dg","title":"LCR outflow assumption product mapping","shelfTag":"frm-encyclopedia"}
+{"id":"frm-nsfr-rsf-factor-version-freeze-bnnmcibyc2","title":"NSFR RSF factor version freeze","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intraday-liquidity-peak-versus-buffer-aw50cmfkyx","title":"Intraday liquidity peak versus buffer","shelfTag":"frm-encyclopedia"}
+{"id":"frm-contingency-funding-counterparty-reach-test-y29udgluz2","title":"Contingency funding counterparty reach test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-deposit-concentration-single-client-stress-zgvwb3npdc","title":"Deposit concentration single-client stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-wholesale-funding-rollover-calendar-risk-d2hvbgvzyw","title":"Wholesale funding rollover calendar risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-collateral-mobilisation-time-to-cash-drill-y29sbgf0zx","title":"Collateral mobilisation time-to-cash drill","shelfTag":"frm-encyclopedia"}
+{"id":"frm-payment-system-outage-liquidity-playbook-cgf5bwvudc","title":"Payment system outage liquidity playbook","shelfTag":"frm-encyclopedia"}
+{"id":"frm-fx-settlement-gross-liquidity-need-znggc2v0dg","title":"FX settlement gross liquidity need","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-risk-appetite-cascade-to-desks-bglxdwlkax","title":"Liquidity risk appetite cascade to desks","shelfTag":"frm-encyclopedia"}
+{"id":"frm-encumbrance-capacity-headroom-report-zw5jdw1icm","title":"Encumbrance capacity headroom report","shelfTag":"frm-encyclopedia"}
+{"id":"frm-retail-deposit-behavioural-life-stress-cmv0ywlsig","title":"Retail deposit behavioural life stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-prime-brokerage-free-credit-cash-sweep-risk-chjpbwugyn","title":"Prime brokerage free credit cash sweep risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-early-warning-indicator-pack-bglxdwlkax","title":"Liquidity early-warning indicator pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-covered-bond-soft-bullet-extension-risk-y292zxjlzc","title":"Covered bond soft-bullet extension risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intra-group-liquidity-support-legal-test-aw50cmetz3","title":"Intra-group liquidity support legal test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-hqla-level-composition-concentration-ahfsysbszx","title":"HQLA level composition concentration","shelfTag":"frm-encyclopedia"}
+{"id":"frm-margin-call-liquidity-buffer-sizing-bwfyz2luig","title":"Margin call liquidity buffer sizing","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-stress-governance-assumption-log-bglxdwlkax","title":"Liquidity stress governance assumption log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-non-operating-deposit-identification-test-bm9ulw9wzx","title":"Non-operating deposit identification test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-committed-facility-draw-concurrency-stress-y29tbwl0dg","title":"Committed facility draw concurrency stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-treasury-system-payment-release-dual-control-dhjlyxn1cn","title":"Treasury system payment release dual control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-reverse-stress-franchise-damage-bglxdwlkax","title":"Liquidity reverse stress franchise damage","shelfTag":"frm-encyclopedia"}
+{"id":"frm-secured-funding-haircut-procyclicality-c2vjdxjlzc","title":"Secured funding haircut procyclicality","shelfTag":"frm-encyclopedia"}
+{"id":"frm-currency-mismatch-liquidity-limit-y3vycmvuy3","title":"Currency mismatch liquidity limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-deposit-insurance-coverage-misconception-risk-zgvwb3npdc","title":"Deposit insurance coverage misconception risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ccp-default-fund-call-liquidity-plan-y2nwigrlzm","title":"CCP default fund call liquidity plan","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-metric-reconc-to-gl-cash-bglxdwlkax","title":"Liquidity metric reconc to GL cash","shelfTag":"frm-encyclopedia"}
+{"id":"frm-term-funding-ratio-internal-monitor-dgvybsbmdw","title":"Term funding ratio internal monitor","shelfTag":"frm-encyclopedia"}
+{"id":"frm-unsecured-wholesale-investor-concentration-dw5zzwn1cm","title":"Unsecured wholesale investor concentration","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-playbook-legal-entity-matrix-bglxdwlkax","title":"Liquidity playbook legal entity matrix","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intraday-credit-line-usage-alert-aw50cmfkyx","title":"Intraday credit line usage alert","shelfTag":"frm-encyclopedia"}
+{"id":"frm-asset-sale-liquidity-monetisation-realism-yxnzzxqgc2","title":"Asset sale liquidity monetisation realism","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-risk-model-change-mrc-pack-bglxdwlkax","title":"Liquidity risk model change MRC pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-brokered-deposit-rate-sensitivity-runoff-ynjva2vyzw","title":"Brokered deposit rate sensitivity runoff","shelfTag":"frm-encyclopedia"}
+{"id":"frm-time-zone-payment-cut-off-liquidity-gap-dgltzs16b2","title":"Time-zone payment cut-off liquidity gap","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-contingency-collateral-location-bglxdwlkax","title":"Liquidity contingency collateral location","shelfTag":"frm-encyclopedia"}
+{"id":"frm-stablecoin-or-tokenised-deposit-runoff-add-on-c3rhymxly2","title":"Stablecoin or tokenised deposit runoff add-on","shelfTag":"frm-encyclopedia"}
+{"id":"frm-alco-liquidity-dashboard-freshness-kri-ywxjbybsax","title":"ALCO liquidity dashboard freshness KRI","shelfTag":"frm-encyclopedia"}
+{"id":"frm-netting-set-liquidity-vs-capital-mismatch-bmv0dgluzy","title":"Netting set liquidity vs capital mismatch","shelfTag":"frm-encyclopedia"}
+{"id":"frm-seasonal-working-capital-liquidity-plan-c2vhc29uyw","title":"Seasonal working-capital liquidity plan","shelfTag":"frm-encyclopedia"}
+{"id":"frm-recovery-option-liquidity-execution-drill-cmvjb3zlcn","title":"Recovery option liquidity execution drill","shelfTag":"frm-encyclopedia"}
+{"id":"frm-internal-ftes-liquidity-transfer-pricing-signal-aw50zxjuyw","title":"Internal FTEs liquidity transfer pricing signal","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ring-fenced-bank-liquidity-separateness-test-cmluzy1mzw","title":"Ring-fenced bank liquidity separateness test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-money-market-fund-gate-risk-client-outflow-bw9uzxktbw","title":"Money-market fund gate risk client outflow","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-reporting-automation-recon-break-bglxdwlkax","title":"Liquidity reporting automation recon break","shelfTag":"frm-encyclopedia"}
+{"id":"frm-off-balance-liquidity-commitment-inventory-b2zmlwjhbg","title":"Off-balance liquidity commitment inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-treasury-dealer-limit-versus-liquidity-buffer-dhjlyxn1cn","title":"Treasury dealer limit versus liquidity buffer","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cross-currency-swap-funding-rollover-risk-y3jvc3mty3","title":"Cross-currency swap funding rollover risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-risk-board-appetite-metric-set-bglxdwlkax","title":"Liquidity risk board appetite metric set","shelfTag":"frm-encyclopedia"}
+{"id":"frm-unencumbered-asset-location-register-daily-dw5lbmn1bw","title":"Unencumbered asset location register daily","shelfTag":"frm-encyclopedia"}
+{"id":"frm-client-money-segregation-liquidity-constraint-y2xpzw50ig","title":"Client money segregation liquidity constraint","shelfTag":"frm-encyclopedia"}
+{"id":"frm-stress-lcr-versus-business-as-usual-bridge-c3ryzxnzig","title":"Stress LCR versus business-as-usual bridge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-term-auction-facility-eligibility-readiness-dgvybsbhdw","title":"Term auction facility eligibility readiness","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-transferability-legal-opinion-ageing-bglxdwlkax","title":"Liquidity transferability legal opinion ageing","shelfTag":"frm-encyclopedia"}
+{"id":"frm-overnight-wholesale-reliance-hard-cap-b3zlcm5pz2","title":"Overnight wholesale reliance hard cap","shelfTag":"frm-encyclopedia"}
+{"id":"frm-payment-queue-prioritisation-under-stress-cgf5bwvudc","title":"Payment queue prioritisation under stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-risk-climate-physical-disruption-bglxdwlkax","title":"Liquidity risk climate physical disruption","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intraday-throughput-capacity-stress-aw50cmfkyx","title":"Intraday throughput capacity stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-funding-plan-versus-risk-appetite-recon-znvuzgluzy","title":"Funding plan versus risk appetite recon","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-contingency-fx-swap-capacity-bglxdwlkax","title":"Liquidity contingency FX swap capacity","shelfTag":"frm-encyclopedia"}
+{"id":"frm-deposit-platform-outage-outflow-asymmetry-zgvwb3npdc","title":"Deposit platform outage outflow asymmetry","shelfTag":"frm-encyclopedia"}
+{"id":"frm-hqla-valuation-and-haircut-daily-control-ahfsysb2yw","title":"HQLA valuation and haircut daily control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-risk-internal-audit-action-ageing-bglxdwlkax","title":"Liquidity risk internal audit action ageing","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-inventory-materiality-tier-evidence-bw9kzwwgaw","title":"Model inventory materiality tier evidence","shelfTag":"frm-encyclopedia"}
+{"id":"frm-champion-challenger-performance-divergence-y2hhbxbpb2","title":"Champion challenger performance divergence","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-input-data-quality-scorecard-bw9kzwwgaw","title":"Model input data quality scorecard","shelfTag":"frm-encyclopedia"}
+{"id":"frm-overlay-governance-expiry-and-owner-b3zlcmxhes","title":"Overlay governance expiry and owner","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-change-impact-on-capital-bridge-bw9kzwwgy2","title":"Model change impact on capital bridge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-benchmark-model-independence-from-developer-ymvuy2htyx","title":"Benchmark model independence from developer","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-performance-ethnic-fairness-monitor-bw9kzwwgcg","title":"Model performance ethnic fairness monitor","shelfTag":"frm-encyclopedia"}
+{"id":"frm-valuation-model-ava-model-risk-pack-dmfsdwf0aw","title":"Valuation model AVA model-risk pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-retirement-orphan-control-test-bw9kzwwgcm","title":"Model retirement orphan control test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-pd-lgd-ead-dependence-model-risk-cgqgbgdkig","title":"PD LGD EAD dependence model risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-vendor-model-black-box-challenge-plan-dmvuzg9yig","title":"Vendor model black-box challenge plan","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-appetite-quantitative-metric-bw9kzwwgcm","title":"Model risk appetite quantitative metric","shelfTag":"frm-encyclopedia"}
+{"id":"frm-recalibration-frequency-versus-stability-trade-cmvjywxpyn","title":"Recalibration frequency versus stability trade","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-documentation-effective-challenge-proof-bw9kzwwgzg","title":"Model documentation effective challenge proof","shelfTag":"frm-encyclopedia"}
+{"id":"frm-stress-model-versus-bau-model-inconsistency-c3ryzxnzig","title":"Stress model versus BAU model inconsistency","shelfTag":"frm-encyclopedia"}
+{"id":"frm-machine-learning-explainability-sample-audit-bwfjagluzs","title":"Machine learning explainability sample audit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-implementation-code-recon-to-spec-bw9kzwwgaw","title":"Model implementation code recon to spec","shelfTag":"frm-encyclopedia"}
+{"id":"frm-limitation-register-customer-impact-link-bgltaxrhdg","title":"Limitation register customer impact link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-annual-model-risk-concentration-report-yw5udwfsig","title":"Annual model risk concentration report","shelfTag":"frm-encyclopedia"}
+{"id":"frm-override-rate-model-health-indicator-b3zlcnjpzg","title":"Override rate model health indicator","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-risk-var-engine-patch-control-bwfya2v0ih","title":"Market risk VaR engine patch control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ecl-model-sicr-threshold-sensitivity-zwnsig1vzg","title":"ECL model SICR threshold sensitivity","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-of-using-proxy-curves-bw9kzwwgcm","title":"Model risk of using proxy curves","shelfTag":"frm-encyclopedia"}
+{"id":"frm-backtesting-breach-model-action-ladder-ymfja3rlc3","title":"Backtesting breach model action ladder","shelfTag":"frm-encyclopedia"}
+{"id":"frm-pricing-model-versus-risk-model-gap-chjpy2luzy","title":"Pricing model versus risk model gap","shelfTag":"frm-encyclopedia"}
+{"id":"frm-climate-model-scenario-uncertainty-band-y2xpbwf0zs","title":"Climate model scenario uncertainty band","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-approval-quorum-and-dissent-log-bw9kzwwgyx","title":"Model approval quorum and dissent log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-data-lineage-break-model-run-blocker-zgf0ysbsaw","title":"Data lineage break model run blocker","shelfTag":"frm-encyclopedia"}
+{"id":"frm-parameter-estimation-sample-period-bias-cgfyyw1ldg","title":"Parameter estimation sample period bias","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-capital-rniv-inventory-tie-bw9kzwwgcm","title":"Model risk capital RNIV inventory tie","shelfTag":"frm-encyclopedia"}
+{"id":"frm-shadow-model-production-leakage-control-c2hhzg93ig","title":"Shadow model production leakage control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-validation-finding-severity-customer-clock-dmfsawrhdg","title":"Validation finding severity customer clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cross-model-correlation-assumption-register-y3jvc3mtbw","title":"Cross-model correlation assumption register","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-monitoring-alert-fatigue-review-bw9kzwwgbw","title":"Model monitoring alert fatigue review","shelfTag":"frm-encyclopedia"}
+{"id":"frm-expert-judgment-model-hybrid-governance-zxhwzxj0ig","title":"Expert judgment model hybrid governance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trade-pricing-library-version-pin-risk-dhjhzgugch","title":"Trade pricing library version pin risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-probability-weighted-scenario-model-risk-chjvymfiaw","title":"Probability weighted scenario model risk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-of-spreadsheet-end-user-compute-bw9kzwwgcm","title":"Model risk of spreadsheet end-user compute","shelfTag":"frm-encyclopedia"}
+{"id":"frm-outcome-analysis-versus-development-population-b3v0y29tzs","title":"Outcome analysis versus development population","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-committee-escalation-matrix-bw9kzwwgcm","title":"Model risk committee escalation matrix","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sensitivity-tornado-for-material-models-c2vuc2l0ax","title":"Sensitivity tornado for material models","shelfTag":"frm-encyclopedia"}
+{"id":"frm-replicate-compute-environment-for-validation-cmvwbgljyx","title":"Replicate compute environment for validation","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-in-aggregation-and-allocation-bw9kzwwgcm","title":"Model risk in aggregation and allocation","shelfTag":"frm-encyclopedia"}
+{"id":"frm-post-model-adjustment-board-visibility-cg9zdc1tb2","title":"Post-model adjustment board visibility","shelfTag":"frm-encyclopedia"}
+{"id":"frm-champion-model-access-production-control-y2hhbxbpb2","title":"Champion model access production control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-time-series-stationarity-break-protocol-dgltzs1zzx","title":"Time-series stationarity break protocol","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-insurance-pricing-feedback-loop-bw9kzwwgcm","title":"Model risk insurance pricing feedback loop","shelfTag":"frm-encyclopedia"}
+{"id":"frm-external-credit-rating-model-use-limits-zxh0zxjuyw","title":"External credit rating model use limits","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-validation-sampling-for-low-default-bw9kzwwgdm","title":"Model validation sampling for low-default","shelfTag":"frm-encyclopedia"}
+{"id":"frm-hyperparameter-change-control-for-ml-ahlwzxjwyx","title":"Hyperparameter change control for ML","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-metric-source-system-attest-cmlzaybhch","title":"Risk appetite metric source system attest","shelfTag":"frm-encyclopedia"}
+{"id":"frm-limit-framework-hierarchy-consistency-test-bgltaxqgzn","title":"Limit framework hierarchy consistency test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-breach-remediation-evidence-closure-pack-ynjlywnoih","title":"Breach remediation evidence closure pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-committee-skills-matrix-annual-cmlzaybjb2","title":"Risk committee skills matrix annual","shelfTag":"frm-encyclopedia"}
+{"id":"frm-delegated-credit-authority-utilisation-review-zgvszwdhdg","title":"Delegated credit authority utilisation review","shelfTag":"frm-encyclopedia"}
+{"id":"frm-three-lines-role-clarity-conflict-log-dghyzwugbg","title":"Three lines role clarity conflict log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-policy-exception-board-threshold-cmlzaybwb2","title":"Risk policy exception board threshold","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cro-independent-reporting-line-evidence-y3jvigluzg","title":"CRO independent reporting line evidence","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-data-aggregation-principle-self-assess-cmlzaybkyx","title":"Risk data aggregation principle self-assess","shelfTag":"frm-encyclopedia"}
+{"id":"frm-new-product-approval-risk-gate-packet-bmv3ihbyb2","title":"New product approval risk gate packet","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-culture-consequence-management-link-cmlzaybjdw","title":"Risk culture consequence management link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-training-curriculum-attest-ym9hcmqgcm","title":"Board risk training curriculum attest","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-limit-temporary-elevation-control-cmlzaybsaw","title":"Risk limit temporary elevation control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-capital-contingency-trigger-playbook-link-y2fwaxrhbc","title":"Capital contingency trigger playbook link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-report-distribution-insider-list-cmlzaybyzx","title":"Risk report distribution insider list","shelfTag":"frm-encyclopedia"}
+{"id":"frm-material-risk-concentrator-owner-map-bwf0zxjpyw","title":"Material risk concentrator owner map","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-qualitative-to-decision-test-cmlzaybhch","title":"Risk appetite qualitative to decision test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-group-versus-solo-risk-appetite-recon-z3jvdxagdm","title":"Group versus solo risk appetite recon","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-calendar-regulatory-blackout-cmlzaybnb3","title":"Risk governance calendar regulatory blackout","shelfTag":"frm-encyclopedia"}
+{"id":"frm-second-line-challenge-kpi-substance-rate-c2vjb25klw","title":"Second-line challenge KPI substance rate","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-strategy-cascade-to-business-okrs-cmlzaybzdh","title":"Risk strategy cascade to business OKRs","shelfTag":"frm-encyclopedia"}
+{"id":"frm-incident-to-appetite-impact-assessment-aw5jawrlbn","title":"Incident to appetite impact assessment","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cross-border-booking-risk-governance-pack-y3jvc3mtym","title":"Cross-border booking risk governance pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-disclosure-consistency-across-reports-cmlzaybkax","title":"Risk disclosure consistency across reports","shelfTag":"frm-encyclopedia"}
+{"id":"frm-outsourced-risk-decision-rights-matrix-b3v0c291cm","title":"Outsourced risk decision rights matrix","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-breach-customer-fairness-test-cmlzaybhch","title":"Risk appetite breach customer fairness test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-deep-dive-action-tracking-system-ym9hcmqgzg","title":"Board deep-dive action tracking system","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-mi-definition-dictionary-cmlzaybnb3","title":"Risk governance MI definition dictionary","shelfTag":"frm-encyclopedia"}
+{"id":"frm-capital-allocation-risk-adjusted-challenge-y2fwaxrhbc","title":"Capital allocation risk-adjusted challenge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-committee-private-session-minutes-cmlzaybjb2","title":"Risk committee private session minutes","shelfTag":"frm-encyclopedia"}
+{"id":"frm-emerging-risk-disposition-30-day-rule-zw1lcmdpbm","title":"Emerging risk disposition 30-day rule","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-attestation-false-comfort-cmlzaybnb3","title":"Risk governance attestation false comfort","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trader-mandate-versus-product-inventory-dhjhzgvyig","title":"Trader mandate versus product inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-function-resource-adequacy-board-view-cmlzaybmdw","title":"Risk function resource adequacy board view","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sanction-risk-appetite-interaction-memo-c2fuy3rpb2","title":"Sanction risk appetite interaction memo","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-for-recovery-and-resolution-cmlzaybnb3","title":"Risk governance for recovery and resolution","shelfTag":"frm-encyclopedia"}
+{"id":"frm-internal-risk-rating-system-governance-aw50zxjuyw","title":"Internal risk rating system governance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-unused-headroom-report-cmlzaybhch","title":"Risk appetite unused headroom report","shelfTag":"frm-encyclopedia"}
+{"id":"frm-steering-committee-risk-decision-log-c3rlzxjpbm","title":"Steering committee risk decision log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-cloud-exit-clause-test-cmlzaybnb3","title":"Risk governance cloud exit clause test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-pack-page-provenance-ym9hcmqgcm","title":"Board risk pack page provenance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-limit-excess-auto-notify-compliance-cmlzaybsaw","title":"Risk limit excess auto-notify compliance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-group-risk-policy-local-adoption-gap-z3jvdxagcm","title":"Group risk policy local adoption gap","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-whistleblowing-interface-cmlzaybnb3","title":"Risk governance whistleblowing interface","shelfTag":"frm-encyclopedia"}
+{"id":"frm-capital-and-liquidity-joint-governance-forum-y2fwaxrhbc","title":"Capital and liquidity joint governance forum","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-model-of-three-lines-update-cmlzaybnb3","title":"Risk governance model of three lines update","shelfTag":"frm-encyclopedia"}
+{"id":"frm-material-outsourcing-risk-committee-approve-bwf0zxjpyw","title":"Material outsourcing risk committee approve","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-calibration-to-strategy-cycle-cmlzaybhch","title":"Risk appetite calibration to strategy cycle","shelfTag":"frm-encyclopedia"}
+{"id":"frm-desk-mandate-market-risk-factor-whitelist-zgvzaybtyw","title":"Desk mandate market risk factor whitelist","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-evidence-retention-clock-cmlzaybnb3","title":"Risk governance evidence retention clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-appetite-hard-versus-soft-train-ym9hcmqgcm","title":"Board risk appetite hard versus soft train","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-kpi-gaming-detection-cmlzaybnb3","title":"Risk governance KPI gaming detection","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cross-risk-concentration-executive-owner-y3jvc3mtcm","title":"Cross-risk concentration executive owner","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-change-the-bank-portfolio-cmlzaybnb3","title":"Risk governance change-the-bank portfolio","shelfTag":"frm-encyclopedia"}
+{"id":"frm-limit-monitoring-clock-under-system-outage-bgltaxqgbw","title":"Limit monitoring clock under system outage","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-customer-duty-interaction-cmlzaybnb3","title":"Risk governance customer duty interaction","shelfTag":"frm-encyclopedia"}
+{"id":"frm-independent-price-verification-governance-aw5kzxblbm","title":"Independent price verification governance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-for-algorithmic-trading-cmlzaybnb3","title":"Risk governance for algorithmic trading","shelfTag":"frm-encyclopedia"}
+{"id":"frm-strategic-risk-early-warning-board-metric-c3ryyxrlz2","title":"Strategic risk early-warning board metric","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-lessons-from-peer-events-cmlzaybnb3","title":"Risk governance lessons from peer events","shelfTag":"frm-encyclopedia"}
+{"id":"frm-capital-distribution-risk-capacity-test-y2fwaxrhbc","title":"Capital distribution risk capacity test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-data-ethics-overlay-cmlzaybnb3","title":"Risk governance data ethics overlay","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-appetite-reverse-stress-link-ym9hcmqgcm","title":"Board risk appetite reverse stress link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-dual-hatting-register-cmlzaybnb3","title":"Risk governance dual-hatting register","shelfTag":"frm-encyclopedia"}
+{"id":"frm-material-risk-take-onboarding-gate-bwf0zxjpyw","title":"Material risk take onboarding gate","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-metrics-audit-trail-immutable-cmlzaybnb3","title":"Risk governance metrics audit trail immutable","shelfTag":"frm-encyclopedia"}
+{"id":"frm-internal-capital-adequacy-action-tracker-aw50zxjuyw","title":"Internal capital adequacy action tracker","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-climate-transition-owner-cmlzaybnb3","title":"Risk governance climate transition owner","shelfTag":"frm-encyclopedia"}
+{"id":"frm-limit-breach-notification-customer-impact-bgltaxqgyn","title":"Limit breach notification customer impact","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-for-recovery-options-menu-cmlzaybnb3","title":"Risk governance for recovery options menu","shelfTag":"frm-encyclopedia"}
+{"id":"frm-second-line-hiring-independence-from-1lod-c2vjb25klw","title":"Second-line hiring independence from 1LOD","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-cascade-system-encoding-test-cmlzaybhch","title":"Risk appetite cascade system encoding test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-pack-assumption-cite-control-ym9hcmqgcm","title":"Board risk pack assumption cite control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-regulatory-q-a-log-cmlzaybnb3","title":"Risk governance regulatory Q&A log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-enterprise-risk-taxonomy-change-impact-zw50zxjwcm","title":"Enterprise risk taxonomy change impact","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-overtime-fatigue-indicator-cmlzaybnb3","title":"Risk governance overtime fatigue indicator","shelfTag":"frm-encyclopedia"}
+{"id":"frm-material-model-go-live-board-notification-bwf0zxjpyw","title":"Material model go-live board notification","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-conflict-of-interest-map-cmlzaybnb3","title":"Risk governance conflict of interest map","shelfTag":"frm-encyclopedia"}
+{"id":"frm-crisis-management-team-risk-role-cards-y3jpc2lzig","title":"Crisis management team risk role cards","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-evidence-of-tone-challenges-cmlzaybnb3","title":"Risk governance evidence of tone challenges","shelfTag":"frm-encyclopedia"}
+{"id":"frm-portfolio-risk-vs-name-risk-governance-split-cg9ydgzvbg","title":"Portfolio risk vs name risk governance split","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-for-stressed-product-exit-cmlzaybnb3","title":"Risk governance for stressed product exit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-inter-affiliate-risk-transfer-governance-aw50zxityw","title":"Inter-affiliate risk transfer governance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-metric-parallel-run-rule-cmlzaybnb3","title":"Risk governance metric parallel run rule","shelfTag":"frm-encyclopedia"}
+{"id":"frm-desk-closure-risk-residual-acceptance-zgvzaybjbg","title":"Desk closure risk residual acceptance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-open-source-model-use-cmlzaybnb3","title":"Risk governance open-source model use","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-appetite-multilingual-consistency-ym9hcmqgcm","title":"Board risk appetite multilingual consistency","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-surveillance-to-desk-limits-cmlzaybnb3","title":"Risk governance surveillance to desk limits","shelfTag":"frm-encyclopedia"}
+{"id":"frm-capital-planning-risk-constraint-register-y2fwaxrhbc","title":"Capital planning risk constraint register","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-black-box-vendor-exit-test-cmlzaybnb3","title":"Risk governance black-box vendor exit test","shelfTag":"frm-encyclopedia"}
+{"id":"frm-limit-framework-product-onboarding-checklist-bgltaxqgzn","title":"Limit framework product onboarding checklist","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-governance-near-miss-board-visibility-cmlzaybnb3","title":"Risk governance near-miss board visibility","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-function-quality-assurance-sampling-cmlzaybmdw","title":"Risk function quality assurance sampling","shelfTag":"frm-encyclopedia"}
+{"id":"frm-strategic-initiative-risk-capacity-reservation-c3ryyxrlz2","title":"Strategic initiative risk capacity reservation","shelfTag":"frm-encyclopedia"}
+{"id":"crma-incident-risk-recon-control-aw5jawrlbn","title":"Incident risk recon control","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-taxonomy-version-freeze-before-board-pack-cmlzayb0yx","title":"Risk taxonomy version freeze before board pack","shelfTag":"crma-encyclopedia"}
+{"id":"crma-three-lines-collaboration-calendar-conflict-test-dghyzwugbg","title":"Three lines collaboration calendar conflict test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-event-near-miss-threshold-calibration-cmlzaybldm","title":"Risk event near-miss threshold calibration","shelfTag":"crma-encyclopedia"}
+{"id":"crma-control-library-owner-succession-drill-y29udhjvbc","title":"Control library owner succession drill","shelfTag":"crma-encyclopedia"}
+{"id":"crma-board-risk-appetite-traffic-light-legend-audit-ym9hcmqgcm","title":"Board risk appetite traffic-light legend audit","shelfTag":"crma-encyclopedia"}
+{"id":"crma-emerging-risk-horizon-scan-evidence-pack-zw1lcmdpbm","title":"Emerging risk horizon scan evidence pack","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-acceptance-monetary-band-consistency-cmlzaybhy2","title":"Risk acceptance monetary band consistency","shelfTag":"crma-encyclopedia"}
+{"id":"crma-kri-false-positive-rate-quarterly-review-a3jpigzhbh","title":"KRI false-positive rate quarterly review","shelfTag":"crma-encyclopedia"}
+{"id":"crma-second-line-challenge-effectiveness-sample-c2vjb25klw","title":"Second-line challenge effectiveness sample","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-data-lineage-break-ticket-sla-cmlzaybkyx","title":"Risk data lineage break ticket SLA","shelfTag":"crma-encyclopedia"}
+{"id":"crma-outsourced-risk-ownership-raci-evidence-b3v0c291cm","title":"Outsourced risk ownership RACI evidence","shelfTag":"crma-encyclopedia"}
+{"id":"crma-scenario-library-reuse-across-risk-types-c2nlbmfyaw","title":"Scenario library reuse across risk types","shelfTag":"crma-encyclopedia"}
+{"id":"crma-residual-risk-trend-versus-action-closure-cmvzawr1yw","title":"Residual risk trend versus action closure","shelfTag":"crma-encyclopedia"}
+{"id":"crma-control-automation-change-impact-assess-y29udhjvbc","title":"Control automation change impact assess","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-culture-speak-up-to-erm-link-test-cmlzaybjdw","title":"Risk culture speak-up to ERM link test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-reliance-map-annual-refresh-yxnzdxjhbm","title":"Assurance reliance map annual refresh","shelfTag":"crma-encyclopedia"}
+{"id":"crma-material-risk-concentrators-name-list-bwf0zxjpyw","title":"Material risk concentrators name list","shelfTag":"crma-encyclopedia"}
+{"id":"crma-board-deep-dive-agenda-rotation-control-ym9hcmqgzg","title":"Board deep-dive agenda rotation control","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-appetite-cascade-to-product-limits-test-cmlzaybhch","title":"Risk appetite cascade to product limits test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-issue-severity-inflation-sample-review-axnzdwugc2","title":"Issue severity inflation sample review","shelfTag":"crma-encyclopedia"}
+{"id":"crma-erm-and-icaap-assumption-bridge-memo-zxjtigfuzc","title":"ERM and ICAAP assumption bridge memo","shelfTag":"crma-encyclopedia"}
+{"id":"crma-third-party-concentration-board-metric-dghpcmqtcg","title":"Third-party concentration board metric","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-committee-tor-decision-rights-sample-cmlzaybjb2","title":"Risk committee ToR decision rights sample","shelfTag":"crma-encyclopedia"}
+{"id":"crma-control-failure-recurrence-taxonomy-y29udhjvbc","title":"Control failure recurrence taxonomy","shelfTag":"crma-encyclopedia"}
+{"id":"crma-appetite-breach-customer-impact-assess-yxbwzxrpdg","title":"Appetite breach customer impact assess","shelfTag":"crma-encyclopedia"}
+{"id":"crma-model-risk-inventory-erm-crosswalk-bw9kzwwgcm","title":"Model risk inventory ERM crosswalk","shelfTag":"crma-encyclopedia"}
+{"id":"crma-crisis-playbook-desk-top-residual-capture-y3jpc2lzih","title":"Crisis playbook desk-top residual capture","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-report-distribution-list-least-privilege-cmlzaybyzx","title":"Risk report distribution list least-privilege","shelfTag":"crma-encyclopedia"}
+{"id":"crma-key-risk-indicator-leading-versus-lagging-tag-a2v5ihjpc2","title":"Key risk indicator leading versus lagging tag","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-finding-customer-remediation-link-yxnzdxjhbm","title":"Assurance finding customer remediation link","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-capacity-versus-appetite-headroom-chart-cmlzaybjyx","title":"Risk capacity versus appetite headroom chart","shelfTag":"crma-encyclopedia"}
+{"id":"crma-policy-exception-ageing-dashboard-assure-cg9sawn5ig","title":"Policy exception ageing dashboard assure","shelfTag":"crma-encyclopedia"}
+{"id":"crma-intra-group-risk-transfer-documentation-test-aw50cmetz3","title":"Intra-group risk transfer documentation test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-system-access-recertification-sample-cmlzaybzex","title":"Risk system access recertification sample","shelfTag":"crma-encyclopedia"}
+{"id":"crma-strategic-initiative-risk-gate-evidence-c3ryyxrlz2","title":"Strategic initiative risk gate evidence","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-appetite-qualitative-statement-test-cmlzaybhch","title":"Risk appetite qualitative statement test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-combined-assurance-heatmap-reconciliation-y29tymluzw","title":"Combined assurance heatmap reconciliation","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-owner-performance-objective-link-cmlzaybvd2","title":"Risk owner performance objective link","shelfTag":"crma-encyclopedia"}
+{"id":"crma-external-environment-scan-to-register-sla-zxh0zxjuyw","title":"External environment scan to register SLA","shelfTag":"crma-encyclopedia"}
+{"id":"crma-liquidity-risk-appetite-ops-translation-bglxdwlkax","title":"Liquidity risk appetite ops translation","shelfTag":"crma-encyclopedia"}
+{"id":"crma-fraud-risk-scenario-customer-cohort-cut-znjhdwqgcm","title":"Fraud risk scenario customer cohort cut","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-committee-papers-assumption-appendix-cmlzaybjb2","title":"Risk committee papers assumption appendix","shelfTag":"crma-encyclopedia"}
+{"id":"crma-control-design-versus-operating-effectiveness-split-y29udhjvbc","title":"Control design versus operating effectiveness split","shelfTag":"crma-encyclopedia"}

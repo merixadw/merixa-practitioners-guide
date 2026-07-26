@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-07-23T17:56:24.874Z",
+  "before": 5919,
+  "after": 2974,
+  "families": 2828,
+  "familiesWithClones": 324,
+  "cloneCount": 3019,
+  "keptLenses": 74,
+  "quarantineCount": 2945,
+  "visibleAfter": 2974,
+  "cullShareOfClones": 0.975,
+  "pathStats": {
+    "filesUpdated": 1,
+    "stepsRemapped": 517,
+    "stepsDropped": 0
+  },
+  "quarantinedSample": [
+    {
+      "id": "project-enc-abandonment-option-value-post-implementation-review",
+      "title": "Abandonment option value — post-implementation review"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-change-control-gate",
+      "title": "Abandonment option value — change-control gate"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-risk-register-link",
+      "title": "Abandonment option value — risk register link"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-workplace-evidence",
+      "title": "Abandonment option value — workplace evidence"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-stress-test-trap",
+      "title": "Abandonment option value — stress-test trap"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-board-pack-view",
+      "title": "Abandonment option value — board pack view"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-close-checklist",
+      "title": "Abandonment option value — close checklist"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-disclosure-note",
+      "title": "Abandonment option value — disclosure note"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-assurance-lens",
+      "title": "Abandonment option value — assurance lens"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-judgement-call",
+      "title": "Abandonment option value — judgement call"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-decision-memo",
+      "title": "Abandonment option value — decision memo"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-control-test",
+      "title": "Abandonment option value — control test"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-cash-impact",
+      "title": "Abandonment option value — cash impact"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-kpi-bridge",
+      "title": "Abandonment option value — KPI bridge"
+    },
+    {
+      "id": "project-enc-abandonment-option-value-owner-map",
+      "title": "Abandonment option value — owner map"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-post-implementation-review-ywnjb3vudg",
+      "title": "Accounting estimate testing — post-implementation review"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-change-control-gate-ywnjb3vudg",
+      "title": "Accounting estimate testing — change-control gate"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-risk-register-link-ywnjb3vudg",
+      "title": "Accounting estimate testing — risk register link"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-workplace-evidence-ywnjb3vudg",
+      "title": "Accounting estimate testing — workplace evidence"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-stress-test-trap-ywnjb3vudg",
+      "title": "Accounting estimate testing — stress-test trap"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-board-pack-view-ywnjb3vudg",
+      "title": "Accounting estimate testing — board pack view"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-close-checklist-ywnjb3vudg",
+      "title": "Accounting estimate testing — close checklist"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-disclosure-note-ywnjb3vudg",
+      "title": "Accounting estimate testing — disclosure note"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-assurance-lens-ywnjb3vudg",
+      "title": "Accounting estimate testing — assurance lens"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-judgement-call-ywnjb3vudg",
+      "title": "Accounting estimate testing — judgement call"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-decision-memo-ywnjb3vudg",
+      "title": "Accounting estimate testing — decision memo"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-control-test-ywnjb3vudg",
+      "title": "Accounting estimate testing — control test"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-cash-impact-ywnjb3vudg",
+      "title": "Accounting estimate testing — cash impact"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-kpi-bridge-ywnjb3vudg",
+      "title": "Accounting estimate testing — KPI bridge"
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-owner-map-ywnjb3vudg",
+      "title": "Accounting estimate testing — owner map"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-post-implementation-review-ywnjcnvhbh",
+      "title": "Accruals for project progress — post-implementation review"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-risk-register-link-ywnjcnvhbh",
+      "title": "Accruals for project progress — risk register link"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-workplace-evidence",
+      "title": "Accruals for project progress — workplace evidence"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-stress-test-trap-ywnjcnvhbh",
+      "title": "Accruals for project progress — stress-test trap"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-board-pack-view",
+      "title": "Accruals for project progress — board pack view"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-close-checklist",
+      "title": "Accruals for project progress — close checklist"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-disclosure-note-ywnjcnvhbh",
+      "title": "Accruals for project progress — disclosure note"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-assurance-lens-ywnjcnvhbh",
+      "title": "Accruals for project progress — assurance lens"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-judgement-call-ywnjcnvhbh",
+      "title": "Accruals for project progress — judgement call"
+    },
+    {
+      "id": "project-enc-accruals-for-project-progress-decision-memo-ywnjcnvhbh",
+      "title": "Accruals for project progress — decision memo"
+    }
+  ]
+}

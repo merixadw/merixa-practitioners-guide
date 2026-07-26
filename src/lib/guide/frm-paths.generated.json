@@ -1,0 +1,398 @@
+[
+  {
+    "id": "frm-path-foundations",
+    "title": "Foundations of risk management",
+    "summary": "Risk types, governance, appetite, and enterprise risk framework.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "foundations-s1",
+        "title": "Enterprise risk management",
+        "summary": "Enterprise risk management (ERM) is the coordinated identification, assessment, response, and monitoring of risks…",
+        "cardId": "frm-enterprise-risk"
+      },
+      {
+        "id": "foundations-s2",
+        "title": "Risk appetite",
+        "summary": "Risk appetite is the amount and type of risk an organisation is willing to pursue or retain to achieve objectives. It…",
+        "cardId": "frm-risk-appetite"
+      },
+      {
+        "id": "foundations-s3",
+        "title": "Market, credit, liquidity, and operational risk",
+        "summary": "Market risk is loss from price moves; credit risk from counterparty default; liquidity risk from inability to fund or…",
+        "cardId": "frm-risk-types"
+      },
+      {
+        "id": "foundations-s4",
+        "title": "Three lines of defence",
+        "summary": "First line owns and manages risk; second line sets standards and challenges; third line provides independent…",
+        "cardId": "frm-three-lines"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-quant",
+    "title": "Quantitative analysis",
+    "summary": "Probability, statistics, regression, and distributions for risk measurement.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "quant-s1",
+        "title": "Expected value",
+        "summary": "The expected value is the probability-weighted average of outcomes. It summarises a discrete or continuous random…",
+        "cardId": "frm-expected-value"
+      },
+      {
+        "id": "quant-s2",
+        "title": "Variance and standard deviation",
+        "summary": "Variance measures dispersion around the mean; standard deviation is its square root. Both quantify uncertainty in…",
+        "cardId": "frm-variance"
+      },
+      {
+        "id": "quant-s3",
+        "title": "Covariance and correlation",
+        "summary": "Covariance measures co-movement of two variables; correlation scales it to −1 to +1 for…",
+        "cardId": "frm-covariance-correlation"
+      },
+      {
+        "id": "quant-s4",
+        "title": "Linear regression and beta",
+        "summary": "Linear regression estimates the relationship between a dependent variable and factors. Beta in CAPM is the slope of…",
+        "cardId": "frm-regression-beta"
+      },
+      {
+        "id": "quant-s5",
+        "title": "Normal distribution",
+        "summary": "The normal distribution is symmetric and defined by mean μ and standard deviation σ. Many short-horizon models assume…",
+        "cardId": "frm-normal-distribution"
+      },
+      {
+        "id": "quant-s6",
+        "title": "Lognormal distribution",
+        "summary": "If ln(X) is normal, X is lognormal — common for asset prices and multiplicative growth. It avoids negative prices in…",
+        "cardId": "frm-lognormal"
+      },
+      {
+        "id": "quant-s7",
+        "title": "Bayes' theorem",
+        "summary": "Bayes updates prior beliefs with new evidence: posterior ∝ likelihood × prior. Used in credit scoring and fraud…",
+        "cardId": "frm-bayes"
+      },
+      {
+        "id": "quant-s8",
+        "title": "Monte Carlo simulation",
+        "summary": "Monte Carlo generates many random paths to estimate distribution of outcomes. Used when closed-form solutions do not…",
+        "cardId": "frm-monte-carlo"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-markets",
+    "title": "Financial markets and products",
+    "summary": "Forwards, futures, swaps, options, and fixed income fundamentals.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "markets-s1",
+        "title": "Forwards and futures",
+        "summary": "A forward commits to buy/sell at a future date at a price fixed today. Futures are exchange-traded, margined…",
+        "cardId": "frm-forward-future"
+      },
+      {
+        "id": "markets-s2",
+        "title": "Interest rate swap",
+        "summary": "An IRS exchanges fixed for floating interest payments on a notional. Used to transform fixed/floating exposure without…",
+        "cardId": "frm-interest-rate-swap"
+      },
+      {
+        "id": "markets-s3",
+        "title": "Duration and modified duration",
+        "summary": "Macaulay duration is weighted average time to cash flows. Modified duration estimates percentage price change per unit…",
+        "cardId": "frm-duration-modified"
+      },
+      {
+        "id": "markets-s4",
+        "title": "Convexity",
+        "summary": "Convexity captures curvature in the price-yield relationship. It improves duration-based estimates for larger rate…",
+        "cardId": "frm-convexity"
+      },
+      {
+        "id": "markets-s5",
+        "title": "DV01 (dollar value of a basis point)",
+        "summary": "DV01 is the change in portfolio value for a 1 basis point parallel shift in rates. Primary interest rate sensitivity…",
+        "cardId": "frm-dv01"
+      },
+      {
+        "id": "markets-s6",
+        "title": "Put-call parity",
+        "summary": "Put-call parity links European call, put, spot, and strike with a bond: C − P = S −…",
+        "cardId": "frm-put-call-parity"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-valuation",
+    "title": "Valuation and risk models",
+    "summary": "Option pricing, Greeks, and model assumptions.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "valuation-s1",
+        "title": "Black-Scholes model",
+        "summary": "Black-Scholes prices European options assuming lognormal prices, constant volatility, and continuous trading. It…",
+        "cardId": "frm-black-scholes"
+      },
+      {
+        "id": "valuation-s2",
+        "title": "Delta",
+        "summary": "Delta is the sensitivity of option value to underlying price. It approximates the hedge ratio for small…",
+        "cardId": "frm-delta"
+      },
+      {
+        "id": "valuation-s3",
+        "title": "Gamma",
+        "summary": "Gamma is the rate of change of delta with respect to spot. High gamma needs frequent…",
+        "cardId": "frm-gamma"
+      },
+      {
+        "id": "valuation-s4",
+        "title": "Vega",
+        "summary": "Vega measures sensitivity to implied volatility. Long options are typically…",
+        "cardId": "frm-vega"
+      },
+      {
+        "id": "valuation-s5",
+        "title": "Theta",
+        "summary": "Theta is time decay — change in option value as maturity approaches, all else…",
+        "cardId": "frm-theta"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-market-risk",
+    "title": "Market risk measurement",
+    "summary": "VaR, expected shortfall, backtesting, and stress testing.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "market-risk-s1",
+        "title": "Value at risk (VaR)",
+        "summary": "VaR is the maximum loss over a horizon at a given confidence level under normal operating conditions. It is a quantile…",
+        "cardId": "frm-var-definition"
+      },
+      {
+        "id": "market-risk-s2",
+        "title": "Parametric VaR",
+        "summary": "Parametric VaR assumes returns are normal (or elliptic): VaR = z_α × σ × exposure, possibly with correlation matrix for…",
+        "cardId": "frm-var-parametric"
+      },
+      {
+        "id": "market-risk-s3",
+        "title": "Historical simulation VaR",
+        "summary": "Historical simulation applies past return scenarios to current positions without assuming a…",
+        "cardId": "frm-var-historical"
+      },
+      {
+        "id": "market-risk-s4",
+        "title": "Expected shortfall (CVaR)",
+        "summary": "Expected shortfall is the average loss given loss exceeds VaR. It captures tail severity beyond the…",
+        "cardId": "frm-expected-shortfall"
+      },
+      {
+        "id": "market-risk-s5",
+        "title": "VaR backtesting",
+        "summary": "Backtesting compares ex-post losses to VaR forecasts. Too many exceptions suggests model underestimates…",
+        "cardId": "frm-backtesting"
+      },
+      {
+        "id": "market-risk-s6",
+        "title": "Stress testing",
+        "summary": "Stress tests apply extreme but plausible shocks to key risk factors. They complement VaR for tail and correlation…",
+        "cardId": "frm-stress-test"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-credit-risk",
+    "title": "Credit risk",
+    "summary": "Default probability, loss given default, exposure, and credit derivatives.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "credit-risk-s1",
+        "title": "Expected loss",
+        "summary": "Expected loss (EL) is the average credit loss: EL = PD × LGD × EAD. It drives provisioning and…",
+        "cardId": "frm-expected-loss"
+      },
+      {
+        "id": "credit-risk-s2",
+        "title": "PD, LGD, and EAD",
+        "summary": "Probability of default (PD) is default likelihood; loss given default (LGD) is loss severity; exposure at default (EAD)…",
+        "cardId": "frm-pd-lgd-ead"
+      },
+      {
+        "id": "credit-risk-s3",
+        "title": "Credit VaR",
+        "summary": "Credit VaR measures potential loss from credit migration and default over a horizon at a confidence level — often…",
+        "cardId": "frm-credit-var"
+      },
+      {
+        "id": "credit-risk-s4",
+        "title": "Credit spread and spread duration",
+        "summary": "Credit spread compensates for default risk. Spread duration measures sensitivity of price to spread…",
+        "cardId": "frm-spread-duration"
+      },
+      {
+        "id": "credit-risk-s5",
+        "title": "Credit valuation adjustment (CVA)",
+        "summary": "CVA is the market value adjustment for counterparty credit risk on derivatives. It reflects expected loss from…",
+        "cardId": "frm-cva"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-liquidity-risk",
+    "title": "Liquidity risk",
+    "summary": "Funding liquidity, market liquidity, LCR, and survival horizons.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "liquidity-risk-s1",
+        "title": "Funding liquidity risk",
+        "summary": "Funding liquidity is the risk of being unable to meet cash obligations without incurring unacceptable…",
+        "cardId": "frm-funding-liquidity"
+      },
+      {
+        "id": "liquidity-risk-s2",
+        "title": "Market liquidity risk",
+        "summary": "Market liquidity risk is the inability to exit positions quickly without moving price…",
+        "cardId": "frm-market-liquidity"
+      },
+      {
+        "id": "liquidity-risk-s3",
+        "title": "Liquidity coverage ratio (LCR)",
+        "summary": "LCR ensures sufficient high-quality liquid assets to survive a 30-day stress. LCR = HQLA / net cash outflows ≥…",
+        "cardId": "frm-lcr"
+      },
+      {
+        "id": "liquidity-risk-s4",
+        "title": "Net stable funding ratio (NSFR)",
+        "summary": "NSFR matches stable funding to illiquid assets over one year. NSFR = available stable funding / required stable funding…",
+        "cardId": "frm-nsfr"
+      },
+      {
+        "id": "liquidity-risk-s5",
+        "title": "Survival horizon",
+        "summary": "Survival horizon is how long the firm can operate under stress before cash runs out. It complements regulatory…",
+        "cardId": "frm-survival-horizon"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-operational-risk",
+    "title": "Operational risk",
+    "summary": "Loss events, control frameworks, and regulatory capital approaches.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "operational-risk-s1",
+        "title": "Operational risk",
+        "summary": "Operational risk is loss from failed internal processes, people, systems, or external events. It includes legal and…",
+        "cardId": "frm-operational-risk-def"
+      },
+      {
+        "id": "operational-risk-s2",
+        "title": "Loss distribution approach (LDA)",
+        "summary": "LDA fits frequency and severity distributions to operational loss data and aggregates via Monte Carlo for…",
+        "cardId": "frm-loss-distribution"
+      },
+      {
+        "id": "operational-risk-s3",
+        "title": "Risk and control self-assessment",
+        "summary": "RCSA documents risks, controls, and residual ratings from business owners. It feeds operational risk…",
+        "cardId": "frm-rcsa"
+      },
+      {
+        "id": "operational-risk-s4",
+        "title": "Key risk indicators (operational)",
+        "summary": "Operational KRIs are forward-looking metrics signalling rising loss probability — failed trades, system downtime, staff…",
+        "cardId": "frm-kri-op-risk"
+      }
+    ]
+  },
+  {
+    "id": "frm-path-portfolio",
+    "title": "Portfolio management and performance",
+    "summary": "CAPM, Sharpe, tracking error, and portfolio risk decomposition.",
+    "bodies": [
+      "FRM",
+      "CFA",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "portfolio-s1",
+        "title": "Sharpe ratio",
+        "summary": "Sharpe ratio is excess return per unit of total risk: (R_p − R_f) / σ_p. It ranks portfolios on risk-adjusted…",
+        "cardId": "frm-sharpe-ratio"
+      },
+      {
+        "id": "portfolio-s2",
+        "title": "Treynor ratio",
+        "summary": "Treynor uses systematic risk (beta) instead of total risk. Suitable when portfolio is well…",
+        "cardId": "frm-treynor-ratio"
+      },
+      {
+        "id": "portfolio-s3",
+        "title": "Tracking error",
+        "summary": "Tracking error is the standard deviation of active returns versus a benchmark. It measures consistency of active…",
+        "cardId": "frm-tracking-error"
+      },
+      {
+        "id": "portfolio-s4",
+        "title": "Information ratio",
+        "summary": "Information ratio is active return divided by tracking error — alpha per unit of active…",
+        "cardId": "frm-information-ratio"
+      },
+      {
+        "id": "portfolio-s5",
+        "title": "Portfolio variance",
+        "summary": "Portfolio variance combines individual variances and covariances: σ_p² = w'Σw. Diversification reduces risk when ρ <…",
+        "cardId": "frm-portfolio-variance"
+      }
+    ]
+  }
+]

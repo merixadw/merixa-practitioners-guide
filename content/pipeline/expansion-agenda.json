@@ -1,0 +1,88 @@
+{
+  "topics": [
+    {
+      "id": "tax-reporting-close",
+      "title": "Tax in the reporting close",
+      "bodies": ["ACCA", "IFRS", "FRC"],
+      "stepCount": 5,
+      "hint": "Current tax, deferred tax, ETR reconciliation, and uncertain positions in the close pack — practitioner workplace, not exam prep."
+    },
+    {
+      "id": "transfer-pricing-governance",
+      "title": "Transfer pricing and group tax governance",
+      "bodies": ["ACCA", "IFRS", "IIA"],
+      "stepCount": 5,
+      "hint": "Documentation, intercompany recharge, and audit committee oversight of tax risk."
+    },
+    {
+      "id": "sustainability-disclosure-bridge",
+      "title": "Sustainability metrics to financial statements",
+      "bodies": ["IFRS", "ACCA", "CFA"],
+      "stepCount": 5,
+      "hint": "Materiality, climate risk, emissions boundaries, and disclosure controls — finance-owned datapack."
+    },
+    {
+      "id": "project-benefits-realisation",
+      "title": "Project delivery — business case to benefits",
+      "bodies": ["CGMA", "ACCA", "IIA"],
+      "stepCount": 4,
+      "hint": "Stage gates, variance control, and post-go-live benefits evidence for finance owners."
+    },
+    {
+      "id": "controls-three-lines",
+      "title": "Three lines and control assurance",
+      "bodies": ["IIA", "CRMA", "ACCA", "FRC"],
+      "stepCount": 5,
+      "hint": "Control environment, RCM, monitoring, and CRMA-style assurance — cross-body breadth."
+    },
+    {
+      "id": "audit-evidence-trail",
+      "title": "Audit evidence and analytical procedures",
+      "bodies": ["ACCA", "IIA", "FRC"],
+      "stepCount": 5,
+      "hint": "From materiality through substantive workpapers to going concern — workplace audit lens."
+    },
+    {
+      "id": "frm-credit-liquidity-stress",
+      "title": "Credit, liquidity, and stress testing",
+      "bodies": ["FRM", "CFA", "CRMA"],
+      "stepCount": 5,
+      "hint": "Market and credit risk measures with stress scenarios for treasury and risk committees."
+    },
+    {
+      "id": "management-pack-variance",
+      "title": "Management pack — variance and rolling forecast",
+      "bodies": ["CGMA", "ACCA", "CFA"],
+      "stepCount": 4,
+      "hint": "Contribution margin, variance bridges, and rolling forecast discipline for MI owners."
+    },
+    {
+      "id": "covenant-liquidity-bridge",
+      "title": "Covenants and liquidity — reporting to risk",
+      "bodies": ["IFRS", "FRM", "CFA", "ACCA"],
+      "stepCount": 5,
+      "hint": "Stitch balance-sheet covenant headroom, cash forecast, and liquidity risk limits across bodies."
+    },
+    {
+      "id": "revenue-quality-controls",
+      "title": "Revenue quality and control evidence",
+      "bodies": ["IFRS", "IIA", "ACCA"],
+      "stepCount": 5,
+      "hint": "From revenue recognition judgement through control evidence and audit trail."
+    },
+    {
+      "id": "capital-allocation-pack",
+      "title": "Capital allocation in the management pack",
+      "bodies": ["CGMA", "CFA", "FRM"],
+      "stepCount": 4,
+      "hint": "Link strategic capital choices, hurdle rates, and risk-adjusted returns in a board-ready narrative."
+    },
+    {
+      "id": "cfa-frm-valuation-risk",
+      "title": "Valuation meets risk measurement",
+      "bodies": ["CFA", "FRM", "ACCA"],
+      "stepCount": 5,
+      "hint": "WACC, VaR, duration, and model risk for investment and risk teams working from the same pack."
+    }
+  ]
+}

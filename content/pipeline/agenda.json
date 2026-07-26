@@ -1,0 +1,887 @@
+{
+  "generatedAt": "2026-07-22T12:07:12.674Z",
+  "version": 1,
+  "summary": {
+    "librarian": 24,
+    "scholar": 24,
+    "researcher": 21,
+    "teacher": 24,
+    "total": 93
+  },
+  "stages": {
+    "librarian": [
+      {
+        "action": "reclassify",
+        "priority": 5,
+        "sourceId": "src-fa46bb17ad",
+        "source": "Merixa x Codex/Financial Reporting/BS/Corporate Income Tax & deferred tax.pdf",
+        "topicKey": "Financial reporting | Tax",
+        "reason": "Priority catalog for gap topic Financial reporting | Tax",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 4,
+        "sourceId": "src-0c91debf26",
+        "source": "Merixa x Codex/Strategic Management/1-s2.0-S1364032115004025-main.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Reclassify source involved in conflict/gap study",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 4,
+        "sourceId": "src-0220484329",
+        "source": "Merixa x Codex/Financial Reporting/14715_16536 - Finance.pdf",
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Reclassify source involved in conflict/gap study",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 4,
+        "sourceId": "src-ca0d27bdce",
+        "source": "Merixa x Codex/Financial Reporting/Group Reporting/Accounting for quotas and CO2 emissions.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Reclassify source involved in conflict/gap study",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 4,
+        "sourceId": "src-ee8db074a9",
+        "source": "Merixa x Codex/Financial Reporting/Amendments_to_FRS_102_The_Financial_Reporting_Standard_applicable_in_the_UK_and_Republic_of_Ireland_and_FRS_105_The_Financial_9cWQBwA.pdf",
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Reclassify source involved in conflict/gap study",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 3,
+        "sourceId": "src-268c721e85",
+        "source": "Merixa x Codex/Financial Reporting/BS/Accrued expenses.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Priority catalog for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 3,
+        "sourceId": "src-278ca5b5ae",
+        "source": "Merixa x Codex/Financial Reporting/Group Reporting/Cash Indicators.pdf",
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Priority catalog for gap topic Management reporting | Cash and liquidity",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 3,
+        "sourceId": "src-416a510cda",
+        "source": "Merixa x Codex/Financial Reporting/General/Corporate trading.pdf",
+        "topicKey": "Risk management | Risk assessment",
+        "reason": "Priority catalog for gap topic Risk management | Risk assessment",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-4168124f59",
+        "source": "Merixa x Codex/Project Management/3-) Project Planning and Control Class/Project management plan/1.docx",
+        "topicKey": "Governance and controls | Consolidation",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-dfe07741b2",
+        "source": "Merixa x Codex/Financial Reporting/27932_32373 - Finance.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-7935beac3d",
+        "source": "Merixa x Codex/Financial Reporting/BS/519 - Short term bank advances.pdf",
+        "topicKey": "Financial reporting | Financial instruments",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-060d89f7d6",
+        "source": "Merixa x Codex/Financial Reporting/BS/Accrued interest.pdf",
+        "topicKey": "Financial reporting | Financial instruments",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-506a64b61e",
+        "source": "Merixa x Codex/Financial Reporting/SIF/B55.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-cec4dedcb8",
+        "source": "Merixa x Codex/Financial Reporting/SIF/B56.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-91053b5e41",
+        "source": "Merixa x Codex/Project Management/1-) Project Management Class/BILKENT WBS .pdf",
+        "topicKey": "Project delivery | Project controls",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-872df956c8",
+        "source": "Merixa x Codex/Project Management/1-) Project Management Class/BILKENT WBS  (2).pdf",
+        "topicKey": "Project delivery | Project controls",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-83be3fef56",
+        "source": "Merixa x Codex/Financial Reporting/P&L/Bad debt losses.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-8699b008c1",
+        "source": "Merixa x Codex/Financial Reporting/BS/Bank clearing account.pdf",
+        "topicKey": "Financial reporting | Financial instruments",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-2c8d07aaf6",
+        "source": "Merixa x Codex/Financial Reporting/BS/Bill of change.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-fc06101a19",
+        "source": "Merixa x Codex/Financial Reporting/BS/Bonds.pdf",
+        "topicKey": "Financial reporting | Financial instruments",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-7c813d515d",
+        "source": "Merixa x Codex/Financial Reporting/BS/Capital.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-a0d461e20b",
+        "source": "Merixa x Codex/Financial Reporting/BS/Clearing account.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-658042a5c3",
+        "source": "Merixa x Codex/Financial Reporting/BS/Commercial receivable transferred.pdf",
+        "topicKey": "Financial reporting | Cash and liquidity",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      },
+      {
+        "action": "reclassify",
+        "priority": 2,
+        "sourceId": "src-fae0c9db98",
+        "source": "Merixa x Codex/Financial Reporting/BS/Constructions on third party's land.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Low document-level classification confidence",
+        "weekly": true
+      }
+    ],
+    "scholar": [
+      {
+        "action": "deepen",
+        "priority": 6,
+        "sourceId": "src-fa46bb17ad",
+        "source": "Merixa x Codex/Financial Reporting/BS/Corporate Income Tax & deferred tax.pdf",
+        "topicKey": "Financial reporting | Tax",
+        "reason": "Deepen study for gap topic Financial reporting | Tax",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 6,
+        "sourceId": "src-2908c67594",
+        "source": "Merixa x Codex/IFRS/IAS 20 - Accounting for government grants.pdf",
+        "topicKey": "Financial reporting | Government grants",
+        "reason": "Deepen study for gap topic Financial reporting | Government grants",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-0c91debf26",
+        "source": "Merixa x Codex/Strategic Management/1-s2.0-S1364032115004025-main.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Deepen study for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-0220484329",
+        "source": "Merixa x Codex/Financial Reporting/14715_16536 - Finance.pdf",
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Deepen study for gap topic Management reporting | Cash and liquidity",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-ca0d27bdce",
+        "source": "Merixa x Codex/Financial Reporting/Group Reporting/Accounting for quotas and CO2 emissions.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Deepen study for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-268c721e85",
+        "source": "Merixa x Codex/Financial Reporting/BS/Accrued expenses.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Deepen study for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-ee8db074a9",
+        "source": "Merixa x Codex/Financial Reporting/Amendments_to_FRS_102_The_Financial_Reporting_Standard_applicable_in_the_UK_and_Republic_of_Ireland_and_FRS_105_The_Financial_9cWQBwA.pdf",
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Deepen study for gap topic Financial reporting | Governance",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-278ca5b5ae",
+        "source": "Merixa x Codex/Financial Reporting/Group Reporting/Cash Indicators.pdf",
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Deepen study for gap topic Management reporting | Cash and liquidity",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-416a510cda",
+        "source": "Merixa x Codex/Financial Reporting/General/Corporate trading.pdf",
+        "topicKey": "Risk management | Risk assessment",
+        "reason": "Deepen study for gap topic Risk management | Risk assessment",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-40c390899d",
+        "source": "Merixa x Codex/Financial Reporting/BS/Employees - Salaries payable.pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Deepen study for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-e5c0b36d47",
+        "source": "Merixa x Codex/Financial Reporting/BS/Employees (downpayment).pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Deepen study for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-d25f5d84d5",
+        "source": "Merixa x Codex/Financial Reporting/BS/Employees (provisions).pdf",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Deepen study for gap topic Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-8fb33a6422",
+        "source": "Merixa x Codex/Financial Reporting/Explainer_FRS_101_May_2025.pdf",
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Deepen study for gap topic Financial reporting | Governance",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-e8ed55c48d",
+        "source": "Merixa x Codex/Financial Reporting/FRS_100_September_2024.pdf",
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Deepen study for gap topic Financial reporting | Governance",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-a8ddd8e5cd",
+        "source": "Merixa x Codex/Financial Reporting/FRS_103_September_2024_rSi5poe.pdf",
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Deepen study for gap topic Financial reporting | Governance",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-9efd2f9add",
+        "source": "Merixa x Codex/Financial Reporting/General/Factoring.pdf",
+        "topicKey": "Risk management | Risk assessment",
+        "reason": "Deepen study for gap topic Risk management | Risk assessment",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-2d86d8d5cb",
+        "source": "Merixa x Codex/IFRS/IAS 10 - Events after the balance sheet date.pdf",
+        "topicKey": "Financial reporting | Events after the reporting period",
+        "reason": "Deepen study for gap topic Financial reporting | Events after the reporting period",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-f146ee688a",
+        "source": "Merixa x Codex/IFRS/IFRS 8 - Accounting policies, changes in accounting estimates and errors.pdf",
+        "topicKey": "Financial reporting | Segment reporting",
+        "reason": "Deepen study for gap topic Financial reporting | Segment reporting",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 4,
+        "sourceId": "src-bb847e3841",
+        "source": "Merixa_Management_Reporting_Practitioner_Glossary_v2_QA_Rebuilt_Pack/Merixa_Management_Reporting_Practitioner_Glossary_v2_QA_Rebuilt.docx",
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Deepen study for gap topic Management reporting | Cash and liquidity",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 3,
+        "sourceId": "src-0ebdd13484",
+        "source": "Merixa x Codex/Financial Reporting/FRS_101_September_2024_lyJ0Tow.pdf",
+        "topicKey": "Financial reporting | Financial instruments",
+        "reason": "Restudy source tied to classification conflict",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 3,
+        "sourceId": "src-13756bfe33",
+        "source": "Merixa x Codex/Financial Reporting/FRS_102_Illustratives_COMBINED_FY25_FINAL.pdf",
+        "topicKey": "Financial reporting | UK GAAP framework",
+        "reason": "Restudy source tied to classification conflict",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 3,
+        "sourceId": "src-a3427ad464",
+        "source": "Merixa x Codex/Financial Reporting/FRS_Factsheet_12B_Presentation_of_the_financial_statements_rEFrAkiG.pdf",
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Restudy source tied to classification conflict",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 3,
+        "sourceId": "src-ebb557af93",
+        "source": "Merixa x Codex/Financial Reporting/General/Impairment tests – models and procedure.pdf",
+        "topicKey": "Financial reporting | Impairment",
+        "reason": "Restudy source tied to classification conflict",
+        "weekly": true
+      },
+      {
+        "action": "deepen",
+        "priority": 3,
+        "sourceId": "src-c313e17097",
+        "source": "Merixa x Codex/Financial Reporting/Group Reporting/Internal assets disposal - Recognition of redeployment costs.pdf",
+        "topicKey": "Financial reporting | Intangible assets",
+        "reason": "Restudy source tied to classification conflict",
+        "weekly": true
+      }
+    ],
+    "researcher": [
+      {
+        "action": "fill-gap",
+        "priority": 7,
+        "domain": "Financial reporting",
+        "topic": "Tax",
+        "topicKey": "Financial reporting | Tax",
+        "reason": "Only 1 concept(s) in Financial reporting | Tax",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 6,
+        "domain": "Financial reporting",
+        "topic": "Government grants",
+        "topicKey": "Financial reporting | Government grants",
+        "reason": "Only 2 concept(s) in Financial reporting | Government grants",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 5,
+        "domain": "Financial management",
+        "topic": "Impairment",
+        "topicKey": "Financial management | Impairment",
+        "reason": "Only 1 concept(s) in Financial management | Impairment",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 5,
+        "domain": "Strategy and performance",
+        "topic": "Performance measurement",
+        "topicKey": "Strategy and performance | Performance measurement",
+        "reason": "Only 1 concept(s) in Strategy and performance | Performance measurement",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 5,
+        "domain": "Financial reporting",
+        "topic": "Governance",
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Only 1 concept(s) in Financial reporting | Governance",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "IFRS",
+        "reason": "Fetch/attach official IFRS website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "FRC",
+        "reason": "Fetch/attach official FRC website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "ACCA",
+        "reason": "Fetch/attach official ACCA website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "CFA",
+        "reason": "Fetch/attach official CFA website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "FRM",
+        "reason": "Fetch/attach official FRM website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "CGMA",
+        "reason": "Fetch/attach official CGMA website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "CRMA",
+        "reason": "Fetch/attach official CRMA website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "sustain-body",
+        "priority": 5,
+        "body": "IIA",
+        "reason": "Fetch/attach official IIA website guidance to sustain gap topics",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 4,
+        "domain": "Sustainability",
+        "topic": "Sustainability reporting",
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Only 2 concept(s) in Sustainability | Sustainability reporting",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 4,
+        "domain": "Financial reporting",
+        "topic": "Segment reporting",
+        "topicKey": "Financial reporting | Segment reporting",
+        "reason": "Only 2 concept(s) in Financial reporting | Segment reporting",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 4,
+        "domain": "Risk management",
+        "topic": "Risk assessment",
+        "topicKey": "Risk management | Risk assessment",
+        "reason": "Only 2 concept(s) in Risk management | Risk assessment",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 4,
+        "domain": "Financial reporting",
+        "topic": "Events after the reporting period",
+        "topicKey": "Financial reporting | Events after the reporting period",
+        "reason": "Only 2 concept(s) in Financial reporting | Events after the reporting period",
+        "weekly": true
+      },
+      {
+        "action": "fill-gap",
+        "priority": 4,
+        "domain": "Management reporting",
+        "topic": "Cash and liquidity",
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Only 2 concept(s) in Management reporting | Cash and liquidity",
+        "weekly": true
+      },
+      {
+        "action": "resolve-conflict",
+        "priority": 4,
+        "concept": "Internal assets disposal Recognition of redeployment costs: Group Reporting",
+        "domains": [
+          "Financial reporting"
+        ],
+        "topics": [
+          "Intangible assets",
+          "Property, plant and equipment",
+          "Reporting framework"
+        ],
+        "resolution": "Financial reporting | Intangible assets",
+        "reason": "Classification conflict for \"Internal assets disposal Recognition of redeployment costs: Group Reporting\"",
+        "weekly": true
+      },
+      {
+        "action": "resolve-conflict",
+        "priority": 4,
+        "concept": "Net Manufacturing Savings (NMS): Notes",
+        "domains": [
+          "Management reporting",
+          "Financial reporting"
+        ],
+        "topics": [
+          "Performance reporting",
+          "Valuation"
+        ],
+        "resolution": "Management reporting | Performance reporting",
+        "reason": "Classification conflict for \"Net Manufacturing Savings (NMS): Notes\"",
+        "weekly": true
+      },
+      {
+        "action": "resolve-conflict",
+        "priority": 4,
+        "concept": "FRC Statement on the SORP",
+        "domains": [
+          "Financial reporting"
+        ],
+        "topics": [
+          "Governance",
+          "Reporting framework"
+        ],
+        "resolution": "Financial reporting | Reporting framework",
+        "reason": "Classification conflict for \"FRC Statement on the SORP\"",
+        "weekly": true
+      }
+    ],
+    "teacher": [
+      {
+        "action": "enrich",
+        "priority": 7,
+        "cardId": "frs-101-september-2024-tax-c01fafc87a",
+        "title": "FRS 101 September 2024: Tax",
+        "qualityScore": 0.74,
+        "topicKey": "Financial reporting | Tax",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 7,
+        "cardId": "ias-20-accounting-for-government-grants-government-grants-e32d91f6d7",
+        "title": "IAS 20 Accounting for government grants: Government grants",
+        "qualityScore": 0.78,
+        "topicKey": "Financial reporting | Government grants",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 7,
+        "cardId": "ias-20-accounting-for-government-grants-note-e27a403d5e",
+        "title": "IAS 20 Accounting for government grants: Note",
+        "qualityScore": 0.78,
+        "topicKey": "Financial reporting | Government grants",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "model-shown-in-appendix-1-92a27c46b6",
+        "title": "Model shown in Appendix 1",
+        "qualityScore": 0.64,
+        "topicKey": "Financial management | Impairment",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "auditors-responsibilities-for-the-audit-of-the-consolidated-financial-st-fb86875124",
+        "title": "Auditors' Responsibilities for the Audit of the Consolidated Financial Statements",
+        "qualityScore": 0.73,
+        "topicKey": "Financial reporting | Governance",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "management-reporting-practitioner-glossary-f2d04ee340",
+        "title": "Management Reporting Practitioner Glossary",
+        "qualityScore": 0.73,
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "factoring-definition-965c9f803b",
+        "title": "Factoring: Definition",
+        "qualityScore": 0.75,
+        "topicKey": "Risk management | Risk assessment",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "accounting-for-quotas-and-co2-emissions-introduction-52fb8991bc",
+        "title": "Accounting for quotas and CO2 emissions: Introduction",
+        "qualityScore": 0.78,
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "criticalities-improvement-actions-best-practices-kpi-a99b2b5751",
+        "title": "Criticalities Improvement Actions Best Practices KPI",
+        "qualityScore": 0.78,
+        "topicKey": "Strategy and performance | Performance measurement",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "economic-crime-and-corporate-transparency-act-2023-9f8984e9a4",
+        "title": "Economic Crime and Corporate Transparency Act 2023",
+        "qualityScore": 0.78,
+        "topicKey": "Financial reporting | Segment reporting",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "finance-short-term-17b0c9dd8f",
+        "title": "Finance: Short term",
+        "qualityScore": 0.78,
+        "topicKey": "Management reporting | Cash and liquidity",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "ias-10-events-after-the-balance-sheet-date-definitions-0082f3474d",
+        "title": "IAS 10 Events after the balance sheet date: Definitions",
+        "qualityScore": 0.78,
+        "topicKey": "Financial reporting | Events after the reporting period",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "ias-10-events-after-the-balance-sheet-date-examples-15626190a1",
+        "title": "IAS 10 Events after the balance sheet date: Examples",
+        "qualityScore": 0.78,
+        "topicKey": "Financial reporting | Events after the reporting period",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "ifrs-8-accounting-policies-changes-in-accounting-estimates-and-errors-de-809cd0b2d1",
+        "title": "IFRS 8 Accounting policies, changes in accounting estimates and errors: Definition",
+        "qualityScore": 0.78,
+        "topicKey": "Financial reporting | Segment reporting",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "renewable-and-sustainable-energy-reviews-27ded92fcd",
+        "title": "Renewable and Sustainable Energy Reviews",
+        "qualityScore": 0.78,
+        "topicKey": "Sustainability | Sustainability reporting",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 5,
+        "cardId": "risks-uncertainties-opportunities-and-scenarios-uncertainty-e21d8bdc16",
+        "title": "Risks uncertainties opportunities and scenarios: Uncertainty",
+        "qualityScore": 0.78,
+        "topicKey": "Risk management | Risk assessment",
+        "reason": "Strengthen teaching for a research-gap topic",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "amendments-to-section-35-60c62868c7",
+        "title": "Amendments to Section 35",
+        "qualityScore": 0.58,
+        "topicKey": "Financial reporting | Reporting framework",
+        "reason": "Upgrade weak teaching card (quality 0.58)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "frs-100-september-2024-eu-adopted-ifrs-a38e974bb3",
+        "title": "FRS 100 September 2024: EU adopted IFRS",
+        "qualityScore": 0.58,
+        "topicKey": "Financial reporting | UK GAAP framework",
+        "reason": "Upgrade weak teaching card (quality 0.58)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "these-conditions-include-the-company-and-all-of-its-subsidiary-6bd2add013",
+        "title": "These conditions include the company and all of its subsidiary",
+        "qualityScore": 0.61,
+        "topicKey": "Financial reporting | Consolidation",
+        "reason": "Upgrade weak teaching card (quality 0.61)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "accounting-treatment-of-saas-software-configuration-59a9ca1bf2",
+        "title": "Accounting treatment of SAAS software: Configuration",
+        "qualityScore": 0.62,
+        "topicKey": "Financial reporting | Intangible assets",
+        "reason": "Upgrade weak teaching card (quality 0.62)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "business-law-ethics-corner-589-9504341f7a",
+        "title": "BUSINESS LAW & ETHICS CORNER 589",
+        "qualityScore": 0.62,
+        "topicKey": "Strategy and performance | Strategy execution",
+        "reason": "Upgrade weak teaching card (quality 0.62)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "frs-100-september-2024-introduction-aed8aa3c2f",
+        "title": "FRS 100 September 2024: Introduction",
+        "qualityScore": 0.62,
+        "topicKey": "Financial reporting | UK GAAP framework",
+        "reason": "Upgrade weak teaching card (quality 0.62)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "frs-103-september-2024-valuation-7169a7496c",
+        "title": "FRS 103 September 2024: Valuation",
+        "qualityScore": 0.62,
+        "topicKey": "Financial reporting | Valuation",
+        "reason": "Upgrade weak teaching card (quality 0.62)",
+        "weekly": true
+      },
+      {
+        "action": "enrich",
+        "priority": 4,
+        "cardId": "provisions-for-liabilities-tips-tricks-8f388d4a8a",
+        "title": "Provisions for liabilities: Tips & Tricks",
+        "qualityScore": 0.62,
+        "topicKey": "Financial reporting | Provisions and contingencies",
+        "reason": "Upgrade weak teaching card (quality 0.62)",
+        "weekly": true
+      }
+    ]
+  },
+  "weeklyWeekId": "2026-W30"
+}

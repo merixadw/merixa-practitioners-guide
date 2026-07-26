@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-07-23T14:30:02.974Z",
+  "dryRun": false,
+  "limit": 400,
+  "domainFilter": null,
+  "updated": 296,
+  "remainingNeedingDeepen": 0,
+  "byDomain": {
+    "Project delivery": 133,
+    "Sustainability": 163
+  },
+  "gates": {
+    "minDefinition": 280,
+    "minExample": 450,
+    "minTrap": 150,
+    "minImplication": 80,
+    "minTrigger": 40
+  }
+}

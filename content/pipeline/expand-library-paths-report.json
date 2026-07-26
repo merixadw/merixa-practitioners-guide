@@ -1,0 +1,133 @@
+{
+  "startedAt": "2026-07-21T07:24:18.322Z",
+  "steps": [
+    {
+      "step": "scripts/pipeline/publish-frm-encyclopedia.mjs",
+      "ok": true
+    },
+    {
+      "step": "scripts/pipeline/publish-fa-encyclopedia.mjs",
+      "ok": true
+    },
+    {
+      "step": "scripts/pipeline/publish-ifrs-paths.mjs",
+      "ok": true
+    },
+    {
+      "step": "scripts/pipeline/publish-frm-paths.mjs",
+      "ok": true
+    },
+    {
+      "step": "scripts/pipeline/publish-fa-paths.mjs",
+      "ok": true
+    }
+  ],
+  "coverageBefore": {
+    "pathCardRefs": 268,
+    "inIndex": 268,
+    "missing": 0,
+    "missingIds": [],
+    "thinOnPath": 0,
+    "thinOnPathIds": []
+  },
+  "coverageAfter": {
+    "pathCardRefs": 270,
+    "inIndex": 270,
+    "missing": 0,
+    "missingIds": [],
+    "thinOnPath": 207,
+    "thinOnPathIds": [
+      "conceptual-framework-objective",
+      "conceptual-framework-qualitative",
+      "conceptual-framework-elements",
+      "conceptual-framework-recognition",
+      "conceptual-framework-measurement",
+      "ifrs-1-scope",
+      "ifrs-1-opening",
+      "ifrs-1-exemptions",
+      "ifrs-1-disclosure",
+      "ifrs-2-scope",
+      "ifrs-2-grant-date",
+      "ifrs-2-vesting",
+      "ifrs-2-modifications",
+      "ifrs-2-cash-settled",
+      "ifrs-3-identify",
+      "ifrs-3-consideration",
+      "ifrs-3-ppa",
+      "ifrs-3-goodwill",
+      "ifrs-3-disclosure",
+      "ifrs-5-criteria",
+      "ifrs-5-measurement",
+      "ifrs-7-classes",
+      "ifrs-7-credit",
+      "ifrs-7-liquidity",
+      "ifrs-7-fair-value",
+      "ifrs-9-classification",
+      "ifrs-9-hedge",
+      "ifrs-9-derecognition",
+      "ifrs-9-disclosure",
+      "ifrs-10-control",
+      "ifrs-10-power",
+      "ifrs-10-consolidation",
+      "ifrs-10-uniform",
+      "ifrs-11-joint-control",
+      "ifrs-11-classification",
+      "ifrs-11-accounting",
+      "ifrs-12-scope",
+      "ifrs-12-subsidiaries",
+      "ifrs-12-unconsolidated",
+      "ifrs-13-definition"
+    ]
+  },
+  "hasOpenAiKey": true,
+  "coverageAfterPublish": {
+    "pathCardRefs": 270,
+    "inIndex": 270,
+    "missing": 0,
+    "missingIds": [],
+    "thinOnPath": 207,
+    "thinOnPathIds": [
+      "conceptual-framework-objective",
+      "conceptual-framework-qualitative",
+      "conceptual-framework-elements",
+      "conceptual-framework-recognition",
+      "conceptual-framework-measurement",
+      "ifrs-1-scope",
+      "ifrs-1-opening",
+      "ifrs-1-exemptions",
+      "ifrs-1-disclosure",
+      "ifrs-2-scope",
+      "ifrs-2-grant-date",
+      "ifrs-2-vesting",
+      "ifrs-2-modifications",
+      "ifrs-2-cash-settled",
+      "ifrs-3-identify",
+      "ifrs-3-consideration",
+      "ifrs-3-ppa",
+      "ifrs-3-goodwill",
+      "ifrs-3-disclosure",
+      "ifrs-5-criteria",
+      "ifrs-5-measurement",
+      "ifrs-7-classes",
+      "ifrs-7-credit",
+      "ifrs-7-liquidity",
+      "ifrs-7-fair-value",
+      "ifrs-9-classification",
+      "ifrs-9-hedge",
+      "ifrs-9-derecognition",
+      "ifrs-9-disclosure",
+      "ifrs-10-control",
+      "ifrs-10-power",
+      "ifrs-10-consolidation",
+      "ifrs-10-uniform",
+      "ifrs-11-joint-control",
+      "ifrs-11-classification",
+      "ifrs-11-accounting",
+      "ifrs-12-scope",
+      "ifrs-12-subsidiaries",
+      "ifrs-12-unconsolidated",
+      "ifrs-13-definition"
+    ]
+  },
+  "finishedAt": "2026-07-21T07:24:51.858Z"
+}

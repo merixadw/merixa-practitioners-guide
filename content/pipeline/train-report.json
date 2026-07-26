@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-07-19T17:58:03.650Z",
+  "weekId": "2026-W29",
+  "coach": {
+    "coached": 36,
+    "demoted": 2,
+    "byTopic": {
+      "Management reporting | Internal control": 23,
+      "Strategy and performance | Cash and liquidity": 5,
+      "Financial reporting | Interim reporting": 8
+    }
+  },
+  "corroboration": {
+    "boosted": 5
+  },
+  "researcher": {
+    "notesRead": 364,
+    "concepts": 249,
+    "corroborated": 18,
+    "conflicts": 0,
+    "resolvedConflicts": 8,
+    "gaps": 11
+  },
+  "topicCoverage": {
+    "Strategy and performance | Cash and liquidity": 5,
+    "Financial reporting | Interim reporting": 8,
+    "Management reporting | Internal control": 23
+  },
+  "quality": {
+    "considered": 40,
+    "promoted": 40,
+    "rejected": []
+  },
+  "sustain": {
+    "fetched": 0,
+    "cardsUpdated": 226
+  },
+  "weekly": {
+    "passed": true,
+    "score": 1,
+    "failed": []
+  }
+}

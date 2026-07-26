@@ -1,0 +1,19 @@
+{
+  "phase": "P2",
+  "status": "done",
+  "completedAt": "2026-07-23T17:49:10.026Z",
+  "checks": [
+    {
+      "id": "template-flagged-off-topic",
+      "ok": true
+    },
+    {
+      "id": "shorter-on-topic-beats-longer-off-topic",
+      "ok": true
+    },
+    {
+      "id": "enrichedAt-beats-longer-heuristic",
+      "ok": true
+    }
+  ]
+}

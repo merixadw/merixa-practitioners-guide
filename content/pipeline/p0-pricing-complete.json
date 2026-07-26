@@ -1,0 +1,46 @@
+{
+  "phase": "P0",
+  "status": "done",
+  "pricing": {
+    "unlock": "£7.99 once — Library + 30 days AI Premium",
+    "afterMonth": "Subscribe £7.99/mo or stay Offline Library",
+    "freeStandalonePremium": false
+  },
+  "completedAt": "2026-07-23T17:45:00.180Z",
+  "checks": [
+    {
+      "id": "trial-days-30",
+      "ok": true
+    },
+    {
+      "id": "unlock-grants-30d-premium",
+      "ok": true
+    },
+    {
+      "id": "paid-premium-replaces-trial",
+      "ok": true
+    },
+    {
+      "id": "unlock-preserves-paid-premium",
+      "ok": true
+    },
+    {
+      "id": "expired-trial-goes-offline-keeps-library",
+      "ok": true
+    },
+    {
+      "id": "restore-old-unlock-no-trial-reset",
+      "ok": true
+    },
+    {
+      "id": "parse-preserves-fromUnlockTrial",
+      "ok": true
+    }
+  ],
+  "remainingOps": [
+    "App Store Connect: unlock metadata states includes 1 month AI Premium",
+    "Sandbox: purchase unlock → Premium online for 30 days",
+    "Sandbox: after trial expiry → Offline Library; subscribe restores Premium",
+    "Restore: unlock purchaseDate must drive trial end (no reset)"
+  ]
+}

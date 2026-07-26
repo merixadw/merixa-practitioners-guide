@@ -1,0 +1,27 @@
+{
+  "phase": "P7",
+  "status": "done",
+  "completedAt": "2026-07-23T18:58:11.756Z",
+  "checks": [
+    {
+      "id": "path-percent",
+      "ok": true
+    },
+    {
+      "id": "finish-this-week",
+      "ok": true
+    },
+    {
+      "id": "trial-nudge-phases",
+      "ok": true
+    }
+  ],
+  "deliverables": [
+    "path-progress.ts: % complete, finish-this-week from habits pace",
+    "ContinuePathHome + PathList: progress % + resume + week hint",
+    "QuickCheckPrompt + check-streak: proof-of-learning streak",
+    "TrialNudgeSheet day 20/27: Keep live vs Stay Offline equal weight",
+    "WeeklyPathDigest: 3 cards + optional Web Notification opt-in",
+    "Fair-use copy: pace resting (not out of product)"
+  ]
+}

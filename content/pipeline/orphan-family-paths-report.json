@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-26T10:21:46.773Z",
+  "stepsPerPath": 18,
+  "qualityTier": "any",
+  "minDepthScore": 1100,
+  "enrichedOnly": false,
+  "dualTierPublished": true,
+  "paths": 320,
+  "totalSteps": 5679,
+  "liveSteps": 1023,
+  "deepenedSteps": 4656,
+  "byFamily": {
+    "strategy": {
+      "orphanPool": 210,
+      "liveInPool": 208,
+      "deepenedInPool": 2,
+      "paths": 12,
+      "steps": 210
+    },
+    "ma": {
+      "orphanPool": 1102,
+      "liveInPool": 223,
+      "deepenedInPool": 879,
+      "paths": 62,
+      "steps": 1102
+    },
+    "tax": {
+      "orphanPool": 162,
+      "liveInPool": 147,
+      "deepenedInPool": 15,
+      "paths": 9,
+      "steps": 162
+    },
+    "sustain": {
+      "orphanPool": 40,
+      "liveInPool": 40,
+      "deepenedInPool": 0,
+      "paths": 3,
+      "steps": 40
+    },
+    "audit": {
+      "orphanPool": 39,
+      "liveInPool": 39,
+      "deepenedInPool": 0,
+      "paths": 2,
+      "steps": 36
+    },
+    "gov": {
+      "orphanPool": 36,
+      "liveInPool": 36,
+      "deepenedInPool": 0,
+      "paths": 2,
+      "steps": 36
+    },
+    "project": {
+      "orphanPool": 49,
+      "liveInPool": 48,
+      "deepenedInPool": 1,
+      "paths": 3,
+      "steps": 49
+    },
+    "coso": {
+      "orphanPool": 537,
+      "liveInPool": 26,
+      "deepenedInPool": 511,
+      "paths": 30,
+      "steps": 537
+    },
+    "frm": {
+      "orphanPool": 209,
+      "liveInPool": 6,
+      "deepenedInPool": 203,
+      "paths": 12,
+      "steps": 209
+    },
+    "crma": {
+      "orphanPool": 672,
+      "liveInPool": 131,
+      "deepenedInPool": 541,
+      "paths": 38,
+      "steps": 672
+    },
+    "fa": {
+      "orphanPool": 766,
+      "liveInPool": 13,
+      "deepenedInPool": 753,
+      "paths": 43,
+      "steps": 766
+    },
+    "ifrs": {
+      "orphanPool": 1059,
+      "liveInPool": 103,
+      "deepenedInPool": 956,
+      "paths": 59,
+      "steps": 1059
+    },
+    "iia": {
+      "orphanPool": 801,
+      "liveInPool": 6,
+      "deepenedInPool": 795,
+      "paths": 45,
+      "steps": 801
+    }
+  },
+  "baselineDeepenedNotInPath": 8198,
+  "afterDeepenedNotInPath": 3580,
+  "deepenedNotInPathReductionPct": 56.3,
+  "softLaunchNote": "soft-launch liveSharePath still uses enrichedAt-only — this publisher never stamps enrichedAt; deepened tier is visibility/path membership only.",
+  "inventoryPath": "content/pipeline/path-orphan-deepen-inventory.json"
+}

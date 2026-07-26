@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "updatedAt": "2026-07-22T12:30:00.000Z",
+  "mandate": [
+    "Tutor consistency checks",
+    "Library and Paths expansion",
+    "Continuous improvement wiring"
+  ],
+  "openaiDailyTokenBudget": {
+    "budget": 200000,
+    "reserve": 10000,
+    "spendable": 190000,
+    "env": {
+      "OPENAI_DAILY_TOKEN_BUDGET": "200000",
+      "OPENAI_DAILY_TOKEN_RESERVE": "10000"
+    },
+    "allocationOfSpendable": {
+      "library_enrich": 0.62,
+      "encyclopedia_shelves": 0.12,
+      "tutor_consistency": 0.12,
+      "cross_body_generate": 0.07,
+      "deepen_content": 0.04,
+      "continuous_improvement": 0.03
+    },
+    "policy": [
+      "Prefer path-first enrich of thin/heuristic shelf cards over regenerating shelves already at ≥500",
+      "Stop before reserve; never chase remaining gap with overnight burns",
+      "Flex unused shelf allocation into enrich when shelves are at target",
+      "Record real usage.total_tokens when API returns it; else use conservative estimates",
+      "Primary daily command: npm run library:daily-spend"
+    ],
+    "commands": {
+      "status": "npm run library:token-budget",
+      "spend": "npm run library:daily-spend",
+      "enrichOnly": "npm run library:daily-spend -- --enrich-only",
+      "tutor": "npm run library:tutor-consistency"
+    },
+    "approxCallsPerDay": {
+      "enrichAt2800": "~67",
+      "note": "Actual calls vary with prompt/response size; budget gates use live usage when available"
+    }
+  },
+  "aggressiveShelfTargets": {
+    "targetCardsPerShelf": 500,
+    "shelves": {
+      "ma": {
+        "title": "Management accounting encyclopedia",
+        "leadBody": "CGMA",
+        "currentApprox": 500,
+        "target": 500
+      },
+      "tax": {
+        "title": "Tax encyclopedia",
+        "leadBody": "ACCA",
+        "currentApprox": 500,
+        "target": 500
+      },
+      "fa": {
+        "title": "Financial analysis encyclopedia",
+        "leadBody": "CFA",
+        "currentApprox": 519,
+        "target": 500
+      },
+      "ifrs": {
+        "title": "IFRS/IAS encyclopedia",
+        "leadBody": "IFRS",
+        "currentApprox": 500,
+        "target": 500
+      }
+    },
+    "command": "npm run library:shelves:expand -- --until-target --rounds=40 --batch=18"
+  },
+  "priorities": {
+    "P0": [
+      "Spend daily 200k tokens via library:daily-spend (enrich thin shelf cards first)",
+      "Tutor consistency sample within tutor allocation",
+      "Hold MA/Tax/FA/IFRS shelves ≥500; deepen quality via enrich not breadth churn"
+    ],
+    "P1": [
+      "Sustainability",
+      "Project delivery",
+      "Governance and controls",
+      "Audit and assurance",
+      "Risk management",
+      "Management reporting"
+    ],
+    "P2": [
+      "CRMA",
+      "IIA",
+      "FRM",
+      "CFA body depth"
+    ]
+  },
+  "targetDomains": {
+    "Sustainability": { "currentApprox": 7, "targetCards": 40, "targetPaths": 3 },
+    "Project delivery": { "currentApprox": 10, "targetCards": 35, "targetPaths": 2 },
+    "Governance and controls": { "currentApprox": 114, "targetCards": 120, "targetPaths": 4 },
+    "Audit and assurance": { "currentApprox": 170, "targetCards": 140, "targetPaths": 4 },
+    "Risk management": { "currentApprox": 374, "targetCards": 320, "targetPaths": 5 },
+    "Management reporting": { "currentApprox": 492, "targetCards": 560, "targetPaths": 4 },
+    "Financial reporting | Tax": { "currentApprox": 52, "targetCards": 500, "targetPaths": 2 }
+  },
+  "expansionRoutes": [
+    "Daily token-budgeted spend (enrich → tutor → light shelves)",
+    "Encyclopedia shelf expand to 500 (MA/CGMA, Tax/ACCA, FA/CFA, IFRS)",
+    "Encyclopedia publishes (tax, domains, MA, FRM, FA, CRMA, COSO)",
+    "Path publishes (IFRS, FRM, FA, priority domain paths)",
+    "Cross-body path generation (expansion-agenda.json)",
+    "Official body sustain + terminology",
+    "Path-first OpenAI enrichment",
+    "Quality loop (spine-awareness, repair, learning circle)",
+    "Tutor consistency + continuous ops state (workers/learn.js)"
+  ],
+  "cycleCommand": "npm run library:daily-spend",
+  "sustainableCadence": {
+    "daily": "library:daily-spend (uses ≤190k of 200k; holds 10k reserve)",
+    "weekly": "library:perfect-cycle once if budget allows + progress report",
+    "monthly": "library:expand:generate + R2 corpus upload + tutor redeploy check"
+  }
+}

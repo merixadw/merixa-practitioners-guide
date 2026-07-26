@@ -1,0 +1,210 @@
+{
+  "startedAt": "2026-07-23T14:11:07.577Z",
+  "before": {
+    "path": "C:\\Users\\hmkay\\Downloads\\merixa-practitioners-guide\\content\\pipeline\\openai-daily-token-budget.json",
+    "disabled": false,
+    "day": "2026-07-23",
+    "budget": 200000,
+    "reserve": 10000,
+    "spendable": 190000,
+    "used": 0,
+    "remaining": 190000,
+    "utilizationPct": 0,
+    "calls": 0,
+    "stoppedReason": null,
+    "jobs": {
+      "library_enrich": {
+        "allocated": 117800,
+        "used": 0,
+        "remaining": 117800,
+        "maxCallsLeft": 42,
+        "estimatePerCall": 2800
+      },
+      "encyclopedia_shelves": {
+        "allocated": 22800,
+        "used": 0,
+        "remaining": 22800,
+        "maxCallsLeft": 7,
+        "estimatePerCall": 3200
+      },
+      "cross_body_generate": {
+        "allocated": 13300,
+        "used": 0,
+        "remaining": 13300,
+        "maxCallsLeft": 5,
+        "estimatePerCall": 2400
+      },
+      "deepen_content": {
+        "allocated": 7600,
+        "used": 0,
+        "remaining": 7600,
+        "maxCallsLeft": 2,
+        "estimatePerCall": 2600
+      },
+      "tutor_consistency": {
+        "allocated": 22800,
+        "used": 0,
+        "remaining": 22800,
+        "maxCallsLeft": 12,
+        "estimatePerCall": 1800
+      },
+      "continuous_improvement": {
+        "allocated": 5700,
+        "used": 0,
+        "remaining": 5700,
+        "maxCallsLeft": 4,
+        "estimatePerCall": 1200
+      }
+    },
+    "updatedAt": "2026-07-23T14:11:07.588Z"
+  },
+  "phases": [
+    {
+      "id": "enrich",
+      "rounds": [
+        {
+          "generatedAt": "2026-07-23T14:12:30.072Z",
+          "batchSize": 40,
+          "pathFirst": true,
+          "relevanceFirst": false,
+          "pathLinkedInBatch": 40,
+          "relevanceBatch": 40,
+          "updated": 0,
+          "skipped": 1,
+          "remaining": 3205,
+          "errors": {
+            "insufficient_quota": 1
+          },
+          "budgetCapped": false,
+          "tokensRecorded": 0,
+          "tokenBudget": {
+            "path": "C:\\Users\\hmkay\\Downloads\\merixa-practitioners-guide\\content\\pipeline\\openai-daily-token-budget.json",
+            "disabled": false,
+            "day": "2026-07-23",
+            "budget": 200000,
+            "reserve": 10000,
+            "spendable": 190000,
+            "used": 0,
+            "remaining": 190000,
+            "utilizationPct": 0,
+            "calls": 0,
+            "stoppedReason": null,
+            "jobs": {
+              "library_enrich": {
+                "allocated": 117800,
+                "used": 0,
+                "remaining": 117800,
+                "maxCallsLeft": 42,
+                "estimatePerCall": 2800
+              },
+              "encyclopedia_shelves": {
+                "allocated": 22800,
+                "used": 0,
+                "remaining": 22800,
+                "maxCallsLeft": 7,
+                "estimatePerCall": 3200
+              },
+              "cross_body_generate": {
+                "allocated": 13300,
+                "used": 0,
+                "remaining": 13300,
+                "maxCallsLeft": 5,
+                "estimatePerCall": 2400
+              },
+              "deepen_content": {
+                "allocated": 7600,
+                "used": 0,
+                "remaining": 7600,
+                "maxCallsLeft": 2,
+                "estimatePerCall": 2600
+              },
+              "tutor_consistency": {
+                "allocated": 22800,
+                "used": 0,
+                "remaining": 22800,
+                "maxCallsLeft": 12,
+                "estimatePerCall": 1800
+              },
+              "continuous_improvement": {
+                "allocated": 5700,
+                "used": 0,
+                "remaining": 5700,
+                "maxCallsLeft": 4,
+                "estimatePerCall": 1200
+              }
+            },
+            "updatedAt": "2026-07-23T14:12:57.730Z"
+          }
+        }
+      ],
+      "totalUpdated": 0
+    }
+  ],
+  "after": {
+    "path": "C:\\Users\\hmkay\\Downloads\\merixa-practitioners-guide\\content\\pipeline\\openai-daily-token-budget.json",
+    "disabled": false,
+    "day": "2026-07-23",
+    "budget": 200000,
+    "reserve": 10000,
+    "spendable": 190000,
+    "used": 0,
+    "remaining": 190000,
+    "utilizationPct": 0,
+    "calls": 0,
+    "stoppedReason": null,
+    "jobs": {
+      "library_enrich": {
+        "allocated": 117800,
+        "used": 0,
+        "remaining": 117800,
+        "maxCallsLeft": 42,
+        "estimatePerCall": 2800
+      },
+      "encyclopedia_shelves": {
+        "allocated": 22800,
+        "used": 0,
+        "remaining": 22800,
+        "maxCallsLeft": 7,
+        "estimatePerCall": 3200
+      },
+      "cross_body_generate": {
+        "allocated": 13300,
+        "used": 0,
+        "remaining": 13300,
+        "maxCallsLeft": 5,
+        "estimatePerCall": 2400
+      },
+      "deepen_content": {
+        "allocated": 7600,
+        "used": 0,
+        "remaining": 7600,
+        "maxCallsLeft": 2,
+        "estimatePerCall": 2600
+      },
+      "tutor_consistency": {
+        "allocated": 22800,
+        "used": 0,
+        "remaining": 22800,
+        "maxCallsLeft": 12,
+        "estimatePerCall": 1800
+      },
+      "continuous_improvement": {
+        "allocated": 5700,
+        "used": 0,
+        "remaining": 5700,
+        "maxCallsLeft": 4,
+        "estimatePerCall": 1200
+      }
+    },
+    "updatedAt": "2026-07-23T14:12:57.881Z"
+  },
+  "finishedAt": "2026-07-23T14:12:58.200Z",
+  "allocationPolicy": {
+    "library_enrich": 0.62,
+    "encyclopedia_shelves": 0.12,
+    "tutor_consistency": 0.12,
+    "cross_body_generate": 0.07,
+    "deepen_content": 0.04,
+    "continuous_improvement": 0.03
+  }
+}

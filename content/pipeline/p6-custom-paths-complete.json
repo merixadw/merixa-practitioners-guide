@@ -1,0 +1,34 @@
+{
+  "phase": "P6",
+  "status": "done",
+  "completedAt": "2026-07-23T18:39:37.643Z",
+  "checks": [
+    {
+      "id": "local-compose-three-steps",
+      "ok": true
+    },
+    {
+      "id": "stable-custom-path-id",
+      "ok": true
+    },
+    {
+      "id": "normalize-dedupes-card-ids",
+      "ok": true
+    },
+    {
+      "id": "compose-intent-detect",
+      "ok": true
+    },
+    {
+      "id": "shelves-yours-practice-flagship",
+      "ok": true
+    }
+  ],
+  "deliverables": [
+    "PathList: Yours first + empty Build with Tutor / Premium upsell",
+    "AskGuide: compose=1 + composeCustomPath → saveCustomPath → Paths link",
+    "ConceptDetail + coachActionHref: Build a path from here",
+    "flagship-paths: domain-shelf-* → Practice shelves",
+    "PathList: journey complete + Try next recommended path"
+  ]
+}

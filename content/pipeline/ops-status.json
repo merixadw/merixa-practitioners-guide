@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-07-26T10:45:46.265Z",
+  "phase0": {
+    "stopped": [
+      "library:hourly-progress:loop (left idle â€” no background loops restarted)"
+    ],
+    "alreadyIdle": [
+      "enrich-library",
+      "shelf expand",
+      "codex feed",
+      "heuristic expand",
+      "index.json holders"
+    ],
+    "leftAlone": [
+      "Merixa Analysing Tool run_learn_forever.ps1 (other repo)",
+      "ruflo mcp (unrelated)"
+    ],
+    "nodeProcessesAfterStabilize": 0,
+    "note": "Single sequenced rewire+owned-resource enrich run. Zero OpenAI API calls. No commit."
+  },
+  "inventory": {
+    "totalIndexCards": 14217,
+    "runtimeLoadedCards": 14264,
+    "seamlessCatalogCards": 14264,
+    "catalogPipelineEntries": 1160,
+    "catalogStats": {
+      "scanned": 1160,
+      "cataloged": 353,
+      "rejected": {
+        "excluded-source": 807
+      },
+      "circleReclassified": 40
+    },
+    "shelfCountsVsTargets": {
+      "ma": {
+        "current": 1510,
+        "target": 1500,
+        "gap": 0,
+        "pct": 100.7,
+        "before": 1510,
+        "delta": 0
+      },
+      "tax": {
+        "current": 2120,
+        "target": 2000,
+        "gap": 0,
+        "pct": 106,
+        "before": 2120,
+        "delta": 0
+      },
+      "fa": {
+        "current": 2280,
+        "target": 2000,
+        "gap": 0,
+        "pct": 114,
+        "before": 2280,
+        "delta": 0
+      },
+      "ifrs": {
+        "current": 1530,
+        "target": 1500,
+        "gap": 0,
+        "pct": 102,
+        "before": 1530,
+        "delta": 0
+      },
+      "crma": {
+        "current": 1500,
+        "target": 1500,
+        "gap": 0,
+        "pct": 100,
+        "before": 1456,
+        "delta": 44
+      },
+      "iia": {
+        "current": 1544,
+        "target": 1500,
+        "gap": 0,
+        "pct": 102.9,
+        "before": 1544,
+        "delta": 0
+      },
+      "coso": {
+        "current": 1536,
+        "target": 1500,
+        "gap": 0,
+        "pct": 102.4,
+        "before": 1536,
+        "delta": 0
+      },
+      "frm": {
+        "current": 1500,
+        "target": 1500,
+        "gap": 0,
+        "pct": 100,
+        "before": 1134,
+        "delta": 366
+      }
+    },
+    "shelvesSummary": {
+      "current": 13520,
+      "target": 13000,
+      "gap": 0,
+      "pct": 104,
+      "before": 13110,
+      "delta": 410
+    },
+    "pathDeadRefs": 0,
+    "learningPaths": 536,
+    "pathSteps": 8370,
+    "pathCardRefs": 7731,
+    "locallyDeepenedAt": 8237,
+    "deepenedNotInPathBaseline": 8198,
+    "deepenedNotInPathAfterE4": 3580,
+    "deepenedNotInPathReductionPct": 56.3,
+    "withWorkplaceTasks": 4483,
+    "withSourceQuotes": 5091,
+    "catalogCardsWithAliases": 106,
+    "indexSeamlessGap": 0,
+    "seamlessCards": 14264
+  },
+  "artifacts": {
+    "canonicalRegistryGeneratedWired": true,
+    "pathRepairReport": true,
+    "recoveredAliases": true,
+    "orphanFamilyPathsGenerated": true,
+    "orphanFamilyPathsCount": 320,
+    "orphanFamilyEnrichedOnly": false,
+    "orphanFamilyQualityTier": "any",
+    "indexSeamlessGapReport": true,
+    "pathOrphanDeepenInventory": true,
+    "codexLocalEnrichReport": true,
+    "extractedFormulas": true,
+    "extractedFormulasTermCount": 4548,
+    "seamlessCorpus": true,
+    "catalogRegistryAliasesWired": true,
+    "agentShelfFill": true
+  },
+  "phases": {
+    "phase1Rewire": {
+      "thisRun": "Confirmed path-card-remap + canonical registry at runtime; ConceptDetail already surfaces workplaceTasks/sourceQuotes/editor-approved/example-verified; wired registry-derived aliases into catalog + seamless retrieve-index/shards (106 catalog cards now searchable via aliases); expanded short glossary/doc traps so 19 trap-too-short quality skips cleared (22 deepened in first enrich pass)."
+    },
+    "phase2OwnedEnrich": {
+      "thisRun": "Inventoried Merixa x Codex: practitioner glossaries mostly consumed; method notes/docs already extracted; formula glossaries (9 packs / 4548 terms) newly extracted via codex-extract-formula-glossaries.py. Sustainability zip/folder is academic/third-party â€” skipped (not Merixa-authored). Subfolder textbooks remain BLOCKED_SOURCE_PATTERN. Published 461 new codex-sourced cards (no enrichedAt). Local-deepened +483 this run (22 trap fixes + 427 new + 34 short-def fixes). qualitySkip now 0 on dry residual.",
+      "published": 461,
+      "deepenedThisRun": 483,
+      "perShelfPublished": {
+        "ma": 10,
+        "tax": 22,
+        "fa": 397,
+        "ifrs": 19,
+        "frm": 13,
+        "crma": 0,
+        "iia": 0,
+        "coso": 0
+      }
+    },
+    "phase3Close": {
+      "thisRun": "npm run library:seamless ok — 10636 cards, 42544 chunks → public/corpus"
+    },
+    "phase2AgentAuthored": {
+      "thisRun": "Wave-4 final agent-authored floor close (zero OpenAI). Published frm +366 and crma +44 (+1 id-unique top-up after slug collision). Both floors at 1500. Other shelves untouched. Local deepen residual 0. library:seamless → 10636 cards / 42544 chunks. No commit.",
+      "mode": "agent-authored",
+      "wave": 4,
+      "published": 410,
+      "perShelfPublished": {
+        "frm": 366,
+        "crma": 44
+      },
+      "qualitySkip": 0,
+      "floorsFullyClosed": true,
+      "samples": {
+        "frm": [
+          "Equity opening auction gap limit",
+          "Index rebalance flow risk buffer",
+          "Dividend future versus cash basis desk limit",
+          "Volatility surface sticky-delta stress pack"
+        ],
+        "crma": [
+          "Risk taxonomy version freeze before board pack",
+          "Three lines collaboration calendar conflict test",
+          "Post-incident risk rating uplift protocol",
+          "KRI false-positive rate quarterly review"
+        ]
+      }
+    }
+  },
+  "stillBrokenForOpenAIBilling": [
+    "OpenAI enrich remaining (live enrichedAt polish still blocked by insufficient_quota)",
+    "All priority encyclopedia shelf floors closed (frm/crma closed in wave-4; others already at/above)",
+    "cohesion: title twin groups / domain mismatches for later cleanup",
+    "seamless runtime catalog remains a subset of index (10636 vs index 14217) — pre-existing loadGuideIndex filter"
+  ],
+  "enrichPaused": {
+    "paused": true,
+    "reason": "insufficient_quota",
+    "checkedAt": "2026-07-26T07:51:59.020Z",
+    "probe": "chat.completions gpt-4.1-mini max_tokens=5",
+    "enrichRunStarted": false,
+    "note": "OpenAI key authenticates and lists gpt-4.1-mini/gpt-5/gpt-5-mini, but chat completions return insufficient_quota. Enricher not started. No offline filler invented.",
+    "remainingNeedingEnrichedAt": 11161,
+    "liveSharePct": 21
+  },
+  "enrich": {
+    "status": "paused",
+    "reason": "insufficient_quota",
+    "updatedAt": "2026-07-26T09:55:29.022Z",
+    "cardsUpdatedThisRun": 0,
+    "remainingNeedingEnrichedAt": 11161,
+    "withEnrichedAt": 3056,
+    "totalIndexCards": 14217,
+    "liveSharePct": 21,
+    "blocker": "OpenAI insufficient_quota — billing/quota must be restored before enrich-library can run."
+  },
+  "shelfFloorExpansion": {
+    "at": "2026-07-26T09:55:29.022Z",
+    "mode": "agent-authored",
+    "wave": 4,
+    "openai": "insufficient_quota (unused)",
+    "cardsPublished": 410,
+    "agentAuthoredCardsCumulative": 3149,
+    "seamless": "ok — 10636 cards, 42544 chunks",
+    "note": "Final wave closed frm and crma floors exactly at 1500. Quality-first banks; no --allow-heuristic. No commit. Floors fully closed across priority shelves.",
+    "before": {
+      "ma": 1510,
+      "tax": 2120,
+      "fa": 2280,
+      "ifrs": 1530,
+      "crma": 1456,
+      "iia": 1544,
+      "coso": 1536,
+      "frm": 1134
+    },
+    "after": {
+      "ma": 1510,
+      "tax": 2120,
+      "fa": 2280,
+      "ifrs": 1530,
+      "crma": 1500,
+      "iia": 1544,
+      "coso": 1536,
+      "frm": 1500
+    },
+    "deltaThisWave": {
+      "frm": 366,
+      "crma": 44
+    },
+    "remainingGaps": {
+      "ma": 0,
+      "tax": 0,
+      "fa": 0,
+      "ifrs": 0,
+      "crma": 0,
+      "iia": 0,
+      "coso": 0,
+      "frm": 0
+    },
+    "floorsFullyClosed": true
+  },
+  "truthBoard": {
+    "generatedAt": "2026-07-26T10:23:49.102Z",
+    "liveSharePct": 21,
+    "liveShareIndex": 0.215,
+    "liveShareSeamless": 0.214,
+    "liveSharePath": 0.382,
+    "indexCards": 14217,
+    "seamlessCards": 14264,
+    "pathCards": 7703,
+    "withEnrichedAt": 3056,
+    "seamlessWithEnrichedAt": 3056,
+    "indexSeamlessGap": 0,
+    "indexSeamlessGapMax": 50,
+    "indexSeamlessGapOk": true,
+    "gapFullyClassified": true,
+    "gapReportAt": "2026-07-26T10:19:13.126Z",
+    "shipCheckFresh": true,
+    "shipCheckReportAt": "2026-07-26T10:00:00.042Z",
+    "shipCheckReportAgeHours": 0.4,
+    "shipCheckReportPassed": false,
+    "shipCheckReportLiveShareCatalog": 0.275,
+    "shipCheckStaleReason": null,
+    "indexMtime": "2026-07-26T09:51:44.864Z",
+    "maxReportAgeHours": 6,
+    "enrichPaused": true,
+    "enrichPauseReason": "insufficient_quota",
+    "competitivenessScoreInformational": 50,
+    "banShipOnStructural": true,
+    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless."
+  },
+  "m0": {
+    "status": "completed",
+    "completedAt": "2026-07-26T10:00:30.586Z",
+    "exitCriteria": {
+      "truthBoardLive": true,
+      "freshShipCheckPassed": false,
+      "liveShareIndex": 0.215,
+      "liveShareSeamless": 0.275,
+      "liveSharePct": 21,
+      "staleShipReportUnusable": true,
+      "banShipOnStructural": true
+    }
+  },
+  "m2": {
+    "status": "completed",
+    "completedAt": "2026-07-26T10:23:49.102Z",
+    "epics": [
+      "E3-index-seamless-gap",
+      "E4-path-enrichedonly-orphans"
+    ],
+    "exitCriteria": {
+      "indexSeamlessGap": 0,
+      "gapFullyClassified": true,
+      "seamlessSmokeGreen": true,
+      "orphanFamilyEnrichedOnly": false,
+      "qualityTier": "any",
+      "deepenedNotInPathReductionPct": 56.3,
+      "pathDeadRefs": 0,
+      "softLaunchLiveSharePathStillEnrichedAtOnly": true
+    },
+    "beforeAfter": {
+      "indexSeamlessGap": {
+        "before": 3628,
+        "after": 0
+      },
+      "seamlessCards": {
+        "before": 10636,
+        "after": 14264
+      },
+      "deepenedNotInPath": {
+        "before": 8198,
+        "after": 3580
+      },
+      "orphanFamilyPaths": {
+        "before": 43,
+        "after": 320
+      },
+      "pathDeadRefs": {
+        "before": 0,
+        "after": 0
+      },
+      "liveSharePath": {
+        "before": 0.961,
+        "after": 0.382,
+        "note": "Denominator grew with deepened path steps; enrichedAt stamp unchanged (soft-launch semantics preserved)."
+      }
+    }
+  },
+  "m1": {
+    "status": "completed",
+    "completedAt": "2026-07-26T10:45:46.265Z",
+    "epics": [
+      "E2-git-remote"
+    ],
+    "exitCriteria": {
+      "originConfigured": true,
+      "remoteUrl": "https://github.com/merixadw/merixa-practitioners-guide.git",
+      "successfulPush": true,
+      "branchPushed": "cursor/enrich-live-stamp-fail-parking",
+      "tipSha": "627dd84834c5e59b00536298e2ba787228c8eac1",
+      "backupBeforeWritePathVerified": true,
+      "corpusBackupHelper": "scripts/lib/corpus-backup.mjs",
+      "backupsDir": "content/pipeline/backups/"
+    },
+    "deploySafety": {
+      "origin": "https://github.com/merixadw/merixa-practitioners-guide.git",
+      "branch": "cursor/enrich-live-stamp-fail-parking",
+      "tipSha": "627dd84834c5e59b00536298e2ba787228c8eac1",
+      "pushedAt": "2026-07-26T10:45:46.265Z",
+      "tracking": "origin/cursor/enrich-live-stamp-fail-parking"
+    }
+  }
+}

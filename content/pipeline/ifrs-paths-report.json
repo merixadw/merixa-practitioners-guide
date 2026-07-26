@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-07-22T11:58:47.085Z",
+  "standards": 37,
+  "paths": 37,
+  "stepCardsPublished": 125,
+  "stepCardsUpdated": 0,
+  "stepCardsMatched": 5,
+  "totalSteps": 130,
+  "byStandard": [
+    {
+      "code": "Framework",
+      "slug": "conceptual-framework",
+      "steps": 5,
+      "matched": 0,
+      "published": 5,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 1",
+      "slug": "ifrs-1",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 2",
+      "slug": "ifrs-2",
+      "steps": 5,
+      "matched": 0,
+      "published": 5,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 3",
+      "slug": "ifrs-3",
+      "steps": 5,
+      "matched": 0,
+      "published": 5,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 5",
+      "slug": "ifrs-5",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 7",
+      "slug": "ifrs-7",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 9",
+      "slug": "ifrs-9",
+      "steps": 5,
+      "matched": 1,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 10",
+      "slug": "ifrs-10",
+      "steps": 5,
+      "matched": 0,
+      "published": 5,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 11",
+      "slug": "ifrs-11",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 12",
+      "slug": "ifrs-12",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 13",
+      "slug": "ifrs-13",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 15",
+      "slug": "ifrs-15",
+      "steps": 6,
+      "matched": 0,
+      "published": 6,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 16",
+      "slug": "ifrs-16",
+      "steps": 6,
+      "matched": 0,
+      "published": 6,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 17",
+      "slug": "ifrs-17",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IFRS 18",
+      "slug": "ifrs-18",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 1",
+      "slug": "ias-1",
+      "steps": 4,
+      "matched": 1,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 2",
+      "slug": "ias-2",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IAS 7",
+      "slug": "ias-7",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 8",
+      "slug": "ias-8",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IAS 10",
+      "slug": "ias-10",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 12",
+      "slug": "ias-12",
+      "steps": 3,
+      "matched": 2,
+      "published": 1,
+      "updated": 0
+    },
+    {
+      "code": "IAS 16",
+      "slug": "ias-16",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IAS 19",
+      "slug": "ias-19",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IAS 20",
+      "slug": "ias-20",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 21",
+      "slug": "ias-21",
+      "steps": 3,
+      "matched": 1,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 23",
+      "slug": "ias-23",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 24",
+      "slug": "ias-24",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 27",
+      "slug": "ias-27",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 28",
+      "slug": "ias-28",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 32",
+      "slug": "ias-32",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 33",
+      "slug": "ias-33",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 34",
+      "slug": "ias-34",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 36",
+      "slug": "ias-36",
+      "steps": 4,
+      "matched": 0,
+      "published": 4,
+      "updated": 0
+    },
+    {
+      "code": "IAS 37",
+      "slug": "ias-37",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 38",
+      "slug": "ias-38",
+      "steps": 3,
+      "matched": 0,
+      "published": 3,
+      "updated": 0
+    },
+    {
+      "code": "IAS 40",
+      "slug": "ias-40",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    },
+    {
+      "code": "IAS 41",
+      "slug": "ias-41",
+      "steps": 2,
+      "matched": 0,
+      "published": 2,
+      "updated": 0
+    }
+  ]
+}

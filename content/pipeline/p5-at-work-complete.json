@@ -1,0 +1,14 @@
+{
+  "phase": "P5",
+  "status": "done",
+  "completedAt": "2026-07-23T18:15:00.000Z",
+  "deliverables": [
+    "ConceptDetail: hide empty/template At work; figures nudge; Show me in a board pack CTA (Premium / upsell)",
+    "learning-cycle: authored At work only; template voice treated as empty",
+    "workers/ask.js: demonstrate-not-redefine; refuse template voice; boardMemo fallback; prompt cache v3",
+    "coach-actions: board-pack mini-artefact + anti-redefine prompts",
+    "enrich-library: 2% needs-human → content/pipeline/qa-queue.json",
+    "types/corpus: exampleVerification status needs-human|pending"
+  ],
+  "note": "Deploy ask worker for prompt v3 to take effect in production. Soft-launch still needs P4 liveSharePath."
+}

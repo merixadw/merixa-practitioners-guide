@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-07-19T21:43:07.839Z",
+  "glossaryTerms": 500,
+  "encyclopediaCards": 500,
+  "retainedPriorCards": 803,
+  "totalCards": 1303,
+  "basicCoverage": [
+    {
+      "term": "debit",
+      "inGlossary": false
+    },
+    {
+      "term": "credit",
+      "inGlossary": true
+    },
+    {
+      "term": "asset",
+      "inGlossary": true
+    },
+    {
+      "term": "liability",
+      "inGlossary": true
+    },
+    {
+      "term": "equity",
+      "inGlossary": true
+    },
+    {
+      "term": "revenue",
+      "inGlossary": true
+    },
+    {
+      "term": "expense",
+      "inGlossary": true
+    },
+    {
+      "term": "accrual",
+      "inGlossary": false
+    },
+    {
+      "term": "depreciation",
+      "inGlossary": true
+    },
+    {
+      "term": "working capital",
+      "inGlossary": true
+    },
+    {
+      "term": "trial balance",
+      "inGlossary": false
+    },
+    {
+      "term": "NPV",
+      "inGlossary": false
+    },
+    {
+      "term": "IRR",
+      "inGlossary": false
+    },
+    {
+      "term": "WACC",
+      "inGlossary": false
+    },
+    {
+      "term": "EBITDA",
+      "inGlossary": true
+    },
+    {
+      "term": "gross margin",
+      "inGlossary": true
+    },
+    {
+      "term": "accounts receivable",
+      "inGlossary": false
+    },
+    {
+      "term": "accounts payable",
+      "inGlossary": false
+    },
+    {
+      "term": "inventory",
+      "inGlossary": true
+    },
+    {
+      "term": "materiality",
+      "inGlossary": false
+    }
+  ],
+  "sample": [
+    {
+      "id": "glossary-absolute-variance-5a38a2728c",
+      "title": "Absolute variance",
+      "teachingSummary": "A measured difference between actual, budget, forecast, standard, prior-period or scenario values for absolute. It is an investigation trigger, not a conclusion by itself."
+    },
+    {
+      "id": "glossary-percentage-variance-b17a8e5fc4",
+      "title": "Percentage variance",
+      "teachingSummary": "A variance expressed relative to a comparator. It normalises movement so that management can compare the size of changes across different accounts, sites, products or reporting lines."
+    },
+    {
+      "id": "glossary-budget-variance-067f91b17f",
+      "title": "Budget variance",
+      "teachingSummary": "The difference between actual budget and the approved budget for the same period, scope and reporting basis. It is used to identify where performance has moved away from the plan agreed by management."
+    },
+    {
+      "id": "glossary-forecast-variance-74bed66d8c",
+      "title": "Forecast variance",
+      "teachingSummary": "The difference between actual forecast and the latest forecast. It tests whether the forecast process is providing useful forward visibility rather than only reproducing budget assumptions."
+    },
+    {
+      "id": "glossary-prior-period-variance-a1a772c29d",
+      "title": "Prior-period variance",
+      "teachingSummary": "A measured difference between actual, budget, forecast, standard, prior-period or scenario values for prior-period. It is an investigation trigger, not a conclusion by itself."
+    },
+    {
+      "id": "glossary-year-on-year-growth-9e379fef66",
+      "title": "Year-on-year growth",
+      "teachingSummary": "A measure of movement in year-on-year growth over time. It should be calculated on a comparable basis so that structural growth is not mixed with acquisition, disposal, price, currency or classification effects."
+    },
+    {
+      "id": "glossary-month-on-month-growth-5a6ab608a4",
+      "title": "Month-on-month growth",
+      "teachingSummary": "A measure of movement in month-on-month growth over time. It should be calculated on a comparable basis so that structural growth is not mixed with acquisition, disposal, price, currency or classification effects."
+    },
+    {
+      "id": "glossary-quarter-on-quarter-growth-ab048e7cda",
+      "title": "Quarter-on-quarter growth",
+      "teachingSummary": "A measure of movement in quarter-on-quarter growth over time. It should be calculated on a comparable basis so that structural growth is not mixed with acquisition, disposal, price, currency or classification effects."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Market ship gates — structural / vanity metrics are NOT release gates",
+  "updatedAt": "2026-07-26",
+  "ban": "Do not ship or soft-launch because competitivenessScore / structural diagnostic is 85–100. Ship only when liveShare + QA gates pass on a FRESH ship-check-report.",
+  "bannedFromShipDecisions": [
+    "competitivenessScore",
+    "structural diagnostic / enrichment-diagnostic verdict",
+    "shelf floor pct / shelvesSummary.pct",
+    "agent wave published counts",
+    "stale ship-check-report.json (generatedAt older than index mtime or maxReportAgeHours)",
+    "hourly-progress soft-launch claims while enrich.status=paused"
+  ],
+  "denominators": {
+    "softLaunch": "liveSharePath = enrichedAt ∩ pathCards / pathCards",
+    "publicLaunch": "liveShareCatalog (= liveShareSeamless) = enrichedAt ∩ seamlessRuntimeCards / seamlessRuntimeCards — NOT index orphans, NOT visible-filter theater",
+    "informational": "liveShareIndex = enrichedAt / totalIndexCards (truthBoard.liveSharePct)"
+  },
+  "maxReportAgeHours": 6,
+  "softLaunch": {
+    "liveSharePathMin": 0.7,
+    "qaFailRateMax": 0.05,
+    "topicMismatchMax": 0.02,
+    "facetCullDone": true,
+    "templateShareMax": 0.15
+  },
+  "publicLaunch": {
+    "liveShareCatalogMin": 0.4,
+    "liveShareDenominator": "seamless",
+    "qaFailRateMax": 0.05,
+    "topicMismatchMax": 0.02,
+    "customPathsWorking": true
+  },
+  "parity": {
+    "liveShareCatalogMin": 0.7,
+    "liveShareDenominator": "seamless"
+  }
+}

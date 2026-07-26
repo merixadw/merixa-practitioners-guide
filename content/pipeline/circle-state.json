@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-07-22T12:07:12.683Z",
+  "cycle": 8,
+  "previousCycle": 7,
+  "weekId": "2026-W30",
+  "weekly": {
+    "status": "active",
+    "score": 0.375,
+    "passed": false,
+    "failed": [
+      "fill-gap",
+      "fill-gap",
+      "upgrade-quality",
+      "corroborate",
+      "sustain-bodies"
+    ]
+  },
+  "agendaBefore": {
+    "librarian": 24,
+    "scholar": 24,
+    "researcher": 24,
+    "teacher": 24,
+    "total": 96
+  },
+  "agendaAfter": {
+    "librarian": 24,
+    "scholar": 24,
+    "researcher": 21,
+    "teacher": 24,
+    "total": 93
+  },
+  "librarian": {
+    "reclassified": 40
+  },
+  "scholar": {
+    "sourcesStudied": 40,
+    "sectionsRead": 397,
+    "notesAdded": 0,
+    "notesUpgraded": 0
+  },
+  "researcher": {
+    "notesRead": 407,
+    "concepts": 265,
+    "corroborated": 18,
+    "conflicts": 3,
+    "resolvedConflicts": 6,
+    "gaps": 10
+  },
+  "teacher": {
+    "cards": 265,
+    "enrich": {
+      "considered": 11,
+      "promoted": 11,
+      "rejected": [],
+      "mode": "api"
+    }
+  },
+  "sustain": {
+    "fetched": 0,
+    "failed": 4,
+    "cardsUpdated": 242
+  },
+  "openGaps": [
+    {
+      "topic": "Financial reporting | Tax",
+      "concepts": 1
+    },
+    {
+      "topic": "Financial management | Impairment",
+      "concepts": 1
+    },
+    {
+      "topic": "Strategy and performance | Performance measurement",
+      "concepts": 1
+    },
+    {
+      "topic": "Financial reporting | Governance",
+      "concepts": 1
+    },
+    {
+      "topic": "Sustainability | Sustainability reporting",
+      "concepts": 2
+    },
+    {
+      "topic": "Financial reporting | Segment reporting",
+      "concepts": 2
+    },
+    {
+      "topic": "Risk management | Risk assessment",
+      "concepts": 2
+    },
+    {
+      "topic": "Financial reporting | Events after the reporting period",
+      "concepts": 2
+    },
+    {
+      "topic": "Financial reporting | Government grants",
+      "concepts": 2
+    },
+    {
+      "topic": "Management reporting | Cash and liquidity",
+      "concepts": 2
+    }
+  ],
+  "openConflicts": [
+    {
+      "concept": "Internal assets disposal Recognition of redeployment costs: Group Reporting",
+      "domains": [
+        "Financial reporting"
+      ],
+      "topics": [
+        "Intangible assets",
+        "Property, plant and equipment",
+        "Reporting framework"
+      ],
+      "resolution": "Financial reporting | Intangible assets"
+    },
+    {
+      "concept": "Net Manufacturing Savings (NMS): Notes",
+      "domains": [
+        "Management reporting",
+        "Financial reporting"
+      ],
+      "topics": [
+        "Performance reporting",
+        "Valuation"
+      ],
+      "resolution": "Management reporting | Performance reporting"
+    },
+    {
+      "concept": "FRC Statement on the SORP",
+      "domains": [
+        "Financial reporting"
+      ],
+      "topics": [
+        "Governance",
+        "Reporting framework"
+      ],
+      "resolution": "Financial reporting | Reporting framework"
+    }
+  ]
+}

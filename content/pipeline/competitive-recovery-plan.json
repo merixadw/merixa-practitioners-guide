@@ -1,0 +1,84 @@
+{
+  "title": "Competitive enrichment recovery + market timeline",
+  "baselineScore": 17,
+  "latestScore": 100,
+  "verdict": "competitive-structural",
+  "liveEnrichShare": 0.008,
+  "updatedAt": "2026-07-23",
+  "targets": {
+    "deepShare": 0.85,
+    "enrichedGateShare": 0.7,
+    "officialCoverage": 0.85,
+    "pathMembershipShare": 0.4,
+    "averageDepth": 1200,
+    "maxWeakShare": 0.1,
+    "liveEnrichShareSoftLaunch": 0.7,
+    "liveEnrichSharePublic": 0.4,
+    "liveEnrichShareParity": 0.7
+  },
+  "throughput": {
+    "tokensPerDayAssumed": 200000,
+    "tokensPerCardEst": 2800,
+    "cardsPerDay": 71,
+    "remainingFor100pct": 5871,
+    "daysTo100pct": 83,
+    "weeksTo100pct": 12,
+    "milestonesWeeks": { "25": 3, "40": 5, "70": 9, "100": 12 }
+  },
+  "weeksToMarket": {
+    "recommendation": "At 200k tokens/day enrich-only: ~12 weeks to 100% live enrich. Soft public bar ~week 5 (40%). Path quality + custom paths UX can support earlier soft launch.",
+    "closedBetaPath70pctWeeks": 5,
+    "publicCatalog40pctWeeks": 5,
+    "fullCatalog100pctWeeks": 12
+  },
+  "competitorStrategy": {
+    "ifrsBuddy": "No quality compromise — quality + At-work enrich; Premium AI superior wiring/UX",
+    "generalLlms": "Structure teaches what user does not know; invest paths + custom/Tutor paths",
+    "examTutors": "Workplace core; Premium can add realistic exam-prep mode",
+    "accountingIqClass": "Win on price-to-depth vs ~$8/mo tutors if Premium stays disciplined (~£7.99)"
+  },
+  "phases": [
+    {
+      "id": 1,
+      "name": "Official refs + offline lift",
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "name": "Path membership",
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "name": "Live OpenAI enrich (path-first)",
+      "status": "blocked_quota",
+      "actions": [
+        "Restore OpenAI billing",
+        "library:enrich:relevance --limit=200",
+        "library:enrich -- --path-first overnight to 150/day"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Domain hotspots",
+      "status": "done"
+    },
+    {
+      "id": 5,
+      "name": "Market intro gates",
+      "status": "wired",
+      "gates": [
+        "BANNED as release gate: Structural competitivenessScore (informational only)",
+        "Soft: liveSharePath≥70%, qaFailRate≤5%, topicMismatch≤2%, facet cull done — see ship-gates.json",
+        "Public: liveShareCatalog≥40% + custom paths — npm run library:ship-check -- --gate=public",
+        "Spot QA 50 titles for topic fidelity (feeds qaFailRate)"
+      ]
+    }
+  ],
+  "guardrails": [
+    "Do not expand shelves with thin stubs — deepen first",
+    "Path-first enrich before random catalog enrich",
+    "NEVER ship on structural score alone — use library:ship-check",
+    "Prefer path membership growth over new thin cards"
+  ]
+}

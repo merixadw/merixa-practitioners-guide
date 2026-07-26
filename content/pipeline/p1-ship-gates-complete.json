@@ -1,0 +1,42 @@
+{
+  "phase": "P1",
+  "status": "done",
+  "completedAt": "2026-07-23T17:46:00.000Z",
+  "deliverables": [
+    "content/pipeline/ship-gates.json",
+    "scripts/pipeline/enrichment-diagnostic.mjs (shipMetrics)",
+    "scripts/pipeline/ship-check.mjs",
+    "npm run library:ship-check / library:ship-check:report",
+    "AGENTS.md ship-gates note",
+    "competitive-recovery-plan.json bans structural-only ship"
+  ],
+  "rule": "competitivenessScore is informational only — not a release gate",
+  "softLaunchGates": {
+    "liveSharePathMin": 0.7,
+    "qaFailRateMax": 0.05,
+    "topicMismatchMax": 0.02,
+    "templateShareMax": 0.15,
+    "facetCullDone": true
+  },
+  "latestShipCheck": {
+    "gate": "soft",
+    "passed": false,
+    "competitivenessScoreInformational": 100,
+    "currents": {
+      "liveSharePath": 0.002,
+      "liveShareCatalog": 0.008,
+      "templateShare": 0.515,
+      "topicMismatchShare": 0.515,
+      "qaFailRate": 0.515
+    },
+    "failed": [
+      "liveSharePath",
+      "qaFailRate",
+      "topicMismatch",
+      "templateShare",
+      "facetCullDone"
+    ],
+    "note": "Failing soft gates is expected until P3–P4 land. P1 wires the gate — it does not clear it."
+  },
+  "next": "P3 cull facet spam (closes templateShare + facetCullDone)"
+}

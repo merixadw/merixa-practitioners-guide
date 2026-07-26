@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-07-25T21:20:26.119Z",
+  "liveCards": 9076,
+  "files": {
+    "ifrs-paths.generated.json": {
+      "paths": 37,
+      "steps": 130,
+      "deadBefore": 125,
+      "repaired": 125,
+      "dropped": 0,
+      "byKind": {
+        "fuzzy-title": 65,
+        "standard-pool": 35,
+        "published-step-card": 11,
+        "exact-title": 4,
+        "manual": 10
+      },
+      "droppedSteps": []
+    },
+    "cross-body-paths.generated.json": {
+      "paths": 3,
+      "steps": 15,
+      "deadBefore": 15,
+      "repaired": 15,
+      "dropped": 0,
+      "byKind": {
+        "fuzzy-title": 5,
+        "manual": 9,
+        "exact-title": 1
+      },
+      "droppedSteps": []
+    },
+    "priority-domain-paths.generated.json": {
+      "paths": 8,
+      "steps": 40,
+      "deadBefore": 2,
+      "repaired": 2,
+      "dropped": 0,
+      "byKind": {
+        "fuzzy-title": 2
+      },
+      "droppedSteps": []
+    },
+    "domain-shelf-paths.generated.json": {
+      "paths": 131,
+      "steps": 2346,
+      "deadBefore": 16,
+      "repaired": 11,
+      "dropped": 5,
+      "byKind": {
+        "fuzzy-title": 9,
+        "remap": 1,
+        "registry": 1
+      },
+      "droppedSteps": [
+        {
+          "path": "domain-shelf-risk-management-14",
+          "step": "risk-management-shelf14-s1",
+          "cardId": "crma-coso-erm"
+        },
+        {
+          "path": "domain-shelf-risk-management-14",
+          "step": "risk-management-shelf14-s5",
+          "cardId": "crma-emerging-risks"
+        },
+        {
+          "path": "domain-shelf-risk-management-14",
+          "step": "risk-management-shelf14-s12",
+          "cardId": "crma-iso-31000"
+        },
+        {
+          "path": "domain-shelf-risk-management-15",
+          "step": "risk-management-shelf15-s6",
+          "cardId": "crma-risk-aggregation"
+        },
+        {
+          "path": "domain-shelf-risk-management-15",
+          "step": "risk-management-shelf15-s13",
+          "cardId": "crma-risk-register"
+        }
+      ]
+    },
+    "frm-paths.generated.json": {
+      "paths": 9,
+      "steps": 48,
+      "deadBefore": 0,
+      "repaired": 0,
+      "dropped": 0,
+      "byKind": {},
+      "droppedSteps": []
+    },
+    "fa-paths.generated.json": {
+      "paths": 10,
+      "steps": 40,
+      "deadBefore": 0,
+      "repaired": 0,
+      "dropped": 0,
+      "byKind": {},
+      "droppedSteps": []
+    }
+  },
+  "remapTargetFixes": {
+    "ias-10-adjusting": "ifrs-enc-ias-10-adjusting-vs-non-adjusting",
+    "ias-10-non-adjusting": "ifrs-enc-ias-10-events-after-the-reporting-period-awfzidewic",
+    "ias-19-short-term": "ifrs-enc-employee-benefits-accounting-for-short-term-and-long-ter-zw1wbg95zw",
+    "ias-19-termination": "ifrs-enc-employee-benefits-accounting-for-termination-benefits-zw1wbg95zw",
+    "ias-28-equity-method": "ifrs-enc-consolidation-accounting-for-associates-and-joint-ventur-y29uc29saw",
+    "ias-36-recoverable": "ifrs-enc-recoverable-amount-cmvjb3zlcm",
+    "ias-36-reversal": "ifrs-enc-financial-reporting-impairment-reversal-of-impairment-lo-zmluyw5jaw-334214",
+    "ifrs-10-nci": "ifrs-enc-non-controlling-interest-in-equity-bm9ulwnvbn",
+    "ifrs-15-contract-costs": "ifrs-enc-contract-cost-amortisation-y29udhjhy3",
+    "ifrs-16-discount": "ifrs-enc-ifrs-16-discount-rate-determination",
+    "ifrs-16-liability": "ifrs-enc-initial-lease-liability-aw5pdglhbc",
+    "ifrs-16-rou": "ifrs-enc-right-of-use-asset-movement-cmlnahqtb2",
+    "ifrs-5-discontinued": "ifrs-enc-discontinued-operation-result-zglzy29udg"
+  }
+}

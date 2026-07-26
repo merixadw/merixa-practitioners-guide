@@ -1,0 +1,681 @@
+{
+  "title": "Devil-risk elimination project plan (OpenAI-last)",
+  "createdAt": "2026-07-26T09:47:00.000Z",
+  "repo": "C:\\Users\\hmkay\\Downloads\\merixa-practitioners-guide",
+  "branch": "cursor/enrich-live-stamp-fail-parking",
+  "mode": "execution",
+  "baselineSource": "content/pipeline/ops-status.json",
+  "baselineAt": "2026-07-26T08:47:29.018Z",
+  "m0CompletedAt": "2026-07-26T10:00:30.586Z",
+  "m0Status": "completed",
+  "m2CompletedAt": "2026-07-26T10:23:49.102Z",
+  "m2Status": "completed",
+  "verifiedNumbers": {
+    "totalIndexCards": 13807,
+    "runtimeLoadedCards": 10636,
+    "seamlessCatalogCards": 10636,
+    "indexSeamlessGap": 3171,
+    "withEnrichedAt": 3056,
+    "remainingNeedingEnrichedAt": 10751,
+    "liveSharePct": 22,
+    "liveShareFraction": 0.22,
+    "locallyDeepenedAt": 7827,
+    "withWorkplaceTasks": 4483,
+    "withoutWorkplaceTasksApprox": 9324,
+    "withSourceQuotes": 5091,
+    "learningPaths": 259,
+    "pathSteps": 3426,
+    "pathDeadRefs": 0,
+    "orphanFamilyPathsCount": 43,
+    "orphanFamilyEnrichedOnly": true,
+    "orphanFamilyTotalSteps": 735,
+    "shelfGaps": {
+      "frm": 366,
+      "crma": 44
+    },
+    "shelvesAtOrAboveFloor": [
+      "ma",
+      "tax",
+      "fa",
+      "ifrs",
+      "iia",
+      "coso"
+    ],
+    "agentWave3Published": 1565,
+    "codexLocalEnrichResidualUpgrades": 0,
+    "glossaryTitles": 5231,
+    "stillThinExample_codexSubset": 2822,
+    "stillNoWorkplaceTasks_codexSubset": 3609,
+    "stillNoSourceQuotes_codexSubset": 2919,
+    "catalogPipelineEntries": 1160,
+    "cataloged": 353,
+    "catalogRejectedExcludedSource": 807,
+    "catalogCardsWithAliases": 106,
+    "extractedFormulasTermCount": 4548,
+    "shipCheckReportAt": "2026-07-25T17:29:06.759Z",
+    "shipCheckReportLiveShareCatalogStale": 0.806,
+    "shipCheckReportPassedPublicStale": true,
+    "openaiQaOpenFails": 3,
+    "openaiQaLastRunAt": "2026-07-25T18:08:02.787Z",
+    "enrichPaused": true,
+    "enrichPauseReason": "insufficient_quota",
+    "gitRemote": "NONE",
+    "competitivenessScoreInformational": 100
+  },
+  "orderingRationale": [
+    "Kill false-green gates first (metric theater + ship-check freshness) so no one ships on stale 80.6% / structural 100.",
+    "Then deploy safety (git remote) so recovery artifacts can leave the laptop.",
+    "Then visibility (index↔seamless gap + enrichedOnly path orphans) so users/runtime see what index claims.",
+    "Then offline quality depth (freeze volume, workplaceTasks, glossary pivot, dual-writer, provenance, agent-card labeling).",
+    "OpenAI liveShare polish + QA absolute bar last — only after offline foundations stop inventing new dilution."
+  ],
+  "doNotRules": [
+    "Do NOT cite competitivenessScore / structural diagnostic as ship-ready (informational only; currently 100 while liveSharePct=22).",
+    "Do NOT treat content/pipeline/ship-check-report.json as truth unless generatedAt ≥ content/index.json mtime AND ≥ ops-status.generatedAt.",
+    "Do NOT run library:enrich / library:enrich-all / library:qa:openai / shelves:expand:aggressive until OpenAI quota restored AND milestones M0–M4 exit criteria met.",
+    "Do NOT start agent shelf-fill wave-4+ until: (a) frm/crma unique-concept bank review proves ≥80% distinct titles vs existing index, AND (b) workplaceTasks coverage on agent-authored cards ≥70%, AND (c) M0 ship-check freshness gate green. Stop volume waves when distinct concepts run thin (ops already warns this).",
+    "Do NOT run two index writers in parallel (enrich-library, agent-shelf-fill, expand-encyclopedia-shelves, codex-local-enrich, deepen-content, fill-spine-awareness). One holder lock; prefer scripts that use atomic-write + index-union.",
+    "Do NOT set enrichedAt on offline/agent/codex deepen — that stamp is OpenAI live enrich only. Use locallyDeepenedAt / agentAuthoredAt / codexDeepenedAt.",
+    "Do NOT republish orphan-family paths with enrichedOnly=true without also emitting a companion report of orphan steps that are deepened-but-not-live (visibility lie).",
+    "Do NOT invent offline filler / --allow-heuristic floods to chase shelf floors; quality-first banks only.",
+    "Do NOT expand Merixa sustainability zip/third-party academic sources (blocked / not Merixa-authored).",
+    "Do NOT commit secrets, .env, or OpenAI keys. Do NOT commit until user asks.",
+    "Push allowed after M1: origin configured and first push succeeded (627dd84).",
+    "Do NOT claim soft/public launch from hourly-progress or killer-app-plan nextExecutionOrder while enrich.status=paused.",
+    "Do NOT run library:seamless as a substitute for fixing the 3171 index↔runtime gap — seamless only publishes what the publisher selects; gap must be diagnosed first.",
+    "Do NOT reopen dual write paths that bypass atomicWriteFile / unionMergeWithDiskIndex (fill-spine-awareness raw writeFileSync is residual risk)."
+  ],
+  "resources": {
+    "agents": [
+      "Cursor agent for script/gate fixes (ship-check freshness, dual-writer audit, provenance stamps)",
+      "Cursor agent for Merixa-owned bank authorship (frm/crma residual ONLY after freeze conditions)",
+      "No background enrich loops"
+    ],
+    "ownedDocs": [
+      "Merixa×Codex practitioner glossaries (mostly consumed — residual 0 upgrades)",
+      "formula glossaries: 9 packs / 4548 terms (extracted)",
+      "method notes / extracted-docs (already in codex-feed)",
+      "canonical-registry.json + recovered-aliases.json"
+    ],
+    "offlineScripts": [
+      "npm run library:ship-check / library:ship-check:report",
+      "npm run library:enrich:diagnostic",
+      "npm run library:seamless / library:seamless:smoke",
+      "npm run library:orphan-family-paths",
+      "node scripts/pipeline/codex-local-enrich.mjs",
+      "npm run library:deepen-content",
+      "node scripts/pipeline/agent-shelf-fill.mjs (frozen until conditions)",
+      "node scripts/pipeline/hourly-progress.mjs",
+      "node scripts/pipeline/tmp-path-dead-refs.ts / audit-path-coverage.mjs",
+      "scripts/pipeline/codex-extract-formula-glossaries.py (already run)"
+    ],
+    "git": [
+      "Local branch cursor/enrich-live-stamp-fail-parking",
+      "Remote: https://github.com/merixadw/merixa-practitioners-guide.git",
+      "Pushed tip SHA: 627dd84834c5e59b00536298e2ba787228c8eac1 (tracking origin/cursor/enrich-live-stamp-fail-parking)"
+    ]
+  },
+  "epics": [
+    {
+      "id": "E0-metric-theater",
+      "name": "Kill metric theater",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:00:30.586Z",
+      "primaryRisk": "metric theater (structural 100 / stale green hides liveShare 22%)",
+      "phase": "false-green-gates",
+      "openaiRequired": "N",
+      "effort": "S",
+      "objective": "Make it impossible to declare ship-ready from competitivenessScore, stale ship-check-report, or shelf-floor % alone.",
+      "successMetric": "ops-status.json exposes truthBoard { liveSharePct, shipCheckFresh, competitivenessScoreInformational, banShipOnStructural:true }; AGENTS.md + ship-gates.json explicitly list banned metrics; any dashboard/script that printed 'passed' from ship-check-report older than index fails closed.",
+      "resources": [
+        "Cursor agent",
+        "content/pipeline/ship-gates.json",
+        "content/pipeline/ops-status.json",
+        "AGENTS.md",
+        "scripts/pipeline/hourly-progress.mjs"
+      ],
+      "dependencies": [],
+      "orderedTasks": [
+        "Add truthBoard block to ops-status writer (or a tiny scripts/pipeline/truth-board.mjs) that always prints liveSharePct from index enrichedAt/total, indexSeamlessGap, shipCheckReportAgeHours, enrich.paused.",
+        "Patch AGENTS.md + ship-gates.json ban list: competitivenessScore, shelf pct, agent wave published counts are NOT release gates.",
+        "Add CI/local assert: if ship-check-report.generatedAt < index mtime → exit 2 with 'STALE_SHIP_REPORT'.",
+        "Annotate killer-app-plan.json nextExecutionOrder steps 1–2 as blocked_quota (not running) to stop plan-file theater.",
+        "Paste truthBoard into ops-status after one dry run of diagnostic (no enrich)."
+      ],
+      "stopCondition": "A fresh agent/human cannot find a green 'public passed' artifact that contradicts liveSharePct=22 without an explicit STALE warning.",
+      "evidence": {
+        "truthBoard": "content/pipeline/ops-status.json#truthBoard",
+        "assertFresh": "npm run library:ship-check:assert-fresh → exit 2 on stale",
+        "killerAppBlocked": "nextExecutionOrder steps 1–2 status=blocked_quota"
+      }
+    },
+    {
+      "id": "E1-ship-check-freshness",
+      "name": "Ship-check freshness + honest denominators",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:00:00.042Z",
+      "primaryRisk": "ship-check freshness / false-green gates",
+      "phase": "false-green-gates",
+      "openaiRequired": "N",
+      "effort": "M",
+      "objective": "library:ship-check always recomputes diagnostics; reports age-gate; liveShare metrics declare denominator (index vs seamless vs path cards).",
+      "successMetric": "Fresh npm run library:ship-check -- --gate=public --report-only writes ship-check-report with generatedAt today, liveShareCatalog≈0.22 (not 0.806), passed=false for public until real recovery; report includes denominatorCounts and maxReportAgeHours=6 fail-closed.",
+      "resources": [
+        "scripts/pipeline/ship-check.mjs",
+        "scripts/pipeline/enrichment-diagnostic.mjs",
+        "npm run library:ship-check",
+        "Cursor agent"
+      ],
+      "dependencies": [
+        "E0-metric-theater"
+      ],
+      "orderedTasks": [
+        "Re-run diagnostic only (no OpenAI) and capture current shipMetrics vs stale report (expected: catalog ~0.22 vs report 0.806).",
+        "Extend ship-check-report schema: denominatorCounts { indexCards, seamlessCards, pathCards, withEnrichedAt }, reportFreshness { indexMtime, maxAgeHours, stale }.",
+        "Fail closed when --report-only reads existing report without recompute OR when age > maxAgeHours (prefer always recompute).",
+        "Split liveShare views: liveShareIndex (3056/13807), liveShareSeamless (enriched∩seamless / 10636), liveSharePath — document which gate uses which.",
+        "Update soft/public gate docs: public liveShareCatalogMin=0.4 measured on seamless runtime cards (what users load), not abandoned index orphans.",
+        "Write ship-check-report.json fresh; confirm passed=false at current 22%.",
+        "Add npm script library:truth-board that prints one screen of gate truth."
+      ],
+      "stopCondition": "No checked-in or pipeline report claims public/soft pass while liveShareSeamless < gate; stale 2026-07-25 80.6% report cannot be used for decisions.",
+      "evidence": {
+        "freshShipCheck": {
+          "generatedAt": "2026-07-26T10:00:00.042Z",
+          "passed": false,
+          "liveShareIndex": 0.215,
+          "liveShareCatalogSeamless": 0.275,
+          "staleWas": 0.806
+        }
+      }
+    },
+    {
+      "id": "E2-git-remote",
+      "name": "Deploy safety — git remote + backup path",
+      "primaryRisk": "no git remote (cannot push/recover off-machine)",
+      "phase": "deploy-safety",
+      "openaiRequired": "N",
+      "effort": "S",
+      "objective": "Establish origin remote and a verified push/backup path for index + pipeline artifacts.",
+      "successMetric": "git remote -v shows origin URL supplied by user; git push -u origin HEAD succeeds once; content/pipeline/backups/ or corpus-backup policy documented for pre-write snapshots.",
+      "resources": [
+        "git (local)",
+        "user-provided remote URL (BLOCKER)",
+        "scripts/lib/corpus-backup.mjs"
+      ],
+      "dependencies": [
+        "E1-ship-check-freshness"
+      ],
+      "orderedTasks": [
+        "USER ACTION (required): provide GitHub/GitLab remote URL for merixa-practitioners-guide.",
+        "git remote add origin <URL> (do not guess URL).",
+        "Ensure .gitignore covers .env, keys, huge accidental dumps; keep content/index.json policy explicit.",
+        "Create pre-push checklist: library:ship-check freshness + no parallel writers + ops-status committed with truthBoard.",
+        "First push of current branch; record tip SHA in ops-status.deploySafety.",
+        "Confirm corpus-backup runs before any future index writer."
+      ],
+      "stopCondition": "origin exists, one successful push completed, backup helper path verified. STOP and wait if user has not provided URL — do not invent a remote.",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:45:46.265Z",
+      "exitEvidence": {
+        "originUrl": "https://github.com/merixadw/merixa-practitioners-guide.git",
+        "branchPushed": "cursor/enrich-live-stamp-fail-parking",
+        "tipSha": "627dd84834c5e59b00536298e2ba787228c8eac1",
+        "pushSucceeded": true,
+        "backupHelperExists": true,
+        "backupsDirExists": true
+      }
+    },
+    {
+      "id": "E3-index-seamless-gap",
+      "name": "Close index vs seamless visibility gap",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:19:13.126Z",
+      "primaryRisk": "index vs seamless gap (13807 index vs 10636 runtime = 3171 invisible)",
+      "phase": "visibility",
+      "openaiRequired": "N",
+      "effort": "M",
+      "objective": "Every index card is either in seamless runtime, intentionally quarantined with reason, or removed — no silent 3171-card shadow corpus.",
+      "successMetric": "indexSeamlessGap ≤ 50 OR gap fully classified in content/pipeline/index-seamless-gap-report.json with { inSeamless, quarantined, publishFilterRejected, corrupt } summing to gap; seamless smoke still green.",
+      "resources": [
+        "npm run library:seamless",
+        "npm run library:seamless:smoke",
+        "scripts/pipeline/publish-seamless-corpus.ts",
+        "content/corpus-quarantine/",
+        "Cursor agent"
+      ],
+      "dependencies": [
+        "E1-ship-check-freshness"
+      ],
+      "orderedTasks": [
+        "Diff content/index.json ids vs public/corpus/retrieve-index.json ids → write index-seamless-gap-report.json.",
+        "Classify gap: quarantine, finance filter, missing fields, publisher shard limits, duplicates.",
+        "Fix publisher bugs if valid cards are dropped; move true junk to corpus-quarantine with reason codes.",
+        "Re-run library:seamless; expect runtimeLoadedCards to rise toward intentional set.",
+        "Add ops-status.inventory.indexSeamlessGap + fail threshold in truth-board.",
+        "Update ship-check to warn if gap > 50."
+      ],
+      "stopCondition": "Gap ≤50 or 100% classified with no unexplained drops; seamless smoke passes.",
+      "evidence": {
+        "indexSeamlessGap": 0,
+        "seamlessCards": 14264,
+        "gapReport": "content/pipeline/index-seamless-gap-report.json",
+        "publisherFixes": [
+          "BodyId += COSO|GARP",
+          "GuideSourceKind += web",
+          "domain alias Internal control and governance → Governance and controls"
+        ],
+        "seamlessSmoke": "green (catalog soft cap 20MB)"
+      }
+    },
+    {
+      "id": "E4-path-enrichedonly-orphans",
+      "name": "Path enrichedOnly orphan honesty",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:21:46.773Z",
+      "primaryRisk": "path enrichedOnly orphans (43 paths / 735 steps only attach live-enriched cards)",
+      "phase": "visibility",
+      "openaiRequired": "N",
+      "effort": "M",
+      "objective": "Learning paths must not hide locallyDeepened/agentAuthored cards; enrichedOnly mode either expands or is replaced by quality tiers.",
+      "successMetric": "orphan-family-paths-report.enrichedOnly=false OR dual-tier paths published; count of deepened-but-not-in-any-path cards drops by ≥50% vs baseline orphan inventory; pathDeadRefs remains 0.",
+      "resources": [
+        "npm run library:orphan-family-paths",
+        "scripts/pipeline/publish-orphan-family-paths.mjs",
+        "scripts/pipeline/audit-path-coverage.mjs",
+        "path repair tooling",
+        "Cursor agent"
+      ],
+      "dependencies": [
+        "E3-index-seamless-gap"
+      ],
+      "orderedTasks": [
+        "Inventory cards with locallyDeepenedAt|agentAuthoredAt and no path membership (path orphan deepen set).",
+        "Change publish-orphan-family-paths to accept --quality-tier=live|deepened|any with explicit report fields.",
+        "Regenerate 43 family paths including deepened-not-live where teachingDepthScore passes offline bar.",
+        "Run path dead-ref audit; keep pathDeadRefs=0 (ops currently 0).",
+        "Wire path membership counts into ops-status (paths 259 / steps 3426 baselines).",
+        "Document that soft-launch liveSharePath still uses enrichedAt-only — do not redefine that stamp offline."
+      ],
+      "stopCondition": "Orphan report no longer implies 'only 43 enriched-only paths exist' while 7827 locallyDeepened cards sit unused; dead refs stay 0.",
+      "evidence": {
+        "enrichedOnly": false,
+        "qualityTier": "any",
+        "orphanFamilyPaths": 320,
+        "deepenedNotInPathReductionPct": 56.3,
+        "baselineDeepenedNotInPath": 8198,
+        "afterDeepenedNotInPath": 3580,
+        "pathDeadRefs": 0,
+        "softLaunchNote": "liveSharePath still enrichedAt-only; no offline enrichedAt stamps"
+      }
+    },
+    {
+      "id": "E5-dual-writer",
+      "name": "Eliminate dual-writer residual",
+      "primaryRisk": "dual-writer residual (parallel index writes / non-atomic writers)",
+      "phase": "quality-depth-offline",
+      "openaiRequired": "N",
+      "effort": "M",
+      "objective": "Single-writer discipline for content/index.json with atomic write + disk union everywhere.",
+      "successMetric": "rg audit shows zero index writeFileSync/writeJson bypasses outside atomic-write; index.lock or holder protocol documented; no new index-backup wipe incidents.",
+      "resources": [
+        "scripts/lib/atomic-write.mjs",
+        "scripts/lib/index-union.mjs",
+        "Cursor agent",
+        "INCIDENT-enrichment-wipe.json lessons"
+      ],
+      "dependencies": [
+        "E0-metric-theater"
+      ],
+      "orderedTasks": [
+        "Audit all scripts that write content/index.json; list residuals (e.g. fill-spine-awareness.mjs raw writeFileSync).",
+        "Migrate residuals to atomicWriteFile + unionMergeWithDiskIndex.",
+        "Add scripts/pipeline/index-holder.mjs (acquire/release) or document npm-level 'one pipeline at a time' lockfile.",
+        "Refuse start of enrich/agent-fill/expand if holder lock present.",
+        "Keep index-backup-* rotation but stop treating backups as recovery theater — restore drill once after lock lands.",
+        "Record dualWriterResidual=false in ops-status when audit clean."
+      ],
+      "stopCondition": "Audit clean + lock protocol used on next offline deepen run; no parallel writer invocations."
+    },
+    {
+      "id": "E6-volume-vs-depth",
+      "name": "Freeze volume; depth-only offline",
+      "primaryRisk": "volume vs depth (1565 wave-3 cards diluted liveShare; floors chased with thin workplace packs)",
+      "phase": "quality-depth-offline",
+      "openaiRequired": "N",
+      "effort": "S",
+      "objective": "Stop card-count waves; deepen existing cards until offline quality bars move.",
+      "successMetric": "totalIndexCards growth ≤ 50 until M4; locallyDeepenedAt ≥ 8500; stillThinExample_codexSubset ↓ by ≥500 OR deepen-content-report shows ≥400 upgrades; frm/crma floor chase paused unless bank distinctness ≥80%.",
+      "resources": [
+        "npm run library:deepen-content",
+        "node scripts/pipeline/codex-local-enrich.mjs --dry-run",
+        "agent-banks freeze",
+        "Cursor agent (deepen, not mint)"
+      ],
+      "dependencies": [
+        "E5-dual-writer",
+        "E1-ship-check-freshness"
+      ],
+      "orderedTasks": [
+        "Set shelfFloorExpansion.mode=frozen in ops-status; document wave-4+ blocked.",
+        "Prioritize deepen queue: path cards missing workplaceTasks/sourceQuotes, then seamless cards, then index-only.",
+        "Run offline deepen/codex-local-enrich with quality gates (no heuristic allow).",
+        "Reject agent-shelf-fill unless --force-after-freeze and distinctness report attached.",
+        "Track dilution: liveSharePct must not fall further from volume; if card count rises, enrichedAt must rise proportionally or wave aborts.",
+        "Leave frm 366 / crma 44 gaps accepted until depth bars met."
+      ],
+      "stopCondition": "No net card minting week; deepen metrics up; liveSharePct not decreased by volume."
+    },
+    {
+      "id": "E7-workplace-tasks",
+      "name": "Fill empty workplaceTasks (offline)",
+      "primaryRisk": "empty workplaceTasks (4483 with tasks; ~9324 without on index)",
+      "phase": "quality-depth-offline",
+      "openaiRequired": "N",
+      "effort": "L",
+      "objective": "Raise At-work coverage using Merixa-owned patterns and agent deepen — not OpenAI.",
+      "successMetric": "withWorkplaceTasks ≥ 7000 on index (from 4483); among seamless cards, workplaceTasks coverage ≥ 55%; ConceptDetail samples show non-empty tasks on top 50 path cards.",
+      "resources": [
+        "Merixa owned workplace pack patterns in agent banks / teaching-copy",
+        "codex-local-enrich workplaceTasks field",
+        "deepen-content.mjs",
+        "Cursor agent batch deepen",
+        "p5-at-work-complete.json patterns"
+      ],
+      "dependencies": [
+        "E6-volume-vs-depth",
+        "E4-path-enrichedonly-orphans"
+      ],
+      "orderedTasks": [
+        "Export ids lacking workplaceTasks ordered by path membership then shelf.",
+        "Generate tasks offline from owned templates (owner, evidence, reverse-conclusion) without setting enrichedAt.",
+        "Prefer path steps (3426) and orphan-family steps first.",
+        "Re-run codex-local-enrich dry-run; stillNoWorkplaceTasks_codexSubset should fall from 3609.",
+        "Smoke 20 random cards in UI/ConceptDetail for task rendering.",
+        "Update ops-status.inventory.withWorkplaceTasks."
+      ],
+      "stopCondition": "withWorkplaceTasks ≥ 7000 or path-card workplaceTasks coverage ≥ 80% (whichever comes first); stop if templates become repetitive spam (qualitySkip rises)."
+    },
+    {
+      "id": "E8-glossary-exhausted-pivot",
+      "name": "Glossary exhausted — pivot to residual owned sources",
+      "primaryRisk": "glossary exhausted (codex residual upgrades=0; 5231 glossary titles consumed)",
+      "phase": "quality-depth-offline",
+      "openaiRequired": "N",
+      "effort": "M",
+      "objective": "Stop expecting glossary matching to move the needle; mine formula packs (4548 terms) + docs + registry aliases instead.",
+      "successMetric": "New offline upgrade path yields ≥200 card field upgrades from formula/docs sources; glossaryWithoutCard stays 0; no fake glossary regenerations.",
+      "resources": [
+        "codex-feed/extracted-formulas.json (4548 terms)",
+        "codex-feed/extracted-docs.json",
+        "canonical-registry / aliases (106 wired)",
+        "codex-extract-* scripts (offline)",
+        "Cursor agent"
+      ],
+      "dependencies": [
+        "E6-volume-vs-depth"
+      ],
+      "orderedTasks": [
+        "Mark glossaryMatching=exhausted in ops-status (explicit).",
+        "Build formula→card matcher (title/alias) writing formula/trap/sourceQuotes only.",
+        "Apply docs howToUse/provenance lines into workplaceTasks/implication where empty.",
+        "Skip sustainability/third-party blocked sources (already policy).",
+        "Dry-run then apply ≤1 writer; record upgrades in codex-local-enrich-report or new formula-enrich-report.",
+        "If upgrades <50 after matcher, stop and wait for OpenAI phase rather than inventing content."
+      ],
+      "stopCondition": "Matcher run complete; either ≥200 upgrades or documented residual-owned-source exhaustion."
+    },
+    {
+      "id": "E9-provenance",
+      "name": "Provenance stamps for non-live cards",
+      "primaryRisk": "provenance (agent/codex/offline cards look like live enrich)",
+      "phase": "quality-depth-offline",
+      "openaiRequired": "N",
+      "effort": "S",
+      "objective": "UI + index metadata clearly separate enrichedAt (OpenAI live) vs locallyDeepenedAt vs agentAuthoredAt vs codex sources.",
+      "successMetric": "≥95% of agentAuthored cards carry agentAuthoredAt + sourceProvenance; ConceptDetail shows provenance chip; diagnostic counts by provenance bucket.",
+      "resources": [
+        "Cursor agent (UI + diagnostic)",
+        "content/index.json fields",
+        "enrichment-diagnostic.mjs"
+      ],
+      "dependencies": [
+        "E5-dual-writer"
+      ],
+      "orderedTasks": [
+        "Define provenance enum: openai-live | agent-authored | codex-local | formula-pack | registry | unknown.",
+        "Backfill sourceProvenance on wave-3 agent cards (1565+) and codex publishes (461).",
+        "Surface chip in ConceptDetail (already has workplaceTasks/sourceQuotes hooks).",
+        "Add diagnostic buckets to ops-status.inventory.",
+        "Ensure ship-check never treats locallyDeepenedAt as enrichedAt."
+      ],
+      "stopCondition": "Spot-check 30 cards: no agent card displays as 'live enriched'; diagnostic buckets sum to totalIndexCards."
+    },
+    {
+      "id": "E10-agent-cards-no-enrichedAt",
+      "name": "Agent cards without enrichedAt — accept + queue",
+      "primaryRisk": "agent cards without enrichedAt (wave cards never get live stamp; dilute liveShare)",
+      "phase": "quality-depth-offline",
+      "openaiRequired": "N",
+      "effort": "S",
+      "objective": "Treat missing enrichedAt as expected for agent cards; maintain an explicit OpenAI polish queue rather than pretending they are live.",
+      "successMetric": "content/pipeline/openai-polish-queue.json lists agent/codex ids needing enrichedAt (subset of 10751); liveShare dilution attributed in ops-status (agentAuthoredCount, dilutionPts); no script auto-stamps enrichedAt offline.",
+      "resources": [
+        "ops-status / Cursor agent",
+        "qa-queue.json patterns",
+        "runtime-live-ids.json"
+      ],
+      "dependencies": [
+        "E9-provenance",
+        "E6-volume-vs-depth"
+      ],
+      "orderedTasks": [
+        "Count agentAuthoredAt without enrichedAt; record dilutionPts ≈ agentCount/total.",
+        "Write openai-polish-queue.json prioritized: path members → seamless → other.",
+        "Guard enrich-library to skip or deprioritize already-deep agent cards only after quota restore (queue order).",
+        "Document in killer-app-plan that agent volume ≠ liveShare progress.",
+        "Keep never-set-enrichedAt offline rule in agent-shelf-fill."
+      ],
+      "stopCondition": "Queue file exists; dilution math visible; offline writers still cannot set enrichedAt."
+    },
+    {
+      "id": "E11-liveshare-openai",
+      "name": "OpenAI liveShare recovery",
+      "primaryRisk": "liveShare dilution (22% live; 10751 need enrichedAt; soft/public gates)",
+      "phase": "openai-dependent",
+      "openaiRequired": "Y",
+      "effort": "L",
+      "objective": "After quota restore, path-first then catalog live enrich until gates are honestly green on fresh ship-check.",
+      "successMetric": "liveSharePath ≥ 0.70 (soft); liveShareSeamless ≥ 0.40 (public); fresh ship-check passed=true; remainingNeedingEnrichedAt declining ≥150/day when running; no volume waves during enrich.",
+      "resources": [
+        "OpenAI billing restore (USER)",
+        "npm run library:enrich:path-first",
+        "npm run library:enrich-all -- --ignore-budget",
+        "openai-polish-queue.json",
+        "token budget scripts"
+      ],
+      "dependencies": [
+        "E1-ship-check-freshness",
+        "E3-index-seamless-gap",
+        "E4-path-enrichedonly-orphans",
+        "E5-dual-writer",
+        "E6-volume-vs-depth",
+        "E10-agent-cards-no-enrichedAt",
+        "USER: OpenAI quota"
+      ],
+      "orderedTasks": [
+        "USER: restore OpenAI billing; probe chat.completions success; clear enrichPaused.",
+        "Reset/respect openai-daily-token-budget.json (currently exhausted historically).",
+        "Run path-first enrich until liveSharePath ≥ 0.70 on fresh diagnostic.",
+        "Drain openai-polish-queue for path/seamless agent cards.",
+        "Catalog enrich toward liveShareSeamless ≥ 0.40 (public) then 0.70 (parity aspirational).",
+        "Hourly-progress + ship-check every enrich session; abort if dual-writer or volume minting detected.",
+        "Update killer-app-plan P8 note with real liveShareSeamless."
+      ],
+      "stopCondition": "Fresh public ship-check pass OR quota exhausted again (re-pause cleanly, no offline fake enrichedAt)."
+    },
+    {
+      "id": "E12-qa-bar",
+      "name": "OpenAI QA absolute bar",
+      "primaryRisk": "QA bar (3 open OpenAI fails; absoluteFailRate 0.00001% not met; stale QA catalogSize 2974)",
+      "phase": "openai-dependent",
+      "openaiRequired": "Y",
+      "effort": "L",
+      "objective": "Drive OpenAI corpus QA to absolute fail-rate target on current seamless catalog, fixing/quarantining fails.",
+      "successMetric": "openai-corpus-qa-report: openai.failRate ≤ 1e-7 target OR open fails=0 on agreed sample policy; localFails=0; report catalogSize matches seamless (~10636) not stale 2974; ship qaFailRate gate honest.",
+      "resources": [
+        "npm run library:qa:openai:clean",
+        "qa-queue.json",
+        "topic-relevant-rewrite.mjs",
+        "Cursor agent for fail fixes"
+      ],
+      "dependencies": [
+        "E11-liveshare-openai"
+      ],
+      "orderedTasks": [
+        "Rebase QA sampling frame to seamless runtime ids.",
+        "Fix or quarantine the 3 known fails (tendering topic mismatch; two BUSINESS LAW & ETHICS CORNER placeholders).",
+        "Run library:qa:openai:clean in bounded batches with budget.",
+        "Rewrite fails via topic-relevant-rewrite; never count deleted junk as 'pass'.",
+        "Align ship-check qaFailRate source with latest QA report age-gate.",
+        "Record absolute bar status in ops-status.qualityBar."
+      ],
+      "stopCondition": "Open fails=0 for tracked queue and failRate target met on declared sample — or explicit waiver documented (not silent)."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M0",
+      "name": "Honest gates",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:00:30.586Z",
+      "epics": [
+        "E0-metric-theater",
+        "E1-ship-check-freshness"
+      ],
+      "exitCriteria": [
+        "truthBoard live in ops-status",
+        "Fresh ship-check-report shows liveShareCatalog≈0.22 and public passed=false",
+        "Stale 80.6% report cannot be used without STALE failure",
+        "competitivenessScore banned from ship narrative"
+      ],
+      "exitEvidence": {
+        "truthBoardLive": true,
+        "liveShareIndex": 0.215,
+        "liveSharePct": 21,
+        "liveShareCatalogSeamless": 0.275,
+        "publicPassed": false,
+        "staleAssertExitCode": 2,
+        "competitivenessScoreBanned": true
+      }
+    },
+    {
+      "id": "M1",
+      "name": "Deploy safety",
+      "epics": [
+        "E2-git-remote"
+      ],
+      "exitCriteria": [
+        "User-provided origin remote configured",
+        "At least one successful push",
+        "Backup-before-write path verified"
+      ],
+      "status": "completed",
+      "completedAt": "2026-07-26T10:45:46.265Z",
+      "exitEvidence": {
+        "originConfigured": true,
+        "remoteUrl": "https://github.com/merixadw/merixa-practitioners-guide.git",
+        "successfulPush": true,
+        "tipSha": "627dd84834c5e59b00536298e2ba787228c8eac1",
+        "backupBeforeWritePathVerified": true
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Runtime visibility",
+      "status": "completed",
+      "completedAt": "2026-07-26T10:23:49.102Z",
+      "epics": [
+        "E3-index-seamless-gap",
+        "E4-path-enrichedonly-orphans"
+      ],
+      "exitCriteria": [
+        "indexSeamlessGap ≤50 or 100% classified",
+        "orphan paths include deepened tier or dual-tier report",
+        "pathDeadRefs remains 0",
+        "seamless smoke green"
+      ],
+      "exitEvidence": {
+        "indexSeamlessGap": 0,
+        "gapFullyClassified": true,
+        "orphanFamilyEnrichedOnly": false,
+        "deepenedNotInPathReductionPct": 56.3,
+        "pathDeadRefs": 0,
+        "seamlessSmokeGreen": true
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Offline quality depth",
+      "epics": [
+        "E5-dual-writer",
+        "E6-volume-vs-depth",
+        "E7-workplace-tasks",
+        "E8-glossary-exhausted-pivot",
+        "E9-provenance",
+        "E10-agent-cards-no-enrichedAt"
+      ],
+      "exitCriteria": [
+        "dualWriterResidual=false",
+        "volume freeze held (≤50 net new cards)",
+        "withWorkplaceTasks ≥7000 or path workplaceTasks ≥80%",
+        "glossary exhausted pivot run complete",
+        "provenance buckets visible",
+        "openai-polish-queue.json ready"
+      ]
+    },
+    {
+      "id": "M4",
+      "name": "OpenAI liveShare",
+      "epics": [
+        "E11-liveshare-openai"
+      ],
+      "exitCriteria": [
+        "enrichPaused=false after successful probe",
+        "liveSharePath ≥0.70",
+        "liveShareSeamless ≥0.40",
+        "Fresh public ship-check passed=true"
+      ],
+      "blocker": "OpenAI quota/billing restore"
+    },
+    {
+      "id": "M5",
+      "name": "QA absolute bar",
+      "epics": [
+        "E12-qa-bar"
+      ],
+      "exitCriteria": [
+        "Known 3 fails fixed/quarantined",
+        "QA report frame = seamless catalog",
+        "Absolute fail-rate target met or written waiver",
+        "ops-status.qualityBar green"
+      ]
+    }
+  ],
+  "executionNotes": {
+    "parallelism": "E5 can start after E0 in parallel with E2 once M0 done; E3/E4 after M0; never parallelize index writers.",
+    "userBlockers": [
+      "Git remote URL for E2/M1",
+      "OpenAI billing for E11–E12/M4–M5"
+    ],
+    "firstCommandAfterPlanApproval": "npm run library:enrich:diagnostic && npm run library:ship-check -- --gate=public --report-only",
+    "explicitlyNotInThisPlan": [
+      "Running enrich/expand/OpenAI now",
+      "Committing",
+      "Heuristic shelf floods",
+      "Inventing a git remote URL"
+    ]
+  },
+  "m1CompletedAt": "2026-07-26T10:45:46.265Z",
+  "m1Status": "completed"
+}

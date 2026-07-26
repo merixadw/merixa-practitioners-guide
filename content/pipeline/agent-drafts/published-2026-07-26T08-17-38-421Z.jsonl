@@ -1,0 +1,757 @@
+{"id":"frm-historical-simulation-var-lookback-window-aglzdg9yaw","title":"Historical simulation VaR lookback window","shelfTag":"frm-encyclopedia"}
+{"id":"frm-parametric-var-normality-assumption-stress-cgfyyw1ldh","title":"Parametric VaR normality assumption stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-expected-shortfall-capital-allocation-by-desk-zxhwzwn0zw","title":"Expected shortfall capital allocation by desk","shelfTag":"frm-encyclopedia"}
+{"id":"frm-var-exception-clustering-review-dmfyigv4y2","title":"VaR exception clustering review","shelfTag":"frm-encyclopedia"}
+{"id":"frm-stressed-var-period-selection-governance-c3ryzxnzzw","title":"Stressed VaR period selection governance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-factor-mapping-completeness-for-var-cmlzaybmyw","title":"Risk factor mapping completeness for VaR","shelfTag":"frm-encyclopedia"}
+{"id":"frm-incremental-var-for-new-issue-approval-aw5jcmvtzw","title":"Incremental VaR for new issue approval","shelfTag":"frm-encyclopedia"}
+{"id":"frm-component-var-concentration-dashboard-y29tcg9uzw","title":"Component VaR concentration dashboard","shelfTag":"frm-encyclopedia"}
+{"id":"frm-interest-rate-dv01-ladder-by-tenor-bucket-aw50zxjlc3","title":"Interest rate DV01 ladder by tenor bucket","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cs01-credit-spread-sensitivity-limits-y3mwmsbjcm","title":"CS01 credit spread sensitivity limits","shelfTag":"frm-encyclopedia"}
+{"id":"frm-fx-delta-and-vega-joint-limit-utilisation-znggzgvsdg","title":"FX delta and vega joint limit utilisation","shelfTag":"frm-encyclopedia"}
+{"id":"frm-basis-risk-between-futures-and-cash-hedge-ymfzaxmgcm","title":"Basis risk between futures and cash hedge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-horizon-adjustment-in-internal-var-bglxdwlkax","title":"Liquidity horizon adjustment in internal VaR","shelfTag":"frm-encyclopedia"}
+{"id":"frm-market-risk-limit-breach-escalation-clock-bwfya2v0ih","title":"Market risk limit breach escalation clock","shelfTag":"frm-encyclopedia"}
+{"id":"frm-backtesting-p-l-clean-vs-unclean-definition-ymfja3rlc3","title":"Backtesting P&L clean vs unclean definition","shelfTag":"frm-encyclopedia"}
+{"id":"frm-non-modellable-risk-factor-nmrf-capital-bm9ulw1vzg","title":"Non-modellable risk factor NMRF capital","shelfTag":"frm-encyclopedia"}
+{"id":"frm-trading-book-boundary-daily-attestation-dhjhzgluzy","title":"Trading book boundary daily attestation","shelfTag":"frm-encyclopedia"}
+{"id":"frm-irc-incremental-risk-charge-concentration-axjjigluy3","title":"IRC incremental risk charge concentration","shelfTag":"frm-encyclopedia"}
+{"id":"frm-correlation-stress-for-multi-asset-var-y29ycmvsyx","title":"Correlation stress for multi-asset VaR","shelfTag":"frm-encyclopedia"}
+{"id":"frm-gamma-and-cross-gamma-risk-in-option-books-z2ftbwegyw","title":"Gamma and cross-gamma risk in option books","shelfTag":"frm-encyclopedia"}
+{"id":"frm-through-the-cycle-vs-point-in-time-pd-dghyb3vnac","title":"Through-the-cycle vs point-in-time PD","shelfTag":"frm-encyclopedia"}
+{"id":"frm-lgd-downturn-calibration-evidence-pack-bgdkigrvd2","title":"LGD downturn calibration evidence pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ead-conversion-factor-for-undrawn-lines-zwfkignvbn","title":"EAD conversion factor for undrawn lines","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-migration-matrix-annual-refresh-y3jlzgl0ig","title":"Credit migration matrix annual refresh","shelfTag":"frm-encyclopedia"}
+{"id":"frm-obligor-concentration-herfindahl-monitor-b2jsawdvci","title":"Obligor concentration Herfindahl monitor","shelfTag":"frm-encyclopedia"}
+{"id":"frm-wrong-way-risk-trade-booking-flag-d3jvbmctd2","title":"Wrong-way risk trade booking flag","shelfTag":"frm-encyclopedia"}
+{"id":"frm-cva-hedge-effectiveness-desk-review-y3zhighlzg","title":"CVA hedge effectiveness desk review","shelfTag":"frm-encyclopedia"}
+{"id":"frm-collateral-dispute-ageing-and-exposure-add-on-y29sbgf0zx","title":"Collateral dispute ageing and exposure add-on","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-limit-tenor-bucket-structure-y3jlzgl0ig","title":"Credit limit tenor bucket structure","shelfTag":"frm-encyclopedia"}
+{"id":"frm-shadow-rating-for-unrated-counterparties-c2hhzg93ih","title":"Shadow rating for unrated counterparties","shelfTag":"frm-encyclopedia"}
+{"id":"frm-forbearance-flag-linkage-to-stage-2-ecl-zm9yymvhcm","title":"Forbearance flag linkage to Stage 2 ECL","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-stress-overlay-for-cre-ltv-shocks-y3jlzgl0ih","title":"Credit stress overlay for CRE LTV shocks","shelfTag":"frm-encyclopedia"}
+{"id":"frm-netting-set-enforceability-legal-opinion-log-bmv0dgluzy","title":"Netting set enforceability legal opinion log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-settlement-risk-herstatt-window-limit-c2v0dgxlbw","title":"Settlement risk Herstatt window limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-sovereign-ceiling-on-corporate-credit-grades-c292zxjlaw","title":"Sovereign ceiling on corporate credit grades","shelfTag":"frm-encyclopedia"}
+{"id":"frm-operational-risk-loss-data-threshold-policy-b3blcmf0aw","title":"Operational risk loss data threshold policy","shelfTag":"frm-encyclopedia"}
+{"id":"frm-rcsa-residual-risk-scoring-calibration-cmnzysbyzx","title":"RCSA residual risk scoring calibration","shelfTag":"frm-encyclopedia"}
+{"id":"frm-key-risk-indicator-threshold-breach-protocol-a2v5ihjpc2","title":"Key risk indicator threshold breach protocol","shelfTag":"frm-encyclopedia"}
+{"id":"frm-scenario-analysis-workshop-for-cyber-outage-c2nlbmfyaw","title":"Scenario analysis workshop for cyber outage","shelfTag":"frm-encyclopedia"}
+{"id":"frm-external-loss-data-scaling-to-firm-size-zxh0zxjuyw","title":"External loss data scaling to firm size","shelfTag":"frm-encyclopedia"}
+{"id":"frm-conduct-risk-complaint-to-loss-bridge-y29uzhvjdc","title":"Conduct risk complaint-to-loss bridge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-change-the-bank-operational-risk-gate-y2hhbmdllx","title":"Change-the-bank operational risk gate","shelfTag":"frm-encyclopedia"}
+{"id":"frm-third-party-concentration-operational-dependency-dghpcmqtcg","title":"Third-party concentration operational dependency","shelfTag":"frm-encyclopedia"}
+{"id":"frm-internal-fraud-typology-control-testing-aw50zxjuyw","title":"Internal fraud typology control testing","shelfTag":"frm-encyclopedia"}
+{"id":"frm-business-resilience-impact-tolerance-link-ynvzaw5lc3","title":"Business resilience impact tolerance link","shelfTag":"frm-encyclopedia"}
+{"id":"frm-lcr-hqla-eligibility-daily-certification-bgnyighxbg","title":"LCR HQLA eligibility daily certification","shelfTag":"frm-encyclopedia"}
+{"id":"frm-nsfr-asf-factor-challenge-for-deposits-bnnmcibhc2","title":"NSFR ASF factor challenge for deposits","shelfTag":"frm-encyclopedia"}
+{"id":"frm-intraday-liquidity-peak-usage-dashboard-aw50cmfkyx","title":"Intraday liquidity peak usage dashboard","shelfTag":"frm-encyclopedia"}
+{"id":"frm-contingency-funding-plan-playbook-drill-y29udgluz2","title":"Contingency funding plan playbook drill","shelfTag":"frm-encyclopedia"}
+{"id":"frm-deposit-runoff-segmentation-for-stress-zgvwb3npdc","title":"Deposit runoff segmentation for stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-encumbrance-ratio-board-limit-zw5jdw1icm","title":"Encumbrance ratio board limit","shelfTag":"frm-encyclopedia"}
+{"id":"frm-funds-transfer-pricing-liquidity-premium-znvuzhmgdh","title":"Funds transfer pricing liquidity premium","shelfTag":"frm-encyclopedia"}
+{"id":"frm-early-warning-indicators-for-liquidity-stress-zwfybhkgd2","title":"Early warning indicators for liquidity stress","shelfTag":"frm-encyclopedia"}
+{"id":"frm-committed-facility-undrawn-liquidity-outflow-y29tbwl0dg","title":"Committed facility undrawn liquidity outflow","shelfTag":"frm-encyclopedia"}
+{"id":"frm-collateral-reuse-and-rehypothecation-inventory-y29sbgf0zx","title":"Collateral reuse and rehypothecation inventory","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-inventory-completeness-attestation-bw9kzwwgaw","title":"Model inventory completeness attestation","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-validation-independence-firewall-bw9kzwwgdm","title":"Model validation independence firewall","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-performance-monitoring-drift-alert-bw9kzwwgcg","title":"Model performance monitoring drift alert","shelfTag":"frm-encyclopedia"}
+{"id":"frm-champion-challenger-model-governance-y2hhbxbpb2","title":"Champion challenger model governance","shelfTag":"frm-encyclopedia"}
+{"id":"frm-pricing-model-ipv-independent-verification-chjpy2luzy","title":"Pricing model IPV independent verification","shelfTag":"frm-encyclopedia"}
+{"id":"frm-overlay-and-expert-judgement-model-register-b3zlcmxhes","title":"Overlay and expert judgement model register","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-change-materiality-triage-bw9kzwwgy2","title":"Model change materiality triage","shelfTag":"frm-encyclopedia"}
+{"id":"frm-ai-credit-decisioning-explainability-pack-ywkgy3jlzg","title":"AI credit decisioning explainability pack","shelfTag":"frm-encyclopedia"}
+{"id":"frm-vendor-model-reliance-assessment-dmvuzg9yig","title":"Vendor model reliance assessment","shelfTag":"frm-encyclopedia"}
+{"id":"frm-benchmark-model-for-valuation-control-ymvuy2htyx","title":"Benchmark model for valuation control","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-appetite-cascade-to-desk-limits-cmlzaybhch","title":"Risk appetite cascade to desk limits","shelfTag":"frm-encyclopedia"}
+{"id":"frm-principal-risk-owner-accountability-map-chjpbmnpcg","title":"Principal risk owner accountability map","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-committee-mi-pack-decision-log-cmlzaybjb2","title":"Risk committee MI pack decision log","shelfTag":"frm-encyclopedia"}
+{"id":"frm-three-lines-role-clarity-in-product-approval-dghyzwugbg","title":"Three lines role clarity in product approval","shelfTag":"frm-encyclopedia"}
+{"id":"frm-emerging-risk-horizon-scan-quarterly-zw1lcmdpbm","title":"Emerging risk horizon scan quarterly","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-culture-survey-to-control-outcomes-bridge-cmlzaybjdw","title":"Risk culture survey to control outcomes bridge","shelfTag":"frm-encyclopedia"}
+{"id":"frm-capital-contingency-trigger-framework-y2fwaxrhbc","title":"Capital contingency trigger framework","shelfTag":"frm-encyclopedia"}
+{"id":"frm-integrated-stress-testing-assumption-book-aw50zwdyyx","title":"Integrated stress testing assumption book","shelfTag":"frm-encyclopedia"}
+{"id":"frm-board-risk-appetite-breach-notification-sla-ym9hcmqgcm","title":"Board risk appetite breach notification SLA","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-data-aggregation-lineage-for-bcbs-239-cmlzaybkyx","title":"Risk data aggregation lineage for BCBS 239","shelfTag":"frm-encyclopedia"}
+{"id":"frm-overnight-gap-risk-limit-for-cash-equities-b3zlcm5pz2","title":"Overnight gap risk limit for cash equities","shelfTag":"frm-encyclopedia"}
+{"id":"frm-jump-to-default-exposure-on-credit-derivatives-anvtcc10by","title":"Jump-to-default exposure on credit derivatives","shelfTag":"frm-encyclopedia"}
+{"id":"frm-recovery-rate-uncertainty-in-cva-cmvjb3zlcn","title":"Recovery rate uncertainty in CVA","shelfTag":"frm-encyclopedia"}
+{"id":"frm-operational-resilience-important-business-services-map-b3blcmf0aw","title":"Operational resilience important business services map","shelfTag":"frm-encyclopedia"}
+{"id":"frm-liquidity-transfer-pricing-contingent-commitment-fee-bglxdwlkax","title":"Liquidity transfer pricing contingent commitment fee","shelfTag":"frm-encyclopedia"}
+{"id":"frm-model-risk-appetite-statement-metrics-bw9kzwwgcm","title":"Model risk appetite statement metrics","shelfTag":"frm-encyclopedia"}
+{"id":"frm-risk-capacity-versus-risk-appetite-distinction-cmlzaybjyx","title":"Risk capacity versus risk appetite distinction","shelfTag":"frm-encyclopedia"}
+{"id":"frm-desk-level-stress-p-l-attribution-zgvzay1szx","title":"Desk-level stress P&L attribution","shelfTag":"frm-encyclopedia"}
+{"id":"frm-credit-valuation-adjustment-wrong-way-multiplier-y3jlzgl0ih","title":"Credit valuation adjustment wrong-way multiplier","shelfTag":"frm-encyclopedia"}
+{"id":"frm-op-risk-capital-sma-business-indicator-mapping-b3agcmlzay","title":"Op risk capital SMA business indicator mapping","shelfTag":"frm-encyclopedia"}
+{"id":"tax-current-tax-payable-roll-forward-bridge-y3vycmvudc","title":"Current tax payable roll-forward bridge","shelfTag":"tax-encyclopedia"}
+{"id":"tax-deferred-tax-rate-substantively-enacted-test-zgvmzxjyzw","title":"Deferred tax rate substantively enacted test","shelfTag":"tax-encyclopedia"}
+{"id":"tax-dta-recoverability-evidence-schedule-zhrhihjly2","title":"DTA recoverability evidence schedule","shelfTag":"tax-encyclopedia"}
+{"id":"tax-outside-basis-deferred-tax-inventory-b3v0c2lkzs","title":"Outside basis deferred tax inventory","shelfTag":"tax-encyclopedia"}
+{"id":"tax-pillar-two-top-up-tax-close-checklist-cglsbgfyih","title":"Pillar Two top-up tax close checklist","shelfTag":"tax-encyclopedia"}
+{"id":"tax-etr-bridge-permanent-difference-pack-zxryigjyaw","title":"ETR bridge permanent difference pack","shelfTag":"tax-encyclopedia"}
+{"id":"tax-uncertain-tax-position-measurement-memo-dw5jzxj0yw","title":"Uncertain tax position measurement memo","shelfTag":"tax-encyclopedia"}
+{"id":"tax-transfer-pricing-local-file-refresh-trigger-dhjhbnnmzx","title":"Transfer pricing local file refresh trigger","shelfTag":"tax-encyclopedia"}
+{"id":"tax-arm-s-length-range-interquartile-policy-yxjtj3mgbg","title":"Arm's length range interquartile policy","shelfTag":"tax-encyclopedia"}
+{"id":"tax-dempe-functional-analysis-update-zgvtcgugzn","title":"DEMPE functional analysis update","shelfTag":"tax-encyclopedia"}
+{"id":"tax-interest-limitation-ebitda-wrap-aw50zxjlc3","title":"Interest limitation EBITDA wrap","shelfTag":"tax-encyclopedia"}
+{"id":"tax-hybrid-mismatch-disclosure-checklist-ahlicmlkig","title":"Hybrid mismatch disclosure checklist","shelfTag":"tax-encyclopedia"}
+{"id":"tax-permanent-establishment-risk-register-cgvybwfuzw","title":"Permanent establishment risk register","shelfTag":"tax-encyclopedia"}
+{"id":"tax-vat-partial-exemption-annual-adjustment-dmf0ihbhcn","title":"VAT partial exemption annual adjustment","shelfTag":"tax-encyclopedia"}
+{"id":"tax-vat-reverse-charge-process-control-dmf0ihjldm","title":"VAT reverse charge process control","shelfTag":"tax-encyclopedia"}
+{"id":"tax-capital-allowances-aia-utilisation-plan-y2fwaxrhbc","title":"Capital allowances AIA utilisation plan","shelfTag":"tax-encyclopedia"}
+{"id":"tax-r-d-expenditure-credit-evidence-file-cizkigv4cg","title":"R&D expenditure credit evidence file","shelfTag":"tax-encyclopedia"}
+{"id":"tax-group-relief-capacity-scheduler-z3jvdxagcm","title":"Group relief capacity scheduler","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-provision-vs-cash-tax-forecast-bridge-dgf4ihbyb3","title":"Tax provision vs cash tax forecast bridge","shelfTag":"tax-encyclopedia"}
+{"id":"tax-country-by-country-reporting-data-lineage-y291bnryes","title":"Country-by-country reporting data lineage","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-governance-board-risk-report-dgf4igdvdm","title":"Tax governance board risk report","shelfTag":"tax-encyclopedia"}
+{"id":"tax-advance-pricing-agreement-monitoring-ywr2yw5jzs","title":"Advance pricing agreement monitoring","shelfTag":"tax-encyclopedia"}
+{"id":"tax-withholding-tax-treaty-claim-controls-d2l0aghvbg","title":"Withholding tax treaty claim controls","shelfTag":"tax-encyclopedia"}
+{"id":"tax-share-scheme-tax-timing-calendar-c2hhcmugc2","title":"Share scheme tax timing calendar","shelfTag":"tax-encyclopedia"}
+{"id":"tax-diverted-profits-awareness-screening-zgl2zxj0zw","title":"Diverted profits awareness screening","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-contingency-versus-provision-split-dgf4ignvbn","title":"Tax contingency versus provision split","shelfTag":"tax-encyclopedia"}
+{"id":"tax-deferred-tax-on-ifrs-16-leases-pack-zgvmzxjyzw","title":"Deferred tax on IFRS 16 leases pack","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-data-lineage-for-e-filing-dgf4igrhdg","title":"Tax data lineage for e-filing","shelfTag":"tax-encyclopedia"}
+{"id":"tax-indirect-tax-health-check-findings-log-aw5kaxjly3","title":"Indirect tax health-check findings log","shelfTag":"tax-encyclopedia"}
+{"id":"tax-customs-valuation-assist-adjustments-y3vzdg9tcy","title":"Customs valuation assist adjustments","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-residency-management-minutes-dgf4ihjlc2","title":"Tax residency management minutes","shelfTag":"tax-encyclopedia"}
+{"id":"tax-patent-box-nexus-tracking-cgf0zw50ig","title":"Patent box nexus tracking","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-authority-enquiry-response-pack-dgf4igf1dg","title":"Tax authority enquiry response pack","shelfTag":"tax-encyclopedia"}
+{"id":"tax-intra-group-service-recharge-mark-up-policy-aw50cmetz3","title":"Intra-group service recharge mark-up policy","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-cash-payments-on-account-calendar-dgf4ignhc2","title":"Tax cash payments on account calendar","shelfTag":"tax-encyclopedia"}
+{"id":"tax-oecd-model-pe-agency-risk-checklist-b2vjzcbtb2","title":"OECD model PE agency risk checklist","shelfTag":"tax-encyclopedia"}
+{"id":"tax-digital-services-tax-scoping-memo-zglnaxrhbc","title":"Digital services tax scoping memo","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-note-deferred-tax-inventory-roll-dgf4ig5vdg","title":"Tax note deferred tax inventory roll","shelfTag":"tax-encyclopedia"}
+{"id":"tax-controlled-foreign-company-risk-screen-y29udhjvbg","title":"Controlled foreign company risk screen","shelfTag":"tax-encyclopedia"}
+{"id":"tax-mutual-agreement-procedure-case-log-bxv0dwfsig","title":"Mutual agreement procedure case log","shelfTag":"tax-encyclopedia"}
+{"id":"tax-employee-vs-contractor-tax-status-reviews-zw1wbg95zw","title":"Employee vs contractor tax status reviews","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-technology-reconciliation-controls-dgf4ihrly2","title":"Tax technology reconciliation controls","shelfTag":"tax-encyclopedia"}
+{"id":"tax-branch-versus-subsidiary-tax-choice-memo-ynjhbmnoih","title":"Branch versus subsidiary tax choice memo","shelfTag":"tax-encyclopedia"}
+{"id":"tax-stamp-tax-on-share-acquisition-checklist-c3rhbxagdg","title":"Stamp tax on share acquisition checklist","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-risk-appetite-metrics-dashboard-dgf4ihjpc2","title":"Tax risk appetite metrics dashboard","shelfTag":"tax-encyclopedia"}
+{"id":"tax-hybrid-instrument-classification-bridge-ahlicmlkig","title":"Hybrid instrument classification bridge","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-provisioning-cut-off-evidence-dgf4ihbyb3","title":"Tax provisioning cut-off evidence","shelfTag":"tax-encyclopedia"}
+{"id":"tax-multilateral-instrument-treaty-impact-map-bxvsdglsyx","title":"Multilateral instrument treaty impact map","shelfTag":"tax-encyclopedia"}
+{"id":"tax-carbon-tax-and-ets-accounting-bridge-y2fyym9uih","title":"Carbon tax and ETS accounting bridge","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-control-self-assessment-scoring-dgf4ignvbn","title":"Tax control self-assessment scoring","shelfTag":"tax-encyclopedia"}
+{"id":"tax-exit-tax-and-migration-charge-checklist-zxhpdcb0yx","title":"Exit tax and migration charge checklist","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-loss-carry-back-opportunity-review-dgf4igxvc3","title":"Tax loss carry-back opportunity review","shelfTag":"tax-encyclopedia"}
+{"id":"tax-beneficial-ownership-wht-questionnaire-ymvuzwzpy2","title":"Beneficial ownership WHT questionnaire","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-partnership-allocation-reconciliation-dgf4ihbhcn","title":"Tax partnership allocation reconciliation","shelfTag":"tax-encyclopedia"}
+{"id":"tax-intra-group-financing-thin-cap-file-aw50cmetz3","title":"Intra-group financing thin-cap file","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-disclosure-committee-pre-clear-dgf4igrpc2","title":"Tax disclosure committee pre-clear","shelfTag":"tax-encyclopedia"}
+{"id":"tax-sourcing-rules-for-remote-workers-c291cmnpbm","title":"Sourcing rules for remote workers","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-aware-m-a-locked-box-true-up-dgf4lwf3yx","title":"Tax-aware M&A locked-box true-up","shelfTag":"tax-encyclopedia"}
+{"id":"tax-indirect-tax-system-tax-code-governance-aw5kaxjly3","title":"Indirect tax system tax-code governance","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-reporting-materiality-for-adjustments-dgf4ihjlcg","title":"Tax reporting materiality for adjustments","shelfTag":"tax-encyclopedia"}
+{"id":"tax-dual-consolidated-loss-awareness-zhvhbcbjb2","title":"Dual consolidated loss awareness","shelfTag":"tax-encyclopedia"}
+{"id":"tax-tax-esg-transparency-metrics-pack-dgf4igvzzy","title":"Tax ESG transparency metrics pack","shelfTag":"tax-encyclopedia"}
+{"id":"coso-control-environment-tone-evidence-pack-y29udhjvbc","title":"Control environment tone evidence pack","shelfTag":"coso-encyclopedia"}
+{"id":"coso-board-independence-override-protocol-ym9hcmqgaw","title":"Board independence override protocol","shelfTag":"coso-encyclopedia"}
+{"id":"coso-accountability-matrix-for-icfr-owners-ywnjb3vudg","title":"Accountability matrix for ICFR owners","shelfTag":"coso-encyclopedia"}
+{"id":"coso-competence-requirements-for-control-operators-y29tcgv0zw","title":"Competence requirements for control operators","shelfTag":"coso-encyclopedia"}
+{"id":"coso-structure-and-authority-delegation-limits-c3rydwn0dx","title":"Structure and authority delegation limits","shelfTag":"coso-encyclopedia"}
+{"id":"coso-fraud-triangle-pressure-indicator-monitor-znjhdwqgdh","title":"Fraud triangle pressure indicator monitor","shelfTag":"coso-encyclopedia"}
+{"id":"coso-change-risk-assessment-for-system-go-lives-y2hhbmdlih","title":"Change risk assessment for system go-lives","shelfTag":"coso-encyclopedia"}
+{"id":"coso-objective-cascading-to-process-risks-b2jqzwn0ax","title":"Objective cascading to process risks","shelfTag":"coso-encyclopedia"}
+{"id":"coso-fraud-risk-scenario-library-refresh-znjhdwqgcm","title":"Fraud risk scenario library refresh","shelfTag":"coso-encyclopedia"}
+{"id":"coso-risk-appetite-to-control-tolerance-mapping-cmlzaybhch","title":"Risk appetite to control tolerance mapping","shelfTag":"coso-encyclopedia"}
+{"id":"coso-key-control-inventory-completeness-test-a2v5ignvbn","title":"Key control inventory completeness test","shelfTag":"coso-encyclopedia"}
+{"id":"coso-preventive-versus-detective-control-balance-chjldmvudg","title":"Preventive versus detective control balance","shelfTag":"coso-encyclopedia"}
+{"id":"coso-automated-control-configuration-governance-yxv0b21hdg","title":"Automated control configuration governance","shelfTag":"coso-encyclopedia"}
+{"id":"coso-segregation-of-duties-conflict-matrix-c2vncmvnyx","title":"Segregation of duties conflict matrix","shelfTag":"coso-encyclopedia"}
+{"id":"coso-management-review-control-precision-design-bwfuywdlbw","title":"Management review control precision design","shelfTag":"coso-encyclopedia"}
+{"id":"coso-outsourced-control-responsibility-matrix-b3v0c291cm","title":"Outsourced control responsibility matrix","shelfTag":"coso-encyclopedia"}
+{"id":"coso-policy-exception-approval-workflow-cg9sawn5ig","title":"Policy exception approval workflow","shelfTag":"coso-encyclopedia"}
+{"id":"coso-transaction-authorisation-threshold-design-dhjhbnnhy3","title":"Transaction authorisation threshold design","shelfTag":"coso-encyclopedia"}
+{"id":"coso-information-quality-criteria-for-icfr-packs-aw5mb3jtyx","title":"Information quality criteria for ICFR packs","shelfTag":"coso-encyclopedia"}
+{"id":"coso-internal-communication-of-control-changes-aw50zxjuyw","title":"Internal communication of control changes","shelfTag":"coso-encyclopedia"}
+{"id":"coso-external-disclosure-control-checklist-zxh0zxjuyw","title":"External disclosure control checklist","shelfTag":"coso-encyclopedia"}
+{"id":"coso-whistleblower-channel-independence-test-d2hpc3rszw","title":"Whistleblower channel independence test","shelfTag":"coso-encyclopedia"}
+{"id":"coso-control-deficiency-aggregation-model-y29udhjvbc","title":"Control deficiency aggregation model","shelfTag":"coso-encyclopedia"}
+{"id":"coso-ongoing-versus-separate-evaluation-mix-b25nb2luzy","title":"Ongoing versus separate evaluation mix","shelfTag":"coso-encyclopedia"}
+{"id":"coso-deficiency-remediation-verification-standard-zgvmawnpzw","title":"Deficiency remediation verification standard","shelfTag":"coso-encyclopedia"}
+{"id":"coso-board-icfr-monitoring-dashboard-ym9hcmqgaw","title":"Board ICFR monitoring dashboard","shelfTag":"coso-encyclopedia"}
+{"id":"coso-component-interdependence-stress-review-y29tcg9uzw","title":"Component interdependence stress review","shelfTag":"coso-encyclopedia"}
+{"id":"coso-icfr-scope-entity-materiality-map-awnmcibzy2","title":"ICFR scope entity materiality map","shelfTag":"coso-encyclopedia"}
+{"id":"coso-management-override-journal-analytics-bwfuywdlbw","title":"Management override journal analytics","shelfTag":"coso-encyclopedia"}
+{"id":"coso-erm-strategy-objective-setting-workshop-zxjtihn0cm","title":"ERM strategy objective-setting workshop","shelfTag":"coso-encyclopedia"}
+{"id":"coso-portfolio-view-of-risk-heat-map-cg9ydgzvbg","title":"Portfolio view of risk heat map","shelfTag":"coso-encyclopedia"}
+{"id":"coso-risk-appetite-versus-tolerance-bands-cmlzaybhch","title":"Risk appetite versus tolerance bands","shelfTag":"coso-encyclopedia"}
+{"id":"coso-performance-and-risk-integrated-mi-cgvyzm9ybw","title":"Performance and risk integrated MI","shelfTag":"coso-encyclopedia"}
+{"id":"coso-erm-review-and-revision-trigger-events-zxjtihjldm","title":"ERM review and revision trigger events","shelfTag":"coso-encyclopedia"}
+{"id":"coso-information-communication-reporting-for-erm-aw5mb3jtyx","title":"Information communication reporting for ERM","shelfTag":"coso-encyclopedia"}
+{"id":"coso-culture-indicator-set-for-erm-y3vsdhvyzs","title":"Culture indicator set for ERM","shelfTag":"coso-encyclopedia"}
+{"id":"coso-risk-informed-resource-allocation-cmlzay1pbm","title":"Risk-informed resource allocation","shelfTag":"coso-encyclopedia"}
+{"id":"coso-entity-level-control-operating-tests-zw50axr5lw","title":"Entity-level control operating tests","shelfTag":"coso-encyclopedia"}
+{"id":"coso-outsourced-process-complementary-controls-b3v0c291cm","title":"Outsourced process complementary controls","shelfTag":"coso-encyclopedia"}
+{"id":"coso-material-weakness-indicator-checklist-bwf0zxjpyw","title":"Material weakness indicator checklist","shelfTag":"coso-encyclopedia"}
+{"id":"coso-significant-deficiency-communication-protocol-c2lnbmlmaw","title":"Significant deficiency communication protocol","shelfTag":"coso-encyclopedia"}
+{"id":"coso-monitoring-deficiency-root-cause-taxonomy-bw9uaxrvcm","title":"Monitoring deficiency root-cause taxonomy","shelfTag":"coso-encyclopedia"}
+{"id":"coso-coso-mapping-to-uk-cgc-provision-29-y29zbybtyx","title":"COSO mapping to UK CGC Provision 29","shelfTag":"coso-encyclopedia"}
+{"id":"coso-risk-assessment-correlation-to-audit-plan-cmlzaybhc3","title":"Risk assessment correlation to audit plan","shelfTag":"coso-encyclopedia"}
+{"id":"coso-control-activity-standardisation-across-entities-y29udhjvbc","title":"Control activity standardisation across entities","shelfTag":"coso-encyclopedia"}
+{"id":"coso-information-exception-ageing-for-controls-aw5mb3jtyx","title":"Information exception ageing for controls","shelfTag":"coso-encyclopedia"}
+{"id":"coso-board-skills-matrix-for-oversight-of-icfr-ym9hcmqgc2","title":"Board skills matrix for oversight of ICFR","shelfTag":"coso-encyclopedia"}
+{"id":"coso-erm-opportunity-side-capture-zxjtig9wcg","title":"ERM opportunity side capture","shelfTag":"coso-encyclopedia"}
+{"id":"coso-control-evidence-retention-standard-y29udhjvbc","title":"Control evidence retention standard","shelfTag":"coso-encyclopedia"}
+{"id":"coso-third-line-reliance-on-second-line-testing-dghpcmqtbg","title":"Third-line reliance on second-line testing","shelfTag":"coso-encyclopedia"}
+{"id":"coso-icfr-assertion-management-representation-awnmcibhc3","title":"ICFR assertion management representation","shelfTag":"coso-encyclopedia"}
+{"id":"coso-risk-assessment-velocity-tracking-cmlzaybhc3","title":"Risk assessment velocity tracking","shelfTag":"coso-encyclopedia"}
+{"id":"coso-automated-continuous-control-monitoring-bot-yxv0b21hdg","title":"Automated continuous control monitoring bot","shelfTag":"coso-encyclopedia"}
+{"id":"coso-principle-points-of-focus-evidence-index-chjpbmnpcg","title":"Principle points of focus evidence index","shelfTag":"coso-encyclopedia"}
+{"id":"coso-shared-service-control-transparent-reporting-c2hhcmvkih","title":"Shared service control transparent reporting","shelfTag":"coso-encyclopedia"}
+{"id":"coso-crisis-mode-control-adaptation-playbook-y3jpc2lzlw","title":"Crisis-mode control adaptation playbook","shelfTag":"coso-encyclopedia"}
+{"id":"coso-vendor-soc-report-bridge-letter-review-dmvuzg9yih","title":"Vendor SOC report bridge letter review","shelfTag":"coso-encyclopedia"}
+{"id":"coso-control-owner-attestation-quarterly-y29udhjvbc","title":"Control owner attestation quarterly","shelfTag":"coso-encyclopedia"}
+{"id":"coso-erm-capital-allocation-stress-link-zxjtignhcg","title":"ERM capital allocation stress link","shelfTag":"coso-encyclopedia"}
+{"id":"coso-information-asymmetry-escalation-path-aw5mb3jtyx","title":"Information asymmetry escalation path","shelfTag":"coso-encyclopedia"}
+{"id":"coso-monitoring-analytics-false-positive-tuning-bw9uaxrvcm","title":"Monitoring analytics false-positive tuning","shelfTag":"coso-encyclopedia"}
+{"id":"coso-coso-erm-performance-feedback-loop-y29zbyblcm","title":"COSO ERM performance feedback loop","shelfTag":"coso-encyclopedia"}
+{"id":"coso-entity-level-anti-fraud-controls-suite-zw50axr5lw","title":"Entity-level anti-fraud controls suite","shelfTag":"coso-encyclopedia"}
+{"id":"coso-risk-assessment-data-quality-score-cmlzaybhc3","title":"Risk assessment data quality score","shelfTag":"coso-encyclopedia"}
+{"id":"coso-control-activities-for-spreadsheet-ipe-y29udhjvbc","title":"Control activities for spreadsheet IPE","shelfTag":"coso-encyclopedia"}
+{"id":"coso-board-challenge-log-on-risk-mi-ym9hcmqgy2","title":"Board challenge log on risk MI","shelfTag":"coso-encyclopedia"}
+{"id":"crma-risk-appetite-assurance-engagement-scope-cmlzaybhch","title":"Risk appetite assurance engagement scope","shelfTag":"crma-encyclopedia"}
+{"id":"crma-erm-maturity-assessment-criteria-pack-zxjtig1hdh","title":"ERM maturity assessment criteria pack","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-culture-assurance-indicators-cmlzaybjdw","title":"Risk culture assurance indicators","shelfTag":"crma-encyclopedia"}
+{"id":"crma-board-risk-pack-quality-assurance-ym9hcmqgcm","title":"Board risk pack quality assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-owner-versus-control-owner-map-cmlzaybvd2","title":"Risk owner versus control owner map","shelfTag":"crma-encyclopedia"}
+{"id":"crma-emerging-risk-assurance-deep-dive-zw1lcmdpbm","title":"Emerging risk assurance deep dive","shelfTag":"crma-encyclopedia"}
+{"id":"crma-scenario-analysis-facilitation-standards-c2nlbmfyaw","title":"Scenario analysis facilitation standards","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-acceptance-assurance-testing-cmlzaybhy2","title":"Risk acceptance assurance testing","shelfTag":"crma-encyclopedia"}
+{"id":"crma-residual-versus-target-risk-tracking-cmvzawr1yw","title":"Residual versus target risk tracking","shelfTag":"crma-encyclopedia"}
+{"id":"crma-control-effectiveness-rating-scale-assurance-y29udhjvbc","title":"Control effectiveness rating scale assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-key-control-inventory-assurance-completeness-a2v5ignvbn","title":"Key control inventory assurance completeness","shelfTag":"crma-encyclopedia"}
+{"id":"crma-rmm-linkage-to-financial-statement-risks-cm1tigxpbm","title":"RMM linkage to financial statement risks","shelfTag":"crma-encyclopedia"}
+{"id":"crma-integrated-assurance-calendar-coordination-aw50zwdyyx","title":"Integrated assurance calendar coordination","shelfTag":"crma-encyclopedia"}
+{"id":"crma-regulatory-change-impact-assurance-cmvndwxhdg","title":"Regulatory change impact assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-of-material-misstatement-heat-link-cmlzaybvzi","title":"Risk of material misstatement heat link","shelfTag":"crma-encyclopedia"}
+{"id":"crma-combined-assurance-opinion-hygiene-y29tymluzw","title":"Combined assurance opinion hygiene","shelfTag":"crma-encyclopedia"}
+{"id":"crma-kri-assurance-data-lineage-test-a3jpigfzc3","title":"KRI assurance data lineage test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-committee-terms-of-reference-assurance-cmlzaybjb2","title":"Risk committee terms of reference assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-model-risk-assurance-scoping-for-crma-bw9kzwwgcm","title":"Model risk assurance scoping for CRMA","shelfTag":"crma-encyclopedia"}
+{"id":"crma-third-line-reliance-protocol-on-risk-function-dghpcmqtbg","title":"Third-line reliance protocol on risk function","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-event-root-cause-assurance-follow-up-cmlzaybldm","title":"Risk event root cause assurance follow-up","shelfTag":"crma-encyclopedia"}
+{"id":"crma-appetite-breach-remediation-assurance-yxbwzxrpdg","title":"Appetite breach remediation assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-data-aggregation-assurance-bcbs-themes-cmlzaybkyx","title":"Risk data aggregation assurance BCBS themes","shelfTag":"crma-encyclopedia"}
+{"id":"crma-conduct-risk-assurance-in-product-design-y29uzhvjdc","title":"Conduct risk assurance in product design","shelfTag":"crma-encyclopedia"}
+{"id":"crma-liquidity-risk-assurance-of-cfp-operability-bglxdwlkax","title":"Liquidity risk assurance of CFP operability","shelfTag":"crma-encyclopedia"}
+{"id":"crma-credit-risk-appetite-limit-cascade-test-y3jlzgl0ih","title":"Credit risk appetite limit cascade test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-operational-resilience-assurance-of-ibs-maps-b3blcmf0aw","title":"Operational resilience assurance of IBS maps","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-mi-decision-usefulness-survey-cmlzaybtas","title":"Risk MI decision usefulness survey","shelfTag":"crma-encyclopedia"}
+{"id":"crma-second-line-challenge-effectiveness-review-c2vjb25klw","title":"Second-line challenge effectiveness review","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-acceptance-versus-issue-management-boundary-cmlzaybhy2","title":"Risk acceptance versus issue management boundary","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-map-traffic-light-discipline-yxnzdxjhbm","title":"Assurance map traffic-light discipline","shelfTag":"crma-encyclopedia"}
+{"id":"crma-cro-reporting-line-assurance-y3jvihjlcg","title":"CRO reporting line assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-framework-policy-vs-practice-testing-cmlzaybmcm","title":"Risk framework policy vs practice testing","shelfTag":"crma-encyclopedia"}
+{"id":"crma-stress-testing-governance-assurance-c3ryzxnzih","title":"Stress testing governance assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-insurance-risk-transfer-assurance-aw5zdxjhbm","title":"Insurance risk transfer assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-taxonomy-consistency-assurance-cmlzayb0yx","title":"Risk taxonomy consistency assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-issue-ageing-escalation-assurance-axnzdwugyw","title":"Issue ageing escalation assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-first-line-risk-champion-network-review-zmlyc3qtbg","title":"First-line risk champion network review","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-software-access-and-change-assurance-cmlzaybzb2","title":"Risk software access and change assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-interconnected-risk-workshop-assurance-aw50zxjjb2","title":"Interconnected risk workshop assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-over-risk-limit-methodology-yxnzdxjhbm","title":"Assurance over risk limit methodology","shelfTag":"crma-encyclopedia"}
+{"id":"crma-outsourced-risk-management-assurance-b3v0c291cm","title":"Outsourced risk management assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-board-risk-training-needs-assurance-ym9hcmqgcm","title":"Board risk training needs assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-disclosure-vs-internal-risk-mi-recon-cmlzaybkax","title":"Risk disclosure vs internal risk MI recon","shelfTag":"crma-encyclopedia"}
+{"id":"crma-continuous-risk-monitoring-tool-assurance-y29udgludw","title":"Continuous risk monitoring tool assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-appetite-statement-readability-test-cmlzaybhch","title":"Risk appetite statement readability test","shelfTag":"crma-encyclopedia"}
+{"id":"crma-capital-and-risk-mi-consistency-assurance-y2fwaxrhbc","title":"Capital and risk MI consistency assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-horizon-scanning-assurance-sampling-ag9yaxpvbi","title":"Horizon scanning assurance sampling","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-control-self-assessment-bias-testing-cmlzaybjb2","title":"Risk control self-assessment bias testing","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-engagement-risk-based-scoping-memo-yxnzdxjhbm","title":"Assurance engagement risk-based scoping memo","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-governance-for-agile-product-delivery-cmlzaybnb3","title":"Risk governance for agile product delivery","shelfTag":"crma-encyclopedia"}
+{"id":"crma-post-implementation-risk-assurance-cg9zdc1pbx","title":"Post-implementation risk assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-capacity-stress-linkage-assurance-cmlzaybjyx","title":"Risk capacity stress linkage assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-customer-conduct-outcome-assurance-metrics-y3vzdg9tzx","title":"Customer conduct outcome assurance metrics","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-committee-effectiveness-self-assessment-cmlzaybjb2","title":"Risk committee effectiveness self-assessment","shelfTag":"crma-encyclopedia"}
+{"id":"crma-geo-political-risk-scenario-assurance-z2vvlxbvbg","title":"Geo-political risk scenario assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-data-ethics-risk-assurance-for-models-zgf0ysbldg","title":"Data ethics risk assurance for models","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-incident-dual-reporting-assurance-cmlzaybpbm","title":"Risk incident dual reporting assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-strategic-risk-early-warning-assurance-c3ryyxrlz2","title":"Strategic risk early warning assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-over-risk-weighted-asset-controls-yxnzdxjhbm","title":"Assurance over risk-weighted asset controls","shelfTag":"crma-encyclopedia"}
+{"id":"crma-vendor-concentration-risk-assurance-dmvuzg9yig","title":"Vendor concentration risk assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-risk-training-effectiveness-assurance-cmlzayb0cm","title":"Risk training effectiveness assurance","shelfTag":"crma-encyclopedia"}
+{"id":"crma-dynamic-risk-assessment-for-incidents-zhluyw1pyy","title":"Dynamic risk assessment for incidents","shelfTag":"crma-encyclopedia"}
+{"id":"crma-assurance-reporting-tone-and-balance-test-yxnzdxjhbm","title":"Assurance reporting tone and balance test","shelfTag":"crma-encyclopedia"}
+{"id":"iia-internal-audit-charter-annual-board-refresh-aw50zxjuyw","title":"Internal audit charter annual board refresh","shelfTag":"iia-encyclopedia"}
+{"id":"iia-cae-dual-reporting-effectiveness-test-y2fligr1yw","title":"CAE dual reporting effectiveness test","shelfTag":"iia-encyclopedia"}
+{"id":"iia-ippf-conformance-self-assessment-axbwzibjb2","title":"IPPF conformance self-assessment","shelfTag":"iia-encyclopedia"}
+{"id":"iia-external-quality-assessment-readiness-pack-zxh0zxjuyw","title":"External quality assessment readiness pack","shelfTag":"iia-encyclopedia"}
+{"id":"iia-qaip-ongoing-monitoring-metrics-cwfpccbvbm","title":"QAIP ongoing monitoring metrics","shelfTag":"iia-encyclopedia"}
+{"id":"iia-audit-universe-risk-scoring-model-yxvkaxqgdw","title":"Audit universe risk scoring model","shelfTag":"iia-encyclopedia"}
+{"id":"iia-engagement-planning-risk-assessment-memo-zw5nywdlbw","title":"Engagement planning risk assessment memo","shelfTag":"iia-encyclopedia"}
+{"id":"iia-work-programme-linkage-to-risks-d29yaybwcm","title":"Work programme linkage to risks","shelfTag":"iia-encyclopedia"}
+{"id":"iia-evidence-sufficiency-evaluation-guide-zxzpzgvuy2","title":"Evidence sufficiency evaluation guide","shelfTag":"iia-encyclopedia"}
+{"id":"iia-root-cause-analysis-in-findings-standard-cm9vdcbjyx","title":"Root cause analysis in findings standard","shelfTag":"iia-encyclopedia"}
+{"id":"iia-agreed-action-smart-ownership-rules-ywdyzwvkig","title":"Agreed action SMART ownership rules","shelfTag":"iia-encyclopedia"}
+{"id":"iia-issue-follow-up-verification-testing-axnzdwugzm","title":"Issue follow-up verification testing","shelfTag":"iia-encyclopedia"}
+{"id":"iia-overall-opinion-criteria-calibration-b3zlcmfsbc","title":"Overall opinion criteria calibration","shelfTag":"iia-encyclopedia"}
+{"id":"iia-positive-versus-negative-assurance-language-cg9zaxrpdm","title":"Positive versus negative assurance language","shelfTag":"iia-encyclopedia"}
+{"id":"iia-consulting-engagement-documentation-boundary-y29uc3vsdg","title":"Consulting engagement documentation boundary","shelfTag":"iia-encyclopedia"}
+{"id":"iia-coordination-with-external-auditors-protocol-y29vcmrpbm","title":"Coordination with external auditors protocol","shelfTag":"iia-encyclopedia"}
+{"id":"iia-fraud-engagement-specialist-protocols-znjhdwqgzw","title":"Fraud engagement specialist protocols","shelfTag":"iia-encyclopedia"}
+{"id":"iia-it-general-controls-engagement-scoping-axqgz2vuzx","title":"IT general controls engagement scoping","shelfTag":"iia-encyclopedia"}
+{"id":"iia-application-control-testing-design-yxbwbgljyx","title":"Application control testing design","shelfTag":"iia-encyclopedia"}
+{"id":"iia-cybersecurity-assurance-scoping-matrix-y3lizxjzzw","title":"Cybersecurity assurance scoping matrix","shelfTag":"iia-encyclopedia"}
+{"id":"iia-data-analytics-population-completeness-zgf0ysbhbm","title":"Data analytics population completeness","shelfTag":"iia-encyclopedia"}
+{"id":"iia-remote-auditing-evidence-quality-standards-cmvtb3rlig","title":"Remote auditing evidence quality standards","shelfTag":"iia-encyclopedia"}
+{"id":"iia-agile-audit-sprint-operating-model-ywdpbgugyx","title":"Agile audit sprint operating model","shelfTag":"iia-encyclopedia"}
+{"id":"iia-culture-audit-soft-control-methods-y3vsdhvyzs","title":"Culture audit soft control methods","shelfTag":"iia-encyclopedia"}
+{"id":"iia-esg-assurance-readiness-engagement-zxnnigfzc3","title":"ESG assurance readiness engagement","shelfTag":"iia-encyclopedia"}
+{"id":"iia-third-party-audit-right-utilisation-dghpcmqtcg","title":"Third-party audit right utilisation","shelfTag":"iia-encyclopedia"}
+{"id":"iia-guest-auditor-model-governance-z3vlc3qgyx","title":"Guest auditor model governance","shelfTag":"iia-encyclopedia"}
+{"id":"iia-co-sourcing-oversight-metrics-y28tc291cm","title":"Co-sourcing oversight metrics","shelfTag":"iia-encyclopedia"}
+{"id":"iia-report-rating-scale-stakeholder-guide-cmvwb3j0ih","title":"Report rating scale stakeholder guide","shelfTag":"iia-encyclopedia"}
+{"id":"iia-acceptance-of-risk-communication-standard-ywnjzxb0yw","title":"Acceptance of risk communication standard","shelfTag":"iia-encyclopedia"}
+{"id":"iia-board-private-session-agenda-discipline-ym9hcmqgch","title":"Board private session agenda discipline","shelfTag":"iia-encyclopedia"}
+{"id":"iia-internal-assessment-periodic-deep-dive-aw50zxjuyw","title":"Internal assessment periodic deep dive","shelfTag":"iia-encyclopedia"}
+{"id":"iia-engagement-supervision-review-notes-zw5nywdlbw","title":"Engagement supervision review notes","shelfTag":"iia-encyclopedia"}
+{"id":"iia-working-paper-retention-and-privacy-d29ya2luzy","title":"Working paper retention and privacy","shelfTag":"iia-encyclopedia"}
+{"id":"iia-heat-map-hours-linkage-to-plan-agvhdcbtyx","title":"Heat map hours linkage to plan","shelfTag":"iia-encyclopedia"}
+{"id":"iia-blended-assurance-consulting-protocol-ymxlbmrlzc","title":"Blended assurance consulting protocol","shelfTag":"iia-encyclopedia"}
+{"id":"iia-mandatory-versus-recommended-guidance-use-bwfuzgf0b3","title":"Mandatory versus recommended guidance use","shelfTag":"iia-encyclopedia"}
+{"id":"iia-public-sector-ia-mandate-differences-chvibgljih","title":"Public sector IA mandate differences","shelfTag":"iia-encyclopedia"}
+{"id":"iia-financial-services-regulatory-assurance-map-zmluyw5jaw","title":"Financial services regulatory assurance map","shelfTag":"iia-encyclopedia"}
+{"id":"iia-model-risk-ia-overview-engagement-bw9kzwwgcm","title":"Model risk IA overview engagement","shelfTag":"iia-encyclopedia"}
+{"id":"iia-treasury-process-audit-scoping-dhjlyxn1cn","title":"Treasury process audit scoping","shelfTag":"iia-encyclopedia"}
+{"id":"iia-capital-projects-assurance-gates-y2fwaxrhbc","title":"Capital projects assurance gates","shelfTag":"iia-encyclopedia"}
+{"id":"iia-revenue-leakage-analytics-engagement-cmv2zw51zs","title":"Revenue leakage analytics engagement","shelfTag":"iia-encyclopedia"}
+{"id":"iia-payroll-hr-process-audit-focus-cgf5cm9sbc","title":"Payroll HR process audit focus","shelfTag":"iia-encyclopedia"}
+{"id":"iia-related-party-audit-procedures-cmvsyxrlzc","title":"Related party audit procedures","shelfTag":"iia-encyclopedia"}
+{"id":"iia-disclosure-committee-liaison-protocol-zglzy2xvc3","title":"Disclosure committee liaison protocol","shelfTag":"iia-encyclopedia"}
+{"id":"iia-tone-at-the-top-evidence-methods-dg9uzsbhdc","title":"Tone at the top evidence methods","shelfTag":"iia-encyclopedia"}
+{"id":"iia-three-lines-model-clarification-engagement-dghyzwugbg","title":"Three lines model clarification engagement","shelfTag":"iia-encyclopedia"}
+{"id":"iia-kris-versus-kpis-in-audit-planning-a3jpcyb2zx","title":"KRIs versus KPIs in audit planning","shelfTag":"iia-encyclopedia"}
+{"id":"iia-control-self-assessment-facilitation-independence-y29udhjvbc","title":"Control self-assessment facilitation independence","shelfTag":"iia-encyclopedia"}
+{"id":"iia-walkthrough-versus-substantive-clarity-d2fsa3rocm","title":"Walkthrough versus substantive clarity","shelfTag":"iia-encyclopedia"}
+{"id":"iia-dual-purpose-testing-design-notes-zhvhbc1wdx","title":"Dual-purpose testing design notes","shelfTag":"iia-encyclopedia"}
+{"id":"iia-exception-evaluation-materiality-guide-zxhjzxb0aw","title":"Exception evaluation materiality guide","shelfTag":"iia-encyclopedia"}
+{"id":"iia-confidential-draft-report-distribution-y29uzmlkzw","title":"Confidential draft report distribution","shelfTag":"iia-encyclopedia"}
+{"id":"iia-legal-privilege-engagement-protocols-bgvnywwgch","title":"Legal privilege engagement protocols","shelfTag":"iia-encyclopedia"}
+{"id":"iia-product-and-change-assurance-embedding-chjvzhvjdc","title":"Product and change assurance embedding","shelfTag":"iia-encyclopedia"}
+{"id":"iia-post-implementation-benefits-audit-cg9zdc1pbx","title":"Post-implementation benefits audit","shelfTag":"iia-encyclopedia"}
+{"id":"iia-lessons-learned-register-utilisation-bgvzc29ucy","title":"Lessons learned register utilisation","shelfTag":"iia-encyclopedia"}
+{"id":"iia-conformance-versus-performance-language-y29uzm9ybw","title":"Conformance versus performance language","shelfTag":"iia-encyclopedia"}
+{"id":"iia-soft-controls-assessment-interview-guide-c29mdcbjb2","title":"Soft controls assessment interview guide","shelfTag":"iia-encyclopedia"}
+{"id":"iia-continuous-auditing-script-governance-y29udgludw","title":"Continuous auditing script governance","shelfTag":"iia-encyclopedia"}
+{"id":"iia-procurement-contract-audit-focus-chjvy3vyzw","title":"Procurement contract audit focus","shelfTag":"iia-encyclopedia"}
+{"id":"fa-earnings-quality-accruals-screen-zwfybmluz3","title":"Earnings quality accruals screen","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cash-conversion-cycle-peer-bridge-y2fzacbjb2","title":"Cash conversion cycle peer bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-revenue-recognition-aggressiveness-markers-cmv2zw51zs","title":"Revenue recognition aggressiveness markers","shelfTag":"fa-encyclopedia"}
+{"id":"fa-lease-adjusted-leverage-rebuild-bgvhc2utyw","title":"Lease-adjusted leverage rebuild","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pension-deficit-equity-adjustment-cgvuc2lvbi","title":"Pension deficit equity adjustment","shelfTag":"fa-encyclopedia"}
+{"id":"fa-core-earnings-normalisation-worksheet-y29yzsblyx","title":"Core earnings normalisation worksheet","shelfTag":"fa-encyclopedia"}
+{"id":"fa-working-capital-seasonality-map-d29ya2luzy","title":"Working capital seasonality map","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sustainable-free-cash-flow-definition-c3vzdgfpbm","title":"Sustainable free cash flow definition","shelfTag":"fa-encyclopedia"}
+{"id":"fa-roic-versus-wacc-spread-bridge-cm9pyyb2zx","title":"ROIC versus WACC spread bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-invested-capital-clean-up-adjustments-aw52zxn0zw","title":"Invested capital clean-up adjustments","shelfTag":"fa-encyclopedia"}
+{"id":"fa-justified-leading-p-e-sensitivity-anvzdglmaw","title":"Justified leading P/E sensitivity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ev-ebitda-peer-set-hygiene-zxyvzwjpdg","title":"EV/EBITDA peer set hygiene","shelfTag":"fa-encyclopedia"}
+{"id":"fa-private-company-dlom-evidence-chjpdmf0zs","title":"Private company DLOM evidence","shelfTag":"fa-encyclopedia"}
+{"id":"fa-synergy-npv-diligence-bridge-c3luzxjnes","title":"Synergy NPV diligence bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-eps-accretion-checklist-with-limits-zxbzigfjy3","title":"EPS accretion checklist with limits","shelfTag":"fa-encyclopedia"}
+{"id":"fa-interest-coverage-stress-ladder-aw50zxjlc3","title":"Interest coverage stress ladder","shelfTag":"fa-encyclopedia"}
+{"id":"fa-debt-service-coverage-project-test-zgvidcbzzx","title":"Debt service coverage project test","shelfTag":"fa-encyclopedia"}
+{"id":"fa-liquidity-runway-months-analysis-bglxdwlkax","title":"Liquidity runway months analysis","shelfTag":"fa-encyclopedia"}
+{"id":"fa-refinancing-wall-maturity-map-cmvmaw5hbm","title":"Refinancing wall maturity map","shelfTag":"fa-encyclopedia"}
+{"id":"fa-covenant-headroom-forecast-pack-y292zw5hbn","title":"Covenant headroom forecast pack","shelfTag":"fa-encyclopedia"}
+{"id":"fa-rating-agency-leverage-metric-rebuild-cmf0aw5nig","title":"Rating agency leverage metric rebuild","shelfTag":"fa-encyclopedia"}
+{"id":"fa-erp-build-up-with-country-risk-zxjwigj1aw","title":"ERP build-up with country risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-beta-estimation-hygiene-checklist-ymv0ysblc3","title":"Beta estimation hygiene checklist","shelfTag":"fa-encyclopedia"}
+{"id":"fa-fade-rate-to-steady-state-in-dcf-zmfkzsbyyx","title":"Fade rate to steady state in DCF","shelfTag":"fa-encyclopedia"}
+{"id":"fa-competitive-advantage-period-length-y29tcgv0ax","title":"Competitive advantage period length","shelfTag":"fa-encyclopedia"}
+{"id":"fa-porter-forces-scoring-for-thesis-cg9ydgvyig","title":"Porter forces scoring for thesis","shelfTag":"fa-encyclopedia"}
+{"id":"fa-dupont-five-way-bank-roe-bridge-zhvwb250ig","title":"DuPont five-way bank ROE bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-bank-nim-rate-sensitivity-pack-ymfuaybuaw","title":"Bank NIM rate-sensitivity pack","shelfTag":"fa-encyclopedia"}
+{"id":"fa-reit-ffo-affo-bridge-quality-cmvpdcbmzm","title":"REIT FFO AFFO bridge quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-scenario-weighted-valuation-football-field-c2nlbmfyaw","title":"Scenario-weighted valuation football field","shelfTag":"fa-encyclopedia"}
+{"id":"fa-analyst-revision-momentum-screen-yw5hbhlzdc","title":"Analyst revision momentum screen","shelfTag":"fa-encyclopedia"}
+{"id":"fa-active-share-versus-tracking-error-budget-ywn0axzlih","title":"Active share versus tracking error budget","shelfTag":"fa-encyclopedia"}
+{"id":"fa-drawdown-recovery-mathematics-zhjhd2rvd2","title":"Drawdown recovery mathematics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-liquidity-adjusted-return-estimate-bglxdwlkax","title":"Liquidity-adjusted return estimate","shelfTag":"fa-encyclopedia"}
+{"id":"fa-factor-exposure-snapshot-for-book-zmfjdg9yig","title":"Factor exposure snapshot for book","shelfTag":"fa-encyclopedia"}
+{"id":"fa-credit-four-cs-file-for-issuer-y3jlzgl0ig","title":"Credit four Cs file for issuer","shelfTag":"fa-encyclopedia"}
+{"id":"fa-off-balance-commitment-inventory-b2zmlwjhbg","title":"Off-balance commitment inventory","shelfTag":"fa-encyclopedia"}
+{"id":"fa-channel-stuffing-indicator-dashboard-y2hhbm5lbc","title":"Channel stuffing indicator dashboard","shelfTag":"fa-encyclopedia"}
+{"id":"fa-bill-and-hold-revenue-challenge-list-ymlsbcbhbm","title":"Bill and hold revenue challenge list","shelfTag":"fa-encyclopedia"}
+{"id":"fa-normalised-ebitda-peer-hygiene-bm9ybwfsax","title":"Normalised EBITDA peer hygiene","shelfTag":"fa-encyclopedia"}
+{"id":"fa-mid-year-dcf-convention-choice-bwlklxllyx","title":"Mid-year DCF convention choice","shelfTag":"fa-encyclopedia"}
+{"id":"fa-country-risk-premium-in-capm-build-y291bnryes","title":"Country risk premium in CAPM build","shelfTag":"fa-encyclopedia"}
+{"id":"fa-size-premium-debate-memo-c2l6zsbwcm","title":"Size premium debate memo","shelfTag":"fa-encyclopedia"}
+{"id":"fa-forward-looking-erp-selection-zm9yd2fyzc","title":"Forward-looking ERP selection","shelfTag":"fa-encyclopedia"}
+{"id":"fa-term-structure-for-multi-stage-dcf-dgvybsbzdh","title":"Term structure for multi-stage DCF","shelfTag":"fa-encyclopedia"}
+{"id":"fa-industry-life-cycle-positioning-aw5kdxn0cn","title":"Industry life cycle positioning","shelfTag":"fa-encyclopedia"}
+{"id":"fa-commodity-cycle-positioning-screen-y29tbw9kax","title":"Commodity cycle positioning screen","shelfTag":"fa-encyclopedia"}
+{"id":"fa-esg-integration-in-dcf-adjustments-zxnnigludg","title":"ESG integration in DCF adjustments","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pair-trading-residual-monitor-cgfpcib0cm","title":"Pair trading residual monitor","shelfTag":"fa-encyclopedia"}
+{"id":"fa-surprise-and-drift-earnings-pattern-c3vychjpc2","title":"Surprise and drift earnings pattern","shelfTag":"fa-encyclopedia"}
+{"id":"fa-peg-ratio-pitfall-checklist-cgvnihjhdg","title":"PEG ratio pitfall checklist","shelfTag":"fa-encyclopedia"}
+{"id":"fa-fcff-quality-scorecard-zmnmzibxdw","title":"FCFF quality scorecard","shelfTag":"fa-encyclopedia"}
+{"id":"fa-fcfe-leverage-sensitivity-band-zmnmzsbszx","title":"FCFE leverage sensitivity band","shelfTag":"fa-encyclopedia"}
+{"id":"fa-nopat-tax-rate-choice-memo-bm9wyxqgdg","title":"NOPAT tax rate choice memo","shelfTag":"fa-encyclopedia"}
+{"id":"fa-economic-profit-trend-bridge-zwnvbm9taw","title":"Economic profit trend bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-days-sales-outstanding-trend-alert-zgf5cybzyw","title":"Days sales outstanding trend alert","shelfTag":"fa-encyclopedia"}
+{"id":"fa-inventory-days-obsolescence-screen-aw52zw50b3","title":"Inventory days obsolescence screen","shelfTag":"fa-encyclopedia"}
+{"id":"fa-operating-lease-adjusted-roic-b3blcmf0aw","title":"Operating lease adjusted ROIC","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pension-adjusted-credit-metrics-cgvuc2lvbi","title":"Pension-adjusted credit metrics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-customer-concentration-revenue-risk-y3vzdg9tzx","title":"Customer concentration revenue risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-backlog-quality-conversion-test-ymfja2xvzy","title":"Backlog quality conversion test","shelfTag":"fa-encyclopedia"}
+{"id":"fa-maintenance-versus-growth-capex-split-bwfpbnrlbm","title":"Maintenance versus growth capex split","shelfTag":"fa-encyclopedia"}
+{"id":"fa-share-based-compensation-look-through-c2hhcmutym","title":"Share-based compensation look-through","shelfTag":"fa-encyclopedia"}
+{"id":"fa-deferred-revenue-growth-quality-zgvmzxjyzw","title":"Deferred revenue growth quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tax-rate-sustainability-check-dgf4ihjhdg","title":"Tax rate sustainability check","shelfTag":"fa-encyclopedia"}
+{"id":"fa-contingent-liability-expected-value-y29udgluz2","title":"Contingent liability expected value","shelfTag":"fa-encyclopedia"}
+{"id":"fa-related-party-transaction-screen-cmvsyxrlzc","title":"Related party transaction screen","shelfTag":"fa-encyclopedia"}
+{"id":"fa-segment-roic-consistency-test-c2vnbwvudc","title":"Segment ROIC consistency test","shelfTag":"fa-encyclopedia"}
+{"id":"fa-net-debt-bridge-for-ev-bmv0igrlyn","title":"Net debt bridge for EV","shelfTag":"fa-encyclopedia"}
+{"id":"fa-buyback-eps-optics-check-ynv5ymfjay","title":"Buyback EPS optics check","shelfTag":"fa-encyclopedia"}
+{"id":"fa-dividend-capacity-under-covenants-zgl2awrlbm","title":"Dividend capacity under covenants","shelfTag":"fa-encyclopedia"}
+{"id":"fa-working-capital-cash-tax-timing-d29ya2luzy","title":"Working capital cash tax timing","shelfTag":"fa-encyclopedia"}
+{"id":"fa-impairment-risk-screen-for-intangibles-aw1wywlybw","title":"Impairment risk screen for intangibles","shelfTag":"fa-encyclopedia"}
+{"id":"fa-hedge-accounting-p-l-noise-filter-agvkz2ugyw","title":"Hedge accounting P&L noise filter","shelfTag":"fa-encyclopedia"}
+{"id":"fa-minority-interest-valuation-consistency-bwlub3jpdh","title":"Minority interest valuation consistency","shelfTag":"fa-encyclopedia"}
+{"id":"fa-inflation-pass-through-margin-test-aw5mbgf0aw","title":"Inflation pass-through margin test","shelfTag":"fa-encyclopedia"}
+{"id":"fa-currency-translation-versus-transaction-split-y3vycmvuy3","title":"Currency translation versus transaction split","shelfTag":"fa-encyclopedia"}
+{"id":"fa-order-book-price-volume-bridge-b3jkzxigym","title":"Order book price-volume bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-capex-commitment-legal-inventory-y2fwzxggy2","title":"Capex commitment legal inventory","shelfTag":"fa-encyclopedia"}
+{"id":"fa-customer-cohort-retention-economics-y3vzdg9tzx","title":"Customer cohort retention economics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-unit-economics-contribution-margin-dw5pdcbly2","title":"Unit economics contribution margin","shelfTag":"fa-encyclopedia"}
+{"id":"fa-supply-chain-disruption-earnings-beta-c3vwcgx5ig","title":"Supply chain disruption earnings beta","shelfTag":"fa-encyclopedia"}
+{"id":"fa-guidance-credibility-track-record-z3vpzgfuy2","title":"Guidance credibility track record","shelfTag":"fa-encyclopedia"}
+{"id":"fa-alternative-performance-measure-proliferation-ywx0zxjuyx","title":"Alternative performance measure proliferation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cash-flow-classification-aggressiveness-y2fzacbmbg","title":"Cash flow classification aggressiveness","shelfTag":"fa-encyclopedia"}
+{"id":"fa-goodwill-bargain-purchase-scepticism-z29vzhdpbg","title":"Goodwill bargain purchase scepticism","shelfTag":"fa-encyclopedia"}
+{"id":"fa-holdco-liquidity-and-structural-subordination-ag9szgnvig","title":"HoldCo liquidity and structural subordination","shelfTag":"fa-encyclopedia"}
+{"id":"fa-convertible-dilution-fully-diluted-view-y29udmvydg","title":"Convertible dilution fully diluted view","shelfTag":"fa-encyclopedia"}
+{"id":"fa-preferred-equity-claim-waterfall-chjlzmvycm","title":"Preferred equity claim waterfall","shelfTag":"fa-encyclopedia"}
+{"id":"fa-earn-out-liability-fair-value-sensitivity-zwfybi1vdx","title":"Earn-out liability fair value sensitivity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-working-capital-target-days-policy-d29ya2luzy","title":"Working capital target days policy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pension-contribution-cash-stress-cgvuc2lvbi","title":"Pension contribution cash stress","shelfTag":"fa-encyclopedia"}
+{"id":"fa-insurance-captive-dividend-capacity-aw5zdxjhbm","title":"Insurance captive dividend capacity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-supplier-finance-programme-disclosure-lens-c3vwcgxpzx","title":"Supplier finance programme disclosure lens","shelfTag":"fa-encyclopedia"}
+{"id":"fa-software-capitalisation-earnings-quality-c29mdhdhcm","title":"Software capitalisation earnings quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-contract-asset-collectability-review-y29udhjhy3","title":"Contract asset collectability review","shelfTag":"fa-encyclopedia"}
+{"id":"fa-multiples-vs-dcf-triangulation-rule-bxvsdglwbg","title":"Multiples vs DCF triangulation rule","shelfTag":"fa-encyclopedia"}
+{"id":"fa-terminal-growth-versus-nominal-gdp-cap-dgvybwluyw","title":"Terminal growth versus nominal GDP cap","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cross-holding-look-through-valuation-y3jvc3mtag","title":"Cross-holding look-through valuation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-event-driven-hard-catalyst-checklist-zxzlbnqtzh","title":"Event-driven hard catalyst checklist","shelfTag":"fa-encyclopedia"}
+{"id":"fa-short-thesis-accounting-red-flag-stack-c2hvcnqgdg","title":"Short thesis accounting red-flag stack","shelfTag":"fa-encyclopedia"}
+{"id":"fa-long-thesis-falsifier-list-bg9uzyb0ag","title":"Long thesis falsifier list","shelfTag":"fa-encyclopedia"}
+{"id":"fa-position-sizing-volatility-budget-cg9zaxrpb2","title":"Position sizing volatility budget","shelfTag":"fa-encyclopedia"}
+{"id":"fa-stop-loss-versus-thesis-stop-rules-c3rvcc1sb3","title":"Stop-loss versus thesis-stop rules","shelfTag":"fa-encyclopedia"}
+{"id":"fa-peer-multiple-regression-sanity-cgvlcibtdw","title":"Peer multiple regression sanity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-clean-surplus-roe-forecast-link-y2xlyw4gc3","title":"Clean surplus ROE forecast link","shelfTag":"fa-encyclopedia"}
+{"id":"fa-inflation-indexation-contract-review-aw5mbgf0aw","title":"Inflation indexation contract review","shelfTag":"fa-encyclopedia"}
+{"id":"fa-take-or-pay-volume-flexibility-dgfrzs1vci","title":"Take-or-pay volume flexibility","shelfTag":"fa-encyclopedia"}
+{"id":"fa-customer-financing-channel-risk-y3vzdg9tzx","title":"Customer financing channel risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-warranty-reserve-adequacy-trend-d2fycmfudh","title":"Warranty reserve adequacy trend","shelfTag":"fa-encyclopedia"}
+{"id":"fa-restructuring-provision-recycling-watch-cmvzdhj1y3","title":"Restructuring provision recycling watch","shelfTag":"fa-encyclopedia"}
+{"id":"fa-m-a-integration-cost-overrun-track-bszhigludg","title":"M&A integration cost overrun track","shelfTag":"fa-encyclopedia"}
+{"id":"fa-activist-break-up-sotp-gap-ywn0axzpc3","title":"Activist break-up SOTP gap","shelfTag":"fa-encyclopedia"}
+{"id":"fa-net-working-capital-purchase-accounting-bmv0ihdvcm","title":"Net working capital purchase accounting","shelfTag":"fa-encyclopedia"}
+{"id":"fa-earnout-accounting-versus-cash-view-zwfybm91dc","title":"Earnout accounting versus cash view","shelfTag":"fa-encyclopedia"}
+{"id":"fa-covenant-ebitda-add-back-negotiation-y292zw5hbn","title":"Covenant EBITDA add-back negotiation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-springing-maturity-liquidity-trap-c3byaw5naw","title":"Springing maturity liquidity trap","shelfTag":"fa-encyclopedia"}
+{"id":"fa-holdco-pik-toggle-credit-risk-ag9szgnvih","title":"Holdco PIK toggle credit risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-intercreditor-waterfalls-for-recoveries-aw50zxjjcm","title":"Intercreditor waterfalls for recoveries","shelfTag":"fa-encyclopedia"}
+{"id":"fa-trade-claim-versus-funded-debt-analysis-dhjhzgugy2","title":"Trade claim versus funded debt analysis","shelfTag":"fa-encyclopedia"}
+{"id":"fa-contingent-convertible-trigger-distance-y29udgluz2","title":"Contingent convertible trigger distance","shelfTag":"fa-encyclopedia"}
+{"id":"fa-deposit-franchise-value-in-bank-ddm-zgvwb3npdc","title":"Deposit franchise value in bank DDM","shelfTag":"fa-encyclopedia"}
+{"id":"fa-p-c-reserve-triangle-adequacy-cczjihjlc2","title":"P&C reserve triangle adequacy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-life-insurance-spread-compression-bglmzsbpbn","title":"Life insurance spread compression","shelfTag":"fa-encyclopedia"}
+{"id":"fa-mortgage-servicing-rights-sensitivity-bw9ydgdhz2","title":"Mortgage servicing rights sensitivity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cre-office-vacancy-credit-overlay-y3jlig9mzm","title":"CRE office vacancy credit overlay","shelfTag":"fa-encyclopedia"}
+{"id":"fa-shipping-day-rate-cycle-mid-cycle-eps-c2hpchbpbm","title":"Shipping day-rate cycle mid-cycle EPS","shelfTag":"fa-encyclopedia"}
+{"id":"fa-airline-asm-casm-bridge-ywlybgluzs","title":"Airline ASM CASM bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-retail-four-wall-productivity-cmv0ywlsig","title":"Retail four-wall productivity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-saas-rule-of-40-quality-c2fhcybydw","title":"SaaS rule-of-40 quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-marketplace-take-rate-sustainability-bwfya2v0cg","title":"Marketplace take-rate sustainability","shelfTag":"fa-encyclopedia"}
+{"id":"fa-advertising-intensity-roi-bridge-ywr2zxj0ax","title":"Advertising intensity ROI bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-r-d-capitalisation-academic-adjustment-cizkignhcg","title":"R&D capitalisation academic adjustment","shelfTag":"fa-encyclopedia"}
+{"id":"fa-orderly-liquidation-value-credit-floor-b3jkzxjses","title":"Orderly liquidation value credit floor","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sum-of-the-parts-tax-leakage-c3vtlw9mlx","title":"Sum-of-the-parts tax leakage","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tracking-stock-or-stub-valuation-dhjhy2tpbm","title":"Tracking stock or stub valuation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-closed-end-fund-discount-driver-y2xvc2vklw","title":"Closed-end fund discount driver","shelfTag":"fa-encyclopedia"}
+{"id":"fa-merger-arb-spread-decomposition-bwvyz2vyig","title":"Merger arb spread decomposition","shelfTag":"fa-encyclopedia"}
+{"id":"fa-spin-off-parent-and-spinco-stubs-c3bpbi1vzm","title":"Spin-off parent and SpinCo stubs","shelfTag":"fa-encyclopedia"}
+{"id":"fa-rights-issue-terp-math-cmlnahrzig","title":"Rights issue TERP math","shelfTag":"fa-encyclopedia"}
+{"id":"fa-placing-discount-versus-fundamentals-cgxhy2luzy","title":"Placing discount versus fundamentals","shelfTag":"fa-encyclopedia"}
+{"id":"fa-special-dividend-vs-buyback-framework-c3bly2lhbc","title":"Special dividend vs buyback framework","shelfTag":"fa-encyclopedia"}
+{"id":"fa-net-cash-strategic-premium-debate-bmv0ignhc2","title":"Net cash strategic premium debate","shelfTag":"fa-encyclopedia"}
+{"id":"fa-option-implied-earnings-move-check-b3b0aw9ulw","title":"Option-implied earnings move check","shelfTag":"fa-encyclopedia"}
+{"id":"fa-short-interest-and-days-to-cover-map-c2hvcnqgaw","title":"Short interest and days-to-cover map","shelfTag":"fa-encyclopedia"}
+{"id":"fa-borrow-cost-in-short-alpha-ym9ycm93ig","title":"Borrow cost in short alpha","shelfTag":"fa-encyclopedia"}
+{"id":"fa-index-reconstitution-flow-estimate-aw5kzxggcm","title":"Index reconstitution flow estimate","shelfTag":"fa-encyclopedia"}
+{"id":"fa-adr-versus-local-parity-arb-checks-ywryihzlcn","title":"ADR versus local parity arb checks","shelfTag":"fa-encyclopedia"}
+{"id":"fa-country-fund-embedding-nav-discount-y291bnryes","title":"Country fund embedding NAV discount","shelfTag":"fa-encyclopedia"}
+{"id":"fa-inflation-linked-real-yield-valuation-aw5mbgf0aw","title":"Inflation-linked real yield valuation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-credit-spread-duration-risk-pack-y3jlzgl0ih","title":"Credit spread duration risk pack","shelfTag":"fa-encyclopedia"}
+{"id":"fa-clo-tranche-thickness-and-attachment-y2xvihryyw","title":"CLO tranche thickness and attachment","shelfTag":"fa-encyclopedia"}
+{"id":"fa-covered-bond-versus-senior-bank-spread-y292zxjlzc","title":"Covered bond versus senior bank spread","shelfTag":"fa-encyclopedia"}
+{"id":"fa-municipal-tax-equivalent-yield-bxvuawnpcg","title":"Municipal tax-equivalent yield","shelfTag":"fa-encyclopedia"}
+{"id":"fa-emerging-market-local-versus-hard-currency-zw1lcmdpbm","title":"Emerging market local versus hard currency","shelfTag":"fa-encyclopedia"}
+{"id":"fa-distressed-claim-fulcrum-security-id-zglzdhjlc3","title":"Distressed claim fulcrum security ID","shelfTag":"fa-encyclopedia"}
+{"id":"fa-post-reorg-equity-stub-valuation-cg9zdc1yzw","title":"Post-reorg equity stub valuation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-liquidation-preference-stack-model-bglxdwlkyx","title":"Liquidation preference stack model","shelfTag":"fa-encyclopedia"}
+{"id":"fa-secondary-share-ppo-discount-c2vjb25kyx","title":"Secondary share PPO discount","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gp-commit-alignment-check-z3agy29tbw","title":"GP commit alignment check","shelfTag":"fa-encyclopedia"}
+{"id":"fa-j-curve-cash-flow-pacing-model-ai1jdxj2zs","title":"J-curve cash flow pacing model","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pme-public-market-equivalent-cg1lihb1ym","title":"PME public market equivalent","shelfTag":"fa-encyclopedia"}
+{"id":"fa-dpi-tvpi-realisation-quality-zhbpihr2cg","title":"DPI TVPI realisation quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-continuation-fund-conflict-review-y29udgludw","title":"Continuation fund conflict review","shelfTag":"fa-encyclopedia"}
+{"id":"fa-co-invest-fee-drag-comparison-y28taw52zx","title":"Co-invest fee drag comparison","shelfTag":"fa-encyclopedia"}
+{"id":"fa-nav-facility-leverage-at-fund-bmf2igzhy2","title":"NAV facility leverage at fund","shelfTag":"fa-encyclopedia"}
+{"id":"fa-key-person-clause-monitoring-a2v5lxblcn","title":"Key-person clause monitoring","shelfTag":"fa-encyclopedia"}
+{"id":"fa-side-letter-mfn-inventory-c2lkzsbszx","title":"Side letter MFN inventory","shelfTag":"fa-encyclopedia"}
+{"id":"fa-private-credit-covenant-lite-loss-given-chjpdmf0zs","title":"Private credit covenant-lite loss given","shelfTag":"fa-encyclopedia"}
+{"id":"fa-unitranche-document-risk-points-dw5pdhjhbm","title":"Unitranche document risk points","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sponsor-equity-cure-reliance-limit-c3bvbnnvci","title":"Sponsor equity cure reliance limit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-add-on-acquisition-leverage-creep-ywrklw9uig","title":"Add-on acquisition leverage creep","shelfTag":"fa-encyclopedia"}
+{"id":"fa-portability-clause-refinance-risk-cg9ydgfiaw","title":"Portability clause refinance risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-esg-linked-loan-kpi-integrity-zxnnlwxpbm","title":"ESG-linked loan KPI integrity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-greenium-bond-valuation-check-z3jlzw5pdw","title":"Greenium bond valuation check","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sustainability-linked-spt-ambition-c3vzdgfpbm","title":"Sustainability-linked SPT ambition","shelfTag":"fa-encyclopedia"}
+{"id":"fa-transition-plan-capital-expenditure-dhjhbnnpdg","title":"Transition plan capital expenditure","shelfTag":"fa-encyclopedia"}
+{"id":"fa-physical-climate-risk-asset-haircut-cgh5c2ljyw","title":"Physical climate risk asset haircut","shelfTag":"fa-encyclopedia"}
+{"id":"fa-just-transition-social-cost-overlay-anvzdcb0cm","title":"Just transition social cost overlay","shelfTag":"fa-encyclopedia"}
+{"id":"fa-nature-related-dependency-screen-bmf0dxjllx","title":"Nature-related dependency screen","shelfTag":"fa-encyclopedia"}
+{"id":"fa-double-materiality-investor-map-zg91ymxlig","title":"Double materiality investor map","shelfTag":"fa-encyclopedia"}
+{"id":"fa-engagement-escalation-ladder-zw5nywdlbw","title":"Engagement escalation ladder","shelfTag":"fa-encyclopedia"}
+{"id":"fa-proxy-voting-conflict-policy-chjvehkgdm","title":"Proxy voting conflict policy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-securities-lending-income-vs-vote-c2vjdxjpdg","title":"Securities lending income vs vote","shelfTag":"fa-encyclopedia"}
+{"id":"fa-soft-dollar-research-budget-allocation-c29mdc1kb2","title":"Soft-dollar research budget allocation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-best-execution-tca-review-ymvzdcbleg","title":"Best execution TCA review","shelfTag":"fa-encyclopedia"}
+{"id":"fa-capacity-of-strategy-aum-limit-y2fwywnpdh","title":"Capacity of strategy AUM limit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-crowding-score-across-books-y3jvd2rpbm","title":"Crowding score across books","shelfTag":"fa-encyclopedia"}
+{"id":"fa-macro-regime-filter-for-factors-bwfjcm8gcm","title":"Macro regime filter for factors","shelfTag":"fa-encyclopedia"}
+{"id":"fa-crisis-alpha-overlay-design-y3jpc2lzig","title":"Crisis alpha overlay design","shelfTag":"fa-encyclopedia"}
+{"id":"fa-rebalancing-band-versus-calendar-cmviywxhbm","title":"Rebalancing band versus calendar","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tax-aware-harvest-overlay-dgf4lwf3yx","title":"Tax-aware harvest overlay","shelfTag":"fa-encyclopedia"}
+{"id":"fa-currency-hedge-ratio-policy-y3vycmvuy3","title":"Currency hedge ratio policy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-benchmark-mismatch-risk-statement-ymvuy2htyx","title":"Benchmark mismatch risk statement","shelfTag":"fa-encyclopedia"}
+{"id":"fa-error-correction-nav-policy-zxjyb3igy2","title":"Error correction NAV policy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-side-pocket-governance-for-illiquids-c2lkzs1wb2","title":"Side-pocket governance for illiquids","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gate-and-suspension-playbook-z2f0zsbhbm","title":"Gate and suspension playbook","shelfTag":"fa-encyclopedia"}
+{"id":"fa-swing-pricing-dilution-control-c3dpbmcgch","title":"Swing pricing dilution control","shelfTag":"fa-encyclopedia"}
+{"id":"fa-fair-value-hierarchy-level-3-governance-zmfpci12yw","title":"Fair-value hierarchy Level 3 governance","shelfTag":"fa-encyclopedia"}
+{"id":"fa-stale-price-fair-value-adjust-c3rhbgugch","title":"Stale price fair-value adjust","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cross-trade-conflict-protocol-y3jvc3mtdh","title":"Cross-trade conflict protocol","shelfTag":"fa-encyclopedia"}
+{"id":"fa-allocation-of-ipo-and-hot-issues-ywxsb2nhdg","title":"Allocation of IPO and hot issues","shelfTag":"fa-encyclopedia"}
+{"id":"fa-research-quiet-period-controls-cmvzzwfyy2","title":"Research quiet period controls","shelfTag":"fa-encyclopedia"}
+{"id":"fa-expert-network-mnpi-protocol-zxhwzxj0ig","title":"Expert network MNPI protocol","shelfTag":"fa-encyclopedia"}
+{"id":"fa-political-contribution-pay-to-play-cg9saxrpy2","title":"Political contribution pay-to-play","shelfTag":"fa-encyclopedia"}
+{"id":"fa-soft-close-versus-hard-close-communication-c29mdcbjbg","title":"Soft close versus hard close communication","shelfTag":"fa-encyclopedia"}
+{"id":"fa-seed-capital-conflict-unwind-plan-c2vlzcbjyx","title":"Seed capital conflict unwind plan","shelfTag":"fa-encyclopedia"}
+{"id":"fa-performance-fee-crystallisation-waterline-cgvyzm9ybw","title":"Performance fee crystallisation waterline","shelfTag":"fa-encyclopedia"}
+{"id":"fa-clawback-modelling-for-gp-economics-y2xhd2jhy2","title":"Clawback modelling for GP economics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-lpac-consent-threshold-map-bhbhyybjb2","title":"LPAC consent threshold map","shelfTag":"fa-encyclopedia"}
+{"id":"fa-most-favoured-nation-audit-rights-bw9zdc1myx","title":"Most-favoured-nation audit rights","shelfTag":"fa-encyclopedia"}
+{"id":"fa-co-invest-information-rights-parity-y28taw52zx","title":"Co-invest information rights parity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-warehouse-risk-before-fund-close-d2fyzwhvdx","title":"Warehouse risk before fund close","shelfTag":"fa-encyclopedia"}
+{"id":"fa-subscription-line-interest-allocation-c3vic2nyax","title":"Subscription line interest allocation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-recycling-provision-capacity-cmvjewnsaw","title":"Recycling provision capacity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-zombie-fund-monitoring-triggers-em9tymllig","title":"Zombie fund monitoring triggers","shelfTag":"fa-encyclopedia"}
+{"id":"fa-secondary-pricing-bid-ask-discipline-c2vjb25kyx","title":"Secondary pricing bid-ask discipline","shelfTag":"fa-encyclopedia"}
+{"id":"fa-continuation-strip-vs-whole-fund-y29udgludw","title":"Continuation strip vs whole-fund","shelfTag":"fa-encyclopedia"}
+{"id":"fa-preferred-return-waterfall-model-chjlzmvycm","title":"Preferred return waterfall model","shelfTag":"fa-encyclopedia"}
+{"id":"fa-catch-up-tranche-maths-y2f0y2gtdx","title":"Catch-up tranche maths","shelfTag":"fa-encyclopedia"}
+{"id":"fa-deal-by-deal-versus-whole-fund-carry-zgvhbc1ies","title":"Deal-by-deal versus whole-fund carry","shelfTag":"fa-encyclopedia"}
+{"id":"fa-transaction-fee-offset-quality-dhjhbnnhy3","title":"Transaction fee offset quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-broken-deal-expense-allocation-ynjva2vuig","title":"Broken deal expense allocation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-organizational-expense-cap-enforcement-b3jnyw5pem","title":"Organizational expense cap enforcement","shelfTag":"fa-encyclopedia"}
+{"id":"fa-management-fee-during-extension-years-bwfuywdlbw","title":"Management fee during extension years","shelfTag":"fa-encyclopedia"}
+{"id":"fa-lp-default-remedies-modelling-bhagzgvmyx","title":"LP default remedies modelling","shelfTag":"fa-encyclopedia"}
+{"id":"fa-excuse-and-exclusion-rights-inventory-zxhjdxnlig","title":"Excuse and exclusion rights inventory","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ai-assisted-research-citation-control-ywktyxnzax","title":"AI-assisted research citation control","shelfTag":"fa-encyclopedia"}
+{"id":"fa-alternative-data-vendor-diligence-ywx0zxjuyx","title":"Alternative data vendor diligence","shelfTag":"fa-encyclopedia"}
+{"id":"fa-crowdsourced-estimate-bias-adjust-y3jvd2rzb3","title":"Crowdsourced estimate bias adjust","shelfTag":"fa-encyclopedia"}
+{"id":"fa-satellite-imagery-ground-truth-check-c2f0zwxsax","title":"Satellite imagery ground-truth check","shelfTag":"fa-encyclopedia"}
+{"id":"fa-web-scraped-price-integrity-d2vilxnjcm","title":"Web-scraped price integrity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-credit-card-panel-representativeness-y3jlzgl0ig","title":"Credit card panel representativeness","shelfTag":"fa-encyclopedia"}
+{"id":"fa-app-download-signal-decay-yxbwigrvd2","title":"App download signal decay","shelfTag":"fa-encyclopedia"}
+{"id":"fa-short-seller-report-response-protocol-c2hvcnqtc2","title":"Short-seller report response protocol","shelfTag":"fa-encyclopedia"}
+{"id":"fa-activist-13d-scenario-tree-ywn0axzpc3","title":"Activist 13D scenario tree","shelfTag":"fa-encyclopedia"}
+{"id":"fa-poison-pill-trigger-distance-cg9pc29uih","title":"Poison pill trigger distance","shelfTag":"fa-encyclopedia"}
+{"id":"fa-dual-class-sunset-valuation-zhvhbc1jbg","title":"Dual-class sunset valuation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-related-party-lease-market-terms-cmvsyxrlzc","title":"Related-party lease market terms","shelfTag":"fa-encyclopedia"}
+{"id":"fa-key-man-insurance-credit-support-a2v5lw1hbi","title":"Key-man insurance credit support","shelfTag":"fa-encyclopedia"}
+{"id":"fa-customer-success-cost-in-nrr-y3vzdg9tzx","title":"Customer success cost in NRR","shelfTag":"fa-encyclopedia"}
+{"id":"fa-implementation-revenue-one-off-filter-aw1wbgvtzw","title":"Implementation revenue one-off filter","shelfTag":"fa-encyclopedia"}
+{"id":"fa-usage-based-revenue-volatility-dxnhz2utym","title":"Usage-based revenue volatility","shelfTag":"fa-encyclopedia"}
+{"id":"fa-seat-expansion-versus-logo-growth-c2vhdcbleh","title":"Seat expansion versus logo growth","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gross-margin-after-hosting-cost-inflation-z3jvc3mgbw","title":"Gross margin after hosting cost inflation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-professional-services-attach-drag-chjvzmvzc2","title":"Professional services attach drag","shelfTag":"fa-encyclopedia"}
+{"id":"fa-marketplace-first-party-inventory-risk-bwfya2v0cg","title":"Marketplace first-party inventory risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-advertising-privacy-signal-loss-ywr2zxj0ax","title":"Advertising privacy signal loss","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cookie-deprecation-measurement-gap-y29va2llig","title":"Cookie deprecation measurement gap","shelfTag":"fa-encyclopedia"}
+{"id":"fa-retail-media-incremental-lift-test-cmv0ywlsig","title":"Retail media incremental lift test","shelfTag":"fa-encyclopedia"}
+{"id":"fa-creator-economy-concentration-y3jlyxrvci","title":"Creator economy concentration","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cloud-committed-use-discount-dependency-y2xvdwqgy2","title":"Cloud committed-use discount dependency","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ai-inference-cost-per-query-path-ywkgaw5mzx","title":"AI inference cost per query path","shelfTag":"fa-encyclopedia"}
+{"id":"fa-training-data-licensing-cost-outlook-dhjhaw5pbm","title":"Training data licensing cost outlook","shelfTag":"fa-encyclopedia"}
+{"id":"fa-hallucination-liability-reserve-thought-agfsbhvjaw","title":"Hallucination liability reserve thought","shelfTag":"fa-encyclopedia"}
+{"id":"fa-open-source-model-competitive-pressure-b3blbi1zb3","title":"Open-source model competitive pressure","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gpu-supply-concentration-opex-risk-z3b1ihn1ch","title":"GPU supply concentration opex risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-energy-cost-for-data-centre-thesis-zw5lcmd5ig","title":"Energy cost for data centre thesis","shelfTag":"fa-encyclopedia"}
+{"id":"fa-water-usage-permit-risk-d2f0zxigdx","title":"Water usage permit risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-chip-cycle-inventory-bullwhip-y2hpccbjew","title":"Chip cycle inventory bullwhip","shelfTag":"fa-encyclopedia"}
+{"id":"fa-foundry-versus-fabless-margin-split-zm91bmryes","title":"Foundry versus fabless margin split","shelfTag":"fa-encyclopedia"}
+{"id":"fa-auto-oem-versus-supplier-cyclicality-yxv0bybvzw","title":"Auto OEM versus supplier cyclicality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-dealer-inventory-channel-for-autos-zgvhbgvyig","title":"Dealer inventory channel for autos","shelfTag":"fa-encyclopedia"}
+{"id":"fa-aftermarket-versus-oem-mix-ywz0zxjtyx","title":"Aftermarket versus OEM mix","shelfTag":"fa-encyclopedia"}
+{"id":"fa-raac-or-building-safety-liability-cmfhyybvci","title":"RAAC or building safety liability","shelfTag":"fa-encyclopedia"}
+{"id":"fa-lease-incentive-accounting-quality-bgvhc2ugaw","title":"Lease incentive accounting quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tenant-improvement-capex-loop-dgvuyw50ig","title":"Tenant improvement capex loop","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ground-lease-residual-risk-z3jvdw5kig","title":"Ground lease residual risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-hotel-management-versus-franchise-fee-ag90zwwgbw","title":"Hotel management versus franchise fee","shelfTag":"fa-encyclopedia"}
+{"id":"fa-revpar-bridge-price-occupancy-cmv2cgfyig","title":"RevPAR bridge price occupancy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-airline-fuel-hedge-accounting-vs-economic-ywlybgluzs","title":"Airline fuel hedge accounting vs economic","shelfTag":"fa-encyclopedia"}
+{"id":"fa-mro-capacity-constraint-premium-bxjvignhcg","title":"MRO capacity constraint premium","shelfTag":"fa-encyclopedia"}
+{"id":"fa-airport-aeronautical-versus-commercial-mix-ywlycg9ydc","title":"Airport aeronautical versus commercial mix","shelfTag":"fa-encyclopedia"}
+{"id":"fa-toll-road-traffic-vs-gdp-elasticity-dg9sbcbyb2","title":"Toll road traffic vs GDP elasticity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-regulated-asset-base-return-variance-cmvndwxhdg","title":"Regulated asset base return variance","shelfTag":"fa-encyclopedia"}
+{"id":"fa-storm-cost-securitisation-credit-c3rvcm0gy2","title":"Storm cost securitisation credit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-nuclear-decommissioning-fund-adequacy-bnvjbgvhci","title":"Nuclear decommissioning fund adequacy","shelfTag":"fa-encyclopedia"}
+{"id":"fa-renewables-capture-price-haircut-cmvuzxdhym","title":"Renewables capture price haircut","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ppa-counterparty-credit-in-project-finance-chbhignvdw","title":"PPA counterparty credit in project finance","shelfTag":"fa-encyclopedia"}
+{"id":"fa-merchant-power-volatility-earnings-bwvyy2hhbn","title":"Merchant power volatility earnings","shelfTag":"fa-encyclopedia"}
+{"id":"fa-battery-degradation-cost-path-ymf0dgvyes","title":"Battery degradation cost path","shelfTag":"fa-encyclopedia"}
+{"id":"fa-carbon-credit-offtake-quality-y2fyym9uig","title":"Carbon credit offtake quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-biodiversity-offset-liability-ymlvzgl2zx","title":"Biodiversity offset liability","shelfTag":"fa-encyclopedia"}
+{"id":"fa-mining-aisc-versus-price-deck-bwluaw5nig","title":"Mining AISC versus price deck","shelfTag":"fa-encyclopedia"}
+{"id":"fa-reserve-life-index-caution-cmvzzxj2zs","title":"Reserve life index caution","shelfTag":"fa-encyclopedia"}
+{"id":"fa-streaming-royalty-cash-flow-duration-c3ryzwftaw","title":"Streaming royalty cash flow duration","shelfTag":"fa-encyclopedia"}
+{"id":"fa-farm-in-dilution-geology-risk-zmfybs1pbi","title":"Farm-in dilution geology risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-lng-contract-oil-linked-versus-hub-bg5nignvbn","title":"LNG contract oil-linked versus hub","shelfTag":"fa-encyclopedia"}
+{"id":"fa-refining-crack-spread-normalisation-cmvmaw5pbm","title":"Refining crack spread normalisation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-chemical-spread-chain-margin-y2hlbwljyw","title":"Chemical spread chain margin","shelfTag":"fa-encyclopedia"}
+{"id":"fa-paper-packaging-volume-vs-price-cgfwzxigcg","title":"Paper packaging volume vs price","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ag-fertilizer-channel-fill-ywcgzmvydg","title":"Ag fertilizer channel fill","shelfTag":"fa-encyclopedia"}
+{"id":"fa-seed-trait-litigation-contingency-c2vlzcb0cm","title":"Seed trait litigation contingency","shelfTag":"fa-encyclopedia"}
+{"id":"fa-food-commodity-input-hedge-horizon-zm9vzcbjb2","title":"Food commodity input hedge horizon","shelfTag":"fa-encyclopedia"}
+{"id":"fa-private-label-mix-margin-chjpdmf0zs","title":"Private label mix margin","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tobacco-illicit-trade-volume-dg9iywnjby","title":"Tobacco illicit trade volume","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gaming-platform-take-rate-cut-risk-z2ftaw5nih","title":"Gaming platform take-rate cut risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sports-rights-inflation-roi-c3bvcnrzih","title":"Sports rights inflation ROI","shelfTag":"fa-encyclopedia"}
+{"id":"fa-studio-slate-hit-concentration-c3r1zglvih","title":"Studio slate hit concentration","shelfTag":"fa-encyclopedia"}
+{"id":"fa-advertising-upfront-versus-scatter-ywr2zxj0ax","title":"Advertising upfront versus scatter","shelfTag":"fa-encyclopedia"}
+{"id":"fa-circulation-paywall-conversion-y2lyy3vsyx","title":"Circulation paywall conversion","shelfTag":"fa-encyclopedia"}
+{"id":"fa-hospital-payer-mix-shift-ag9zcgl0yw","title":"Hospital payer mix shift","shelfTag":"fa-encyclopedia"}
+{"id":"fa-drug-patent-cliff-npv-zhj1zybwyx","title":"Drug patent cliff NPV","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pipeline-risk-adjusted-npv-cglwzwxpbm","title":"Pipeline risk-adjusted NPV","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gross-to-net-pharmaceutical-bridge-z3jvc3mtdg","title":"Gross-to-net pharmaceutical bridge","shelfTag":"fa-encyclopedia"}
+{"id":"fa-hospital-capex-certificate-of-need-ag9zcgl0yw","title":"Hospital capex certificate of need","shelfTag":"fa-encyclopedia"}
+{"id":"fa-medical-device-asp-hospital-budget-bwvkawnhbc","title":"Medical device ASP hospital budget","shelfTag":"fa-encyclopedia"}
+{"id":"fa-diagnostics-utilisation-rebound-risk-zglhz25vc3","title":"Diagnostics utilisation rebound risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pbm-rebate-disclosure-opacity-cgjtihjlym","title":"PBM rebate disclosure opacity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-benefits-open-enrolment-seasonality-ymvuzwzpdh","title":"Benefits open enrolment seasonality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-actuarial-assumption-unlock-p-l-ywn0dwfyaw","title":"Actuarial assumption unlock P&L","shelfTag":"fa-encyclopedia"}
+{"id":"fa-reinsurance-counterparty-credit-cmvpbnn1cm","title":"Reinsurance counterparty credit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-longevity-swap-mark-to-market-bg9uz2v2ax","title":"Longevity swap mark-to-market","shelfTag":"fa-encyclopedia"}
+{"id":"fa-bulk-annuity-pricing-competition-ynvsaybhbm","title":"Bulk annuity pricing competition","shelfTag":"fa-encyclopedia"}
+{"id":"fa-solvency-ratio-sensitivity-package-c29sdmvuy3","title":"Solvency ratio sensitivity package","shelfTag":"fa-encyclopedia"}
+{"id":"fa-bank-cet1-mda-distance-ymfuaybjzx","title":"Bank CET1 MDA distance","shelfTag":"fa-encyclopedia"}
+{"id":"fa-rwa-inflation-optimisation-risk-cndhigluzm","title":"RWA inflation optimisation risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-deposit-beta-lag-assumption-zgvwb3npdc","title":"Deposit beta lag assumption","shelfTag":"fa-encyclopedia"}
+{"id":"fa-wholesale-funding-dependence-score-d2hvbgvzyw","title":"Wholesale funding dependence score","shelfTag":"fa-encyclopedia"}
+{"id":"fa-stage-2-ecl-migration-sensitivity-c3rhz2ugmi","title":"Stage 2 ECL migration sensitivity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-commercial-real-estate-cre-depth-y29tbwvyy2","title":"Commercial real estate CRE depth","shelfTag":"fa-encyclopedia"}
+{"id":"fa-consumer-unsecured-charge-off-lag-y29uc3vtzx","title":"Consumer unsecured charge-off lag","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cards-revolve-rate-economics-y2fyzhmgcm","title":"Cards revolve rate economics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-merchant-acquiring-take-rate-pressure-bwvyy2hhbn","title":"Merchant acquiring take-rate pressure","shelfTag":"fa-encyclopedia"}
+{"id":"fa-payment-scheme-fee-pass-through-cgf5bwvudc","title":"Payment scheme fee pass-through","shelfTag":"fa-encyclopedia"}
+{"id":"fa-bnpl-credit-box-tightening-ym5wbcbjcm","title":"BNPL credit box tightening","shelfTag":"fa-encyclopedia"}
+{"id":"fa-neobank-cac-payback-path-bmvvymfuay","title":"Neobank CAC payback path","shelfTag":"fa-encyclopedia"}
+{"id":"fa-interchange-regulation-scenario-aw50zxjjag","title":"Interchange regulation scenario","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cross-border-payment-fx-take-rate-y3jvc3mtym","title":"Cross-border payment FX take-rate","shelfTag":"fa-encyclopedia"}
+{"id":"fa-stablecoin-reserve-attestation-quality-c3rhymxly2","title":"Stablecoin reserve attestation quality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-crypto-custody-off-balance-risk-y3j5chrvig","title":"Crypto custody off-balance risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tokenisation-settlement-legal-finality-dg9rzw5pc2","title":"Tokenisation settlement legal finality","shelfTag":"fa-encyclopedia"}
+{"id":"fa-open-banking-revenue-share-b3blbibiyw","title":"Open banking revenue share","shelfTag":"fa-encyclopedia"}
+{"id":"fa-embedded-finance-credit-back-book-zw1izwrkzw","title":"Embedded finance credit back-book","shelfTag":"fa-encyclopedia"}
+{"id":"fa-baas-sponsor-bank-concentration-ymfhcybzcg","title":"BaaS sponsor bank concentration","shelfTag":"fa-encyclopedia"}
+{"id":"fa-compliance-cost-per-account-path-y29tcgxpyw","title":"Compliance cost per account path","shelfTag":"fa-encyclopedia"}
+{"id":"fa-fraud-loss-ratio-fintech-znjhdwqgbg","title":"Fraud loss ratio fintech","shelfTag":"fa-encyclopedia"}
+{"id":"fa-chargeback-liability-allocation-y2hhcmdlym","title":"Chargeback liability allocation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-identity-verification-cost-curve-awrlbnrpdh","title":"Identity verification cost curve","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sanctions-screening-false-positive-cost-c2fuy3rpb2","title":"Sanctions screening false-positive cost","shelfTag":"fa-encyclopedia"}
+{"id":"fa-regtech-vendor-lock-in-cmvndgvjac","title":"Regtech vendor lock-in","shelfTag":"fa-encyclopedia"}
+{"id":"fa-model-explainability-for-credit-denial-bw9kzwwgzx","title":"Model explainability for credit denial","shelfTag":"fa-encyclopedia"}
+{"id":"fa-adverse-action-notice-control-ywr2zxjzzs","title":"Adverse action notice control","shelfTag":"fa-encyclopedia"}
+{"id":"fa-collections-hardship-pathway-metrics-y29sbgvjdg","title":"Collections hardship pathway metrics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-forbearance-optics-versus-economics-zm9yymvhcm","title":"Forbearance optics versus economics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cecl-versus-ifrs-9-stage-mapping-y2vjbcb2zx","title":"CECL versus IFRS 9 stage mapping","shelfTag":"fa-encyclopedia"}
+{"id":"fa-purchased-credit-deteriorated-accounting-chvyy2hhc2","title":"Purchased credit deteriorated accounting","shelfTag":"fa-encyclopedia"}
+{"id":"fa-troubled-debt-restructuring-markers-dhjvdwjszw","title":"Troubled debt restructuring markers","shelfTag":"fa-encyclopedia"}
+{"id":"fa-collateral-valuation-lag-credit-y29sbgf0zx","title":"Collateral valuation lag credit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-guarantor-capacity-verification-z3vhcmfudg","title":"Guarantor capacity verification","shelfTag":"fa-encyclopedia"}
+{"id":"fa-share-pledge-financing-risk-c2hhcmugcg","title":"Share pledge financing risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-nav-loan-look-through-leverage-bmf2igxvyw","title":"NAV loan look-through leverage","shelfTag":"fa-encyclopedia"}
+{"id":"fa-continuation-preferred-instrument-y29udgludw","title":"Continuation preferred instrument","shelfTag":"fa-encyclopedia"}
+{"id":"fa-stapled-secondary-conflict-c3rhcgxlzc","title":"Stapled secondary conflict","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gp-minority-stake-sale-alignment-z3agbwlub3","title":"GP minority stake sale alignment","shelfTag":"fa-encyclopedia"}
+{"id":"fa-carry-waiver-temporary-optics-y2fycnkgd2","title":"Carry waiver temporary optics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-subscription-line-irr-inflation-c3vic2nyax","title":"Subscription line IRR inflation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-nav-basis-secondary-versus-last-round-bmf2igjhc2","title":"NAV basis secondary versus last round","shelfTag":"fa-encyclopedia"}
+{"id":"fa-down-round-anti-dilution-impact-zg93bi1yb3","title":"Down-round anti-dilution impact","shelfTag":"fa-encyclopedia"}
+{"id":"fa-safe-conversion-overhang-c2fmzsbjb2","title":"SAFE conversion overhang","shelfTag":"fa-encyclopedia"}
+{"id":"fa-option-pool-refresh-dilution-b3b0aw9uih","title":"Option pool refresh dilution","shelfTag":"fa-encyclopedia"}
+{"id":"fa-secondary-tender-uneven-information-c2vjb25kyx","title":"Secondary tender uneven information","shelfTag":"fa-encyclopedia"}
+{"id":"fa-409a-versus-fair-value-gap-nda5ysb2zx","title":"409A versus fair value gap","shelfTag":"fa-encyclopedia"}
+{"id":"fa-secondary-rpft-rights-drag-c2vjb25kyx","title":"Secondary RPFT rights drag","shelfTag":"fa-encyclopedia"}
+{"id":"fa-information-rights-leakage-mnpi-aw5mb3jtyx","title":"Information rights leakage MNPI","shelfTag":"fa-encyclopedia"}
+{"id":"fa-public-private-pair-correlation-chvibgljlx","title":"Public-private pair correlation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-milestone-based-valuation-step-ups-bwlszxn0b2","title":"Milestone-based valuation step-ups","shelfTag":"fa-encyclopedia"}
+{"id":"fa-liquidation-waterfall-spreadsheet-control-bglxdwlkyx","title":"Liquidation waterfall spreadsheet control","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cap-table-version-control-y2fwihrhym","title":"Cap table version control","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pro-rata-rights-funding-reserve-chjvlxjhdg","title":"Pro-rata rights funding reserve","shelfTag":"fa-encyclopedia"}
+{"id":"fa-pay-to-play-round-dynamics-cgf5lxrvlx","title":"Pay-to-play round dynamics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-bridge-note-maturity-default-risk-ynjpzgdlig","title":"Bridge note maturity default risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-inside-round-conflict-valuation-aw5zawrlih","title":"Inside round conflict valuation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-down-round-employee-option-repricing-zg93bi1yb3","title":"Down-round employee option repricing","shelfTag":"fa-encyclopedia"}
+{"id":"fa-structured-primary-with-prefs-c3rydwn0dx","title":"Structured primary with prefs","shelfTag":"fa-encyclopedia"}
+{"id":"fa-secondary-at-premium-to-primary-c2vjb25kyx","title":"Secondary at premium to primary","shelfTag":"fa-encyclopedia"}
+{"id":"fa-fund-to-fund-conflict-allocation-znvuzc10by","title":"Fund-to-fund conflict allocation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-recycling-to-new-deal-capacity-cmvjewnsaw","title":"Recycling to new deal capacity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-lp-led-secondary-stapled-commit-bhatbgvkih","title":"LP-led secondary stapled commit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-preferred-equity-in-nav-loans-chjlzmvycm","title":"Preferred equity in NAV loans","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gp-commit-financed-by-loan-z3agy29tbw","title":"GP commit financed by loan","shelfTag":"fa-encyclopedia"}
+{"id":"fa-advisory-board-compensation-conflicts-ywr2axnvcn","title":"Advisory board compensation conflicts","shelfTag":"fa-encyclopedia"}
+{"id":"fa-placement-agent-fee-transparency-cgxhy2vtzw","title":"Placement agent fee transparency","shelfTag":"fa-encyclopedia"}
+{"id":"fa-first-close-versus-final-close-economics-zmlyc3qty2","title":"First-close versus final-close economics","shelfTag":"fa-encyclopedia"}
+{"id":"fa-equalisation-interest-calculation-zxf1ywxpc2","title":"Equalisation interest calculation","shelfTag":"fa-encyclopedia"}
+{"id":"fa-excuse-rights-esg-cascade-zxhjdxnlih","title":"Excuse rights ESG cascade","shelfTag":"fa-encyclopedia"}
+{"id":"fa-co-invest-capacity-signalling-y28taw52zx","title":"Co-invest capacity signalling","shelfTag":"fa-encyclopedia"}
+{"id":"fa-deal-sourcing-attribution-claims-zgvhbcbzb3","title":"Deal sourcing attribution claims","shelfTag":"fa-encyclopedia"}
+{"id":"fa-operating-partner-value-add-evidence-b3blcmf0aw","title":"Operating partner value-add evidence","shelfTag":"fa-encyclopedia"}
+{"id":"fa-portfolio-company-intercompany-debt-cg9ydgzvbg","title":"Portfolio company intercompany debt","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cash-pooling-trapped-cash-y2fzacbwb2","title":"Cash pooling trapped cash","shelfTag":"fa-encyclopedia"}
+{"id":"fa-notional-versus-physical-cash-pool-bm90aw9uyw","title":"Notional versus physical cash pool","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cross-guarantee-extrication-cost-y3jvc3mtz3","title":"Cross-guarantee extrication cost","shelfTag":"fa-encyclopedia"}
+{"id":"fa-keepwell-versus-guarantee-enforceability-a2vlchdlbg","title":"Keepwell versus guarantee enforceability","shelfTag":"fa-encyclopedia"}
+{"id":"fa-letters-of-credit-off-balance-liquidity-bgv0dgvycy","title":"Letters of credit off-balance liquidity","shelfTag":"fa-encyclopedia"}
+{"id":"fa-performance-bond-call-risk-cgvyzm9ybw","title":"Performance bond call risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-earnest-money-and-deposit-forfeit-zwfybmvzdc","title":"Earnest money and deposit forfeit","shelfTag":"fa-encyclopedia"}
+{"id":"fa-reverse-termination-fee-option-value-cmv2zxjzzs","title":"Reverse termination fee option value","shelfTag":"fa-encyclopedia"}
+{"id":"fa-material-adverse-effect-clause-carveouts-bwf0zxjpyw","title":"Material adverse effect clause carveouts","shelfTag":"fa-encyclopedia"}
+{"id":"fa-hell-or-high-water-regulatory-efforts-agvsbc1vci","title":"Hell-or-high-water regulatory efforts","shelfTag":"fa-encyclopedia"}
+{"id":"fa-gun-jumping-integration-risk-z3vulwp1bx","title":"Gun-jumping integration risk","shelfTag":"fa-encyclopedia"}
+{"id":"fa-working-capital-peg-seasonality-dispute-d29ya2luzy","title":"Working capital peg seasonality dispute","shelfTag":"fa-encyclopedia"}
+{"id":"fa-locked-box-leakage-schedule-enforcement-bg9ja2vklw","title":"Locked-box leakage schedule enforcement","shelfTag":"fa-encyclopedia"}
+{"id":"fa-completion-accounts-accounting-policies-y29tcgxldg","title":"Completion accounts accounting policies","shelfTag":"fa-encyclopedia"}
+{"id":"fa-warranty-and-indemnity-insurance-gap-d2fycmfudh","title":"Warranty and indemnity insurance gap","shelfTag":"fa-encyclopedia"}
+{"id":"fa-escrow-release-condition-map-zxnjcm93ih","title":"Escrow release condition map","shelfTag":"fa-encyclopedia"}
+{"id":"fa-indemnity-survival-periods-aw5kzw1uax","title":"Indemnity survival periods","shelfTag":"fa-encyclopedia"}
+{"id":"fa-sandbagging-clause-position-c2fuzgjhz2","title":"Sandbagging clause position","shelfTag":"fa-encyclopedia"}
+{"id":"fa-knowledge-qualifier-scrape-a25vd2xlzg","title":"Knowledge qualifier scrape","shelfTag":"fa-encyclopedia"}
+{"id":"fa-materiality-scrape-in-indemnities-bwf0zxjpyw","title":"Materiality scrape in indemnities","shelfTag":"fa-encyclopedia"}
+{"id":"fa-tip-and-icebergs-basket-structure-dglwigfuzc","title":"Tip and icebergs basket structure","shelfTag":"fa-encyclopedia"}
+{"id":"fa-de-minimis-claim-thresholds-zgugbwluaw","title":"De minimis claim thresholds","shelfTag":"fa-encyclopedia"}
+{"id":"fa-cap-on-indemnity-versus-purchase-price-y2fwig9uig","title":"Cap on indemnity versus purchase price","shelfTag":"fa-encyclopedia"}
+{"id":"fa-interim-operating-covenants-buyer-aw50zxjpbs","title":"Interim operating covenants buyer","shelfTag":"fa-encyclopedia"}
+{"id":"fa-ordinary-course-dispute-examples-b3jkaw5hcn","title":"Ordinary course dispute examples","shelfTag":"fa-encyclopedia"}
+{"id":"fa-financing-cooperation-covenant-zmluyw5jaw","title":"Financing cooperation covenant","shelfTag":"fa-encyclopedia"}
+{"id":"fa-marketing-period-definition-debt-bwfya2v0aw","title":"Marketing period definition debt","shelfTag":"fa-encyclopedia"}
+{"id":"fa-forced-marketing-period-end-risk-zm9yy2vkig","title":"Forced marketing period end risk","shelfTag":"fa-encyclopedia"}

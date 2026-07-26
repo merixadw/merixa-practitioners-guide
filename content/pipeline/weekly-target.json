@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "weekId": "2026-W30",
+  "startsAt": "2026-07-20T00:00:00.000Z",
+  "endsAt": "2026-07-26T23:59:59.999Z",
+  "status": "active",
+  "createdAt": "2026-07-20T13:13:12.606Z",
+  "defaults": {
+    "gapTopicsToClose": 3,
+    "minConceptsPerTopic": 3,
+    "maxOpenConflicts": 5,
+    "weakCardsToUpgrade": 20,
+    "minCardQuality": 0.78,
+    "minOfficialCoverage": 0.85,
+    "minCorroboratedGain": 2,
+    "minSustainBodies": 4
+  },
+  "baseline": {
+    "measuredAt": "2026-07-20T13:13:12.606Z",
+    "cards": 2269,
+    "gaps": [
+      {
+        "topic": "Financial reporting | Tax",
+        "concepts": 1
+      },
+      {
+        "topic": "Financial reporting | Presentation of financial statements",
+        "concepts": 1
+      },
+      {
+        "topic": "Financial reporting | Government grants",
+        "concepts": 1
+      },
+      {
+        "topic": "Financial management | Impairment",
+        "concepts": 1
+      },
+      {
+        "topic": "Management reporting | Cash and liquidity",
+        "concepts": 1
+      },
+      {
+        "topic": "Strategy and performance | Performance measurement",
+        "concepts": 1
+      },
+      {
+        "topic": "Financial reporting | Governance",
+        "concepts": 1
+      },
+      {
+        "topic": "Sustainability | Sustainability reporting",
+        "concepts": 2
+      },
+      {
+        "topic": "Financial reporting | Segment reporting",
+        "concepts": 2
+      },
+      {
+        "topic": "Risk management | Risk assessment",
+        "concepts": 2
+      },
+      {
+        "topic": "Financial reporting | Events after the reporting period",
+        "concepts": 2
+      }
+    ],
+    "gapCount": 11,
+    "conflicts": 0,
+    "weakCards": 0,
+    "teachingCoverage": 0.987,
+    "officialCoverage": 1,
+    "corroborated": 18,
+    "bodiesPresent": [
+      "ACCA",
+      "CFA",
+      "CGMA",
+      "CRMA",
+      "FRC",
+      "FRM",
+      "IFRS",
+      "IIA",
+      "Merixa"
+    ],
+    "sustainFetched": 1,
+    "topicCoverage": {
+      "Strategy and performance | Strategy execution": 6,
+      "Sustainability | Sustainability reporting": 2,
+      "Financial reporting | Impairment": 16,
+      "Financial reporting | Reporting framework": 18,
+      "Financial reporting | Intangible assets": 14,
+      "Financial reporting | Financial instruments": 16,
+      "Financial reporting | Valuation": 8,
+      "Management reporting | Internal control": 23,
+      "Financial reporting | Revenue": 13,
+      "Financial reporting | Leases": 14,
+      "Financial reporting | UK GAAP framework": 20,
+      "Audit and assurance | Governance": 5,
+      "Financial reporting | Property, plant and equipment": 11,
+      "Management reporting | Budgeting and forecasting": 3,
+      "Project delivery | Project controls": 5,
+      "Management reporting | Performance reporting": 4,
+      "Financial reporting | Consolidation": 9,
+      "Financial reporting | Tax": 1,
+      "Financial reporting | Presentation of financial statements": 1,
+      "Financial reporting | Provisions and contingencies": 5,
+      "Financial reporting | Business combinations": 14,
+      "Strategy and performance | Cash and liquidity": 5,
+      "Financial reporting | Interim reporting": 8,
+      "Financial reporting | Segment reporting": 2,
+      "Risk management | Risk assessment": 2,
+      "Financial reporting | Cash and liquidity": 3,
+      "Financial reporting | Events after the reporting period": 2,
+      "Financial reporting | Employee benefits": 7,
+      "Financial reporting | Inventory": 4,
+      "Financial reporting | Government grants": 1,
+      "Financial reporting | Assets held for sale": 3,
+      "Financial management | Impairment": 1,
+      "Management reporting | Cash and liquidity": 1,
+      "Strategy and performance | Performance measurement": 1,
+      "Financial reporting | Governance": 1
+    }
+  },
+  "goals": [
+    {
+      "id": "fill-gap-financial-reporting-tax-2026-w30",
+      "kind": "fill-gap",
+      "priority": 5,
+      "topicKey": "Financial reporting | Tax",
+      "baseline": 1,
+      "target": 3,
+      "unit": "concepts",
+      "reason": "Close research gap: raise Financial reporting | Tax to at least 3 concepts"
+    },
+    {
+      "id": "fill-gap-financial-reporting-presentation-of-fin",
+      "kind": "fill-gap",
+      "priority": 5,
+      "topicKey": "Financial reporting | Presentation of financial statements",
+      "baseline": 1,
+      "target": 3,
+      "unit": "concepts",
+      "reason": "Close research gap: raise Financial reporting | Presentation of financial statements to at least 3 concepts"
+    },
+    {
+      "id": "fill-gap-financial-reporting-government-grants-2",
+      "kind": "fill-gap",
+      "priority": 5,
+      "topicKey": "Financial reporting | Government grants",
+      "baseline": 1,
+      "target": 3,
+      "unit": "concepts",
+      "reason": "Close research gap: raise Financial reporting | Government grants to at least 3 concepts"
+    },
+    {
+      "id": "resolve-conflicts-2026-w30",
+      "kind": "resolve-conflicts",
+      "priority": 4,
+      "baseline": 0,
+      "target": 0,
+      "ceiling": 5,
+      "unit": "open-conflicts",
+      "reason": "Reduce open classification conflicts to ≤ 5"
+    },
+    {
+      "id": "upgrade-quality-2026-w30",
+      "kind": "upgrade-quality",
+      "priority": 4,
+      "baseline": 0,
+      "target": 0,
+      "unit": "weak-cards-remaining",
+      "minQuality": 0.78,
+      "reason": "Upgrade at least 0 weak cards to quality ≥ 0.78"
+    },
+    {
+      "id": "official-coverage-2026-w30",
+      "kind": "official-coverage",
+      "priority": 3,
+      "baseline": 1,
+      "target": 0.85,
+      "unit": "share-of-cards",
+      "reason": "Sustain ≥ 85% of cards with official body website references"
+    },
+    {
+      "id": "corroborate-2026-w30",
+      "kind": "corroborate",
+      "priority": 3,
+      "baseline": 18,
+      "target": 20,
+      "unit": "multi-source-concepts",
+      "reason": "Increase corroborated (multi-source) concepts by ≥ 2"
+    },
+    {
+      "id": "sustain-bodies-2026-w30",
+      "kind": "sustain-bodies",
+      "priority": 3,
+      "baseline": 9,
+      "target": 9,
+      "preferBodies": [],
+      "unit": "bodies-present",
+      "reason": "Keep at least 4 professional bodies attached across the corpus"
+    }
+  ],
+  "lastVerifiedAt": "2026-07-22T12:07:13.578Z"
+}

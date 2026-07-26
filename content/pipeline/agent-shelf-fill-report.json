@@ -1,0 +1,51 @@
+{
+  "startedAt": "2026-07-26T09:51:39.861Z",
+  "mode": "agent-authored",
+  "dryRun": false,
+  "source": "content/pipeline/agent-drafts/wave4-crma-floor1.jsonl",
+  "before": {
+    "ma": 1510,
+    "tax": 2120,
+    "fa": 2280,
+    "ifrs": 1530,
+    "crma": 1499,
+    "iia": 1544,
+    "coso": 1536,
+    "frm": 1500
+  },
+  "after": {
+    "ma": 1510,
+    "tax": 2120,
+    "fa": 2280,
+    "ifrs": 1530,
+    "crma": 1500,
+    "iia": 1544,
+    "coso": 1536,
+    "frm": 1500
+  },
+  "published": 1,
+  "updated": 0,
+  "skippedDuplicate": 0,
+  "qualitySkip": 0,
+  "unknownShelf": 0,
+  "perShelf": {
+    "crma": {
+      "published": 1,
+      "qualitySkip": 0,
+      "skippedDuplicate": 0
+    }
+  },
+  "samples": [
+    {
+      "shelfId": "crma",
+      "id": "crma-post-incident-risk-rating-uplift-protocol-cg9zdc1pbm",
+      "title": "Post-incident risk rating uplift protocol",
+      "topic": "Risk management",
+      "definition": "Post-incident risk rating uplift protocol protocols temporary residual uplifts after material incidents until evidence of recovery. In the workplace pack, name the owner, the figure or rating used, and the evidence that ",
+      "example": "Uplift 90 days post-outage; exited on stability metrics. Record the decision and retain the working papers with the pack.",
+      "trap": "Immediate return to pre-incident green. Do not treat a label or slide title as a substitute for evidence."
+    }
+  ],
+  "finishedAt": "2026-07-26T09:51:45.458Z",
+  "readyCount": 1
+}

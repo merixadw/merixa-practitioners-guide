@@ -1,0 +1,342 @@
+[
+  {
+    "id": "priority-path-tax-reporting-close",
+    "title": "Tax in the reporting close",
+    "summary": "From current tax and deferred tax through ETR reconciliation and uncertain positions — ACCA practitioner close discipline.",
+    "bodies": [
+      "ACCA",
+      "IFRS",
+      "FRC",
+      "Merixa"
+    ],
+    "steps": [
+      {
+        "id": "tax-reporting-close-s1",
+        "title": "Current tax expense",
+        "summary": "Current tax expense",
+        "cardId": "tax-current-expense"
+      },
+      {
+        "id": "tax-reporting-close-s2",
+        "title": "Deferred tax — overview",
+        "summary": "Deferred tax — overview",
+        "cardId": "enc-deferred-tax"
+      },
+      {
+        "id": "tax-reporting-close-s3",
+        "title": "Effective tax rate reconciliation",
+        "summary": "Effective tax rate reconciliation",
+        "cardId": "tax-rate-reconciliation"
+      },
+      {
+        "id": "tax-reporting-close-s4",
+        "title": "Uncertain tax positions",
+        "summary": "Uncertain tax positions",
+        "cardId": "tax-uncertain-positions"
+      },
+      {
+        "id": "tax-reporting-close-s5",
+        "title": "Withholding tax on cross-border flows",
+        "summary": "Withholding tax on cross-border flows",
+        "cardId": "tax-withholding"
+      },
+      {
+        "id": "tax-reporting-close-s6",
+        "title": "Transfer pricing — practitioner lens",
+        "summary": "Transfer pricing — practitioner lens",
+        "cardId": "tax-best-practices-for-transfer-pricing-documentation-ymvzdcbwcm"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-sustainability-reporting",
+    "title": "Sustainability reporting in practice",
+    "summary": "Materiality, climate risk, and disclosure discipline — IFRS Sustainability and investor lens.",
+    "bodies": [
+      "IFRS",
+      "CFA",
+      "FRM",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "sustainability-reporting-s1",
+        "title": "ESG materiality",
+        "summary": "ESG materiality",
+        "cardId": "enc-materiality-esg"
+      },
+      {
+        "id": "sustainability-reporting-s2",
+        "title": "Climate-related risk",
+        "summary": "Climate-related risk",
+        "cardId": "enc-climate-risk"
+      },
+      {
+        "id": "sustainability-reporting-s3",
+        "title": "Scope emissions mindset",
+        "summary": "Scope emissions mindset",
+        "cardId": "enc-scope-emissions"
+      },
+      {
+        "id": "sustainability-reporting-s4",
+        "title": "Sustainability disclosure pack",
+        "summary": "Sustainability disclosure pack",
+        "cardId": "enc-sustainability-disclosure"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-project-delivery-finance",
+    "title": "Project delivery — finance view",
+    "summary": "Business case, stage gates, and variance control for project finance owners.",
+    "bodies": [
+      "CGMA",
+      "ACCA",
+      "IIA"
+    ],
+    "steps": [
+      {
+        "id": "project-delivery-finance-s1",
+        "title": "Project business case",
+        "summary": "Project business case",
+        "cardId": "enc-project-business-case"
+      },
+      {
+        "id": "project-delivery-finance-s2",
+        "title": "Stage-gate governance",
+        "summary": "Stage-gate governance",
+        "cardId": "enc-stage-gate"
+      },
+      {
+        "id": "project-delivery-finance-s3",
+        "title": "Benefits realisation",
+        "summary": "Benefits realisation",
+        "cardId": "enc-benefits-realisation"
+      },
+      {
+        "id": "project-delivery-finance-s4",
+        "title": "Project variance control",
+        "summary": "Project variance control",
+        "cardId": "enc-project-variance"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-governance-controls-spine",
+    "title": "Governance and controls spine",
+    "summary": "Control environment through monitoring — IIA and CRMA practitioner route.",
+    "bodies": [
+      "IIA",
+      "CRMA",
+      "ACCA",
+      "FRC"
+    ],
+    "steps": [
+      {
+        "id": "governance-controls-spine-s1",
+        "title": "Control environment",
+        "summary": "Control environment",
+        "cardId": "enc-control-environment"
+      },
+      {
+        "id": "governance-controls-spine-s2",
+        "title": "Segregation of duties",
+        "summary": "Segregation of duties",
+        "cardId": "enc-sod"
+      },
+      {
+        "id": "governance-controls-spine-s3",
+        "title": "Risk and control matrix",
+        "summary": "Risk and control matrix",
+        "cardId": "enc-rcm"
+      },
+      {
+        "id": "governance-controls-spine-s4",
+        "title": "Three lines model",
+        "summary": "Three lines model",
+        "cardId": "enc-three-lines"
+      },
+      {
+        "id": "governance-controls-spine-s5",
+        "title": "Monitoring activities",
+        "summary": "Monitoring activities",
+        "cardId": "enc-monitoring-controls"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-audit-assurance-spine",
+    "title": "Audit and assurance spine",
+    "summary": "Evidence, materiality, and opinion types — ACCA and IIA workplace lens.",
+    "bodies": [
+      "ACCA",
+      "IIA",
+      "FRC"
+    ],
+    "steps": [
+      {
+        "id": "audit-assurance-spine-s1",
+        "title": "Audit evidence",
+        "summary": "Audit evidence",
+        "cardId": "enc-audit-evidence"
+      },
+      {
+        "id": "audit-assurance-spine-s2",
+        "title": "Audit materiality",
+        "summary": "Audit materiality",
+        "cardId": "enc-materiality-audit"
+      },
+      {
+        "id": "audit-assurance-spine-s3",
+        "title": "Substantive testing",
+        "summary": "Substantive testing",
+        "cardId": "enc-substantive-testing"
+      },
+      {
+        "id": "audit-assurance-spine-s4",
+        "title": "Analytical procedures",
+        "summary": "Analytical procedures",
+        "cardId": "enc-analytical-procedures"
+      },
+      {
+        "id": "audit-assurance-spine-s5",
+        "title": "Going concern audit",
+        "summary": "Going concern audit",
+        "cardId": "enc-going-concern-audit"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-risk-management-spine",
+    "title": "Risk management spine",
+    "summary": "Market, credit, liquidity, and operational risk — FRM and CRMA depth.",
+    "bodies": [
+      "FRM",
+      "CRMA",
+      "IIA",
+      "CFA"
+    ],
+    "steps": [
+      {
+        "id": "risk-management-spine-s1",
+        "title": "Risk appetite",
+        "summary": "Risk appetite",
+        "cardId": "enc-risk-appetite"
+      },
+      {
+        "id": "risk-management-spine-s2",
+        "title": "Inherent and residual risk",
+        "summary": "Inherent and residual risk",
+        "cardId": "enc-inherent-residual-risk"
+      },
+      {
+        "id": "risk-management-spine-s3",
+        "title": "Market risk",
+        "summary": "Market risk",
+        "cardId": "enc-market-risk"
+      },
+      {
+        "id": "risk-management-spine-s4",
+        "title": "Credit risk",
+        "summary": "Credit risk",
+        "cardId": "enc-credit-risk"
+      },
+      {
+        "id": "risk-management-spine-s5",
+        "title": "Operational risk",
+        "summary": "Operational risk",
+        "cardId": "enc-operational-risk"
+      },
+      {
+        "id": "risk-management-spine-s6",
+        "title": "Stress testing",
+        "summary": "Stress testing",
+        "cardId": "enc-stress-testing"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-management-reporting-spine",
+    "title": "Management reporting spine",
+    "summary": "Cost behaviour, variance, and pack-ready MI — CGMA and ACCA.",
+    "bodies": [
+      "CGMA",
+      "ACCA",
+      "CFA"
+    ],
+    "steps": [
+      {
+        "id": "management-reporting-spine-s1",
+        "title": "Contribution margin",
+        "summary": "Contribution margin",
+        "cardId": "enc-contribution-margin"
+      },
+      {
+        "id": "management-reporting-spine-s2",
+        "title": "Break-even",
+        "summary": "Break-even",
+        "cardId": "enc-break-even"
+      },
+      {
+        "id": "management-reporting-spine-s3",
+        "title": "KPI vs KRI",
+        "summary": "KPI vs KRI",
+        "cardId": "enc-kpi-vs-kri"
+      },
+      {
+        "id": "management-reporting-spine-s4",
+        "title": "Variance analysis mindset",
+        "summary": "Variance analysis mindset",
+        "cardId": "enc-variance-analysis"
+      },
+      {
+        "id": "management-reporting-spine-s5",
+        "title": "Rolling forecast discipline",
+        "summary": "Rolling forecast discipline",
+        "cardId": "enc-rolling-forecast"
+      }
+    ]
+  },
+  {
+    "id": "priority-path-cfa-frm-bridge",
+    "title": "CFA and FRM bridge",
+    "summary": "Valuation and risk measurement concepts practitioners use together.",
+    "bodies": [
+      "CFA",
+      "FRM",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "cfa-frm-bridge-s1",
+        "title": "WACC",
+        "summary": "WACC",
+        "cardId": "enc-wacc"
+      },
+      {
+        "id": "cfa-frm-bridge-s2",
+        "title": "Value at risk",
+        "summary": "Value at risk",
+        "cardId": "enc-var"
+      },
+      {
+        "id": "cfa-frm-bridge-s3",
+        "title": "Duration",
+        "summary": "Duration",
+        "cardId": "enc-duration"
+      },
+      {
+        "id": "cfa-frm-bridge-s4",
+        "title": "Enterprise value",
+        "summary": "Enterprise value",
+        "cardId": "enc-enterprise-value"
+      },
+      {
+        "id": "cfa-frm-bridge-s5",
+        "title": "Model risk",
+        "summary": "Model risk",
+        "cardId": "enc-model-risk"
+      }
+    ]
+  }
+]

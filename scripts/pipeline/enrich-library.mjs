@@ -15,6 +15,7 @@ import {
 } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { atomicWriteFile } from "../lib/atomic-write.mjs";
 import {
   composeUniqueBody,
   exampleNeedsRewrite,
@@ -27,6 +28,7 @@ import { loadEnvFiles } from "../lib/load-env.mjs";
 import { preferImprovedCard } from "../lib/improvement-guardrails.mjs";
 import { pathCardIds } from "../lib/path-sources.mjs";
 import { getPathCardTiers } from "../lib/path-tiers.mjs";
+import { unionMergeWithDiskIndex } from "../lib/index-union.mjs";
 import {
   JOBS,
   canAfford,
@@ -37,6 +39,7 @@ import {
   recordSpend,
   budgetSnapshot,
 } from "../lib/token-budget.mjs";
+import { withIndexHolder } from "./index-holder.mjs";
 import { buildIndexFromCards } from "./teacher.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -91,15 +94,19 @@ export function needsLiveStamp(card) {
   return !card.enrichedAt;
 }
 
-/** Queue for enrich: thin/off-topic content OR missing live stamp. */
+/** Queue for enrich: thin/off-topic content OR missing live stamp OR QA fail. */
 export function shouldEnrichCard(card, { pathOnly = false, onPath = false } = {}) {
   if (needsEnrichment(card)) return true;
+  if (card.tags?.includes("qa-failed") || card.tags?.includes("needs-enrichment")) {
+    return true;
+  }
   if (needsLiveStamp(card) && (!pathOnly || onPath)) return true;
   return false;
 }
 
 function cardPriority(card, onPath = false, pathTier = 0) {
   let score = 0;
+  if (card.tags?.includes("qa-failed")) score += 500;
   if (needsTopicRelevanceRewrite(card)) score += 220;
   if (onPath) score += 140;
   score += pathTier;
@@ -149,7 +156,9 @@ export async function enrichCard(card, env) {
     "",
   );
   const model = env.OPENAI_MODEL || "gpt-4.1-mini";
-  const offTopic = needsTopicRelevanceRewrite(card);
+  const offTopic =
+    needsTopicRelevanceRewrite(card) ||
+    Boolean(card.tags?.includes("qa-failed"));
   const definition = offTopic
     ? "(discarded — previous definition was off-topic for this title; rewrite from the title only)"
     : String(card.teachingSummary || card.body || "").slice(0, 1100);
@@ -338,6 +347,11 @@ Current trigger:\n${offTopic ? "(discarded)" : String(card.realWorldTrigger || "
       exampleVerification,
       enrichedAt: new Date().toISOString(),
       deepenedAt: new Date().toISOString(),
+      tags: (card.tags || []).filter(
+        (tag) => tag !== "qa-failed" && tag !== "needs-enrichment",
+      ),
+      qaFailedAt: undefined,
+      qaFailNotes: undefined,
     },
     error: null,
     usageTokens,
@@ -587,13 +601,19 @@ export async function runBatch({ limit, argv }) {
     await sleep(650);
   }
 
-  const merged = [...byId.values()].sort((left, right) =>
-    String(left.title).localeCompare(String(right.title)),
-  );
-  writeFileSync(
+  // Lost-update guard: union-merge cards another pipeline published while
+  // this batch ran, so our write does not wipe them (see index-union.mjs).
+  const { cards: merged, recovered } = unionMergeWithDiskIndex(INDEX_PATH, [
+    ...byId.values(),
+  ]);
+  if (recovered > 0) {
+    console.warn(
+      `enrich-library: union-merged ${recovered} cards written concurrently by another pipeline`,
+    );
+  }
+  atomicWriteFile(
     INDEX_PATH,
     `${JSON.stringify(buildIndexFromCards(merged), null, 2)}\n`,
-    "utf8",
   );
 
   state.processedIds = [...processed];
@@ -618,15 +638,17 @@ async function main() {
   const untilDone = argv.includes("--until-done");
   const maxRounds = untilDone ? 50 : 1;
 
-  for (let round = 0; round < maxRounds; round += 1) {
-    if (round > 0) {
-      console.log(`\nenrich-library round ${round + 1}/${maxRounds}\n`);
+  await withIndexHolder("enrich-library", async () => {
+    for (let round = 0; round < maxRounds; round += 1) {
+      if (round > 0) {
+        console.log(`\nenrich-library round ${round + 1}/${maxRounds}\n`);
+      }
+      const report = await runBatch({ limit, argv });
+      if (report.updated === 0 || report.remaining === 0) break;
+      if (!untilDone) break;
+      await sleep(2000);
     }
-    const report = await runBatch({ limit, argv });
-    if (report.updated === 0 || report.remaining === 0) break;
-    if (!untilDone) break;
-    await sleep(2000);
-  }
+  });
 }
 
 const isMain = process.argv[1]?.includes("enrich-library");

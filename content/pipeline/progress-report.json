@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-22T12:07:13.581Z",
+  "verified": true,
+  "verificationMethod": "verifyWeeklyTarget against live content/index.json",
+  "weekId": "2026-W30",
+  "weeklyPassed": false,
+  "weeklyScore": 0.375,
+  "corpus": {
+    "cards": 265,
+    "chunks": 1060,
+    "concepts": 265,
+    "gaps": 10,
+    "conflicts": 3,
+    "corroborated": 18,
+    "officialCoverage": 1,
+    "bodiesPresent": [
+      "ACCA",
+      "CFA",
+      "CGMA",
+      "CRMA",
+      "FRC",
+      "FRM",
+      "IFRS",
+      "IIA"
+    ]
+  },
+  "circle": {
+    "cycle": 8,
+    "weekId": "2026-W30",
+    "weekly": {
+      "status": "active",
+      "score": 0.375,
+      "passed": false,
+      "failed": [
+        "fill-gap",
+        "fill-gap",
+        "upgrade-quality",
+        "corroborate",
+        "sustain-bodies"
+      ]
+    },
+    "generatedAt": "2026-07-22T12:07:12.683Z"
+  },
+  "passedGoals": [
+    {
+      "kind": "fill-gap",
+      "detail": "Financial reporting | Presentation of financial statements: 3/3 concepts"
+    },
+    {
+      "kind": "resolve-conflicts",
+      "detail": "open conflicts 3 (ceiling 5)"
+    },
+    {
+      "kind": "official-coverage",
+      "detail": "official coverage 100.0% (target ≥ 85%)"
+    }
+  ],
+  "openGoals": [
+    {
+      "kind": "fill-gap",
+      "detail": "Financial reporting | Tax: 1/3 concepts",
+      "reason": "Close research gap: raise Financial reporting | Tax to at least 3 concepts"
+    },
+    {
+      "kind": "fill-gap",
+      "detail": "Financial reporting | Government grants: 2/3 concepts",
+      "reason": "Close research gap: raise Financial reporting | Government grants to at least 3 concepts"
+    },
+    {
+      "kind": "upgrade-quality",
+      "detail": "weak cards remaining 181 (target ≤ 0)",
+      "reason": "Upgrade at least 0 weak cards to quality ≥ 0.78"
+    },
+    {
+      "kind": "corroborate",
+      "detail": "corroborated concepts 18/20",
+      "reason": "Increase corroborated (multi-source) concepts by ≥ 2"
+    },
+    {
+      "kind": "sustain-bodies",
+      "detail": "bodies present 8/9 [ACCA, CFA, CGMA, CRMA, FRC, FRM, IFRS, IIA]",
+      "reason": "Keep at least 4 professional bodies attached across the corpus"
+    }
+  ]
+}

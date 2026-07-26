@@ -1,0 +1,12 @@
+name = "merixa-guide-ask"
+main = "workers/ask.js"
+compatibility_date = "2026-07-01"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "CORPUS_BUCKET"
+bucket_name = "merixa-guide-corpus"
+
+[vars]
+OPENAI_MODEL_PREMIUM = "gpt-5"
+OPENAI_MODEL = "gpt-5"

@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-07-22T20:40:30.490Z",
+  "samples": 8,
+  "passed": 0,
+  "failed": 8,
+  "results": [
+    {
+      "id": "strong-ifrs-revenue",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "thin-obscure",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "path-active-variance",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "tax-transfer-pricing",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "unrelated-path-leak",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "cgma-forecast",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "audit-control-test",
+      "ok": false,
+      "error": "rate-limit"
+    },
+    {
+      "id": "cfa-liquidity",
+      "ok": false,
+      "error": "rate-limit"
+    }
+  ]
+}

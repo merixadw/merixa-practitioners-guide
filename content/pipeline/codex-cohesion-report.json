@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-07-26T09:51:53.662Z",
+  "catalogCards": 14217,
+  "codexSourced": 5084,
+  "codexByShelf": {
+    "fa": 1003,
+    "ma": 935,
+    "coso": 527,
+    "crma": 552,
+    "ifrs": 1028,
+    "tax": 30,
+    "frm": 209,
+    "iia": 800
+  },
+  "titleTwinGroups": 78,
+  "cardsInTwinGroups": 168,
+  "sameDefinitionTwinGroups": 7,
+  "sameDefinitionOffenders": [
+    {
+      "title": "management internal control: roles",
+      "ids": [
+        "management-internal-control-roles-04d64aae7e",
+        "management-internal-control-roles-11d88b48a6",
+        "management-internal-control-roles-9fa3b07d9e"
+      ],
+      "shelves": [
+        "other",
+        "other",
+        "other"
+      ],
+      "defLen": 709
+    },
+    {
+      "title": "definition of performance obligations",
+      "ids": [
+        "definition-of-performance-obligations-37e0bc5973",
+        "definition-of-performance-obligations-78043bc1fa"
+      ],
+      "shelves": [
+        "other",
+        "other"
+      ],
+      "defLen": 666
+    },
+    {
+      "title": "cash and liquidity management: working-capital",
+      "ids": [
+        "cash-and-liquidity-management-working-capital-224fc767e9",
+        "cash-and-liquidity-management-working-capital-a60c852568"
+      ],
+      "shelves": [
+        "other",
+        "other"
+      ],
+      "defLen": 642
+    },
+    {
+      "title": "management internal control: reconciliation",
+      "ids": [
+        "management-internal-control-reconciliation-0f082414c9",
+        "management-internal-control-reconciliation-975f4a86f9",
+        "management-internal-control-reconciliation-d53a7f2657"
+      ],
+      "shelves": [
+        "other",
+        "other",
+        "other"
+      ],
+      "defLen": 636
+    },
+    {
+      "title": "management internal control: auditors-responsibilities-fo",
+      "ids": [
+        "management-internal-control-auditors-responsibilities-fo-0815541b14",
+        "management-internal-control-auditors-responsibilities-fo-90f0bf934d"
+      ],
+      "shelves": [
+        "other",
+        "other"
+      ],
+      "defLen": 359
+    },
+    {
+      "title": "management internal control: presentation",
+      "ids": [
+        "management-internal-control-presentation-00ffeb8139",
+        "management-internal-control-presentation-bbcd9e0ccc"
+      ],
+      "shelves": [
+        "other",
+        "other"
+      ],
+      "defLen": 358
+    },
+    {
+      "title": "management internal control: authorization",
+      "ids": [
+        "management-internal-control-authorization-05c5fb2cfb",
+        "management-internal-control-authorization-0f9b9ad99b",
+        "management-internal-control-authorization-2ef65b74fc",
+        "management-internal-control-authorization-3e86130581",
+        "management-internal-control-authorization-9b98c5cda7",
+        "management-internal-control-authorization-a862c0e2ca",
+        "management-internal-control-authorization-e3c127e192",
+        "management-internal-control-authorization-ef801cb7c6"
+      ],
+      "shelves": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "defLen": 344
+    }
+  ],
+  "relatedConcepts": {
+    "cardsWithLinks": 1349,
+    "totalLinks": 3588,
+    "deadLinks": 0,
+    "note": null
+  },
+  "domainMismatches": {
+    "count": 1990,
+    "samples": [
+      {
+        "id": "fa-001-holding-period-return-mdaxic0gag",
+        "title": "001 - Holding Period Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-002-price-return-mdayic0gch",
+        "title": "002 - Price Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-003-income-return-mdazic0gaw",
+        "title": "003 - Income Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-004-total-return-mda0ic0gdg",
+        "title": "004 - Total Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-005-arithmetic-mean-return-mda1ic0gyx",
+        "title": "005 - Arithmetic Mean Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-006-geometric-mean-return-mda2ic0gz2",
+        "title": "006 - Geometric Mean Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-008-time-weighted-return-mda4ic0gdg",
+        "title": "008 - Time-Weighted Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-009-annualised-return-mda5ic0gyw",
+        "title": "009 - Annualised Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-010-continuously-compounded-return-mdewic0gy2",
+        "title": "010 - Continuously Compounded Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-011-effective-annual-rate-mdexic0gzw",
+        "title": "011 - Effective Annual Rate",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-012-periodic-rate-mdeyic0gcg",
+        "title": "012 - Periodic Rate",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-013-future-value-mdezic0gzn",
+        "title": "013 - Future Value",
+        "domain": "Risk management",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-016-future-value-of-annuity-mde2ic0gzn",
+        "title": "016 - Future Value of Annuity",
+        "domain": "Risk management",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-019-discount-factor-mde5ic0gzg",
+        "title": "019 - Discount Factor",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-020-annuity-factor-mdiwic0gyw",
+        "title": "020 - Annuity Factor",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-023-profitability-index-mdizic0gch",
+        "title": "023 - Profitability Index",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-027-real-return-mdi3ic0gcm",
+        "title": "027 - Real Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-028-nominal-return-mdi4ic0gbm",
+        "title": "028 - Nominal Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-029-required-return-mdi5ic0gcm",
+        "title": "029 - Required Return",
+        "domain": "Management reporting",
+        "expected": "Financial management"
+      },
+      {
+        "id": "fa-030-risk-premium-mdmwic0gcm",
+        "title": "030 - Risk Premium",
+        "domain": "Risk management",
+        "expected": "Financial management"
+      }
+    ]
+  },
+  "styleSample": {
+    "codexSourced": {
+      "label": "codex-sourced",
+      "sampleSize": 20,
+      "avgDefinition": 637,
+      "avgExample": 617,
+      "avgTrap": 204,
+      "withFormula": 20,
+      "withWorkplaceTasks": 20,
+      "withSourceQuotes": 20,
+      "withEnrichedAt": 0,
+      "titles": [
+        "001 - Holding Period Return",
+        "002 - Price Return",
+        "003 - Income Return",
+        "004 - Total Return",
+        "005 - Arithmetic Mean Return",
+        "006 - Geometric Mean Return",
+        "007 - Money-Weighted Return",
+        "008 - Time-Weighted Return"
+      ]
+    },
+    "openaiEnriched": {
+      "label": "openai-enriched",
+      "sampleSize": 20,
+      "avgDefinition": 645,
+      "avgExample": 695,
+      "avgTrap": 462,
+      "withFormula": 3,
+      "withWorkplaceTasks": 1,
+      "withSourceQuotes": 0,
+      "withEnrichedAt": 20,
+      "titles": [
+        "Abandonment option value",
+        "Abnormal earnings (residual income)",
+        "Absorption costing",
+        "Absorption vs marginal profit reconciliation",
+        "Accountability framework",
+        "Accounting estimate testing",
+        "Accounting estimates and judgments",
+        "Accounting for Business Combinations: Recognition of Acquired Assets"
+      ]
+    }
+  },
+  "facetCloneCount": 34,
+  "tutorConsistency": "Skipped — library:tutor-consistency spends OpenAI tokens (quota exhausted).",
+  "recommendedNext": [
+    "Merge or quarantine 7 same-definition title twin groups (true dupes).",
+    "Related-concept graph looks healthy.",
+    "Run OpenAI enrich later for enrichedAt + house-style polish; local deepen is a stopgap.",
+    "Review 1990 id-prefix vs classification.domain mismatches."
+  ]
+}

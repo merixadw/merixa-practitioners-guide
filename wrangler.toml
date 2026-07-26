@@ -1,0 +1,33 @@
+# Merixa Practitioner's Guide — Cloudflare Workers
+# Deploy:
+#   npx wrangler secret put OPENAI_API_KEY
+#   npx wrangler deploy
+#
+# Upload a published index once:
+#   npx wrangler r2 object put merixa-guide-corpus/published/index.json --file=content/index.json
+
+name = "merixa-guide-ml"
+main = "workers/learn.js"
+compatibility_date = "2026-07-01"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "CORPUS_BUCKET"
+bucket_name = "merixa-guide-corpus"
+
+# Continuous backend loop for:
+# 1) tutor consistency checks
+# 2) library/path expansion
+# 3) continuity state/report wiring
+[triggers]
+crons = ["0 */3 * * *"]
+
+[vars]
+OPENAI_MODEL = "gpt-4.1-mini"
+ASK_WORKER_URL = "https://merixa-guide-ask.example.workers.dev"
+
+# Separate Tutor worker can be deployed from workers/ask.js:
+#   npx wrangler deploy --config wrangler.ask.toml
+[[kv_namespaces]]
+binding = "merixa"
+id = "82c1692ec399486daa8380a797bb64c7"

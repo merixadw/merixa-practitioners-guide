@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-07-20T16:07:59.517Z",
+  "duplicateGroups": 8,
+  "cardsRemoved": 9,
+  "cardsRemaining": 1507,
+  "pathFilesUpdated": 0,
+  "groups": [
+    {
+      "title": "cash conversion cycle",
+      "kept": "fa-ccc",
+      "removed": [
+        "cash-conversion-cycle"
+      ]
+    },
+    {
+      "title": "control environment",
+      "kept": "crma-control-environment",
+      "removed": [
+        "control-environment"
+      ]
+    },
+    {
+      "title": "market risk",
+      "kept": "frm-market-risk",
+      "removed": [
+        "enc-market-risk"
+      ]
+    },
+    {
+      "title": "risk and control matrix",
+      "kept": "coso-rcm-coso",
+      "removed": [
+        "crma-rcm",
+        "rcm"
+      ]
+    },
+    {
+      "title": "risk appetite",
+      "kept": "frm-risk-appetite",
+      "removed": [
+        "risk-appetite"
+      ]
+    },
+    {
+      "title": "segregation of duties",
+      "kept": "crma-segregation-of-duties",
+      "removed": [
+        "sod"
+      ]
+    },
+    {
+      "title": "three lines model",
+      "kept": "crma-three-lines-model",
+      "removed": [
+        "three-lines"
+      ]
+    },
+    {
+      "title": "time value of money",
+      "kept": "fa-tvm",
+      "removed": [
+        "cfa-time-value"
+      ]
+    }
+  ]
+}

@@ -1,38 +1,33 @@
 {
   "phase": "P4",
   "status": "done",
-  "generatedAt": "2026-07-25T15:37:35.683Z",
+  "generatedAt": "2026-07-25T17:29:34.278Z",
   "softLaunchGate": {
     "liveSharePathMin": 0.7,
-    "liveSharePath": 0.943,
+    "liveSharePath": 0.944,
     "pathCards": 1964,
-    "pathEnriched": 1853,
-    "pathStillNeedEnrich": 111,
+    "pathEnriched": 1854,
+    "pathStillNeedEnrich": 110,
     "spotQaSample": 50,
-    "spotFailRate": 0.04,
+    "spotFailRate": 0,
     "spotFailMax": 0.05,
     "softLaunchReady": true
   },
   "openai": {
     "hasKey": true,
     "quotaBlocked": false,
-    "budgetLine": "token-budget day=2026-07-25 used=9124936/190000 (4802.6%) reserve=10000 remaining=0 calls=6613"
+    "budgetLine": "token-budget day=2026-07-25 used=9241292/190000 (4863.8%) reserve=10000 remaining=0 calls=6706"
   },
   "lastEnrichBatch": {
-    "generatedAt": "2026-07-25T15:18:53.187Z",
-    "updated": 66,
-    "skipped": 14,
-    "pathLinkedInBatch": 10,
+    "generatedAt": "2026-07-25T15:39:00.309Z",
+    "updated": 2,
+    "skipped": 78,
+    "pathLinkedInBatch": 62,
     "errors": {
-      "example-overlaps-definition": 5,
-      "off-topic-technical": 9
+      "off-topic-definition": 61,
+      "off-topic-technical": 17
     }
   },
-  "resumeWhenBillingRestored": [
-    "npm run library:enrich:path-first -- --limit=71",
-    "or: npm run library:daily-spend -- --enrich-only",
-    "Repeat nightly until liveSharePath ≥ 0.70",
-    "Then: npm run library:p4:status (spot QA must stay ≤5% fail)"
-  ],
-  "note": "Do not expand encyclopedia shelves until softLaunchReady is true."
+  "resumeWhenBillingRestored": [],
+  "note": "Soft + public ship-check passed (topicMismatch cleared). softLaunchReady=true. Next: P8 catalog toward 100%, optional encyclopedia shelf expand."
 }

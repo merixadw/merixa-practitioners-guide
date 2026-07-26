@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-07-19T20:31:21.930Z",
+  "clarified": 272,
+  "shortened": 59,
+  "cards": 272,
+  "sample": [
+    {
+      "title": "Access Rights Control in Finance Shared Services Centers",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "ACCA",
+        "FRC"
+      ],
+      "teachingSummary": "An annual user access review is initiated by the competence center and validated by each entity to maintain control integrity.",
+      "workedExample": "In the next pack, apply “Access Rights Control in Finance Shared Services Centers”: An annual user access review is initiated by the competence center and validated by each entity to maintain control integrity. Record the evidence trail, the decision owner, and the conclusion on the working paper.",
+      "commonMistake": "Saying a control exists without frequency, owner, evidence, review criteria, or exception handling on “Access Rights Control in Finance Shared Services Centers”."
+    },
+    {
+      "title": "Accounting and Cash Flow Treatment for Leases with Purchase Options",
+      "bodies": [
+        "IFRS",
+        "FRC",
+        "ACCA",
+        "CGMA"
+      ],
+      "teachingSummary": "The right-of-use asset is depreciated over the asset's life, assuming resale at the end of the period. When a lease includes a purchase option, the debt recognized includes both future lease payments and the purchase option price.",
+      "workedExample": "For “Accounting and Cash Flow Treatment for Leases with”: Reconcile bank to ledger, clear timing items and restrictions, then state available liquidity before the pack goes out.",
+      "commonMistake": "Reporting the ledger balance as available cash while uncleared items, overdrafts, or restrictions remain untested on “Accounting and Cash Flow Treatment for Leases with”."
+    },
+    {
+      "title": "Accounting for CO2 Emission Quotas: Recognizing Provisions",
+      "bodies": [
+        "CFA",
+        "CRMA",
+        "IFRS"
+      ],
+      "teachingSummary": "Entities emitting more CO2 than their free allowances must recognize a provision for the deficit in the year the emissions occur, reflecting the cost as a production expense.",
+      "workedExample": "For “Accounting for CO2 Emission Quotas”: Trace the rule to source evidence, name the decision owner, and write the conclusion on the working paper with the judgement that would change the answer.",
+      "commonMistake": "Restating the rule without evidence, judgement, ownership, or a decision that can be challenged on “Accounting for CO2 Emission Quotas”."
+    }
+  ]
+}

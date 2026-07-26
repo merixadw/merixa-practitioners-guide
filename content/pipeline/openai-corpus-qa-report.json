@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-07-25T18:08:02.787Z",
+  "targetFailRate": 1e-7,
+  "targetFailRatePct": "0.00001%",
+  "catalogSize": 2974,
+  "localFails": 0,
+  "localFailRate": 0,
+  "localTargetMet": true,
+  "openai": {
+    "enabled": true,
+    "sampled": 5,
+    "passed": 2,
+    "failed": 3,
+    "errors": {},
+    "failRate": 0.6,
+    "targetMet": false
+  },
+  "fails": [
+    {
+      "id": "audit-committees-and-the-external-audit-minimum-standard-tendering-92f1b68b3b",
+      "title": "Audit Committees and the External Audit Minimum Standard: Tendering",
+      "source": "openai",
+      "errors": [
+        "Definition does not teach the exact card TITLE: The definition focuses on non-audit services engagement policy rather than specifically on 'Tendering' of external audit services as per the title.",
+        "Example is off-topic: The example discusses responsibilities and documentation practices generally, not specifically illustrating 'Tendering' related to audit committees and external audit minimum standards.",
+        "The card mixes multiple concepts (non-audit services approval, measurement alignment, and tendering) without clear focus on 'Tendering' as per the title, causing topic fidelity failure."
+      ],
+      "severity": 0.8,
+      "notes": "The card's title is 'Audit Committees and the External Audit Minimum Standard: Tendering' but the content primarily addresses non-audit services engagement and general audit committee responsibilities. The example and definition do not clearly explain or illustrate the tendering process or requirements, which is the expected focus. The card should be revised to focus strictly on tendering policies"
+    },
+    {
+      "id": "business-law-ethics-corner-589-9504341f7a",
+      "title": "BUSINESS LAW & ETHICS CORNER 589",
+      "source": "openai",
+      "errors": [
+        "Definition does not teach the exact card TITLE; 'BUSINESS LAW & ETHICS CORNER 589' is used as a placeholder or generic label rather than a defined business law or ethics concept.",
+        "Example merely paraphrases the definition and is off-topic, focusing on procedural aspects rather than explaining a business law or ethics principle.",
+        "The card uses a generic template with no substantive content about business law or ethics, failing to define or explain the concept.",
+        "The card appears to be a template or internal jargon rather than a meaningful finance/audit/risk concept relevant to practitioners."
+      ],
+      "severity": 0.9,
+      "notes": "The card is a generic procedural template referencing 'BUSINESS LAW & ETHICS CORNER 589' without defining or explaining any actual business law or ethics concept. It fails to provide usable knowledge for finance or audit practitioners and does not meet the standard for a valid knowledge card."
+    },
+    {
+      "id": "business-law-ethics-corner-591-5321a99ad8",
+      "title": "BUSINESS LAW & ETHICS CORNER 591",
+      "source": "openai",
+      "errors": [
+        "Definition does not teach the exact card TITLE; it uses the card title as a placeholder without explaining what 'BUSINESS LAW & ETHICS CORNER 591' actually means or refers to in business law or ethics context.",
+        "Example merely paraphrases the definition and is off-topic; it describes a generic process around the card title without clarifying the concept or providing a meaningful example related to business law or ethics.",
+        "The card appears to be a template or placeholder text rather than a substantive definition of a finance/audit/risk concept.",
+        "No real concept or standard is explained; the card fails to provide actionable or educational content for a practitioner."
+      ],
+      "severity": 0.9,
+      "notes": "The card is essentially a template or placeholder text that repeats the card title without defining or explaining the concept. It fails to meet the requirement of teaching the exact card title or providing a meaningful example. It should be rewritten to define what 'BUSINESS LAW & ETHICS CORNER 591' actually means in the context of strategy and performance, with a relevant example and clear linkag"
+    }
+  ],
+  "tokenBudget": {
+    "path": "C:\\Users\\hmkay\\Downloads\\merixa-practitioners-guide\\content\\pipeline\\openai-daily-token-budget.json",
+    "disabled": false,
+    "day": "2026-07-25",
+    "budget": 200000,
+    "reserve": 10000,
+    "spendable": 190000,
+    "used": 9953178,
+    "remaining": 0,
+    "utilizationPct": 5238.5,
+    "calls": 7323,
+    "stoppedReason": "daily_spendable_exhausted",
+    "jobs": {
+      "library_enrich": {
+        "allocated": 117800,
+        "used": 9696596,
+        "remaining": 0,
+        "maxCallsLeft": 0,
+        "estimatePerCall": 2800
+      },
+      "encyclopedia_shelves": {
+        "allocated": 22800,
+        "used": 0,
+        "remaining": 22800,
+        "maxCallsLeft": 0,
+        "estimatePerCall": 3200
+      },
+      "cross_body_generate": {
+        "allocated": 13300,
+        "used": 0,
+        "remaining": 13300,
+        "maxCallsLeft": 0,
+        "estimatePerCall": 2400
+      },
+      "deepen_content": {
+        "allocated": 7600,
+        "used": 0,
+        "remaining": 7600,
+        "maxCallsLeft": 0,
+        "estimatePerCall": 2600
+      },
+      "tutor_consistency": {
+        "allocated": 22800,
+        "used": 256582,
+        "remaining": 0,
+        "maxCallsLeft": 0,
+        "estimatePerCall": 1800
+      },
+      "continuous_improvement": {
+        "allocated": 5700,
+        "used": 0,
+        "remaining": 5700,
+        "maxCallsLeft": 0,
+        "estimatePerCall": 1200
+      }
+    },
+    "updatedAt": "2026-07-25T18:08:17.614Z"
+  },
+  "openFailIds": 3
+}

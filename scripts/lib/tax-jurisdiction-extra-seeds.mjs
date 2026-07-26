@@ -1,0 +1,187 @@
+/**
+ * Extra unique legislation seeds so UK + US + EU tax shelves can reach
+ * 1,000 distinct cards without facet-suffix duplication.
+ */
+
+function cross(prefix, topics, aspects) {
+  const out = [];
+  for (const topic of topics) {
+    for (const aspect of aspects) {
+      out.push(`${prefix} ${topic}: ${aspect}`);
+    }
+  }
+  return out;
+}
+
+const UK_TOPICS = [
+  "corporation tax",
+  "capital allowances",
+  "R&D relief",
+  "patent box",
+  "group relief",
+  "corporate interest restriction",
+  "hybrid mismatch",
+  "diverted profits tax",
+  "CFC regime",
+  "transfer pricing",
+  "VAT output tax",
+  "VAT input tax",
+  "VAT partial exemption",
+  "VAT reverse charge",
+  "stamp duty land tax",
+  "PAYE RTI",
+  "employer NICs",
+  "CIS withholding",
+  "IR35 off-payroll",
+  "benefits in kind",
+  "share schemes tax",
+  "GAAR",
+  "DOTAS",
+  "company residence",
+  "permanent establishment",
+  "treaty relief",
+  "withholding tax",
+  "FRS 102 current tax",
+  "FRS 102 deferred tax",
+  "IAS 12 vs FRS 102",
+  "loan relationships",
+  "intangible fixed assets",
+  "substantial shareholding exemption",
+  "Pillar Two UK",
+  "Making Tax Digital",
+  "plastic packaging tax",
+  "business rates",
+  "apprenticeship levy",
+  "Senior Accounting Officer",
+  "tax strategy publication",
+  "uncertain tax positions",
+];
+
+const UK_ASPECTS = [
+  "statutory computation bridge",
+  "return and payment calendar",
+  "evidence pack for owners",
+  "accounts to CT reconciliation",
+  "group interaction rules",
+  "anti-avoidance overlay",
+  "HMRC enquiry readiness",
+  "provision and ETR impact",
+  "disclosure and note wording",
+  "penalty and interest exposure",
+];
+
+const US_TOPICS = [
+  "ASC 740 current tax",
+  "ASC 740 deferred tax",
+  "ASC 740 valuation allowance",
+  "ASC 740 uncertain tax positions",
+  "ASC 740 interim provision",
+  "GILTI",
+  "FDII",
+  "BEAT",
+  "CAMT",
+  "section 163(j)",
+  "section 174 R&E",
+  "section 41 credit",
+  "section 382 losses",
+  "section 482 transfer pricing",
+  "foreign tax credit",
+  "Schedule M-3",
+  "Form 1120 close",
+  "Form 5471 CFC",
+  "state apportionment",
+  "Wayfair sales tax nexus",
+  "payroll tax accruals",
+  "stock-based compensation tax",
+  "partnership K-1 timing",
+  "FIRPTA withholding",
+  "FATCA controls",
+  "estimated tax payments",
+  "dual consolidated losses",
+  "Subpart F",
+  "PTEP basis",
+  "E&P calculations",
+  "clean energy credits",
+  "business combinations tax",
+  "inventory book-tax",
+  "economic performance",
+  "ETR discrete items",
+  "franchise vs income tax",
+  "1099 information reporting",
+  "treaty Form 8833",
+  "branch profits tax",
+  "tax policy memo ASC 740",
+];
+
+const US_ASPECTS = [
+  "measurement worksheet",
+  "recognition threshold test",
+  "rollforward schedule",
+  "federal return bridge",
+  "state overlay differences",
+  "international basket mapping",
+  "IRS exam readiness",
+  "ASC 740 journal pack",
+  "footnote and UTP wording",
+  "penalty and interest accrual",
+];
+
+const EU_TOPICS = [
+  "VAT place of supply",
+  "VAT OSS IOSS",
+  "VAT triangulation",
+  "VAT fixed establishment",
+  "Customs valuation",
+  "DAC6 hallmarks",
+  "DAC7 platforms",
+  "ATAD interest limitation",
+  "ATAD CFC",
+  "ATAD hybrids",
+  "ATAD exit tax",
+  "Pillar Two QDMTT",
+  "Pillar Two IIR",
+  "Pillar Two UTPR",
+  "GloBE information return",
+  "German HGB deferred tax",
+  "German trade tax",
+  "French intégration fiscale",
+  "Dutch fiscal unity",
+  "Irish corporation tax",
+  "Spanish consolidation",
+  "Italian IRES IRAP",
+  "IAS 12 EU filers",
+  "IFRIC 23 EU",
+  "parent-subsidiary directive",
+  "interest royalties directive",
+  "merger directive",
+  "participation exemption",
+  "PE profit attribution",
+  "transfer pricing local file",
+  "MAP arbitration",
+  "ViDA e-invoicing",
+  "CBAM carbon border",
+  "MTIC fraud controls",
+  "WHT reclaim process",
+  "substance holdings",
+  "Marks Spencer final losses",
+  "local GAAP tax note",
+  "EU bank levies",
+  "digital services taxes",
+];
+
+const EU_ASPECTS = [
+  "member-state variance map",
+  "directive transposition checklist",
+  "local return calendar",
+  "group consolidation interaction",
+  "anti-abuse overlay",
+  "audit evidence pack",
+  "IAS 12 measurement bridge",
+  "statutory vs IFRS tax note",
+  "penalty exposure register",
+  "competent authority readiness",
+];
+
+export const UK_TAX_EXTRA = cross("UK", UK_TOPICS, UK_ASPECTS);
+export const US_TAX_EXTRA = cross("US", US_TOPICS, US_ASPECTS);
+export const EU_TAX_EXTRA = cross("EU", EU_TOPICS, EU_ASPECTS);

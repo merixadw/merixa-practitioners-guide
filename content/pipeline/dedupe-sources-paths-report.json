@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-07-23T12:56:50.536Z",
+  "cardsChanged": 4681,
+  "totalCards": 5919,
+  "totals": {
+    "removedExact": 2513,
+    "removedHomeTwin": 20,
+    "removedCross": 9130,
+    "sourcesBefore": 16442,
+    "sourcesAfter": 6056,
+    "refsBefore": 19409,
+    "refsAfter": 18132
+  },
+  "pathReports": [
+    {
+      "file": "src/lib/guide/ifrs-paths.generated.json",
+      "before": 37,
+      "after": 37,
+      "stepDupesRemoved": 0,
+      "titleDupesRemoved": 0
+    },
+    {
+      "file": "src/lib/guide/frm-paths.generated.json",
+      "before": 9,
+      "after": 9,
+      "stepDupesRemoved": 0,
+      "titleDupesRemoved": 0
+    },
+    {
+      "file": "src/lib/guide/fa-paths.generated.json",
+      "before": 10,
+      "after": 10,
+      "stepDupesRemoved": 0,
+      "titleDupesRemoved": 0
+    },
+    {
+      "file": "src/lib/guide/cross-body-paths.generated.json",
+      "before": 4,
+      "after": 3,
+      "stepDupesRemoved": 0,
+      "titleDupesRemoved": 1
+    },
+    {
+      "file": "src/lib/guide/priority-domain-paths.generated.json",
+      "before": 8,
+      "after": 8,
+      "stepDupesRemoved": 0,
+      "titleDupesRemoved": 0
+    }
+  ],
+  "samples": [
+    {
+      "id": "project-enc-abandonment-option-value",
+      "title": "Abandonment option value",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-assurance-lens",
+      "title": "Abandonment option value — assurance lens",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-board-pack-view",
+      "title": "Abandonment option value — board pack view",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-cash-impact",
+      "title": "Abandonment option value — cash impact",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-change-control-gate",
+      "title": "Abandonment option value — change-control gate",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-close-checklist",
+      "title": "Abandonment option value — close checklist",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-control-test",
+      "title": "Abandonment option value — control test",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-decision-memo",
+      "title": "Abandonment option value — decision memo",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-disclosure-note",
+      "title": "Abandonment option value — disclosure note",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-judgement-call",
+      "title": "Abandonment option value — judgement call",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-kpi-bridge",
+      "title": "Abandonment option value — KPI bridge",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-owner-map",
+      "title": "Abandonment option value — owner map",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-post-implementation-review",
+      "title": "Abandonment option value — post-implementation review",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-risk-register-link",
+      "title": "Abandonment option value — risk register link",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-stress-test-trap",
+      "title": "Abandonment option value — stress-test trap",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "project-enc-abandonment-option-value-workplace-evidence",
+      "title": "Abandonment option value — workplace evidence",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "ma-absorption-costing",
+      "title": "Absorption costing",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "ma-absorption-marginal-reconciliation",
+      "title": "Absorption vs marginal profit reconciliation",
+      "sources": "3→1",
+      "refs": "4→4",
+      "removedExact": 0,
+      "removedHomeTwin": 0,
+      "removedCross": 2
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-ywnjb3vudg",
+      "title": "Accounting estimate testing",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-assurance-lens-ywnjb3vudg",
+      "title": "Accounting estimate testing — assurance lens",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-board-pack-view-ywnjb3vudg",
+      "title": "Accounting estimate testing — board pack view",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-cash-impact-ywnjb3vudg",
+      "title": "Accounting estimate testing — cash impact",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-change-control-gate-ywnjb3vudg",
+      "title": "Accounting estimate testing — change-control gate",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-close-checklist-ywnjb3vudg",
+      "title": "Accounting estimate testing — close checklist",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    },
+    {
+      "id": "audit-enc-accounting-estimate-testing-control-test-ywnjb3vudg",
+      "title": "Accounting estimate testing — control test",
+      "sources": "3→1",
+      "refs": "4→3",
+      "removedExact": 2,
+      "removedHomeTwin": 0,
+      "removedCross": 1
+    }
+  ],
+  "policy": "Deduped sources/officialReferences by normalized URL and body home-page twins; dropped official-open sources already covered by officialReferences; deduped path steps and duplicate path titles."
+}

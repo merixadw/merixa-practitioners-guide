@@ -1,6 +1,6 @@
 {
   "title": "Killer app development plan (devil mode)",
-  "updatedAt": "2026-07-24",
+  "updatedAt": "2026-07-26",
   "pricing": {
     "unlockGbp": 7.99,
     "premiumMonthlyGbp": 7.99,
@@ -44,9 +44,8 @@
     {
       "id": "P4",
       "name": "Path-first live enrich soft launch",
-      "status": "in_progress",
-      "evidence": "content/pipeline/p4-status.json",
-      "resume": "npm run library:enrich:path-first -- --limit=71"
+      "status": "done",
+      "evidence": "content/pipeline/p4-status.json"
     },
     {
       "id": "P5",
@@ -69,10 +68,38 @@
     {
       "id": "P8",
       "name": "Catalog enrich to 100%",
-      "status": "next",
+      "status": "blocked_quota",
+      "note": "BLOCKED: OpenAI insufficient_quota. Stale 80.6% ship-check was metric theater — real liveShareIndex≈22%, liveShareSeamless≈27%. Resume enrich only after quota restore + M0–M4 offline foundations.",
       "weeksAt200k": 12
     },
     { "id": "P9", "name": "Optional exam-prep mode", "status": "done", "evidence": "content/pipeline/p9-exam-prep-complete.json" }
+  ],
+  "nextExecutionOrder": [
+    {
+      "step": 1,
+      "id": "catalog-100",
+      "action": "npm run library:enrich-all -- --ignore-budget --limit=80 (until liveShareCatalog ≈ 1.0)",
+      "status": "blocked_quota",
+      "blockedAt": "2026-07-26T09:54:00.000Z",
+      "blockedReason": "OpenAI insufficient_quota — not running. Do not treat prior 'running' as progress."
+    },
+    {
+      "step": 2,
+      "id": "openai-qa-zero",
+      "action": "npm run library:qa:openai:clean — OpenAI cross-check until fail rate ≤ 0.00001% (zero open fails)",
+      "status": "blocked_quota",
+      "blockedAt": "2026-07-26T09:54:00.000Z",
+      "blockedReason": "OpenAI insufficient_quota — not running. Do not treat prior 'running' as progress."
+    },
+    {
+      "step": 3,
+      "id": "encyclopedia-shelves",
+      "action": "npm run library:shelves:expand:aggressive -- --ignore-budget (ma/tax/fa/ifrs/crma/iia/coso/frm → floors; Merixa×Codex seeds; OpenAI definitions)",
+      "status": "paused",
+      "note": "Priority shelves raised to 1500–2000 floors; tax floor 2000; runs in parallel with enrich",
+      "pausedAt": "2026-07-25T20:07:26.080Z",
+      "pausedReason": "OpenAI insufficient_quota — paused pending OpenAI billing top-up. Run exited cleanly (no offline-heuristic flood; 1 template card minted: ifrs-enc-financial-reporting-accounting-for-tax-effects-of-govern-zmluyw5jaw-925113). Resume: npm run library:shelves:expand:aggressive -- --ignore-budget"
+    }
   ],
   "softLaunchGate": {
     "liveSharePath": 0.7,
@@ -83,5 +110,10 @@
     "liveShareCatalog": 0.4,
     "atWorkScenariosPass": 10,
     "customPathsWorking": true
+  },
+  "qualityBar": {
+    "absoluteFailRateMax": 0.0000001,
+    "absoluteFailRatePct": "0.00001%",
+    "method": "local needsTopicRelevanceRewrite + OpenAI judge (library:qa:openai)"
   }
 }

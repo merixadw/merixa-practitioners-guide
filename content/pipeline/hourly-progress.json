@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-07-25T21:35:16.354Z",
+  "corpus": {
+    "cards": 10607,
+    "enriched": 3056,
+    "liveShare": 0.288,
+    "pathCards": 2042,
+    "pathEnriched": 1934,
+    "liveSharePath": 0.947,
+    "pathStillNeedEnrich": 108
+  },
+  "shelves": {
+    "ma": {
+      "current": 1500,
+      "target": 1500,
+      "gap": 0,
+      "pct": 100
+    },
+    "tax": {
+      "current": 1416,
+      "target": 2000,
+      "gap": 584,
+      "pct": 70.8
+    },
+    "fa": {
+      "current": 1465,
+      "target": 2000,
+      "gap": 535,
+      "pct": 73.3
+    },
+    "ifrs": {
+      "current": 1511,
+      "target": 1500,
+      "gap": 0,
+      "pct": 100.7
+    },
+    "crma": {
+      "current": 1062,
+      "target": 1500,
+      "gap": 438,
+      "pct": 70.8
+    },
+    "iia": {
+      "current": 1194,
+      "target": 1500,
+      "gap": 306,
+      "pct": 79.6
+    },
+    "coso": {
+      "current": 1039,
+      "target": 1500,
+      "gap": 461,
+      "pct": 69.3
+    },
+    "frm": {
+      "current": 723,
+      "target": 1500,
+      "gap": 777,
+      "pct": 48.2
+    }
+  },
+  "shelvesSummary": {
+    "current": 9910,
+    "target": 13000,
+    "gap": 3090,
+    "pct": 76.2
+  },
+  "enrich": {
+    "remaining": 1032,
+    "pathRemaining": 71,
+    "parkedFails": 117,
+    "openFailTracks": 19,
+    "reportAt": "2026-07-25T20:07:18.174Z",
+    "updatedLastBatch": 0
+  },
+  "qa": {
+    "openFails": 3,
+    "localFails": 0,
+    "openaiFailed": 3,
+    "lastRunAt": "2026-07-25T18:08:02.787Z"
+  },
+  "p4": {
+    "status": "done",
+    "liveSharePath": 0.944,
+    "softLaunchReady": true
+  },
+  "delta": {
+    "cards": 6825,
+    "enriched": 266,
+    "liveShare": -0.45,
+    "shelfCurrent": 6825,
+    "pathEnriched": 16
+  },
+  "rates": {
+    "cardsPublishedPerHour": 6820.3,
+    "enrichUpdatesPerHour": 265.8,
+    "shelfCardsPerHour": 6820.3,
+    "liveShareDeltaPerHour": -0.4,
+    "elapsedHours": 1
+  },
+  "eta": {
+    "shelfGapHours": 0.5,
+    "enrichRemainingHours": 3.9
+  }
+}

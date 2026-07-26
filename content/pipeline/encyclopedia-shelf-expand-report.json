@@ -1,0 +1,27 @@
+{
+  "startedAt": "2026-07-25T20:52:17.709Z",
+  "target": 1500,
+  "domainFloorOnly": false,
+  "taxFloorOnly": false,
+  "priorityOnly": false,
+  "rounds": [
+    {
+      "round": 1,
+      "shelves": {
+        "coso": {
+          "currentBefore": 512,
+          "currentAfter": 515,
+          "published": 3,
+          "updated": 0
+        }
+      }
+    }
+  ],
+  "before": {
+    "coso": 512
+  },
+  "after": {
+    "coso": 515
+  },
+  "finishedAt": "2026-07-25T20:52:25.045Z"
+}

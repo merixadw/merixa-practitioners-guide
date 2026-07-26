@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-07-25T20:45:27.886Z",
+  "catalogCards": 5973,
+  "cloneCount": 74,
+  "cloneShare": 0.012,
+  "plan": {
+    "families": 5809,
+    "familiesWithClones": 53,
+    "cloneCount": 74,
+    "keptLenses": 72,
+    "quarantineCount": 2,
+    "visibleAfter": 5971,
+    "cullShareOfClones": 0.027
+  },
+  "targetCullShareOfClones": 0.5,
+  "meetsCullTarget": false,
+  "facetLabelCounts": {
+    "change-control gate": 39,
+    "risk register link": 17,
+    "workplace evidence": 10,
+    "disclosure note": 3,
+    "stress-test trap": 2,
+    "board pack view": 1,
+    "cash impact": 1,
+    "post-implementation review": 1,
+    "control test": 0,
+    "close checklist": 0,
+    "owner map": 0,
+    "judgement call": 0,
+    "KPI bridge": 0,
+    "decision memo": 0,
+    "assurance lens": 0,
+    "pack view": 0,
+    "owner decision": 0,
+    "sensitivity": 0,
+    "board narrative": 0,
+    "reconciliation": 0,
+    "cash bridge": 0,
+    "escalation path": 0,
+    "residual risk": 0
+  },
+  "quarantineSamples": [
+    {
+      "id": "ma-labour-efficiency-variance-workplace-evidence",
+      "title": "Labour efficiency variance — workplace evidence",
+      "base": "Labour efficiency variance"
+    },
+    {
+      "id": "ma-material-usage-variance-workplace-evidence",
+      "title": "Material usage variance — workplace evidence",
+      "base": "Material usage variance"
+    }
+  ],
+  "keptLensSamples": [
+    {
+      "id": "project-enc-accruals-for-project-progress-change-control-gate-ywnjcnvhbh",
+      "title": "Accruals for project progress — change-control gate"
+    },
+    {
+      "id": "gov-enc-audit-committee-calendar-workplace-evidence",
+      "title": "Audit committee calendar — workplace evidence"
+    },
+    {
+      "id": "project-enc-capitalisation-gate-for-build-risk-register-link",
+      "title": "Capitalisation gate for build — risk register link"
+    },
+    {
+      "id": "project-enc-capitalisation-gate-for-build-change-control-gate",
+      "title": "Capitalisation gate for build — change-control gate"
+    },
+    {
+      "id": "gov-enc-ceo-vs-chair-separation-change-control-gate",
+      "title": "CEO vs chair separation — change-control gate"
+    },
+    {
+      "id": "sustain-enc-controversies-monitoring-risk-register-link-y29udhjvdm",
+      "title": "Controversies monitoring — risk register link"
+    },
+    {
+      "id": "sustain-enc-controversies-monitoring-change-control-gate-y29udhjvdm",
+      "title": "Controversies monitoring — change-control gate"
+    },
+    {
+      "id": "project-enc-cpi-spi-forecast-at-completion-risk-register-link",
+      "title": "CPI SPI forecast at completion — risk register link"
+    },
+    {
+      "id": "project-enc-cpi-spi-forecast-at-completion-change-control-gate",
+      "title": "CPI SPI forecast at completion — change-control gate"
+    },
+    {
+      "id": "sustain-enc-diversity-metrics-controls-change-control-gate-zgl2zxjzax",
+      "title": "Diversity metrics controls — change-control gate"
+    },
+    {
+      "id": "strategy-enc-divestiture-readiness-risk-register-link-zgl2zxn0ax",
+      "title": "Divestiture readiness — risk register link"
+    },
+    {
+      "id": "strategy-enc-divestiture-readiness-change-control-gate-zgl2zxn0ax",
+      "title": "Divestiture readiness — change-control gate"
+    },
+    {
+      "id": "gov-enc-dividend-capacity-governance-change-control-gate-zgl2awrlbm",
+      "title": "Dividend capacity governance — change-control gate"
+    },
+    {
+      "id": "ma-divisional-roi-workplace-evidence",
+      "title": "Divisional ROI — workplace evidence"
+    },
+    {
+      "id": "risk-enc-enterprise-risk-taxonomy-change-control-gate",
+      "title": "Enterprise risk taxonomy — change-control gate"
+    },
+    {
+      "id": "sustain-enc-financed-emissions-overview-change-control-gate",
+      "title": "Financed emissions overview — change-control gate"
+    },
+    {
+      "id": "sustain-enc-financed-emissions-overview-risk-register-link",
+      "title": "Financed emissions overview — risk register link"
+    },
+    {
+      "id": "sustain-enc-financial-materiality-for-esg-risk-register-link",
+      "title": "Financial materiality for ESG — risk register link"
+    },
+    {
+      "id": "sustain-enc-financial-materiality-for-esg-change-control-gate",
+      "title": "Financial materiality for ESG — change-control gate"
+    },
+    {
+      "id": "ma-fixed-overhead-expenditure-variance-workplace-evidence",
+      "title": "Fixed overhead expenditure variance — workplace evidence"
+    }
+  ],
+  "next": "npm run library:quarantine:facets"
+}

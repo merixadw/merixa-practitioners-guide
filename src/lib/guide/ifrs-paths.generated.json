@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "ifrs-path-conceptual-framework",
+    "title": "Framework: Conceptual Framework for Financial Reporting",
+    "summary": "Objectives, qualitative characteristics, elements, recognition, and measurement foundations.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "conceptual-framework-s1",
+        "title": "Objective of financial reporting",
+        "summary": "Who the information is for and what decisions it supports.",
+        "cardId": "ifrs-enc-financial-reporting-application-of-ifrs-conceptual-frame-zmluyw5jaw"
+      },
+      {
+        "id": "conceptual-framework-s2",
+        "title": "Qualitative characteristics",
+        "summary": "Relevance and faithful representation drive useful information.",
+        "cardId": "ifrs-enc-conceptual-framework-qualitative-characteristics-applied"
+      },
+      {
+        "id": "conceptual-framework-s3",
+        "title": "Elements of financial statements",
+        "summary": "Assets, liabilities, equity, income, and expenses.",
+        "cardId": "ifrs-enc-financial-reporting-presentation-of-financial-statements-zmluyw5jaw"
+      },
+      {
+        "id": "conceptual-framework-s4",
+        "title": "Recognition criteria",
+        "summary": "When elements enter the primary statements.",
+        "cardId": "ifrs-enc-financial-reporting-provisions-recognition-and-measureme-zmluyw5jaw-63278"
+      },
+      {
+        "id": "conceptual-framework-s5",
+        "title": "Measurement bases",
+        "summary": "Historical cost, fair value, and other bases in context.",
+        "cardId": "tax-uncertain-tax-position-measurement"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-1",
+    "title": "IFRS 1: First-time Adoption of IFRS Accounting Standards",
+    "summary": "Transition from another GAAP to IFRS — opening balance sheet and exemptions.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-1-s1",
+        "title": "Scope and first IFRS statements",
+        "summary": "When an entity applies IFRS 1.",
+        "cardId": "ifrs-enc-ifrs-1-first-time-adoption-exemptions"
+      },
+      {
+        "id": "ifrs-1-s2",
+        "title": "Opening IFRS balance sheet",
+        "summary": "Starting point for comparatives.",
+        "cardId": "ifrs-enc-ifrs-1-first-time-adoption-of-international-financial-re-awzycyaxic"
+      },
+      {
+        "id": "ifrs-1-s3",
+        "title": "Mandatory and voluntary exemptions",
+        "summary": "Practical reliefs on transition.",
+        "cardId": "ifrs-1-exemptions"
+      },
+      {
+        "id": "ifrs-1-s4",
+        "title": "Transition disclosures",
+        "summary": "Explain the journey to investors.",
+        "cardId": "ifrs-1-disclosure"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-2",
+    "title": "IFRS 2: Share-based Payment",
+    "summary": "Equity-settled and cash-settled awards — grant date, vesting, and modifications.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-2-s1",
+        "title": "Scope of share-based payments",
+        "summary": "Which arrangements are in scope.",
+        "cardId": "ifrs-enc-ifrs-2-share-based-payment-awzycyayic"
+      },
+      {
+        "id": "ifrs-2-s2",
+        "title": "Grant date fair value",
+        "summary": "Measurement starting point.",
+        "cardId": "ifrs-enc-ifrs-2-vesting-conditions"
+      },
+      {
+        "id": "ifrs-2-s3",
+        "title": "Vesting conditions",
+        "summary": "Service, performance, and market conditions.",
+        "cardId": "ifrs-2-vesting"
+      },
+      {
+        "id": "ifrs-2-s4",
+        "title": "Modifications and cancellations",
+        "summary": "Changes to terms after grant.",
+        "cardId": "ifrs-2-modifications"
+      },
+      {
+        "id": "ifrs-2-s5",
+        "title": "Cash-settled awards",
+        "summary": "Liability measurement each period.",
+        "cardId": "ifrs-2-cash-settled"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-3",
+    "title": "IFRS 3: Business Combinations",
+    "summary": "Acquisition method — identify the acquirer, measure consideration, allocate fair values, goodwill.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-3-s1",
+        "title": "Identify a business combination",
+        "summary": "Transaction scope and acquirer.",
+        "cardId": "ifrs-3-business-combinations-definitions-7c0acdc2f0"
+      },
+      {
+        "id": "ifrs-3-s2",
+        "title": "Consideration transferred",
+        "summary": "Cash, equity, contingent consideration.",
+        "cardId": "ifrs-enc-consideration-transferred-y29uc2lkzx"
+      },
+      {
+        "id": "ifrs-3-s3",
+        "title": "Purchase price allocation",
+        "summary": "Recognise identifiable assets and liabilities at fair value.",
+        "cardId": "purchase-price-allocation-ppa-check-list-attention-1d4cea8f88"
+      },
+      {
+        "id": "ifrs-3-s4",
+        "title": "Goodwill and impairment link",
+        "summary": "Subsequent testing context.",
+        "cardId": "ifrs-3-business-combinations-goodwill-6ae8921104"
+      },
+      {
+        "id": "ifrs-3-s5",
+        "title": "Business combination disclosures",
+        "summary": "Investor transparency on deals.",
+        "cardId": "ifrs-enc-ifrs-3-business-combination-disclosure-completion-awzycyazig"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-5",
+    "title": "IFRS 5: Non-current Assets Held for Sale and Discontinued Operations",
+    "summary": "Classification, measurement at lower of carrying amount and fair value less costs to sell.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-5-s1",
+        "title": "Held-for-sale criteria",
+        "summary": "When assets qualify for separate presentation.",
+        "cardId": "ifrs-enc-ifrs-5-held-for-sale-criteria"
+      },
+      {
+        "id": "ifrs-5-s2",
+        "title": "Measurement on classification",
+        "summary": "Lower of carrying amount and FVLCTS.",
+        "cardId": "ifrs-enc-ifrs-5-discontinued-operations-presentation"
+      },
+      {
+        "id": "ifrs-5-s3",
+        "title": "Discontinued operations",
+        "summary": "Separate P&L presentation.",
+        "cardId": "ifrs-enc-discontinued-operation-result-zglzy29udg"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-7",
+    "title": "IFRS 7: Financial Instruments: Disclosures",
+    "summary": "Credit risk, liquidity risk, market risk, and fair value hierarchy disclosures.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-7-s1",
+        "title": "Classes of financial instruments",
+        "summary": "Group disclosures meaningfully.",
+        "cardId": "ifrs-enc-ifrs-7-financial-instruments-disclosures-awzycya3ic"
+      },
+      {
+        "id": "ifrs-7-s2",
+        "title": "Credit risk disclosures",
+        "summary": "ECL and concentration.",
+        "cardId": "ifrs-enc-ifrs-7-credit-risk-concentrations"
+      },
+      {
+        "id": "ifrs-7-s3",
+        "title": "Liquidity risk disclosures",
+        "summary": "Maturity analysis and concentrations.",
+        "cardId": "ifrs-enc-ifrs-7-liquidity-risk-maturity-analysis"
+      },
+      {
+        "id": "ifrs-7-s4",
+        "title": "Fair value hierarchy",
+        "summary": "Level 1, 2, 3 and transfers.",
+        "cardId": "ifrs-enc-ifrs-9-fair-value-hedge-basis-adjustment"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-9",
+    "title": "IFRS 9: Financial Instruments",
+    "summary": "Classification, measurement, impairment (ECL), and hedge accounting.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-9-s1",
+        "title": "Classification and measurement",
+        "summary": "Business model and SPPI.",
+        "cardId": "ifrs-enc-financial-instruments-classification-and-measurement-zmluyw5jaw"
+      },
+      {
+        "id": "ifrs-9-s2",
+        "title": "Expected credit losses",
+        "summary": "12-month vs lifetime ECL.",
+        "cardId": "enc-ecl"
+      },
+      {
+        "id": "ifrs-9-s3",
+        "title": "Hedge accounting overview",
+        "summary": "Designate and document hedges.",
+        "cardId": "ifrs-enc-ifrs-9-hedge-effectiveness-documentation"
+      },
+      {
+        "id": "ifrs-9-s4",
+        "title": "Derecognition and modification",
+        "summary": "When assets leave the balance sheet.",
+        "cardId": "ifrs-9-impairment-phase-02c42d09c6"
+      },
+      {
+        "id": "ifrs-9-s5",
+        "title": "IFRS 7 linkage",
+        "summary": "Pair measurement with risk disclosures.",
+        "cardId": "ifrs-enc-ifrs-7-financial-instruments-disclosures-awzycya3ic"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-10",
+    "title": "IFRS 10: Consolidated Financial Statements",
+    "summary": "Control assessment, consolidation procedures, NCI, and uniform policies.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-10-s1",
+        "title": "Definition of control",
+        "summary": "Power, returns, and linkage.",
+        "cardId": "ifrs-enc-ifrs-10-de-facto-control"
+      },
+      {
+        "id": "ifrs-10-s2",
+        "title": "Power over relevant activities",
+        "summary": "Rights that matter.",
+        "cardId": "ifrs-enc-ifrs-10-structured-entities"
+      },
+      {
+        "id": "ifrs-10-s3",
+        "title": "Consolidation procedures",
+        "summary": "Eliminate intragroup balances.",
+        "cardId": "ifrs-enc-ifrs-10-consolidation-disclosure-completion-awzycyaxmc"
+      },
+      {
+        "id": "ifrs-10-s4",
+        "title": "Non-controlling interests",
+        "summary": "Present NCI in equity.",
+        "cardId": "ifrs-enc-non-controlling-interest-in-equity-bm9ulwnvbn"
+      },
+      {
+        "id": "ifrs-10-s5",
+        "title": "Uniform accounting policies",
+        "summary": "Align group accounting.",
+        "cardId": "ifrs-10-supersedes-a055133b9c"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-11",
+    "title": "IFRS 11: Joint Arrangements",
+    "summary": "Joint control, joint operations vs joint ventures, accounting choices.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-11-s1",
+        "title": "Joint control assessment",
+        "summary": "Unanimous consent over relevant activities.",
+        "cardId": "ifrs-11-joint-arrangements-introduction-8e594a8e52"
+      },
+      {
+        "id": "ifrs-11-s2",
+        "title": "Joint operation vs joint venture",
+        "summary": "Rights to assets vs rights to net assets.",
+        "cardId": "ifrs-enc-ifrs-11-joint-operation-accounting"
+      },
+      {
+        "id": "ifrs-11-s3",
+        "title": "Accounting for joint ventures",
+        "summary": "Equity method application.",
+        "cardId": "ifrs-enc-ifrs-11-joint-arrangements-awzycyaxms"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-12",
+    "title": "IFRS 12: Disclosure of Interests in Other Entities",
+    "summary": "Transparency on subsidiaries, associates, JVs, and unconsolidated structures.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-12-s1",
+        "title": "Scope of IFRS 12 disclosures",
+        "summary": "All interests in other entities.",
+        "cardId": "ifrs-enc-ifrs-12-disclosure-of-interests-in-other-entities-awzycyaxmi"
+      },
+      {
+        "id": "ifrs-12-s2",
+        "title": "Subsidiaries disclosures",
+        "summary": "Composition of the group.",
+        "cardId": "ifrs-enc-ifrs-12-interests-in-other-entities-disclosure-completio-awzycyaxmi"
+      },
+      {
+        "id": "ifrs-12-s3",
+        "title": "Unconsolidated structured entities",
+        "summary": "Sponsorship and exposure.",
+        "cardId": "ifrs-enc-ifrs-12-unconsolidated-structured-entities"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-13",
+    "title": "IFRS 13: Fair Value Measurement",
+    "summary": "Exit price, hierarchy, valuation techniques, and highest and best use.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-13-s1",
+        "title": "Fair value definition",
+        "summary": "Exit price in an orderly transaction.",
+        "cardId": "ifrs-enc-ifrs-13-fair-value-measurement-awzycyaxmy"
+      },
+      {
+        "id": "ifrs-13-s2",
+        "title": "Fair value hierarchy",
+        "summary": "Level 1, 2, and 3 inputs.",
+        "cardId": "ifrs-enc-ifrs-13-fair-value-hierarchy-level-3"
+      },
+      {
+        "id": "ifrs-13-s3",
+        "title": "Valuation techniques",
+        "summary": "Market, income, and cost approaches.",
+        "cardId": "ifrs-enc-ifrs-13-valuation-techniques-calibration"
+      },
+      {
+        "id": "ifrs-13-s4",
+        "title": "Highest and best use",
+        "summary": "For non-financial assets.",
+        "cardId": "ifrs-enc-ifrs-13-highest-and-best-use"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-15",
+    "title": "IFRS 15: Revenue from Contracts with Customers",
+    "summary": "Five-step model — identify contract, obligations, price, allocate, recognise.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-15-s1",
+        "title": "Step 1 — Identify the contract",
+        "summary": "Commercial substance and enforceability.",
+        "cardId": "ifrs-enc-ifrs-15-contract-combination"
+      },
+      {
+        "id": "ifrs-15-s2",
+        "title": "Step 2 — Performance obligations",
+        "summary": "Distinct goods and services.",
+        "cardId": "ifrs-enc-ifrs-15-contract-modifications"
+      },
+      {
+        "id": "ifrs-15-s3",
+        "title": "Step 3 — Transaction price",
+        "summary": "Variable consideration and financing.",
+        "cardId": "ifrs-enc-ifrs-15-costs-to-obtain-a-contract"
+      },
+      {
+        "id": "ifrs-15-s4",
+        "title": "Step 4 — Allocate transaction price",
+        "summary": "Standalone selling prices.",
+        "cardId": "ifrs-enc-ifrs-15-licences-of-ip"
+      },
+      {
+        "id": "ifrs-15-s5",
+        "title": "Step 5 — Recognise revenue",
+        "summary": "Control transfer over time or point in time.",
+        "cardId": "ifrs-enc-ifrs-15-revenue-from-contracts-with-customers-awzycyaxns"
+      },
+      {
+        "id": "ifrs-15-s6",
+        "title": "Contract costs",
+        "summary": "Capitalise incremental costs to obtain or fulfil.",
+        "cardId": "ifrs-enc-contract-cost-amortisation-y29udhjhy3"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-16",
+    "title": "IFRS 16: Leases",
+    "summary": "Identify leases, lease term, discount rate, ROU assets, and lease liabilities.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-16-s1",
+        "title": "Identify a lease",
+        "summary": "Right to control an identified asset.",
+        "cardId": "ifrs-enc-ifrs-16-lease-identification"
+      },
+      {
+        "id": "ifrs-16-s2",
+        "title": "Lease term and options",
+        "summary": "Reasonably certain extensions.",
+        "cardId": "ifrs-enc-ifrs-16-lease-term-judgements"
+      },
+      {
+        "id": "ifrs-16-s3",
+        "title": "Discount rate",
+        "summary": "IBR or implicit rate.",
+        "cardId": "ifrs-enc-ifrs-16-discount-rate-determination"
+      },
+      {
+        "id": "ifrs-16-s4",
+        "title": "Right-of-use asset",
+        "summary": "Initial and subsequent measurement.",
+        "cardId": "ifrs-enc-right-of-use-asset-movement-cmlnahqtb2"
+      },
+      {
+        "id": "ifrs-16-s5",
+        "title": "Lease liability",
+        "summary": "Remeasurement triggers.",
+        "cardId": "ifrs-enc-initial-lease-liability-aw5pdglhbc"
+      },
+      {
+        "id": "ifrs-16-s6",
+        "title": "Short-term and low-value exemptions",
+        "summary": "Practical expedients.",
+        "cardId": "fa-operating-lease-ev"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-17",
+    "title": "IFRS 17: Insurance Contracts",
+    "summary": "General model, premium allocation, and contractual service margin for insurers.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-17-s1",
+        "title": "Scope of insurance contracts",
+        "summary": "Which contracts are in IFRS 17.",
+        "cardId": "ifrs-enc-ifrs-17-insurance-contracts-awzycyaxny"
+      },
+      {
+        "id": "ifrs-17-s2",
+        "title": "Fulfillment cash flows",
+        "summary": "Estimates of future cash flows.",
+        "cardId": "ifrs-enc-ifrs-17-csm-release-pattern"
+      },
+      {
+        "id": "ifrs-17-s3",
+        "title": "Contractual service margin",
+        "summary": "Unearned profit recognition.",
+        "cardId": "ifrs-17-csm"
+      },
+      {
+        "id": "ifrs-17-s4",
+        "title": "Insurance disclosures",
+        "summary": "Transparency on results.",
+        "cardId": "ifrs-17-disclosure"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ifrs-18",
+    "title": "IFRS 18: Presentation and Disclosure in Financial Statements",
+    "summary": "Statement structure, defined subtotals, aggregation, and disaggregation principles.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ifrs-18-s1",
+        "title": "Structure of the statement of profit or loss",
+        "summary": "Operating vs investing vs financing.",
+        "cardId": "ifrs-enc-ifrs-18-presentation-and-disclosure-in-financial-stateme-awzycyaxoc"
+      },
+      {
+        "id": "ifrs-18-s2",
+        "title": "Aggregation and disaggregation",
+        "summary": "Material line items.",
+        "cardId": "ifrs-enc-ifrs-18-operating-categories"
+      },
+      {
+        "id": "ifrs-18-s3",
+        "title": "Enhanced disclosure requirements",
+        "summary": "Support subtotals with notes.",
+        "cardId": "notes-forming-part-of-the-consolidated-financial-statements-aafa8308cd"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-1",
+    "title": "IAS 1: Presentation of Financial Statements",
+    "summary": "Fair presentation, going concern, materiality, and statement structure.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-1-s1",
+        "title": "Fair presentation and compliance",
+        "summary": "True and fair override context.",
+        "cardId": "ifrs-enc-ias-1-presentation-of-financial-statements-awfzidegls"
+      },
+      {
+        "id": "ias-1-s2",
+        "title": "Going concern",
+        "summary": "Assessment period and disclosures.",
+        "cardId": "enc-going-concern"
+      },
+      {
+        "id": "ias-1-s3",
+        "title": "Materiality and aggregation",
+        "summary": "What deserves separate presentation.",
+        "cardId": "notes-forming-part-of-the-consolidated-financial-statements-aafa8308cd"
+      },
+      {
+        "id": "ias-1-s4",
+        "title": "Offsetting assets and liabilities",
+        "summary": "Net presentation rules.",
+        "cardId": "ias-1-offsetting"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-2",
+    "title": "IAS 2: Inventories",
+    "summary": "Cost formulas, net realisable value, and write-down reversals.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-2-s1",
+        "title": "Cost of inventories",
+        "summary": "Purchase, conversion, and other costs.",
+        "cardId": "ias-2-inventory-measurement-c3ae3986e9"
+      },
+      {
+        "id": "ias-2-s2",
+        "title": "Cost formulas — FIFO and weighted average",
+        "summary": "Consistent application.",
+        "cardId": "ifrs-enc-financial-reporting-inventory-valuation-and-cost-formula-zmluyw5jaw-57866"
+      },
+      {
+        "id": "ias-2-s3",
+        "title": "Net realisable value",
+        "summary": "Lower of cost and NRV.",
+        "cardId": "ifrs-enc-inventory-cost-formulas-and-net-realizable-value-aw52zw50b3"
+      },
+      {
+        "id": "ias-2-s4",
+        "title": "Reversal of write-downs",
+        "summary": "When NRV recovers.",
+        "cardId": "ifrs-enc-financial-reporting-accounting-for-inventory-write-down--zmluyw5jaw"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-7",
+    "title": "IAS 7: Statement of Cash Flows",
+    "summary": "Operating, investing, and financing activities — direct vs indirect method.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-7-s1",
+        "title": "Classification of cash flows",
+        "summary": "Operating, investing, financing.",
+        "cardId": "ifrs-enc-ias-7-statement-of-cash-flows-awfzidcgls"
+      },
+      {
+        "id": "ias-7-s2",
+        "title": "Indirect method reconciliation",
+        "summary": "Profit to operating cash.",
+        "cardId": "ias-7-cash-flow"
+      },
+      {
+        "id": "ias-7-s3",
+        "title": "Non-cash transactions",
+        "summary": "Disclose material investing/financing not involving cash.",
+        "cardId": "ifrs-enc-ias-7-group-cash-flow-disclosure-completion-awfzidcgz3"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-8",
+    "title": "IAS 8: Accounting Policies, Changes in Estimates and Errors",
+    "summary": "Policy changes, estimate changes, and prior period error correction.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-8-s1",
+        "title": "Selection of accounting policies",
+        "summary": "Consistent and appropriate.",
+        "cardId": "ifrs-enc-ias-8-accounting-policies-changes-in-accounting-estimate-awfzidggls"
+      },
+      {
+        "id": "ias-8-s2",
+        "title": "Changes in accounting policies",
+        "summary": "Retrospective application when required.",
+        "cardId": "ifrs-enc-ias-8-retrospective-restatement"
+      },
+      {
+        "id": "ias-8-s3",
+        "title": "Changes in accounting estimates",
+        "summary": "Prospective application.",
+        "cardId": "ias-8-estimates"
+      },
+      {
+        "id": "ias-8-s4",
+        "title": "Prior period errors",
+        "summary": "Restate comparatives.",
+        "cardId": "ias-8-errors"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-10",
+    "title": "IAS 10: Events after the Reporting Period",
+    "summary": "Adjusting vs non-adjusting events and going concern after reporting date.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-10-s1",
+        "title": "Adjusting events",
+        "summary": "Evidence of conditions at period end.",
+        "cardId": "ifrs-enc-ias-10-adjusting-vs-non-adjusting"
+      },
+      {
+        "id": "ias-10-s2",
+        "title": "Non-adjusting events",
+        "summary": "Disclose if material.",
+        "cardId": "ifrs-enc-ias-10-events-after-the-reporting-period-awfzidewic"
+      },
+      {
+        "id": "ias-10-s3",
+        "title": "Going concern after reporting date",
+        "summary": "Events casting doubt.",
+        "cardId": "ias-10-events-after-the-balance-sheet-date-definitions-0082f3474d"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-12",
+    "title": "IAS 12: Income Taxes",
+    "summary": "Current and deferred tax, temporary differences, and uncertain tax positions.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-12-s1",
+        "title": "Current tax",
+        "summary": "Tax payable for the period.",
+        "cardId": "tax-eu-ias-12-current-tax-eu-filers-awfzideyig"
+      },
+      {
+        "id": "ias-12-s2",
+        "title": "Deferred tax",
+        "summary": "Temporary differences and rates.",
+        "cardId": "enc-deferred-tax"
+      },
+      {
+        "id": "ias-12-s3",
+        "title": "Uncertain tax positions",
+        "summary": "Probable outflow assessment.",
+        "cardId": "tax-uncertain-positions"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-16",
+    "title": "IAS 16: Property, Plant and Equipment",
+    "summary": "Recognition, depreciation, component approach, and revaluation.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-16-s1",
+        "title": "Recognition of PPE",
+        "summary": "Future economic benefits probable.",
+        "cardId": "project-enc-ias-16-componentisation-in-projects"
+      },
+      {
+        "id": "ias-16-s2",
+        "title": "Depreciation and useful life",
+        "summary": "Systematic allocation.",
+        "cardId": "ias-16-property-plant-and-equipment-depreciation-92a12873fb"
+      },
+      {
+        "id": "ias-16-s3",
+        "title": "Component approach",
+        "summary": "Significant parts separately depreciated.",
+        "cardId": "ifrs-enc-ias-16-property-plant-and-equipment-awfzide2ic"
+      },
+      {
+        "id": "ias-16-s4",
+        "title": "Revaluation model",
+        "summary": "Fair value at reporting date.",
+        "cardId": "ias-16-property-plant-and-equipment-property-plant-and-equipment-0af7c2df58"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-19",
+    "title": "IAS 19: Employee Benefits",
+    "summary": "Short-term, post-employment, and defined benefit obligations.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-19-s1",
+        "title": "Short-term employee benefits",
+        "summary": "Wages, paid leave, bonuses.",
+        "cardId": "ifrs-enc-employee-benefits-accounting-for-short-term-and-long-ter-zw1wbg95zw"
+      },
+      {
+        "id": "ias-19-s2",
+        "title": "Defined contribution plans",
+        "summary": "Expense when contributions due.",
+        "cardId": "ifrs-enc-employee-benefits-accounting-for-defined-contribution-pl-zw1wbg95zw"
+      },
+      {
+        "id": "ias-19-s3",
+        "title": "Defined benefit obligations",
+        "summary": "Actuarial valuation.",
+        "cardId": "defined-benefit-obligation-or-dbo-7cdff539c4"
+      },
+      {
+        "id": "ias-19-s4",
+        "title": "Termination benefits",
+        "summary": "Recognise when demonstrably committed.",
+        "cardId": "ifrs-enc-employee-benefits-accounting-for-termination-benefits-zw1wbg95zw"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-20",
+    "title": "IAS 20: Accounting for Government Grants and Disclosure of Government Assistance",
+    "summary": "Grant recognition, presentation, and repayment.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-20-s1",
+        "title": "Recognition of grants",
+        "summary": "Reasonable assurance and compliance.",
+        "cardId": "ifrs-enc-ias-20-government-grants-awfzidiwic"
+      },
+      {
+        "id": "ias-20-s2",
+        "title": "Presentation — net vs gross",
+        "summary": "Policy choice disclosed.",
+        "cardId": "ifrs-enc-ias-20-government-grant-presentation"
+      },
+      {
+        "id": "ias-20-s3",
+        "title": "Repayment of grants",
+        "summary": "Treat as change in estimate or prior error.",
+        "cardId": "ias-20-accounting-for-government-grants-government-grants-e32d91f6d7"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-21",
+    "title": "IAS 21: The Effects of Changes in Foreign Exchange Rates",
+    "summary": "Functional currency, translation, and disposal of foreign operations.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-21-s1",
+        "title": "Functional currency",
+        "summary": "Primary economic environment.",
+        "cardId": "enc-functional-currency"
+      },
+      {
+        "id": "ias-21-s2",
+        "title": "Translation of foreign operations",
+        "summary": "Assets and liabilities at closing rate.",
+        "cardId": "ifrs-enc-ias-21-foreign-exchange-awfzidixic"
+      },
+      {
+        "id": "ias-21-s3",
+        "title": "Disposal of foreign operation",
+        "summary": "Recycle cumulative translation differences.",
+        "cardId": "ias-21-fx"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-23",
+    "title": "IAS 23: Borrowing Costs",
+    "summary": "Capitalisation on qualifying assets, rates, and suspension.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-23-s1",
+        "title": "Qualifying assets",
+        "summary": "Substantial period to get ready.",
+        "cardId": "ifrs-enc-ias-23-borrowing-costs-awfzidizic"
+      },
+      {
+        "id": "ias-23-s2",
+        "title": "Capitalisation period and rate",
+        "summary": "When to start, suspend, stop.",
+        "cardId": "ifrs-enc-ias-23-borrowing-costs-capitalisation"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-24",
+    "title": "IAS 24: Related Party Disclosures",
+    "summary": "Identify related parties, transactions, and outstanding balances.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-24-s1",
+        "title": "Identify related parties",
+        "summary": "Persons and entities with control or influence.",
+        "cardId": "ifrs-enc-ias-24-related-party-disclosures-awfzidi0ic"
+      },
+      {
+        "id": "ias-24-s2",
+        "title": "Disclose transactions and balances",
+        "summary": "Materiality by relationship.",
+        "cardId": "ifrs-enc-ias-24-related-party-disclosure-completeness"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-27",
+    "title": "IAS 27: Separate Financial Statements",
+    "summary": "Accounting for investments in separate financial statements of the parent.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-27-s1",
+        "title": "When separate statements are prepared",
+        "summary": "Parent-only reporting.",
+        "cardId": "ifrs-enc-ias-27-separate-financial-statements-awfzidi3ic"
+      },
+      {
+        "id": "ias-27-s2",
+        "title": "Accounting for investments",
+        "summary": "Cost, fair value, or equity method.",
+        "cardId": "ifrs-enc-ias-1-presentation-of-financial-statements-awfzidegls"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-28",
+    "title": "IAS 28: Investments in Associates and Joint Ventures",
+    "summary": "Significant influence and equity method accounting.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-28-s1",
+        "title": "Significant influence",
+        "summary": "Power to participate in financial and operating policy decisions.",
+        "cardId": "ifrs-enc-ias-28-impairment-of-associates"
+      },
+      {
+        "id": "ias-28-s2",
+        "title": "Equity method",
+        "summary": "Share of profit and net assets.",
+        "cardId": "ifrs-enc-consolidation-accounting-for-associates-and-joint-ventur-y29uc29saw"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-32",
+    "title": "IAS 32: Financial Instruments: Presentation",
+    "summary": "Financial liability vs equity, offsetting, and compound instruments.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-32-s1",
+        "title": "Liability vs equity",
+        "summary": "Contractual obligation to deliver cash.",
+        "cardId": "ifrs-enc-financial-reporting-classification-and-measurement-of-fi-zmluyw5jaw"
+      },
+      {
+        "id": "ias-32-s2",
+        "title": "Offsetting financial assets and liabilities",
+        "summary": "Legal right and intent.",
+        "cardId": "ifrs-enc-ias-32-financial-instruments-presentation-awfzidmyic"
+      },
+      {
+        "id": "ias-32-s3",
+        "title": "Compound instruments",
+        "summary": "Split debt and equity components.",
+        "cardId": "enc-financial-instruments"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-33",
+    "title": "IAS 33: Earnings per Share",
+    "summary": "Basic and diluted EPS for entities with ordinary shares.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-33-s1",
+        "title": "Basic EPS",
+        "summary": "Profit attributable to ordinary shareholders.",
+        "cardId": "ifrs-enc-basic-eps-ymfzawmgzx"
+      },
+      {
+        "id": "ias-33-s2",
+        "title": "Diluted EPS",
+        "summary": "Potential ordinary shares.",
+        "cardId": "ifrs-enc-diluted-eps-zglsdxrlzc"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-34",
+    "title": "IAS 34: Interim Financial Reporting",
+    "summary": "Minimum content, year-to-date measures, and impairment.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-34-s1",
+        "title": "Minimum components",
+        "summary": "Condensed primary statements and notes.",
+        "cardId": "ifrs-enc-ias-34-interim-impairment"
+      },
+      {
+        "id": "ias-34-s2",
+        "title": "Year-to-date reporting",
+        "summary": "Consistent policies and seasonality.",
+        "cardId": "ifrs-enc-ias-34-interim-financial-reporting-awfzidm0ic"
+      },
+      {
+        "id": "ias-34-s3",
+        "title": "Impairment testing at interim",
+        "summary": "Recognise losses that would not reverse.",
+        "cardId": "frs-104-interim-financial-reporting-disclosures-96d6b0cc21"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-36",
+    "title": "IAS 36: Impairment of Assets",
+    "summary": "Indicators, CGUs, recoverable amount, and reversal rules.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-36-s1",
+        "title": "Impairment indicators",
+        "summary": "External and internal sources.",
+        "cardId": "ifrs-enc-ias-36-impairment-of-assets-awfzidm2ic"
+      },
+      {
+        "id": "ias-36-s2",
+        "title": "Cash-generating units",
+        "summary": "Smallest identifiable group generating independent cash inflows.",
+        "cardId": "ifrs-enc-ias-36-value-in-use-cash-flows"
+      },
+      {
+        "id": "ias-36-s3",
+        "title": "Recoverable amount",
+        "summary": "Higher of fair value less costs of disposal and value in use.",
+        "cardId": "ifrs-enc-recoverable-amount-cmvjb3zlcm"
+      },
+      {
+        "id": "ias-36-s4",
+        "title": "Reversal of impairment",
+        "summary": "Not for goodwill.",
+        "cardId": "ifrs-enc-financial-reporting-impairment-reversal-of-impairment-lo-zmluyw5jaw-334214"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-37",
+    "title": "IAS 37: Provisions, Contingent Liabilities and Contingent Assets",
+    "summary": "Present obligation, probable outflow, reliable estimate, and restructuring.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-37-s1",
+        "title": "Recognising provisions",
+        "summary": "Obligation, probable, reliable estimate.",
+        "cardId": "ifrs-enc-ias-37-restructuring-provision-criteria"
+      },
+      {
+        "id": "ias-37-s2",
+        "title": "Contingent liabilities and assets",
+        "summary": "Disclose possible obligations.",
+        "cardId": "ifrs-enc-ias-37-provisions-contingent-liabilities-and-contingent--awfzidm3ic"
+      },
+      {
+        "id": "ias-37-s3",
+        "title": "Restructuring provisions",
+        "summary": "Detailed formal plan and valid expectation.",
+        "cardId": "ifrs-enc-ias-37-onerous-contracts"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-38",
+    "title": "IAS 38: Intangible Assets",
+    "summary": "Recognition, research vs development, amortisation, and impairment.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-38-s1",
+        "title": "Recognition criteria",
+        "summary": "Identifiable, controlled, future benefits.",
+        "cardId": "ifrs-enc-ias-38-intangible-assets-awfzidm4ic"
+      },
+      {
+        "id": "ias-38-s2",
+        "title": "Research vs development",
+        "summary": "Expense research; capitalise development when criteria met.",
+        "cardId": "ifrs-enc-ias-38-research-vs-development-gate"
+      },
+      {
+        "id": "ias-38-s3",
+        "title": "Useful life and amortisation",
+        "summary": "Finite vs indefinite life.",
+        "cardId": "ias-38-intangible-assets-control-8c56d239c7"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-40",
+    "title": "IAS 40: Investment Property",
+    "summary": "Fair value model vs cost model for property held for rental or capital appreciation.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-40-s1",
+        "title": "Investment property vs PPE",
+        "summary": "Owner-occupied vs held for rental/capital gain.",
+        "cardId": "ifrs-enc-ias-40-fair-value-model-vs-cost"
+      },
+      {
+        "id": "ias-40-s2",
+        "title": "Fair value model",
+        "summary": "Changes in fair value through P&L.",
+        "cardId": "enc-npv"
+      }
+    ]
+  },
+  {
+    "id": "ifrs-path-ias-41",
+    "title": "IAS 41: Agriculture",
+    "summary": "Biological assets and agricultural produce at fair value less costs to sell.",
+    "bodies": [
+      "IFRS",
+      "ACCA"
+    ],
+    "steps": [
+      {
+        "id": "ias-41-s1",
+        "title": "Biological assets",
+        "summary": "Living plants and animals.",
+        "cardId": "ifrs-enc-ias-41-agricultural-produce"
+      },
+      {
+        "id": "ias-41-s2",
+        "title": "Agricultural produce at harvest",
+        "summary": "Fair value at point of harvest.",
+        "cardId": "ias-41-produce"
+      }
+    ]
+  }
+]

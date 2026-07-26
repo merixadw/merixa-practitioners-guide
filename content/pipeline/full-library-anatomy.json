@@ -1,0 +1,4693 @@
+{
+  "generatedAt": "2026-07-22T11:02:43.284Z",
+  "totals": {
+    "cards": 2648,
+    "chunks": 15598,
+    "domains": 9,
+    "topics": 204,
+    "withExample": 2648,
+    "withSummary": 2648,
+    "withFormula": 1150,
+    "withMistake": 2648,
+    "withOfficial": 1385,
+    "weak": 0
+  },
+  "byShelf": {
+    "ingested": 815,
+    "fa": 519,
+    "other-encyclopedia": 478,
+    "frm": 210,
+    "ifrs-ias": 178,
+    "crma": 130,
+    "coso": 119,
+    "domain-spine": 93,
+    "ma": 86,
+    "tax": 20
+  },
+  "byBody": {
+    "ACCA": 2131,
+    "Merixa": 1750,
+    "CGMA": 1186,
+    "IFRS": 957,
+    "CFA": 923,
+    "FRC": 868,
+    "IIA": 453,
+    "CRMA": 436,
+    "FRM": 389
+  },
+  "byContentType": {
+    "definition": 1583,
+    "formula": 697,
+    "control": 35,
+    "requirement": 254,
+    "disclosure": 21,
+    "guidance": 34,
+    "analysis": 3,
+    "procedure": 21
+  },
+  "domains": [
+    {
+      "domain": "Financial reporting",
+      "cards": 871,
+      "topicCount": 86,
+      "weak": 0,
+      "shelves": {
+        "ingested": 575,
+        "ifrs-ias": 175,
+        "other-encyclopedia": 76,
+        "domain-spine": 25,
+        "tax": 20
+      },
+      "bodies": {
+        "IFRS": 852,
+        "ACCA": 813,
+        "FRC": 719,
+        "CGMA": 648,
+        "Merixa": 220,
+        "FRM": 64,
+        "CFA": 28,
+        "IIA": 9,
+        "CRMA": 6
+      },
+      "contentTypes": {
+        "definition": 556,
+        "requirement": 238,
+        "control": 18,
+        "disclosure": 21,
+        "guidance": 21,
+        "analysis": 2,
+        "procedure": 15
+      },
+      "topics": [
+        "Accounting Policies, Changes in Estimates and Errors",
+        "Accounting for Government Grants and Disclosure of Government Assistance",
+        "Agriculture",
+        "Assets",
+        "Assets held for sale",
+        "Audit evidence",
+        "Borrowing Costs",
+        "Budgeting and forecasting",
+        "Business Combinations",
+        "Business combinations",
+        "Cash and liquidity",
+        "Conceptual Framework for Financial Reporting",
+        "Consolidated Financial Statements",
+        "Consolidation",
+        "Disclosure controls",
+        "Disclosure of Interests in Other Entities",
+        "Earnings per Share",
+        "Emissions boundaries",
+        "Employee Benefits",
+        "Employee benefits",
+        "Equity",
+        "Events after reporting",
+        "Events after the Reporting Period",
+        "Events after the reporting period",
+        "Expenses",
+        "Fair Value Measurement",
+        "Financial Instruments",
+        "Financial Instruments: Disclosures",
+        "Financial Instruments: Presentation",
+        "Financial instruments",
+        "First-time Adoption of IFRS Accounting Standards",
+        "Foreign currency",
+        "Going concern",
+        "Government grants",
+        "IFRS framework",
+        "Impairment",
+        "Impairment of Assets",
+        "Income Taxes",
+        "Income taxes",
+        "Insurance Contracts",
+        "Intangible Assets",
+        "Intangible assets",
+        "Interim Financial Reporting",
+        "Interim reporting",
+        "Internal control",
+        "Inventories",
+        "Inventory",
+        "Investment Property",
+        "Investments in Associates and Joint Ventures",
+        "Joint Arrangements",
+        "Leases",
+        "Liabilities",
+        "Materiality",
+        "Measurement",
+        "Non-current Assets Held for Sale and Discontinued Operations",
+        "Presentation and Disclosure in Financial Statements",
+        "Presentation of Financial Statements",
+        "Presentation of financial statements",
+        "Property, Plant and Equipment",
+        "Property, plant and equipment",
+        "Provisions",
+        "Provisions and contingencies",
+        "Provisions, Contingent Liabilities and Contingent Assets",
+        "Related Party Disclosures",
+        "Related parties",
+        "Reporting framework",
+        "Revenue",
+        "Revenue from Contracts with Customers",
+        "Segment reporting",
+        "Separate Financial Statements",
+        "Share-based Payment",
+        "Statement of Cash Flows",
+        "Sustainability-finance bridge",
+        "Tax",
+        "The Effects of Changes in Foreign Exchange Rates",
+        "UK GAAP framework",
+        "Valuation",
+        "Variance analysis",
+        "close process",
+        "current tax",
+        "deferred tax",
+        "effective tax rate",
+        "intercompany recharge",
+        "transfer pricing",
+        "transfer pricing documentation",
+        "uncertain tax positions"
+      ]
+    },
+    {
+      "domain": "Financial management",
+      "cards": 574,
+      "topicCount": 16,
+      "weak": 0,
+      "shelves": {
+        "fa": 519,
+        "ingested": 34,
+        "domain-spine": 16,
+        "other-encyclopedia": 5
+      },
+      "bodies": {
+        "CFA": 573,
+        "ACCA": 567,
+        "Merixa": 540,
+        "CGMA": 47,
+        "FRM": 36,
+        "IFRS": 33
+      },
+      "contentTypes": {
+        "formula": 479,
+        "definition": 94,
+        "guidance": 1
+      },
+      "topics": [
+        "Capital structure",
+        "Cash and liquidity",
+        "Cash flow",
+        "Corporate",
+        "Corporate finance",
+        "Cost of capital",
+        "Economics",
+        "FSA",
+        "Fixed income",
+        "Interest rate risk",
+        "Investment appraisal",
+        "Market risk",
+        "Performance measures",
+        "Portfolio",
+        "Quant",
+        "Valuation"
+      ]
+    },
+    {
+      "domain": "Management reporting",
+      "cards": 492,
+      "topicCount": 15,
+      "weak": 0,
+      "shelves": {
+        "other-encyclopedia": 376,
+        "ma": 86,
+        "ingested": 20,
+        "domain-spine": 4,
+        "frm": 3,
+        "ifrs-ias": 3
+      },
+      "bodies": {
+        "ACCA": 481,
+        "Merixa": 468,
+        "CGMA": 432,
+        "CFA": 59,
+        "IFRS": 45,
+        "IIA": 11,
+        "CRMA": 6,
+        "FRM": 5,
+        "FRC": 3
+      },
+      "contentTypes": {
+        "definition": 435,
+        "formula": 52,
+        "requirement": 3,
+        "analysis": 1,
+        "guidance": 1
+      },
+      "topics": [
+        "Budgeting and forecasting",
+        "Cash and liquidity",
+        "Cost and profitability",
+        "Cost behaviour",
+        "Forecasting",
+        "Investment appraisal",
+        "Management accounting",
+        "Performance measurement",
+        "Performance reporting",
+        "Presentation of financial statements",
+        "Revenue",
+        "Tax",
+        "Valuation",
+        "Variance analysis",
+        "guidance"
+      ]
+    },
+    {
+      "domain": "Risk management",
+      "cards": 374,
+      "topicCount": 36,
+      "weak": 0,
+      "shelves": {
+        "coso": 93,
+        "frm": 207,
+        "ingested": 41,
+        "other-encyclopedia": 3,
+        "domain-spine": 14,
+        "crma": 16
+      },
+      "bodies": {
+        "Merixa": 330,
+        "FRM": 261,
+        "CFA": 219,
+        "CRMA": 152,
+        "IIA": 152,
+        "ACCA": 100,
+        "FRC": 17,
+        "IFRS": 7,
+        "CGMA": 3
+      },
+      "contentTypes": {
+        "definition": 207,
+        "formula": 165,
+        "requirement": 1,
+        "control": 1
+      },
+      "topics": [
+        "Cash and liquidity",
+        "Climate risk",
+        "Control activities",
+        "Control objectives",
+        "Credit risk",
+        "ERM",
+        "ERM performance",
+        "ERM reporting",
+        "ERM review",
+        "ERM strategy",
+        "Enterprise risk management",
+        "Foundations",
+        "Governance",
+        "Hedging",
+        "IT controls",
+        "Information and communication",
+        "Internal control framework",
+        "Liquidity",
+        "Liquidity risk",
+        "Market risk",
+        "Markets",
+        "Model risk",
+        "Monitoring activities",
+        "Operating effectiveness",
+        "Operational",
+        "Operational risk",
+        "Portfolio",
+        "Quantitative",
+        "Risk assessment",
+        "Risk governance",
+        "Risk mitigation",
+        "Scoping",
+        "Stress testing",
+        "Valuation",
+        "tax governance",
+        "transfer pricing governance"
+      ]
+    },
+    {
+      "domain": "Audit and assurance",
+      "cards": 170,
+      "topicCount": 24,
+      "weak": 0,
+      "shelves": {
+        "ingested": 64,
+        "crma": 85,
+        "domain-spine": 13,
+        "coso": 8
+      },
+      "bodies": {
+        "IIA": 163,
+        "CRMA": 157,
+        "Merixa": 106,
+        "ACCA": 85,
+        "FRC": 75,
+        "FRM": 16,
+        "CFA": 5
+      },
+      "contentTypes": {
+        "definition": 164,
+        "requirement": 4,
+        "formula": 1,
+        "procedure": 1
+      },
+      "topics": [
+        "Analytical procedures",
+        "Analytics",
+        "Assurance",
+        "Assurance engagements",
+        "Audit evidence",
+        "Audit opinion",
+        "Audit roles",
+        "Control assurance",
+        "Employee benefits",
+        "Engagement",
+        "Fraud",
+        "Fraud risk",
+        "Going concern",
+        "Governance",
+        "IPPF",
+        "Internal control",
+        "Inventory",
+        "Materiality",
+        "Profession",
+        "Quality",
+        "Risk assessment",
+        "Risk assurance",
+        "Sampling",
+        "Substantive procedures"
+      ]
+    },
+    {
+      "domain": "Governance and controls",
+      "cards": 114,
+      "topicCount": 13,
+      "weak": 0,
+      "shelves": {
+        "ingested": 55,
+        "crma": 29,
+        "domain-spine": 12,
+        "coso": 18
+      },
+      "bodies": {
+        "IIA": 109,
+        "CRMA": 105,
+        "ACCA": 76,
+        "Merixa": 59,
+        "FRC": 50,
+        "IFRS": 12,
+        "CGMA": 12,
+        "FRM": 1
+      },
+      "contentTypes": {
+        "control": 12,
+        "definition": 94,
+        "requirement": 5,
+        "procedure": 2,
+        "guidance": 1
+      },
+      "topics": [
+        "Control design",
+        "Control environment",
+        "Controls",
+        "ERM governance",
+        "Entity-level controls",
+        "Ethics",
+        "Governance",
+        "IT controls",
+        "Integration",
+        "Internal control",
+        "Monitoring",
+        "RCM",
+        "Segregation of duties"
+      ]
+    },
+    {
+      "domain": "Strategy and performance",
+      "cards": 36,
+      "topicCount": 3,
+      "weak": 0,
+      "shelves": {
+        "ingested": 18,
+        "other-encyclopedia": 17,
+        "domain-spine": 1
+      },
+      "bodies": {
+        "CGMA": 34,
+        "CFA": 33,
+        "Merixa": 18,
+        "CRMA": 7,
+        "IIA": 7,
+        "FRM": 4,
+        "FRC": 3,
+        "ACCA": 3,
+        "IFRS": 1
+      },
+      "contentTypes": {
+        "guidance": 9,
+        "definition": 22,
+        "procedure": 2,
+        "control": 3
+      },
+      "topics": [
+        "Performance measurement",
+        "Performance measures",
+        "Strategy execution"
+      ]
+    },
+    {
+      "domain": "Project delivery",
+      "cards": 10,
+      "topicCount": 5,
+      "weak": 0,
+      "shelves": {
+        "domain-spine": 4,
+        "ingested": 5,
+        "other-encyclopedia": 1
+      },
+      "bodies": {
+        "CGMA": 10,
+        "Merixa": 5,
+        "ACCA": 4,
+        "IIA": 1
+      },
+      "contentTypes": {
+        "definition": 6,
+        "procedure": 1,
+        "requirement": 2,
+        "control": 1
+      },
+      "topics": [
+        "Benefits management",
+        "Business case",
+        "Cost control",
+        "Governance",
+        "Project controls"
+      ]
+    },
+    {
+      "domain": "Sustainability",
+      "cards": 7,
+      "topicCount": 6,
+      "weak": 0,
+      "shelves": {
+        "ingested": 3,
+        "domain-spine": 4
+      },
+      "bodies": {
+        "IFRS": 7,
+        "CFA": 6,
+        "Merixa": 4,
+        "CRMA": 3,
+        "FRM": 2,
+        "ACCA": 2,
+        "IIA": 1,
+        "FRC": 1
+      },
+      "contentTypes": {
+        "requirement": 1,
+        "guidance": 1,
+        "definition": 5
+      },
+      "topics": [
+        "Climate risk",
+        "Disclosure",
+        "Emissions reporting",
+        "Governance",
+        "Sustainability materiality",
+        "Sustainability reporting"
+      ]
+    }
+  ],
+  "topicsByDomain": {
+    "Audit and assurance": [
+      {
+        "topic": "Assurance engagements",
+        "cards": 29,
+        "shelves": {
+          "ingested": 29
+        },
+        "topBodies": [
+          "IIA:29",
+          "ACCA:29",
+          "CRMA:29",
+          "FRC:29",
+          "FRM:14"
+        ],
+        "sampleTitles": [
+          "3 way match",
+          "Assurable Controls",
+          "Audit Tendering and Auditor Rotation for Public Interest Entities",
+          "Board evaluation",
+          "Board nomination committee",
+          "Claiming process",
+          "Connected reporting",
+          "Control Activities",
+          "Credit limit validation & review",
+          "Credit note approval",
+          "Customer relationship management",
+          "Director time commitment disclosure"
+        ]
+      },
+      {
+        "topic": "Governance",
+        "cards": 23,
+        "shelves": {
+          "ingested": 23
+        },
+        "topBodies": [
+          "IIA:23",
+          "ACCA:23",
+          "CRMA:23",
+          "FRC:23",
+          "FRM:2"
+        ],
+        "sampleTitles": [
+          "Audit challenge and response",
+          "Audit Committee Reporting",
+          "Audit Committee Reporting Requirements in the Annual Report",
+          "Audit Committee Responsibilities for External Audit",
+          "Audit effectiveness assessment",
+          "Audit firm independence and objectivity",
+          "Audit plan adherence",
+          "Auditor Independence",
+          "Company secretary role",
+          "Confidential Whistleblowing",
+          "Conflict of Interest Management",
+          "Division of Responsibilities"
+        ]
+      },
+      {
+        "topic": "Risk assurance",
+        "cards": 15,
+        "shelves": {
+          "crma": 15
+        },
+        "topBodies": [
+          "CRMA:15",
+          "IIA:15",
+          "Merixa:15"
+        ],
+        "sampleTitles": [
+          "Assurance mapping",
+          "Audit universe",
+          "Audit work program",
+          "Coordination with external audit",
+          "Coordination with regulators",
+          "Engagement objectives",
+          "Engagement scope",
+          "Engagement-level risk assessment",
+          "Follow-up audit",
+          "Internal audit sampling",
+          "Management action plans",
+          "Reliability of evidence"
+        ]
+      },
+      {
+        "topic": "Analytics",
+        "cards": 12,
+        "shelves": {
+          "crma": 12
+        },
+        "topBodies": [
+          "CRMA:12",
+          "IIA:12",
+          "Merixa:12"
+        ],
+        "sampleTitles": [
+          "AI and algorithm governance",
+          "Audit data governance",
+          "Benford's law analysis",
+          "Cloud environment audit",
+          "Computer-assisted audit techniques",
+          "Continuous auditing",
+          "Continuous monitoring",
+          "Cyber assurance",
+          "Data analytics in internal audit",
+          "Data visualisation for audit",
+          "Population testing",
+          "RPA control considerations"
+        ]
+      },
+      {
+        "topic": "Engagement",
+        "cards": 12,
+        "shelves": {
+          "crma": 12
+        },
+        "topBodies": [
+          "CRMA:12",
+          "IIA:12",
+          "Merixa:12"
+        ],
+        "sampleTitles": [
+          "Consulting engagement management",
+          "Draft audit report",
+          "Engagement communication",
+          "Engagement memorandum",
+          "Interview techniques",
+          "Managing stakeholder expectations",
+          "Overall engagement rating",
+          "Process walkthrough",
+          "Reporting to the audit committee",
+          "Sensitive engagements",
+          "Supervision and review",
+          "Workpaper documentation"
+        ]
+      },
+      {
+        "topic": "Fraud",
+        "cards": 12,
+        "shelves": {
+          "crma": 12
+        },
+        "topBodies": [
+          "CRMA:12",
+          "IIA:12",
+          "Merixa:12"
+        ],
+        "sampleTitles": [
+          "Anti-fraud controls",
+          "Asset misappropriation",
+          "Conflicts of interest",
+          "Corruption and bribery",
+          "Data analytics for fraud detection",
+          "Financial statement fraud",
+          "Fraud red flags",
+          "Fraud risk assessment",
+          "Fraud risk management",
+          "Fraud triangle",
+          "Investigative audit",
+          "Management override of controls"
+        ]
+      },
+      {
+        "topic": "IPPF",
+        "cards": 12,
+        "shelves": {
+          "crma": 12
+        },
+        "topBodies": [
+          "CRMA:12",
+          "IIA:12",
+          "Merixa:12"
+        ],
+        "sampleTitles": [
+          "Attribute Standards",
+          "Core Principles for the Professional Practice of Internal Auditing",
+          "Global Internal Audit Standards",
+          "Global Technology Audit Guides",
+          "IIA Code of Ethics",
+          "IIA position papers",
+          "Implementation Standards",
+          "International Professional Practices Framework",
+          "Mandatory vs supplemental guidance",
+          "Performance Standards",
+          "Recommended guidance",
+          "Standards conformance"
+        ]
+      },
+      {
+        "topic": "Profession",
+        "cards": 12,
+        "shelves": {
+          "crma": 12
+        },
+        "topBodies": [
+          "CRMA:12",
+          "IIA:12",
+          "Merixa:12"
+        ],
+        "sampleTitles": [
+          "Audit committee relationship",
+          "Chief audit executive role",
+          "Competency",
+          "Confidentiality",
+          "Consulting vs assurance services",
+          "Definition of internal auditing",
+          "Due professional care",
+          "Internal audit charter",
+          "Internal audit resource management",
+          "Mission of internal audit",
+          "Objectivity",
+          "Organisational independence"
+        ]
+      },
+      {
+        "topic": "Quality",
+        "cards": 10,
+        "shelves": {
+          "crma": 10
+        },
+        "topBodies": [
+          "CRMA:10",
+          "IIA:10",
+          "Merixa:10"
+        ],
+        "sampleTitles": [
+          "Benchmarking internal audit",
+          "Continuous improvement",
+          "External quality assessment",
+          "Finding validation",
+          "Internal audit performance measures",
+          "Internal quality assessment",
+          "Knowledge management",
+          "Methodology manual",
+          "Ongoing monitoring",
+          "Quality assurance and improvement program"
+        ]
+      },
+      {
+        "topic": "Control assurance",
+        "cards": 8,
+        "shelves": {
+          "coso": 8
+        },
+        "topBodies": [
+          "CRMA:8",
+          "IIA:8",
+          "ACCA:8",
+          "Merixa:8"
+        ],
+        "sampleTitles": [
+          "Control testing and sampling",
+          "Design and operating effectiveness",
+          "External auditor reliance on controls",
+          "Management's assessment of IC",
+          "Material weakness (COSO context)",
+          "Significant deficiency",
+          "SOX 404 and COSO",
+          "Walkthrough testing"
+        ]
+      },
+      {
+        "topic": "Internal control",
+        "cards": 6,
+        "shelves": {
+          "ingested": 5,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:6",
+          "ACCA:6",
+          "FRC:6",
+          "CRMA:5",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Bill Of Materials (BOM)",
+          "Internal control (audit view)",
+          "Production order creation",
+          "Production planning",
+          "Quality Management System",
+          "Standard operating procedures"
+        ]
+      },
+      {
+        "topic": "Employee benefits",
+        "cards": 4,
+        "shelves": {
+          "ingested": 4
+        },
+        "topBodies": [
+          "IIA:4",
+          "CRMA:4",
+          "ACCA:4",
+          "FRC:4"
+        ],
+        "sampleTitles": [
+          "Notice or contract periods",
+          "Pensionable salary",
+          "Post-employment shareholding requirements",
+          "Remuneration committee annual report"
+        ]
+      },
+      {
+        "topic": "Inventory",
+        "cards": 3,
+        "shelves": {
+          "ingested": 3
+        },
+        "topBodies": [
+          "IIA:3",
+          "ACCA:3",
+          "CRMA:3",
+          "FRC:3"
+        ],
+        "sampleTitles": [
+          "Inventory management",
+          "Material master data management",
+          "Scrapping"
+        ]
+      },
+      {
+        "topic": "Audit opinion",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "ACCA:2",
+          "FRC:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Emphasis of matter",
+          "Unmodified audit opinion"
+        ]
+      },
+      {
+        "topic": "Analytical procedures",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Analytical procedures"
+        ]
+      },
+      {
+        "topic": "Assurance",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IIA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Assurance engagement"
+        ]
+      },
+      {
+        "topic": "Audit evidence",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IIA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Audit evidence"
+        ]
+      },
+      {
+        "topic": "Audit roles",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "External vs internal audit"
+        ]
+      },
+      {
+        "topic": "Fraud risk",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "IIA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Management override"
+        ]
+      },
+      {
+        "topic": "Going concern",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Going concern (audit procedures)"
+        ]
+      },
+      {
+        "topic": "Materiality",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "IIA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Audit materiality"
+        ]
+      },
+      {
+        "topic": "Risk assessment",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Risk of material misstatement"
+        ]
+      },
+      {
+        "topic": "Sampling",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Audit sampling"
+        ]
+      },
+      {
+        "topic": "Substantive procedures",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Substantive testing"
+        ]
+      }
+    ],
+    "Financial reporting": [
+      {
+        "topic": "Revenue",
+        "cards": 90,
+        "shelves": {
+          "ingested": 40,
+          "ifrs-ias": 3,
+          "other-encyclopedia": 46,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:82",
+          "FRC:80",
+          "ACCA:52",
+          "CGMA:51",
+          "Merixa:47"
+        ],
+        "sampleTitles": [
+          "Accounting for Non-Cash Consideration and Variable Pricing",
+          "Allocating Discounts and Variable Consideration to Performance Obligations",
+          "Annualised revenue run rate",
+          "Average revenue per customer",
+          "Breakage",
+          "Capacity Impact on Revenue",
+          "Churn Impact on Margin",
+          "Churn Impact on Revenue",
+          "Churn Sensitivity Ratio",
+          "Contract Balances in Revenue Recognition",
+          "Contract costs",
+          "Contract modification"
+        ]
+      },
+      {
+        "topic": "Reporting framework",
+        "cards": 61,
+        "shelves": {
+          "ingested": 58,
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "ACCA:60",
+          "CGMA:60",
+          "IFRS:59",
+          "FRC:59",
+          "FRM:7"
+        ],
+        "sampleTitles": [
+          "Accrual of Staff-Related Restructuring Costs",
+          "AI in Asset Management",
+          "Analytics Cookies in Website Usage Analysis",
+          "Annual Corporate Reporting Quality Improvement",
+          "Annual Review Reporting Requirements for SORP-Making Bodies",
+          "Application of IFRS Accounting Standards for Existing Preparers",
+          "Application of Periodic Review 2024 Amendments",
+          "Applying Amendments to Section 20 for Lessees",
+          "Auditors' Responsibilities in Group Audits of Consolidated Financial Statements",
+          "Connectivity in financial reporting",
+          "Consistency in Disclosures under IFRS Accounting Standards",
+          "Consolidated Financial Statements in Business Combinations"
+        ]
+      },
+      {
+        "topic": "Intangible assets",
+        "cards": 59,
+        "shelves": {
+          "ingested": 52,
+          "ifrs-ias": 5,
+          "domain-spine": 1,
+          "tax": 1
+        },
+        "topBodies": [
+          "IFRS:59",
+          "FRC:59",
+          "ACCA:59",
+          "CGMA:58",
+          "FRM:2"
+        ],
+        "sampleTitles": [
+          "Accounting Treatment for Mines and Quarries: Provisions and Asset Classification",
+          "Accounting Treatment of SaaS Software: Configuration",
+          "Administrative overheads exclusion",
+          "Advertising expenditure",
+          "Amortisation of Goodwill and Intangible Assets",
+          "Amortizable trademarks",
+          "Amortization",
+          "Amortization and depreciation of development costs",
+          "Amortization of development costs",
+          "Amortization of development expenses",
+          "Business combination acquisition",
+          "Capitalization"
+        ]
+      },
+      {
+        "topic": "Property, plant and equipment",
+        "cards": 53,
+        "shelves": {
+          "ifrs-ias": 6,
+          "ingested": 45,
+          "other-encyclopedia": 1,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:53",
+          "FRC:53",
+          "ACCA:52",
+          "CGMA:51",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Accounting for Environmental and Restoration Costs in Asset Capitalization",
+          "Acquisition Cost",
+          "Aggregation of low-value items",
+          "Amendment to depreciation schedule",
+          "Amortisation",
+          "Amortization charge",
+          "Asset cost",
+          "Borrowing costs",
+          "Capital Expenditure Budgeting and Project Review",
+          "Capital expenditure ratio",
+          "Capital Expenditure: Inclusive Cost Recognition",
+          "Capitalizable expenses"
+        ]
+      },
+      {
+        "topic": "Impairment",
+        "cards": 49,
+        "shelves": {
+          "ingested": 43,
+          "domain-spine": 2,
+          "ifrs-ias": 3,
+          "tax": 1
+        },
+        "topBodies": [
+          "IFRS:49",
+          "ACCA:49",
+          "FRC:48",
+          "CGMA:47",
+          "FRM:7"
+        ],
+        "sampleTitles": [
+          "Accounting for Provisions and Reversals of Impairment in Group Accounts",
+          "Accounting for Provisions and Reversals of Impairment on Other Debtors",
+          "Analysis of expenses by function",
+          "Annual impairment test obligation",
+          "Capital expenditure",
+          "Carrying amount (CA) of a CGU",
+          "Cash Generating Unit (CGU)",
+          "Consolidated Financial Statements",
+          "Consolidated statement of profit or loss and other comprehensive income",
+          "contingent consideration",
+          "Corporate assets allocation",
+          "Determining Carrying Amount and Impairment of a CGU"
+        ]
+      },
+      {
+        "topic": "Business combinations",
+        "cards": 47,
+        "shelves": {
+          "ifrs-ias": 7,
+          "ingested": 39,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:47",
+          "ACCA:47",
+          "FRC:46",
+          "CGMA:46",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Accounting for Costs in Business Combinations",
+          "Acquirer",
+          "Acquisition period",
+          "Allocation of goodwill",
+          "Business combination",
+          "Business combinations",
+          "Classification of assets and liabilities",
+          "Combination transaction",
+          "Contingent Adjustments in Business Combinations",
+          "Contingent adjustments to the purchase price",
+          "Contingent liabilities",
+          "Date of acquisition"
+        ]
+      },
+      {
+        "topic": "Leases",
+        "cards": 47,
+        "shelves": {
+          "ingested": 40,
+          "ifrs-ias": 6,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:47",
+          "ACCA:47",
+          "FRC:44",
+          "CGMA:43",
+          "FRM:8"
+        ],
+        "sampleTitles": [
+          "Accounting Treatment of SaaS Software: Configuration and Lease Components",
+          "Capital redemption reserve",
+          "Commencement date",
+          "Current liabilities",
+          "Deferred tax liability",
+          "Depreciation period",
+          "Determining the Lessee's Obtainable Borrowing Rate",
+          "Disclosure of items expected to be recovered or settled within and after 12 months",
+          "Enforceable period",
+          "FRS 102 Lease Accounting Update June 2026",
+          "Full retrospective transition method",
+          "Future payments"
+        ]
+      },
+      {
+        "topic": "Employee benefits",
+        "cards": 44,
+        "shelves": {
+          "ingested": 38,
+          "ifrs-ias": 6
+        },
+        "topBodies": [
+          "IFRS:44",
+          "ACCA:44",
+          "CGMA:44",
+          "FRC:44"
+        ],
+        "sampleTitles": [
+          "Actuarial Gains/Losses",
+          "Actuarial IAS 19 statement",
+          "Actuarial statement",
+          "Actuarial valuation procedures",
+          "Adjustment in nature 1400",
+          "Classification and Discounting of Provisions for Liabilities",
+          "Contract termination benefits",
+          "Cost of Past Services",
+          "Deferred tax on consolidation adjustment",
+          "Defined Benefit Obligation (DBO)",
+          "Defined benefit schemes",
+          "Defined contribution plan"
+        ]
+      },
+      {
+        "topic": "Consolidation",
+        "cards": 42,
+        "shelves": {
+          "ingested": 35,
+          "domain-spine": 1,
+          "ifrs-ias": 6
+        },
+        "topBodies": [
+          "IFRS:42",
+          "FRC:42",
+          "ACCA:42",
+          "CGMA:41",
+          "FRM:8"
+        ],
+        "sampleTitles": [
+          "Accounting for Dividends Receivable from Consolidated Subsidiaries",
+          "agent/principal relationship",
+          "Call option",
+          "Classification of joint arrangements",
+          "Consolidation",
+          "Consolidation method",
+          "Contractual rights",
+          "Control assessment approach",
+          "Core business vs Non-core business classification in equity method",
+          "Deadlock provision",
+          "Definition of Control under IFRS 10",
+          "Equity method"
+        ]
+      },
+      {
+        "topic": "Financial instruments",
+        "cards": 39,
+        "shelves": {
+          "ingested": 33,
+          "domain-spine": 1,
+          "ifrs-ias": 5
+        },
+        "topBodies": [
+          "IFRS:39",
+          "ACCA:39",
+          "CGMA:38",
+          "FRC:38",
+          "FRM:23"
+        ],
+        "sampleTitles": [
+          "Aged trial balance",
+          "Agenda Decisions",
+          "Classification of Financial Instruments with Guaranteed and Discretionary Participation Features",
+          "Default rate",
+          "Default Rate Calculation",
+          "Default state",
+          "Derivative assets and liabilities",
+          "Disclosure Exemptions for Non-Financial Institutions under IFRS 7",
+          "Earnings per share (EPS)",
+          "Expected credit loss (ECL) provisioning",
+          "Expected Default Rate",
+          "Financial instruments"
+        ]
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 38,
+        "shelves": {
+          "ingested": 15,
+          "other-encyclopedia": 23
+        },
+        "topBodies": [
+          "IFRS:33",
+          "FRC:24",
+          "Merixa:23",
+          "ACCA:22",
+          "CGMA:21"
+        ],
+        "sampleTitles": [
+          "Accounting and Cash Flow Treatment for Leases with Purchase Options",
+          "Cash flow from financing",
+          "Cash flow from investing",
+          "Cash flow from operations indirect method",
+          "Cash flow hedges disclosures",
+          "Cash flow margin",
+          "Cash flow projections",
+          "Classification of Bank Overdrafts in Cash and Liquidity Management",
+          "Days inventory on hand",
+          "Discounted cash flow calculation",
+          "discounted cash flow model",
+          "Free cash flow after dividends"
+        ]
+      },
+      {
+        "topic": "Inventory",
+        "cards": 35,
+        "shelves": {
+          "ingested": 32,
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:35",
+          "ACCA:35",
+          "FRC:35",
+          "CGMA:34",
+          "IIA:1"
+        ],
+        "sampleTitles": [
+          "Abnormal costs",
+          "Abnormal production costs",
+          "Abnormal scrap",
+          "Acquisition costs",
+          "Activity ratio",
+          "Aggregation by product family",
+          "Allowance for inventory depreciation",
+          "Capitalization of variances",
+          "Cost formulas",
+          "Cost of inventory",
+          "Cost variance",
+          "Cycle stock count"
+        ]
+      },
+      {
+        "topic": "UK GAAP framework",
+        "cards": 22,
+        "shelves": {
+          "ingested": 19,
+          "domain-spine": 3
+        },
+        "topBodies": [
+          "FRC:22",
+          "ACCA:22",
+          "IFRS:19",
+          "CGMA:19",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Amendments and Material Effects in Transition to FRS 101",
+          "Application of Amendments to FRS 105 for UK Micro-Entities",
+          "Application of Financial Reporting Standards under FRS 100",
+          "Application of PBE Paragraphs and Legal Compliance in FRS 102",
+          "FRS 100 September 2024: Reporting Framework for Small Entities and Charities",
+          "FRS 101 Application Guidance on Transition and Measurement",
+          "FRS 101 Disclosure Reductions and Maintenance",
+          "FRS 101 reduced disclosure",
+          "FRS 101 Reporting Framework for Qualifying Entities",
+          "FRS 102 Amendments Overview for 2026",
+          "FRS 102 framework",
+          "FRS 102 Paragraph 32: Going Concern Assessment"
+        ]
+      },
+      {
+        "topic": "Valuation",
+        "cards": 21,
+        "shelves": {
+          "ingested": 19,
+          "ifrs-ias": 1,
+          "tax": 1
+        },
+        "topBodies": [
+          "IFRS:21",
+          "FRC:21",
+          "ACCA:21",
+          "CGMA:20",
+          "FRM:3"
+        ],
+        "sampleTitles": [
+          "Alternative Measurement Option for Share-Based Payment Transactions",
+          "biological assets valuation",
+          "Deferred tax assets",
+          "fair value of customer relationships",
+          "Fair value through other comprehensive income (FVOCI) investments",
+          "FRS 105 September 2024: Valuation Methodology for Micro-Entities",
+          "Held-for-sale classification",
+          "IFRS 13 Fair Value Measurement",
+          "impact of climate change on valuation",
+          "Key audit matter",
+          "Management Internal Control: Roles in Journal Entries and IFRS Adjustments",
+          "Minimum comparative information"
+        ]
+      },
+      {
+        "topic": "Tax",
+        "cards": 14,
+        "shelves": {
+          "ingested": 2,
+          "tax": 12
+        },
+        "topBodies": [
+          "IFRS:14",
+          "FRC:14",
+          "ACCA:14",
+          "Merixa:12",
+          "CGMA:2"
+        ],
+        "sampleTitles": [
+          "Applying OECD Pillar Two Model Rules in FRS 102 Financial Statements",
+          "Current tax expense",
+          "Deferred tax — overview",
+          "Deferred tax asset recoverability",
+          "Deferred tax in the income statement",
+          "Effective tax rate reconciliation",
+          "Group tax consolidation mindset",
+          "Indirect tax — finance team basics",
+          "R&D tax relief — evidence",
+          "Recoverability of deferred tax assets",
+          "Tax provisioning in the close",
+          "Transfer pricing — practitioner lens"
+        ]
+      },
+      {
+        "topic": "Presentation of financial statements",
+        "cards": 13,
+        "shelves": {
+          "ingested": 11,
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:13",
+          "FRC:13",
+          "ACCA:13",
+          "CGMA:13",
+          "FRM:1"
+        ],
+        "sampleTitles": [
+          "Amendments to FRS 102: Overview",
+          "Climate-related Financial Reporting",
+          "contract assets",
+          "contract liabilities",
+          "current classification",
+          "IAS 1 Presentation of Financial Statements",
+          "IAS 1 Presentation Requirements",
+          "IFRIC Interpretations",
+          "Material Items of Income and Expense",
+          "non-current classification",
+          "prepayments",
+          "SIC Interpretations"
+        ]
+      },
+      {
+        "topic": "Assets held for sale",
+        "cards": 12,
+        "shelves": {
+          "ingested": 9,
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:12",
+          "ACCA:12",
+          "CGMA:12",
+          "FRC:12"
+        ],
+        "sampleTitles": [
+          "Discontinued activity",
+          "Disposal plan modification",
+          "Group of assets of significant size",
+          "Highly probable sale",
+          "IFRS 5: Accounting for Non-Current Assets Held for Sale and Discontinued Activities",
+          "IFRS 5: Definitions of Held for Sale Assets and Discontinued Activities",
+          "Impairment charge",
+          "Materiality threshold for assets held for sale",
+          "Non current asset held for sale",
+          "Non depreciation of assets held for sale",
+          "Non-current assets taken out of production",
+          "Valuation of Assets Held for Sale under IFRS 5"
+        ]
+      },
+      {
+        "topic": "Government grants",
+        "cards": 10,
+        "shelves": {
+          "ifrs-ias": 1,
+          "ingested": 9
+        },
+        "topBodies": [
+          "IFRS:10",
+          "FRC:10",
+          "ACCA:10",
+          "CGMA:10"
+        ],
+        "sampleTitles": [
+          "Accounting for Government Grants: Recognition and Reporting",
+          "Deferred income",
+          "Forgivable loan as government grant",
+          "Government grants",
+          "Grants receivable",
+          "Investment grants",
+          "Non-monetary government grants",
+          "Operating grants",
+          "Operating grants recognition",
+          "Repayment of government grants"
+        ]
+      },
+      {
+        "topic": "Segment reporting",
+        "cards": 10,
+        "shelves": {
+          "ingested": 9,
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "IFRS:10",
+          "ACCA:10",
+          "CGMA:10",
+          "FRC:10"
+        ],
+        "sampleTitles": [
+          "Accounting policies",
+          "Accounting Policies: Definition, Consistency, and Change Management",
+          "Consistency in accounting policies",
+          "Correction of errors",
+          "Material prior period error",
+          "Materiality",
+          "Prior-period error",
+          "Prospective method",
+          "Prospective recognition",
+          "Retrospective application"
+        ]
+      },
+      {
+        "topic": "Events after the reporting period",
+        "cards": 8,
+        "shelves": {
+          "ingested": 6,
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:8",
+          "FRC:8",
+          "ACCA:8",
+          "CGMA:8"
+        ],
+        "sampleTitles": [
+          "Adjusting events",
+          "Adjusting vs Non-Adjusting Events After the Balance Sheet Date",
+          "Dividends declared after the balance sheet date",
+          "Events after the balance sheet date",
+          "IAS 10 Events after the Balance Sheet Date: Definitions and Recognition",
+          "Non-adjusting events",
+          "Provision for disputes",
+          "Recognition and measurement of adjusting events"
+        ]
+      },
+      {
+        "topic": "Interim reporting",
+        "cards": 7,
+        "shelves": {
+          "ingested": 7
+        },
+        "topBodies": [
+          "IFRS:7",
+          "FRC:7",
+          "ACCA:7",
+          "CGMA:7"
+        ],
+        "sampleTitles": [
+          "Accounting Policy Changes in Interim Financial Reporting",
+          "FRS 104 Interim Financial Reporting: Going Concern Assessment and Disclosure",
+          "FRS 104 Interim Financial Reporting: Key Disclosures",
+          "FRS 104 Interim Financial Reporting: Minimum Components of Income Statements",
+          "FRS 104 Interim Financial Reporting: Standard Organisation and Updates",
+          "Interim Period Loss Recognition and Asset Definition under FRS 104",
+          "Scope of FRS 104 Interim Financial Reporting"
+        ]
+      },
+      {
+        "topic": "Provisions and contingencies",
+        "cards": 7,
+        "shelves": {
+          "ingested": 6,
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "IFRS:7",
+          "FRC:7",
+          "ACCA:7",
+          "CGMA:4",
+          "IIA:3"
+        ],
+        "sampleTitles": [
+          "FRS 103: Contractual Rights, Obligations, and Insurance Contracts",
+          "going concern basis of accounting",
+          "IAS 37 Provisions, Contingent Liabilities and Contingent Assets",
+          "Impact of Climate-Related Risks on Provisions and Contingent Liabilities",
+          "Provisions for pensions and similar obligations: General definition",
+          "remuneration committee",
+          "remuneration consultant"
+        ]
+      },
+      {
+        "topic": "Business Combinations",
+        "cards": 5,
+        "shelves": {
+          "ifrs-ias": 5
+        },
+        "topBodies": [
+          "IFRS:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Business combination disclosures",
+          "Consideration transferred",
+          "Goodwill and impairment link",
+          "Identify a business combination",
+          "Purchase price allocation"
+        ]
+      },
+      {
+        "topic": "Conceptual Framework for Financial Reporting",
+        "cards": 5,
+        "shelves": {
+          "ifrs-ias": 5
+        },
+        "topBodies": [
+          "IFRS:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Elements of financial statements",
+          "Measurement bases",
+          "Objective of financial reporting",
+          "Qualitative characteristics",
+          "Recognition criteria"
+        ]
+      },
+      {
+        "topic": "Internal control",
+        "cards": 5,
+        "shelves": {
+          "ingested": 5
+        },
+        "topBodies": [
+          "CGMA:5",
+          "ACCA:5",
+          "IFRS:5",
+          "FRC:4"
+        ],
+        "sampleTitles": [
+          "Definition and Reporting Requirements for DAC",
+          "Management Internal Control Roles",
+          "Management Internal Control: Roles in Outsourced Accounting",
+          "Management Responsibility for Internal Control and Financial Reporting",
+          "Management Responsibility for Internal Control and Financial Statement Presentation"
+        ]
+      },
+      {
+        "topic": "Revenue from Contracts with Customers",
+        "cards": 5,
+        "shelves": {
+          "ifrs-ias": 5
+        },
+        "topBodies": [
+          "IFRS:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Step 1 — Identify the contract",
+          "Step 2 — Performance obligations",
+          "Step 3 — Transaction price",
+          "Step 4 — Allocate transaction price",
+          "Step 5 — Recognise revenue"
+        ]
+      },
+      {
+        "topic": "Share-based Payment",
+        "cards": 5,
+        "shelves": {
+          "ifrs-ias": 5
+        },
+        "topBodies": [
+          "IFRS:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Cash-settled awards",
+          "Grant date fair value",
+          "Modifications and cancellations",
+          "Scope of share-based payments",
+          "Vesting conditions"
+        ]
+      },
+      {
+        "topic": "Accounting Policies, Changes in Estimates and Errors",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Changes in accounting estimates",
+          "Changes in accounting policies",
+          "Prior period errors",
+          "Selection of accounting policies"
+        ]
+      },
+      {
+        "topic": "Consolidated Financial Statements",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Consolidation procedures",
+          "Definition of control",
+          "Power over relevant activities",
+          "Uniform accounting policies"
+        ]
+      },
+      {
+        "topic": "Financial Instruments",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Classification and measurement",
+          "Derecognition and modification",
+          "Hedge accounting overview",
+          "IFRS 7 linkage"
+        ]
+      },
+      {
+        "topic": "Financial Instruments: Disclosures",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Classes of financial instruments",
+          "Credit risk disclosures",
+          "Fair value hierarchy",
+          "Liquidity risk disclosures"
+        ]
+      },
+      {
+        "topic": "First-time Adoption of IFRS Accounting Standards",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Mandatory and voluntary exemptions",
+          "Opening IFRS balance sheet",
+          "Scope and first IFRS statements",
+          "Transition disclosures"
+        ]
+      },
+      {
+        "topic": "Insurance Contracts",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Contractual service margin",
+          "Fulfillment cash flows",
+          "Insurance disclosures",
+          "Scope of insurance contracts"
+        ]
+      },
+      {
+        "topic": "Inventories",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Cost formulas — FIFO and weighted average",
+          "Cost of inventories",
+          "Net realisable value",
+          "Reversal of write-downs"
+        ]
+      },
+      {
+        "topic": "Property, Plant and Equipment",
+        "cards": 4,
+        "shelves": {
+          "ifrs-ias": 4
+        },
+        "topBodies": [
+          "IFRS:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Component approach",
+          "Depreciation and useful life",
+          "Recognition of PPE",
+          "Revaluation model"
+        ]
+      },
+      {
+        "topic": "Accounting for Government Grants and Disclosure of Government Assistance",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Presentation — net vs gross",
+          "Recognition of grants",
+          "Repayment of grants"
+        ]
+      },
+      {
+        "topic": "Disclosure of Interests in Other Entities",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Scope of IFRS 12 disclosures",
+          "Subsidiaries disclosures",
+          "Unconsolidated structured entities"
+        ]
+      },
+      {
+        "topic": "Fair Value Measurement",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Fair value definition",
+          "Highest and best use",
+          "Valuation techniques"
+        ]
+      },
+      {
+        "topic": "Financial Instruments: Presentation",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Compound instruments",
+          "Liability vs equity",
+          "Offsetting financial assets and liabilities"
+        ]
+      },
+      {
+        "topic": "Foreign currency",
+        "cards": 3,
+        "shelves": {
+          "domain-spine": 1,
+          "ingested": 2
+        },
+        "topBodies": [
+          "ACCA:3",
+          "IFRS:2",
+          "CGMA:2",
+          "Merixa:1",
+          "FRM:1"
+        ],
+        "sampleTitles": [
+          "Functional currency",
+          "Lack of exchangeability (Amendment to IAS 21)",
+          "Treatment of Dividends with Exchange Rates"
+        ]
+      },
+      {
+        "topic": "Interim Financial Reporting",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Impairment testing at interim",
+          "Minimum components",
+          "Year-to-date reporting"
+        ]
+      },
+      {
+        "topic": "Joint Arrangements",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Accounting for joint ventures",
+          "Joint control assessment",
+          "Joint operation vs joint venture"
+        ]
+      },
+      {
+        "topic": "Presentation and Disclosure in Financial Statements",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Aggregation and disaggregation",
+          "Enhanced disclosure requirements",
+          "Structure of the statement of profit or loss"
+        ]
+      },
+      {
+        "topic": "Presentation of Financial Statements",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Fair presentation and compliance",
+          "Materiality and aggregation",
+          "Offsetting assets and liabilities"
+        ]
+      },
+      {
+        "topic": "Provisions, Contingent Liabilities and Contingent Assets",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Contingent liabilities and assets",
+          "Recognising provisions",
+          "Restructuring provisions"
+        ]
+      },
+      {
+        "topic": "Statement of Cash Flows",
+        "cards": 3,
+        "shelves": {
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "IFRS:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Classification of cash flows",
+          "Indirect method reconciliation",
+          "Non-cash transactions"
+        ]
+      },
+      {
+        "topic": "Agriculture",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Agricultural produce at harvest",
+          "Biological assets"
+        ]
+      },
+      {
+        "topic": "Borrowing Costs",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Capitalisation period and rate",
+          "Qualifying assets"
+        ]
+      },
+      {
+        "topic": "Earnings per Share",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Basic EPS",
+          "Diluted EPS"
+        ]
+      },
+      {
+        "topic": "Employee Benefits",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Defined benefit obligations",
+          "Defined contribution plans"
+        ]
+      },
+      {
+        "topic": "Impairment of Assets",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Cash-generating units",
+          "Impairment indicators"
+        ]
+      },
+      {
+        "topic": "Income Taxes",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Current tax",
+          "Uncertain tax positions"
+        ]
+      },
+      {
+        "topic": "Intangible Assets",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Research vs development",
+          "Useful life and amortisation"
+        ]
+      },
+      {
+        "topic": "Investment Property",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Fair value model",
+          "Investment property vs PPE"
+        ]
+      },
+      {
+        "topic": "Non-current Assets Held for Sale and Discontinued Operations",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Held-for-sale criteria",
+          "Measurement on classification"
+        ]
+      },
+      {
+        "topic": "Provisions",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "FRC:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Contingent liability",
+          "Provisions"
+        ]
+      },
+      {
+        "topic": "Related Party Disclosures",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Disclose transactions and balances",
+          "Identify related parties"
+        ]
+      },
+      {
+        "topic": "Separate Financial Statements",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Accounting for investments",
+          "When separate statements are prepared"
+        ]
+      },
+      {
+        "topic": "The Effects of Changes in Foreign Exchange Rates",
+        "cards": 2,
+        "shelves": {
+          "ifrs-ias": 2
+        },
+        "topBodies": [
+          "IFRS:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Disposal of foreign operation",
+          "Translation of foreign operations"
+        ]
+      },
+      {
+        "topic": "Assets",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Asset"
+        ]
+      },
+      {
+        "topic": "Audit evidence",
+        "cards": 1,
+        "shelves": {
+          "ingested": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CGMA:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Professional scepticism"
+        ]
+      },
+      {
+        "topic": "Budgeting and forecasting",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "Merixa:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Inventory Run Rate"
+        ]
+      },
+      {
+        "topic": "close process",
+        "cards": 1,
+        "shelves": {
+          "tax": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Tax Reporting Integration in the Close"
+        ]
+      },
+      {
+        "topic": "current tax",
+        "cards": 1,
+        "shelves": {
+          "tax": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Current Tax Measurement and Recognition"
+        ]
+      },
+      {
+        "topic": "deferred tax",
+        "cards": 1,
+        "shelves": {
+          "tax": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Deferred Tax Assets and Liabilities"
+        ]
+      },
+      {
+        "topic": "Disclosure controls",
+        "cards": 1,
+        "shelves": {
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CFA:1"
+        ],
+        "sampleTitles": [
+          "Finance-Owned Controls for Sustainability Disclosures"
+        ]
+      },
+      {
+        "topic": "effective tax rate",
+        "cards": 1,
+        "shelves": {
+          "tax": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Effective Tax Rate Reconciliation"
+        ]
+      },
+      {
+        "topic": "Emissions boundaries",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CFA:1"
+        ],
+        "sampleTitles": [
+          "Emissions Boundaries in Sustainability Disclosures"
+        ]
+      },
+      {
+        "topic": "Equity",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "CFA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Equity"
+        ]
+      },
+      {
+        "topic": "Events after reporting",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Events after the reporting period"
+        ]
+      },
+      {
+        "topic": "Events after the Reporting Period",
+        "cards": 1,
+        "shelves": {
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Going concern after reporting date"
+        ]
+      },
+      {
+        "topic": "Expenses",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "CGMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Expense"
+        ]
+      },
+      {
+        "topic": "Going concern",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Going concern"
+        ]
+      },
+      {
+        "topic": "IFRS framework",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "IFRS Accounting Standards"
+        ]
+      },
+      {
+        "topic": "Income taxes",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Deferred tax"
+        ]
+      },
+      {
+        "topic": "intercompany recharge",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "IIA:1"
+        ],
+        "sampleTitles": [
+          "Intercompany Recharge Governance"
+        ]
+      },
+      {
+        "topic": "Investments in Associates and Joint Ventures",
+        "cards": 1,
+        "shelves": {
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Significant influence"
+        ]
+      },
+      {
+        "topic": "Liabilities",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Liability"
+        ]
+      },
+      {
+        "topic": "Materiality",
+        "cards": 1,
+        "shelves": {
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CFA:1"
+        ],
+        "sampleTitles": [
+          "Materiality in Sustainability and Financial Reporting"
+        ]
+      },
+      {
+        "topic": "Measurement",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "CFA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Fair value"
+        ]
+      },
+      {
+        "topic": "Related parties",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Related party disclosures"
+        ]
+      },
+      {
+        "topic": "Sustainability-finance bridge",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CFA:1"
+        ],
+        "sampleTitles": [
+          "Linking Sustainability Metrics with Financial Reporting"
+        ]
+      },
+      {
+        "topic": "transfer pricing",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "IIA:1"
+        ],
+        "sampleTitles": [
+          "Transfer Pricing Fundamentals"
+        ]
+      },
+      {
+        "topic": "transfer pricing documentation",
+        "cards": 1,
+        "shelves": {
+          "ifrs-ias": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "IIA:1"
+        ],
+        "sampleTitles": [
+          "Transfer Pricing Documentation under IFRS"
+        ]
+      },
+      {
+        "topic": "uncertain tax positions",
+        "cards": 1,
+        "shelves": {
+          "tax": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Uncertain Tax Positions and Provisions"
+        ]
+      },
+      {
+        "topic": "Variance analysis",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "Merixa:1",
+          "IFRS:1",
+          "FRC:1"
+        ],
+        "sampleTitles": [
+          "Current asset percentage"
+        ]
+      }
+    ],
+    "Financial management": [
+      {
+        "topic": "FSA",
+        "cards": 160,
+        "shelves": {
+          "fa": 160
+        },
+        "topBodies": [
+          "CFA:160",
+          "ACCA:160",
+          "Merixa:160"
+        ],
+        "sampleTitles": [
+          "Accounting estimates and judgments",
+          "Accrual versus cash basis",
+          "Accruals ratio",
+          "Adjusted EBITDA bridge",
+          "Altman Z-score",
+          "Altman Z-score zones",
+          "Articulation of financial statements",
+          "Asset turnover (DuPont component)",
+          "Average cost of debt (income statement)",
+          "Basic earnings per share",
+          "Book value per share",
+          "Capex intensity (capex to OCF)"
+        ]
+      },
+      {
+        "topic": "Valuation",
+        "cards": 112,
+        "shelves": {
+          "fa": 110,
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "CFA:112",
+          "Merixa:112",
+          "ACCA:110",
+          "CGMA:2"
+        ],
+        "sampleTitles": [
+          "Adjusted present value (APV)",
+          "After-tax cost of debt",
+          "Asset-based valuation (NAV)",
+          "Bond yield plus risk premium",
+          "Bull/base/bear target range",
+          "Cap rate property valuation",
+          "Capex in DCF forecast",
+          "Capitalisation rate (income property)",
+          "Carbon intensity (revenue)",
+          "Cash-on-cash return (real estate)",
+          "Comparable company median multiple",
+          "Consensus EPS"
+        ]
+      },
+      {
+        "topic": "Corporate",
+        "cards": 110,
+        "shelves": {
+          "fa": 110
+        },
+        "topBodies": [
+          "CFA:110",
+          "ACCA:110",
+          "Merixa:110"
+        ],
+        "sampleTitles": [
+          "Abnormal earnings (residual income)",
+          "Agency costs of debt",
+          "APV step-by-step",
+          "Barriers to entry assessment",
+          "Bird-in-hand theory",
+          "Break-even synergy (M&A)",
+          "Breakeven cash flow (debt vs equity)",
+          "Breakeven quantity",
+          "Breakeven revenue",
+          "Build-up cost of equity",
+          "Buyer power (Porter)",
+          "Capital rationing"
+        ]
+      },
+      {
+        "topic": "Quant",
+        "cards": 69,
+        "shelves": {
+          "fa": 69
+        },
+        "topBodies": [
+          "CFA:69",
+          "ACCA:69",
+          "Merixa:69"
+        ],
+        "sampleTitles": [
+          "Annualising holding period return",
+          "Annuities and perpetuities",
+          "Arithmetic mean return",
+          "Bull call spread payoff",
+          "Capital market line (CML)",
+          "CAPM beta",
+          "Coefficient of variation",
+          "Confidence interval for mean",
+          "Continuous compounding",
+          "Correlation coefficient",
+          "Correlation matrix",
+          "Covariance"
+        ]
+      },
+      {
+        "topic": "Fixed income",
+        "cards": 50,
+        "shelves": {
+          "fa": 50
+        },
+        "topBodies": [
+          "CFA:50",
+          "ACCA:50",
+          "Merixa:50"
+        ],
+        "sampleTitles": [
+          "Bond equivalent yield (BEY)",
+          "Bond price (present value)",
+          "Bond yield measures",
+          "Bootstrap spot curve",
+          "Callable bond price ceiling",
+          "Convexity",
+          "Credit spread",
+          "Credit spread analysis",
+          "Credit spread as equity signal",
+          "Credit VaR",
+          "Current yield",
+          "Default probability (Merton approximation)"
+        ]
+      },
+      {
+        "topic": "Corporate finance",
+        "cards": 30,
+        "shelves": {
+          "ingested": 30
+        },
+        "topBodies": [
+          "ACCA:30",
+          "CGMA:30",
+          "IFRS:29",
+          "CFA:29",
+          "FRM:29"
+        ],
+        "sampleTitles": [
+          "amortized portion of bonuses",
+          "annual bonus compensation",
+          "Automotive Display Driver IC Market Share",
+          "Cash generated from operating activities",
+          "Design Win",
+          "diffractive wafer level optics",
+          "Display Driver IC (DDIC)",
+          "Embedded DisplayPort (eDP) 1.5 Interface",
+          "fabless semiconductor solution provider",
+          "false acceptance and rejection rates",
+          "In-cell Touch Technology",
+          "Income tax paid"
+        ]
+      },
+      {
+        "topic": "Portfolio",
+        "cards": 11,
+        "shelves": {
+          "fa": 11
+        },
+        "topBodies": [
+          "CFA:11",
+          "ACCA:11",
+          "Merixa:11"
+        ],
+        "sampleTitles": [
+          "Active share",
+          "Alternative fund incentive fee",
+          "Batting average (manager)",
+          "Capital allocation line (CAL)",
+          "Down-capture ratio",
+          "Information ratio (practitioner)",
+          "Marginal contribution to risk",
+          "Portfolio concentration (HHI)",
+          "Portfolio turnover",
+          "Tracking error (active management)",
+          "Up-capture ratio"
+        ]
+      },
+      {
+        "topic": "Economics",
+        "cards": 9,
+        "shelves": {
+          "fa": 9
+        },
+        "topBodies": [
+          "CFA:9",
+          "ACCA:9",
+          "Merixa:9"
+        ],
+        "sampleTitles": [
+          "Consumer Price Index (CPI)",
+          "Core CPI",
+          "GDP deflator",
+          "Leading economic index (LEI)",
+          "Nominal vs real rate (Fisher)",
+          "Purchasing Managers' Index (PMI)",
+          "Real GDP growth",
+          "Taylor rule (policy rate)",
+          "Unemployment rate (analyst use)"
+        ]
+      },
+      {
+        "topic": "Investment appraisal",
+        "cards": 8,
+        "shelves": {
+          "other-encyclopedia": 5,
+          "domain-spine": 3
+        },
+        "topBodies": [
+          "Merixa:8",
+          "CFA:8",
+          "ACCA:8",
+          "CGMA:3"
+        ],
+        "sampleTitles": [
+          "CAC payback period",
+          "Internal rate of return (IRR)",
+          "Investment turnover",
+          "Maintenance capex coverage",
+          "Modified internal rate of return",
+          "Net present value (NPV)",
+          "Payback period",
+          "Project return on investment"
+        ]
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 5,
+        "shelves": {
+          "ingested": 4,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:5",
+          "CGMA:5",
+          "CFA:5",
+          "IFRS:4",
+          "FRM:4"
+        ],
+        "sampleTitles": [
+          "Automotive ICs",
+          "Capital expenditures (CapEx)",
+          "Dividends",
+          "Unsecured loans",
+          "Working capital"
+        ]
+      },
+      {
+        "topic": "Performance measures",
+        "cards": 3,
+        "shelves": {
+          "domain-spine": 3
+        },
+        "topBodies": [
+          "CFA:3",
+          "CGMA:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "EBITDA",
+          "Return on assets",
+          "Return on equity"
+        ]
+      },
+      {
+        "topic": "Capital structure",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "CFA:2",
+          "CGMA:2",
+          "Merixa:2",
+          "ACCA:1"
+        ],
+        "sampleTitles": [
+          "Dividend policy",
+          "Gearing / financial leverage"
+        ]
+      },
+      {
+        "topic": "Cost of capital",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "CFA:2",
+          "Merixa:2",
+          "FRM:1",
+          "CGMA:1",
+          "ACCA:1"
+        ],
+        "sampleTitles": [
+          "Capital asset pricing model (CAPM)",
+          "Weighted average cost of capital (WACC)"
+        ]
+      },
+      {
+        "topic": "Cash flow",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CFA:1",
+          "CGMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Free cash flow"
+        ]
+      },
+      {
+        "topic": "Interest rate risk",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CFA:1",
+          "FRM:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Duration"
+        ]
+      },
+      {
+        "topic": "Market risk",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CFA:1",
+          "FRM:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Beta"
+        ]
+      }
+    ],
+    "Management reporting": [
+      {
+        "topic": "Budgeting and forecasting",
+        "cards": 157,
+        "shelves": {
+          "other-encyclopedia": 155,
+          "ingested": 2
+        },
+        "topBodies": [
+          "ACCA:156",
+          "Merixa:155",
+          "CGMA:146",
+          "CFA:14",
+          "IFRS:2"
+        ],
+        "sampleTitles": [
+          "Absolute forecast error",
+          "Absorbed overhead",
+          "Actual cost of work performed",
+          "Actual-to-budget ratio",
+          "Actual-to-forecast ratio",
+          "Arc elasticity of demand",
+          "Average accounting return",
+          "Average cost per unit",
+          "Average selling price",
+          "Average selling price Budget Variance",
+          "Average selling price Forecast Variance",
+          "Average selling price Run Rate"
+        ]
+      },
+      {
+        "topic": "Management accounting",
+        "cards": 86,
+        "shelves": {
+          "ma": 86
+        },
+        "topBodies": [
+          "CGMA:86",
+          "ACCA:86",
+          "Merixa:86"
+        ],
+        "sampleTitles": [
+          "Absorption costing",
+          "Absorption vs marginal profit reconciliation",
+          "Accounting rate of return (ARR)",
+          "Activity-based costing",
+          "Balanced scorecard",
+          "Break-even point",
+          "Budgetary control",
+          "Capital budgeting",
+          "Cash budget",
+          "Cash conversion cycle",
+          "Contribution margin",
+          "Contribution margin ratio"
+        ]
+      },
+      {
+        "topic": "Variance analysis",
+        "cards": 86,
+        "shelves": {
+          "other-encyclopedia": 84,
+          "ingested": 1,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "ACCA:86",
+          "CGMA:86",
+          "Merixa:85",
+          "CFA:5",
+          "IFRS:3"
+        ],
+        "sampleTitles": [
+          "Absolute percentage error",
+          "Absolute variance",
+          "Activity-based cost rate",
+          "Allowance coverage ratio",
+          "Availability rate",
+          "Average selling price Variance Percentage",
+          "Backlog Variance Percentage",
+          "Benefit-cost ratio",
+          "Capex Budget Variance",
+          "Capex Variance Percentage",
+          "Capital expenditure variance",
+          "Capitalisation ratio"
+        ]
+      },
+      {
+        "topic": "guidance",
+        "cards": 40,
+        "shelves": {
+          "other-encyclopedia": 34,
+          "frm": 3,
+          "ifrs-ias": 3
+        },
+        "topBodies": [
+          "Merixa:36",
+          "ACCA:30",
+          "CGMA:28",
+          "CFA:12",
+          "IIA:10"
+        ],
+        "sampleTitles": [
+          "Accounts payable",
+          "Accounts receivable",
+          "Accrual basis of accounting",
+          "Board pack hygiene",
+          "Budget versus forecast",
+          "Capital readiness",
+          "Cash runway",
+          "Credit risk (practice map)",
+          "Debit and credit",
+          "Decision-useful management information",
+          "Design vs operating effectiveness",
+          "Double-entry bookkeeping"
+        ]
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 36,
+        "shelves": {
+          "other-encyclopedia": 35,
+          "ingested": 1
+        },
+        "topBodies": [
+          "ACCA:36",
+          "Merixa:35",
+          "CGMA:16",
+          "IFRS:16",
+          "CFA:8"
+        ],
+        "sampleTitles": [
+          "Bad debt ratio",
+          "Cash burn rate",
+          "Cash headroom",
+          "Cash realisation ratio",
+          "Cash report Completion Rate",
+          "Cash report Error Rate",
+          "Cash report Tie-Out Rate",
+          "Cash report Timeliness Rate",
+          "Cash return on assets",
+          "Cash return on sales",
+          "Cash-to-debt ratio",
+          "Cost optimization"
+        ]
+      },
+      {
+        "topic": "Revenue",
+        "cards": 31,
+        "shelves": {
+          "other-encyclopedia": 31
+        },
+        "topBodies": [
+          "Merixa:31",
+          "ACCA:31",
+          "CGMA:28",
+          "IFRS:3"
+        ],
+        "sampleTitles": [
+          "Capacity Impact on Margin",
+          "Conversion Impact on Margin",
+          "Customer acquisition cost",
+          "Customer lifetime value",
+          "Discount Impact on Margin",
+          "Discount Impact on Revenue",
+          "EBIT margin",
+          "EBIT margin in DuPont",
+          "FX Impact on Margin",
+          "Labour hours Impact on Margin",
+          "Labour rate Impact on Margin",
+          "Margin on selling price"
+        ]
+      },
+      {
+        "topic": "Performance reporting",
+        "cards": 25,
+        "shelves": {
+          "ingested": 2,
+          "other-encyclopedia": 23
+        },
+        "topBodies": [
+          "ACCA:25",
+          "Merixa:23",
+          "CFA:19",
+          "CGMA:11"
+        ],
+        "sampleTitles": [
+          "Accounting for Employee Profit Sharing Allocation and Interest",
+          "Capacity Sensitivity Ratio",
+          "Conversion Sensitivity Ratio",
+          "Cost centre report Completion Rate",
+          "Cost centre report Error Rate",
+          "Cost centre report Tie-Out Rate",
+          "Cost centre report Timeliness Rate",
+          "Discount Sensitivity Ratio",
+          "FX Sensitivity Ratio",
+          "Labour hours Sensitivity Ratio",
+          "Labour rate Sensitivity Ratio",
+          "Market share Sensitivity Ratio"
+        ]
+      },
+      {
+        "topic": "Cost and profitability",
+        "cards": 9,
+        "shelves": {
+          "ingested": 6,
+          "other-encyclopedia": 3
+        },
+        "topBodies": [
+          "ACCA:9",
+          "CGMA:9",
+          "IFRS:6",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Automotive Driver IC",
+          "Cost driver rate",
+          "Cost Optimization Measures",
+          "Design-Win Shipments",
+          "Gross Margin",
+          "Gross margin pricing price",
+          "Gross margin Run Rate",
+          "Guidance Range",
+          "TDDI (Touch and Display Driver Integration)"
+        ]
+      },
+      {
+        "topic": "Investment appraisal",
+        "cards": 7,
+        "shelves": {
+          "other-encyclopedia": 7
+        },
+        "topBodies": [
+          "Merixa:7",
+          "ACCA:7",
+          "CGMA:7"
+        ],
+        "sampleTitles": [
+          "Project margin",
+          "Project margin percentage",
+          "Project report Completion Rate",
+          "Project report Error Rate",
+          "Project report Tie-Out Rate",
+          "Project report Timeliness Rate",
+          "Schedule performance index"
+        ]
+      },
+      {
+        "topic": "Tax",
+        "cards": 6,
+        "shelves": {
+          "ingested": 6
+        },
+        "topBodies": [
+          "IFRS:6",
+          "ACCA:6",
+          "CGMA:6"
+        ],
+        "sampleTitles": [
+          "Basic earnings per ADS",
+          "Contract liabilities-current",
+          "Cost of revenues",
+          "Diluted earnings per ADS",
+          "Share-based compensation expenses",
+          "Weighted Average Outstanding ADS"
+        ]
+      },
+      {
+        "topic": "Performance measurement",
+        "cards": 4,
+        "shelves": {
+          "other-encyclopedia": 4
+        },
+        "topBodies": [
+          "Merixa:4",
+          "ACCA:4",
+          "CGMA:4"
+        ],
+        "sampleTitles": [
+          "KPI dashboard Completion Rate",
+          "KPI dashboard Error Rate",
+          "KPI dashboard Tie-Out Rate",
+          "KPI dashboard Timeliness Rate"
+        ]
+      },
+      {
+        "topic": "Cost behaviour",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "CGMA:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Break-even",
+          "Contribution margin"
+        ]
+      },
+      {
+        "topic": "Forecasting",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CGMA:1",
+          "ACCA:1",
+          "CFA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Rolling forecast discipline"
+        ]
+      },
+      {
+        "topic": "Presentation of financial statements",
+        "cards": 1,
+        "shelves": {
+          "ingested": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "CGMA:1"
+        ],
+        "sampleTitles": [
+          "FRS 101 Presentation Requirements for Profit or Loss"
+        ]
+      },
+      {
+        "topic": "Valuation",
+        "cards": 1,
+        "shelves": {
+          "ingested": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CGMA:1"
+        ],
+        "sampleTitles": [
+          "Financial assets at fair value through profit or loss"
+        ]
+      }
+    ],
+    "Governance and controls": [
+      {
+        "topic": "Governance",
+        "cards": 48,
+        "shelves": {
+          "crma": 12,
+          "ingested": 34,
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "IIA:48",
+          "CRMA:47",
+          "ACCA:35",
+          "FRC:29",
+          "Merixa:14"
+        ],
+        "sampleTitles": [
+          "Accountability framework",
+          "Audit Committee",
+          "Audit committee charter",
+          "Audit committee oversight",
+          "Audit Committees and External Audit Minimum Standard",
+          "Audit Firm Rotation",
+          "Audit Market Diversity",
+          "Audit Quality Indicators",
+          "Board accountability",
+          "Board Leadership",
+          "Board oversight of risk",
+          "Board performance review"
+        ]
+      },
+      {
+        "topic": "Internal control",
+        "cards": 21,
+        "shelves": {
+          "ingested": 21
+        },
+        "topBodies": [
+          "ACCA:20",
+          "FRC:20",
+          "IIA:16",
+          "CRMA:16",
+          "IFRS:6"
+        ],
+        "sampleTitles": [
+          "Access Rights Control in Finance Shared Services Centers",
+          "Auditors' Responsibilities for Internal Control and Risk Assessment",
+          "Auditors' Responsibilities for Management Internal Control",
+          "Management Committee Authorization Process",
+          "Management Internal Control: Authorization and Inventory Procedures",
+          "Management Internal Control: Authorization for Financial Operations",
+          "Management Internal Control: Authorization for Investments and Financial Transactions",
+          "Management Internal Control: Authorization in Outsourced Accounting",
+          "Management Internal Control: Authorization of Off-Balance Sheet Commitments",
+          "Management Internal Control: Authorization Process for Access Rights",
+          "Management Internal Control: Authorization Responsibilities of the FD",
+          "Management Internal Control: Authorization Scope"
+        ]
+      },
+      {
+        "topic": "Controls",
+        "cards": 17,
+        "shelves": {
+          "crma": 17
+        },
+        "topBodies": [
+          "CRMA:17",
+          "IIA:17",
+          "Merixa:17"
+        ],
+        "sampleTitles": [
+          "Compensating controls",
+          "Control activities",
+          "Control deficiencies",
+          "Control environment",
+          "Design effectiveness",
+          "Detective controls",
+          "Internal control framework",
+          "IT application controls",
+          "IT general controls",
+          "Key controls",
+          "Manual vs automated controls",
+          "Material weakness"
+        ]
+      },
+      {
+        "topic": "Control environment",
+        "cards": 9,
+        "shelves": {
+          "domain-spine": 1,
+          "coso": 8
+        },
+        "topBodies": [
+          "IIA:9",
+          "CRMA:9",
+          "Merixa:9",
+          "ACCA:8",
+          "CGMA:1"
+        ],
+        "sampleTitles": [
+          "Control environment",
+          "Human capital and control culture",
+          "Principle 1: Integrity and ethical values",
+          "Principle 2: Board oversight",
+          "Principle 3: Structure, authority, and responsibility",
+          "Principle 4: Commitment to competence",
+          "Principle 5: Accountability",
+          "Speak-up and whistleblower channels",
+          "Tone at the top"
+        ]
+      },
+      {
+        "topic": "Integration",
+        "cards": 6,
+        "shelves": {
+          "coso": 6
+        },
+        "topBodies": [
+          "CRMA:6",
+          "IIA:6",
+          "ACCA:6",
+          "Merixa:6"
+        ],
+        "sampleTitles": [
+          "Board and committee IC oversight",
+          "Combined assurance and COSO",
+          "Incidents, losses, and control feedback",
+          "Internal audit and COSO",
+          "KRIs, KPIs, and control monitoring",
+          "Three lines model and COSO"
+        ]
+      },
+      {
+        "topic": "ERM governance",
+        "cards": 4,
+        "shelves": {
+          "coso": 4
+        },
+        "topBodies": [
+          "CRMA:4",
+          "IIA:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Desired risk culture",
+          "ERM component: Governance and culture",
+          "ERM operating structures",
+          "ERM: Exercises board risk oversight"
+        ]
+      },
+      {
+        "topic": "Control design",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "IIA:2",
+          "CRMA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Compensating control",
+          "Preventive and detective controls"
+        ]
+      },
+      {
+        "topic": "IT controls",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "IIA:2",
+          "ACCA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Change management control",
+          "IT application controls"
+        ]
+      },
+      {
+        "topic": "Entity-level controls",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:1",
+          "CRMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Entity-level controls"
+        ]
+      },
+      {
+        "topic": "Ethics",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Speak-up / whistleblowing channel"
+        ]
+      },
+      {
+        "topic": "Monitoring",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:1",
+          "CRMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Monitoring activities"
+        ]
+      },
+      {
+        "topic": "RCM",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:1",
+          "CRMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Risk and control matrix"
+        ]
+      },
+      {
+        "topic": "Segregation of duties",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IIA:1",
+          "CRMA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Segregation of duties"
+        ]
+      }
+    ],
+    "Sustainability": [
+      {
+        "topic": "Sustainability reporting",
+        "cards": 2,
+        "shelves": {
+          "ingested": 2
+        },
+        "topBodies": [
+          "CFA:2",
+          "CRMA:2",
+          "IFRS:2"
+        ],
+        "sampleTitles": [
+          "Accounting for CO2 Emission Quotas: Recognizing Provisions for Deficits",
+          "Assessing Costs and Benefits in Electric and Hydrogen Mobility"
+        ]
+      },
+      {
+        "topic": "Climate risk",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "FRM:1",
+          "CFA:1",
+          "IFRS:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Climate-related risk"
+        ]
+      },
+      {
+        "topic": "Disclosure",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "FRC:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Sustainability disclosure pack"
+        ]
+      },
+      {
+        "topic": "Emissions reporting",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CFA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Scope 1–3 emissions mindset"
+        ]
+      },
+      {
+        "topic": "Governance",
+        "cards": 1,
+        "shelves": {
+          "ingested": 1
+        },
+        "topBodies": [
+          "FRM:1",
+          "CRMA:1",
+          "IIA:1",
+          "CFA:1",
+          "IFRS:1"
+        ],
+        "sampleTitles": [
+          "Environmental, Social and Governance (ESG) reporting"
+        ]
+      },
+      {
+        "topic": "Sustainability materiality",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "CFA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "ESG / sustainability materiality"
+        ]
+      }
+    ],
+    "Risk management": [
+      {
+        "topic": "Risk assessment",
+        "cards": 48,
+        "shelves": {
+          "ingested": 39,
+          "coso": 8,
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CRMA:48",
+          "IIA:47",
+          "FRM:40",
+          "FRC:16",
+          "ACCA:9"
+        ],
+        "sampleTitles": [
+          "Agility in risk management",
+          "Bottom-up approach",
+          "Change management and control impact",
+          "Climate-related risks",
+          "Compliance Risk Committee (ELC)",
+          "Double materiality guidance",
+          "External evaluation of risks",
+          "External factors in risk management",
+          "heat maps",
+          "Horizon scanning",
+          "Inherent and residual risk",
+          "Inherent and residual risk (control view)"
+        ]
+      },
+      {
+        "topic": "Quantitative",
+        "cards": 35,
+        "shelves": {
+          "frm": 35
+        },
+        "topBodies": [
+          "FRM:35",
+          "CFA:35",
+          "Merixa:35"
+        ],
+        "sampleTitles": [
+          "ARIMA models",
+          "Arithmetic mean return",
+          "Autocorrelation",
+          "Bayes (applied)",
+          "Bayes' rule (full form)",
+          "Bayes' theorem",
+          "Chebyshev's inequality",
+          "Cointegration",
+          "Conditional probability",
+          "Confidence interval",
+          "Covariance (applied)",
+          "Covariance and correlation"
+        ]
+      },
+      {
+        "topic": "Market risk",
+        "cards": 32,
+        "shelves": {
+          "frm": 29,
+          "domain-spine": 3
+        },
+        "topBodies": [
+          "FRM:32",
+          "CFA:32",
+          "Merixa:32"
+        ],
+        "sampleTitles": [
+          "Backtesting (practice)",
+          "Christoffersen independence test",
+          "Component VaR",
+          "Cornish-Fisher VaR",
+          "Correlation breakdown",
+          "Equity mapping for VaR",
+          "ES (applied)",
+          "Expected shortfall",
+          "Expected shortfall (CVaR)",
+          "Expected shortfall coherence",
+          "FRTB expected shortfall",
+          "FX VaR"
+        ]
+      },
+      {
+        "topic": "Markets",
+        "cards": 31,
+        "shelves": {
+          "frm": 31
+        },
+        "topBodies": [
+          "FRM:31",
+          "CFA:31",
+          "Merixa:31"
+        ],
+        "sampleTitles": [
+          "Bond price (coupon)",
+          "Bootstrapping spot curve",
+          "Convenience yield",
+          "Convexity",
+          "Convexity (applied)",
+          "Cost of carry",
+          "Duration and modified duration",
+          "Duration gap (ALM)",
+          "Duration immunisation",
+          "DV01 (applied)",
+          "DV01 (dollar value of a basis point)",
+          "Effective duration"
+        ]
+      },
+      {
+        "topic": "Credit risk",
+        "cards": 30,
+        "shelves": {
+          "frm": 28,
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "FRM:30",
+          "CFA:30",
+          "Merixa:30",
+          "ACCA:1"
+        ],
+        "sampleTitles": [
+          "Bilateral CVA",
+          "CDS spread",
+          "CDS valuation",
+          "Concentration risk",
+          "Counterparty credit risk",
+          "Credit risk",
+          "Credit spread and spread duration",
+          "Credit valuation adjustment (CVA)",
+          "Credit VaR",
+          "Credit VaR (applied)",
+          "CreditMetrics migration",
+          "CVA (applied)"
+        ]
+      },
+      {
+        "topic": "Portfolio",
+        "cards": 24,
+        "shelves": {
+          "frm": 24
+        },
+        "topBodies": [
+          "FRM:24",
+          "CFA:24",
+          "Merixa:24"
+        ],
+        "sampleTitles": [
+          "Beta hedging",
+          "Brinson attribution",
+          "Calmar ratio",
+          "CAPM (applied)",
+          "CAPM beta",
+          "Efficient frontier",
+          "Ex-ante Sharpe",
+          "Information ratio",
+          "Information ratio (applied)",
+          "Jensen's alpha",
+          "Maximum drawdown",
+          "Minimum variance portfolio"
+        ]
+      },
+      {
+        "topic": "Valuation",
+        "cards": 20,
+        "shelves": {
+          "frm": 20
+        },
+        "topBodies": [
+          "FRM:20",
+          "CFA:20",
+          "Merixa:20"
+        ],
+        "sampleTitles": [
+          "Binomial option pricing",
+          "Black-Scholes (applied)",
+          "Black-Scholes model",
+          "Cross-gamma (FX)",
+          "Delta",
+          "Delta (applied)",
+          "Delta-neutral portfolio",
+          "Gamma",
+          "Gamma (applied)",
+          "Gamma P&L",
+          "Implied volatility",
+          "Rho (applied)"
+        ]
+      },
+      {
+        "topic": "Liquidity",
+        "cards": 17,
+        "shelves": {
+          "frm": 17
+        },
+        "topBodies": [
+          "FRM:17",
+          "CFA:17",
+          "Merixa:17"
+        ],
+        "sampleTitles": [
+          "Available stable funding (NSFR)",
+          "Deposit runoff rate",
+          "Funding liquidity (practice)",
+          "Funding liquidity risk",
+          "HQLA haircuts",
+          "LCR (applied)",
+          "Liquidity at risk (LaR)",
+          "Liquidity coverage ratio (LCR)",
+          "Liquidity gap",
+          "Liquidity gap (applied)",
+          "Liquidity-adjusted VaR (LVaR)",
+          "Market liquidity (practice)"
+        ]
+      },
+      {
+        "topic": "ERM",
+        "cards": 16,
+        "shelves": {
+          "crma": 16
+        },
+        "topBodies": [
+          "CRMA:16",
+          "IIA:16",
+          "Merixa:16"
+        ],
+        "sampleTitles": [
+          "COSO ERM framework",
+          "Emerging and strategic risks",
+          "Enterprise risk management framework",
+          "Inherent risk",
+          "ISO 31000 risk management",
+          "Key risk indicators",
+          "Residual risk",
+          "Risk aggregation",
+          "Risk appetite",
+          "Risk assessment",
+          "Risk capacity",
+          "Risk culture"
+        ]
+      },
+      {
+        "topic": "Operational",
+        "cards": 12,
+        "shelves": {
+          "frm": 12
+        },
+        "topBodies": [
+          "FRM:12",
+          "CFA:12",
+          "Merixa:12"
+        ],
+        "sampleTitles": [
+          "Advanced measurement approach",
+          "Basic indicator approach",
+          "Key risk indicators (operational)",
+          "LDA (practice)",
+          "Loss distribution approach (LDA)",
+          "Operational KRIs",
+          "Operational risk",
+          "Operational risk (practice)",
+          "RCSA in practice",
+          "Risk and control self-assessment",
+          "Standardised approach (op risk)",
+          "Three lines model (operational)"
+        ]
+      },
+      {
+        "topic": "Foundations",
+        "cards": 11,
+        "shelves": {
+          "frm": 11
+        },
+        "topBodies": [
+          "FRM:11",
+          "CFA:11",
+          "Merixa:11"
+        ],
+        "sampleTitles": [
+          "CET1 ratio",
+          "Economic capital",
+          "Enterprise risk management",
+          "ERM in practice",
+          "Leverage ratio",
+          "Market, credit, liquidity, and operational risk",
+          "Risk appetite",
+          "Risk appetite (practice)",
+          "Risk-weighted assets",
+          "SA-CCR exposure",
+          "Three lines of defence"
+        ]
+      },
+      {
+        "topic": "Control activities",
+        "cards": 10,
+        "shelves": {
+          "coso": 10
+        },
+        "topBodies": [
+          "CRMA:10",
+          "IIA:10",
+          "ACCA:10",
+          "Merixa:10"
+        ],
+        "sampleTitles": [
+          "Authorization controls",
+          "Key control identification",
+          "Performance reviews and analytical controls",
+          "Physical controls over assets",
+          "Preventive, detective, and corrective controls",
+          "Principle 10: Control activities",
+          "Principle 11: General controls over technology",
+          "Principle 12: Policies and procedures",
+          "Reconciliation controls",
+          "Segregation of duties (COSO)"
+        ]
+      },
+      {
+        "topic": "Internal control framework",
+        "cards": 9,
+        "shelves": {
+          "coso": 9
+        },
+        "topBodies": [
+          "CRMA:9",
+          "IIA:9",
+          "ACCA:9",
+          "Merixa:9"
+        ],
+        "sampleTitles": [
+          "COSO cube (objectives × components × entity structure)",
+          "COSO internal control integrated framework",
+          "Definition of internal control (COSO)",
+          "Entity-level vs process-level controls",
+          "Five components of internal control",
+          "Operations, reporting, and compliance objectives",
+          "Points of focus",
+          "Reasonable assurance",
+          "Seventeen internal control principles"
+        ]
+      },
+      {
+        "topic": "Risk mitigation",
+        "cards": 9,
+        "shelves": {
+          "coso": 9
+        },
+        "topBodies": [
+          "CRMA:9",
+          "IIA:9",
+          "ACCA:9",
+          "Merixa:9"
+        ],
+        "sampleTitles": [
+          "Compensating controls (COSO)",
+          "Compliance objective controls",
+          "Controls as risk response",
+          "Financial reporting controls",
+          "Fraud mitigation controls",
+          "Internal control as risk mitigation",
+          "Management override",
+          "Operational objective controls",
+          "Risk and control matrix (COSO)"
+        ]
+      },
+      {
+        "topic": "Control objectives",
+        "cards": 6,
+        "shelves": {
+          "coso": 6
+        },
+        "topBodies": [
+          "CRMA:6",
+          "IIA:6",
+          "ACCA:6",
+          "Merixa:6"
+        ],
+        "sampleTitles": [
+          "Accuracy and valuation controls",
+          "Classification controls",
+          "Completeness assertion controls",
+          "Cutoff controls",
+          "Existence assertion controls",
+          "Financial statement assertions"
+        ]
+      },
+      {
+        "topic": "Information and communication",
+        "cards": 6,
+        "shelves": {
+          "coso": 6
+        },
+        "topBodies": [
+          "CRMA:6",
+          "IIA:6",
+          "ACCA:6",
+          "Merixa:6"
+        ],
+        "sampleTitles": [
+          "Communication lines and escalation",
+          "Data quality for control reliance",
+          "Management reporting as a control",
+          "Principle 13: Relevant information",
+          "Principle 14: Internal communication",
+          "Principle 15: External communication"
+        ]
+      },
+      {
+        "topic": "IT controls",
+        "cards": 6,
+        "shelves": {
+          "coso": 6
+        },
+        "topBodies": [
+          "CRMA:6",
+          "IIA:6",
+          "ACCA:6",
+          "Merixa:6"
+        ],
+        "sampleTitles": [
+          "Application controls (COSO)",
+          "Change management controls",
+          "Cloud and shared responsibility",
+          "Cybersecurity and internal control",
+          "IT general controls (COSO)",
+          "Logical access controls"
+        ]
+      },
+      {
+        "topic": "Monitoring activities",
+        "cards": 6,
+        "shelves": {
+          "coso": 6
+        },
+        "topBodies": [
+          "CRMA:6",
+          "IIA:6",
+          "ACCA:6",
+          "Merixa:6"
+        ],
+        "sampleTitles": [
+          "Control deficiency severity",
+          "Ongoing monitoring",
+          "Principle 16: Ongoing and separate evaluations",
+          "Principle 17: Communicate deficiencies",
+          "Remediation and retest",
+          "Separate evaluations"
+        ]
+      },
+      {
+        "topic": "Operating effectiveness",
+        "cards": 6,
+        "shelves": {
+          "coso": 6
+        },
+        "topBodies": [
+          "CRMA:6",
+          "IIA:6",
+          "ACCA:6",
+          "Merixa:6"
+        ],
+        "sampleTitles": [
+          "Automated control monitoring",
+          "Consistency of manual controls",
+          "Control failure response",
+          "Control frequency and timing",
+          "Control owner responsibilities",
+          "Evidence hierarchy for controls"
+        ]
+      },
+      {
+        "topic": "Enterprise risk management",
+        "cards": 5,
+        "shelves": {
+          "coso": 5
+        },
+        "topBodies": [
+          "CRMA:5",
+          "IIA:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "COSO ERM — Integrating with Strategy and Performance",
+          "Enterprise risk culture",
+          "ERM vs internal control relationship",
+          "Strategy, risk, and performance integration",
+          "Twenty ERM principles"
+        ]
+      },
+      {
+        "topic": "ERM performance",
+        "cards": 5,
+        "shelves": {
+          "coso": 5
+        },
+        "topBodies": [
+          "CRMA:5",
+          "IIA:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Assesses severity of risk",
+          "Develops portfolio view of risk",
+          "ERM component: Performance",
+          "Identifies and prioritizes risk",
+          "Implements risk responses"
+        ]
+      },
+      {
+        "topic": "ERM strategy",
+        "cards": 5,
+        "shelves": {
+          "coso": 5
+        },
+        "topBodies": [
+          "CRMA:5",
+          "IIA:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Analyzes business context",
+          "Defines risk appetite",
+          "ERM component: Strategy and objective-setting",
+          "Evaluates strategic alternatives",
+          "Formulates business objectives"
+        ]
+      },
+      {
+        "topic": "Scoping",
+        "cards": 5,
+        "shelves": {
+          "coso": 5
+        },
+        "topBodies": [
+          "CRMA:5",
+          "IIA:5",
+          "ACCA:5",
+          "Merixa:5"
+        ],
+        "sampleTitles": [
+          "Centralized vs decentralized controls",
+          "Joint ventures and associates",
+          "Materiality in control scoping",
+          "Scalability of COSO application",
+          "Third-party and outsourced controls"
+        ]
+      },
+      {
+        "topic": "ERM reporting",
+        "cards": 4,
+        "shelves": {
+          "coso": 4
+        },
+        "topBodies": [
+          "CRMA:4",
+          "IIA:4",
+          "ACCA:4",
+          "Merixa:4"
+        ],
+        "sampleTitles": [
+          "Communicates risk information",
+          "ERM component: Information, communication, and reporting",
+          "Reports on risk, culture, and performance",
+          "Uses information systems"
+        ]
+      },
+      {
+        "topic": "ERM review",
+        "cards": 3,
+        "shelves": {
+          "coso": 3
+        },
+        "topBodies": [
+          "CRMA:3",
+          "IIA:3",
+          "ACCA:3",
+          "Merixa:3"
+        ],
+        "sampleTitles": [
+          "Assesses substantial change",
+          "ERM component: Review and revision",
+          "Reviews risk and performance"
+        ]
+      },
+      {
+        "topic": "Hedging",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "FRM:2",
+          "CFA:2",
+          "Merixa:2",
+          "IFRS:1"
+        ],
+        "sampleTitles": [
+          "Basis risk",
+          "Hedging"
+        ]
+      },
+      {
+        "topic": "Liquidity risk",
+        "cards": 2,
+        "shelves": {
+          "domain-spine": 2
+        },
+        "topBodies": [
+          "FRM:2",
+          "CFA:2",
+          "Merixa:2"
+        ],
+        "sampleTitles": [
+          "Liquidity coverage mindset",
+          "Liquidity risk"
+        ]
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 1,
+        "shelves": {
+          "ingested": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "FRC:1",
+          "ACCA:1",
+          "CGMA:1"
+        ],
+        "sampleTitles": [
+          "Cash and Liquidity Management: Disclosures on Tariffs and Sustainability Risks"
+        ]
+      },
+      {
+        "topic": "Climate risk",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CFA:1"
+        ],
+        "sampleTitles": [
+          "Incorporating Climate Risk in Financial Models"
+        ]
+      },
+      {
+        "topic": "Governance",
+        "cards": 1,
+        "shelves": {
+          "ingested": 1
+        },
+        "topBodies": [
+          "IFRS:1",
+          "ACCA:1",
+          "CGMA:1",
+          "FRM:1",
+          "CRMA:1"
+        ],
+        "sampleTitles": [
+          "Risk management and internal control framework"
+        ]
+      },
+      {
+        "topic": "Model risk",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "FRM:1",
+          "CFA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Model risk"
+        ]
+      },
+      {
+        "topic": "Operational risk",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "FRM:1",
+          "IIA:1",
+          "CRMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Operational risk"
+        ]
+      },
+      {
+        "topic": "Risk governance",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "FRM:1",
+          "IIA:1",
+          "CRMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Risk appetite"
+        ]
+      },
+      {
+        "topic": "Stress testing",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "FRM:1",
+          "CFA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Stress testing"
+        ]
+      },
+      {
+        "topic": "tax governance",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "IIA:1"
+        ],
+        "sampleTitles": [
+          "Audit Committee and Tax Risk Governance"
+        ]
+      },
+      {
+        "topic": "transfer pricing governance",
+        "cards": 1,
+        "shelves": {
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "ACCA:1",
+          "IFRS:1",
+          "IIA:1"
+        ],
+        "sampleTitles": [
+          "Cross-Functional Transfer Pricing Governance"
+        ]
+      }
+    ],
+    "Strategy and performance": [
+      {
+        "topic": "Strategy execution",
+        "cards": 31,
+        "shelves": {
+          "ingested": 18,
+          "other-encyclopedia": 13
+        },
+        "topBodies": [
+          "CGMA:29",
+          "CFA:29",
+          "Merixa:13",
+          "CRMA:6",
+          "IIA:6"
+        ],
+        "sampleTitles": [
+          "Administrative Evil",
+          "Assessment of likelihood and impact",
+          "Audit Enforcement Procedure",
+          "Board pack Completion Rate",
+          "Board pack Error Rate",
+          "Board pack Tie-Out Rate",
+          "Board pack Timeliness Rate",
+          "Crisis Management",
+          "Groupthink and Group Polarization in Organizational Decision-Making",
+          "Handling Employee Ethical Concerns and Influence Tactics",
+          "Linkage to business model and strategy",
+          "Mitigating actions and strategies"
+        ]
+      },
+      {
+        "topic": "Performance measurement",
+        "cards": 4,
+        "shelves": {
+          "other-encyclopedia": 4
+        },
+        "topBodies": [
+          "Merixa:4",
+          "CGMA:4",
+          "CFA:4"
+        ],
+        "sampleTitles": [
+          "Executive scorecard Completion Rate",
+          "Executive scorecard Error Rate",
+          "Executive scorecard Tie-Out Rate",
+          "Executive scorecard Timeliness Rate"
+        ]
+      },
+      {
+        "topic": "Performance measures",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CGMA:1",
+          "IIA:1",
+          "CRMA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "KPI vs KRI"
+        ]
+      }
+    ],
+    "Project delivery": [
+      {
+        "topic": "Project controls",
+        "cards": 6,
+        "shelves": {
+          "ingested": 5,
+          "other-encyclopedia": 1
+        },
+        "topBodies": [
+          "CGMA:6",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Contract Award Process and Evaluation Criteria",
+          "Earned value",
+          "Performance-Based Contracts in Project Procurement",
+          "Purpose of a Contract Statement of Work (CSOW)",
+          "Relationship Management in Project Communication",
+          "Request for Proposal (RFP) Definition"
+        ]
+      },
+      {
+        "topic": "Benefits management",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CGMA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Benefits realisation"
+        ]
+      },
+      {
+        "topic": "Business case",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CGMA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Project business case"
+        ]
+      },
+      {
+        "topic": "Cost control",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CGMA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Project variance control"
+        ]
+      },
+      {
+        "topic": "Governance",
+        "cards": 1,
+        "shelves": {
+          "domain-spine": 1
+        },
+        "topBodies": [
+          "CGMA:1",
+          "IIA:1",
+          "ACCA:1",
+          "Merixa:1"
+        ],
+        "sampleTitles": [
+          "Stage-gate governance"
+        ]
+      }
+    ]
+  },
+  "pathSummary": {
+    "priority": {
+      "paths": 8,
+      "steps": 40
+    },
+    "fa": {
+      "paths": 10,
+      "steps": 40
+    },
+    "frm": {
+      "paths": 9,
+      "steps": 48
+    },
+    "ifrs": {
+      "paths": 37,
+      "steps": 130
+    },
+    "cross": {
+      "paths": 4,
+      "steps": 20
+    }
+  }
+}

@@ -1,0 +1,10 @@
+name = "merixa-guide-iap-verify"
+main = "workers/iap-verify.js"
+compatibility_date = "2026-07-01"
+workers_dev = true
+
+[vars]
+APPLE_BUNDLE_ID = "uk.co.merixa.practitionersguide"
+# Set ALLOW_JWS_CLAIMS_ONLY=true only for StoreKit Configuration / local QA.
+# ALLOW_JWS_CLAIMS_ONLY = "false"
+# APPLE_IAP_ENVIRONMENT = "Sandbox"

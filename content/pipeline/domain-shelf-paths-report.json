@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-23T13:40:41.908Z",
+  "stepsPerPath": 18,
+  "targetShare": 0.45,
+  "targetCount": 2664,
+  "alreadyOnPath": 318,
+  "needMore": 2346,
+  "paths": 131,
+  "totalSteps": 2346,
+  "estimatedMembership": 0.45,
+  "byDomain": {
+    "Project delivery": 496,
+    "Financial management": 485,
+    "Management reporting": 524,
+    "Governance and controls": 494,
+    "Audit and assurance": 494,
+    "Sustainability": 496,
+    "Financial reporting": 1665,
+    "Risk management": 446,
+    "Strategy and performance": 669
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "identifier" : "MerixaPractitionersGuide",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "MPGUNLOCK001",
+      "localizations" : [
+        {
+          "description" : "Full Practitioner's Guide unlock with offline Library, Paths, and Saved. Corpus updates over the air.",
+          "displayName" : "Guide Unlock",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Full Practitioner's Guide unlock with offline Library, Paths, and Saved. Corpus updates over the air.",
+          "displayName" : "Guide Unlock",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "uk.co.merixa.practitionersguide.unlock",
+      "referenceName" : "Guide Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastStorefrontUpdateTime" : 0,
+    "_locale" : "en_GB",
+    "_storefront" : "GBR",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "MPGAI001",
+      "localizations" : [
+        {
+          "description" : "Optional live AI coaching for the Practitioner's Guide.",
+          "displayName" : "Merixa AI Coach",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Optional live AI coaching for the Practitioner's Guide.",
+          "displayName" : "Merixa AI Coach",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Merixa AI Coach",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "MPGAILITE001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "LEGACY — not sold. Kept for sandbox restore of existing Lite subscriptions (grandfathered as Premium online access).",
+              "displayName" : "AI Lite (legacy)",
+              "locale" : "en_GB"
+            },
+            {
+              "description" : "LEGACY — not sold. Kept for sandbox restore of existing Lite subscriptions (grandfathered as Premium online access).",
+              "displayName" : "AI Lite (legacy)",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "uk.co.merixa.practitionersguide.ai.lite.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "AI Lite Monthly",
+          "subscriptionGroupID" : "MPGAI001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "7.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "MPGAIPREM001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Live coach with daily pace (~10 asks / up to 5 heavy). Spreadsheet demos, board pack, judgement, stress-test.",
+              "displayName" : "AI Premium",
+              "locale" : "en_GB"
+            },
+            {
+              "description" : "Live coach with daily pace (~10 asks / up to 5 heavy). Spreadsheet demos, board pack, judgement, stress-test.",
+              "displayName" : "AI Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "uk.co.merixa.practitionersguide.ai.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "AI Premium Monthly",
+          "subscriptionGroupID" : "MPGAI001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

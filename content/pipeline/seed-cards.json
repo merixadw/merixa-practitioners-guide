@@ -1,0 +1,1336 @@
+{
+  "generatedAt": "2026-07-20T15:35:02.093Z",
+  "cards": [
+    {
+      "id": "cash-conversion-cycle",
+      "title": "Cash conversion cycle",
+      "body": "The cash conversion cycle (CCC) measures how many days cash is tied up between paying suppliers and collecting from customers. CCC ≈ DIO + DSO − DPO. A lengthening CCC often explains why a profitable business still feels cash-tight. Track CCC alongside the P&L so growth does not silently consume liquidity.",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "ACCA",
+        "CFA"
+      ],
+      "tags": [
+        "cash",
+        "working-capital",
+        "liquidity",
+        "KPI"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "open-cash-pulse",
+          "label": "Model 13-week cash in Management Micro",
+          "href": "merixa-micro://cash"
+        },
+        {
+          "id": "compute-ccc",
+          "label": "Compute DSO, DPO, DIO from aged books"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Insights — liquidity blind spot",
+          "path": "merixa-design/articles"
+        }
+      ]
+    },
+    {
+      "id": "profit-vs-cash",
+      "title": "Profit versus cash",
+      "body": "Profit recognises value earned in a period; cash is what the bank holds. Revenue growth increases debtors; debt service and capex sit below many owners’ headline margin. Always reconcile operating profit to net cash movement before committing headcount or supplier terms.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "cash",
+        "P&L",
+        "bridge"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "l2-bridge",
+          "label": "Build L2 cash bridge in Management Micro",
+          "href": "merixa-micro://accounts?level=2"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "management-pl",
+      "title": "Management P&L structure",
+      "body": "A management P&L groups trial-balance lines into revenue, cost of sales, gross profit, operating expenses, and operating/net profit for decision use. Classification should be stable month-to-month so variance analysis remains meaningful. Mis-sorted lines distort every downstream ratio.",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "ACCA"
+      ],
+      "tags": [
+        "management-accounts",
+        "P&L",
+        "trial-balance"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "l1-pnl",
+          "label": "Load TB and review L1 P&L",
+          "href": "merixa-micro://accounts?level=1"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Management Reporting",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "variance-lens",
+      "title": "Variance analysis lens",
+      "body": "Variance compares actual to a baseline (budget, prior period, or flex). Separate volume, price/rate, and mix effects where data allows. Express both money and percent, and state whether higher is better (margins) or lower is better (cost ratios).",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "ACCA",
+        "CFA"
+      ],
+      "tags": [
+        "variance",
+        "FP&A",
+        "performance"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "l3-variance",
+          "label": "Open L3 variance lens",
+          "href": "merixa-micro://accounts?level=3"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Management Reporting",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "flex-budget",
+      "title": "Flex budget baseline",
+      "body": "A flex budget restates the baseline at actual activity so cost and margin ratios stay comparable. Without flexing, volume swings masquerade as efficiency wins or losses. Use flex when analysing variable cost ratios and contribution margins.",
+      "bodies": [
+        "CGMA",
+        "ACCA",
+        "Merixa"
+      ],
+      "tags": [
+        "budget",
+        "variance",
+        "FP&A"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "flex-note",
+          "label": "Document flex assumptions in the pack notes"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Management Reporting",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "ifrs-15-revenue",
+      "title": "IFRS 15 — revenue recognition (practice map)",
+      "body": "IFRS 15 uses a five-step model: identify the contract, performance obligations, transaction price, allocate price, recognise when (or as) obligations are satisfied. In practice, map each material stream to steps 1–5 and evidence judgements on timing and variable consideration. Do not paste standard text—use the official Navigator for wording.",
+      "bodies": [
+        "IFRS",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "revenue",
+        "IFRS15",
+        "recognition"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "rev-matrix",
+          "label": "Complete revenue stream → five-step matrix"
+        },
+        {
+          "id": "partner-gate",
+          "label": "Escalate material timing judgements to partner"
+        }
+      ],
+      "sources": [
+        {
+          "label": "IFRS Foundation Navigator (external)",
+          "path": "https://www.ifrs.org"
+        }
+      ]
+    },
+    {
+      "id": "ias-7-cash-flow",
+      "title": "IAS 7 — statement of cash flows (practice map)",
+      "body": "IAS 7 requires presenting cash flows from operating, investing, and financing activities. Management packs often need a simpler cash bridge first; statutory IAS 7 format comes later. Keep opening cash, categories, and closing cash reconcilable to the bank.",
+      "bodies": [
+        "IFRS",
+        "ACCA",
+        "Merixa"
+      ],
+      "tags": [
+        "cash-flow",
+        "IAS7",
+        "reporting"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "cash-bridge-task",
+          "label": "Draft operating cash bridge before IAS 7 mapping",
+          "href": "merixa-micro://accounts?level=2"
+        }
+      ],
+      "sources": [
+        {
+          "label": "IFRS Foundation Navigator (external)",
+          "path": "https://www.ifrs.org"
+        }
+      ]
+    },
+    {
+      "id": "ias-21-fx",
+      "title": "IAS 21 — foreign currency (practice map)",
+      "body": "IAS 21 separates functional currency determination from presentation currency translation. Intercompany balances and FX on consolidation are frequent group-reporting failure points. Record rate sources, translation method, and OCI vs P&L treatment for each material item.",
+      "bodies": [
+        "IFRS",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "FX",
+        "IAS21",
+        "consolidation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "fx-register",
+          "label": "Maintain FX rate and translation register"
+        }
+      ],
+      "sources": [
+        {
+          "label": "IFRS Foundation Navigator (external)",
+          "path": "https://www.ifrs.org"
+        }
+      ]
+    },
+    {
+      "id": "consolidation-basics",
+      "title": "Group consolidation basics",
+      "body": "Consolidation combines parent and subsidiaries line-by-line, eliminates intercompany income/balances, and recognises NCI and goodwill where applicable. Start with an entity register, ownership %, reporting currency, and close calendar before journal eliminations.",
+      "bodies": [
+        "IFRS",
+        "ACCA",
+        "CGMA",
+        "Merixa"
+      ],
+      "tags": [
+        "consolidation",
+        "group",
+        "eliminations"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "entity-register",
+          "label": "Build group entity and ownership register"
+        },
+        {
+          "id": "ic-match",
+          "label": "Run intercompany matching before eliminations"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa IFRS Consolidation method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "control-environment",
+      "title": "Control environment",
+      "body": "The control environment is the set of standards, processes, and structures that provide the foundation for internal control. Tone at the top, accountability, and competence matter as much as individual control activities. Weak environments make otherwise sound controls fail in practice.",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "Merixa"
+      ],
+      "tags": [
+        "controls",
+        "governance",
+        "COSO"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "env-assess",
+          "label": "Score control environment dimensions with evidence"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Internal Controls method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "rcm",
+      "title": "Risk and control matrix (RCM)",
+      "body": "An RCM links risks to control objectives, control activities, owners, frequency, and evidence. It is the spine of RCSA and audit readiness. Keep risk statements outcome-focused and controls testable—avoid vague ‘management review’ without artefact or threshold.",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "Merixa"
+      ],
+      "tags": [
+        "RCM",
+        "RCSA",
+        "controls"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "build-rcm",
+          "label": "Draft RCM for one priority process"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Internal Controls method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "design-vs-operating",
+      "title": "Design vs operating effectiveness",
+      "body": "Design effectiveness asks whether a control would prevent or detect the risk if operated as described. Operating effectiveness asks whether it actually ran as designed in the period. Test design first; do not waste sample effort on a control that cannot work even when performed.",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "ACCA"
+      ],
+      "tags": [
+        "testing",
+        "controls",
+        "assurance"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "doe-test",
+          "label": "Document design conclusion before OE testing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Internal Controls method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "kri-kci",
+      "title": "KRIs and KCIs",
+      "body": "Key risk indicators (KRIs) signal rising risk exposure; key control indicators (KCIs) signal whether controls are holding. Define threshold, owner, data source, and escalation path. A KRI without an action owner is a vanity metric.",
+      "bodies": [
+        "CRMA",
+        "FRM",
+        "IIA",
+        "Merixa"
+      ],
+      "tags": [
+        "KRI",
+        "KCI",
+        "risk",
+        "monitoring"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "kri-set",
+          "label": "Define 3 KRIs and 3 KCIs for a priority risk"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Risk method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "risk-appetite",
+      "title": "Risk appetite",
+      "body": "Risk appetite states how much risk the organisation is willing to take in pursuit of objectives. Translate board statements into measurable limits (credit, liquidity, operational, compliance). Appetite without metrics cannot govern day-to-day decisions.",
+      "bodies": [
+        "CRMA",
+        "FRM",
+        "IIA"
+      ],
+      "tags": [
+        "appetite",
+        "governance",
+        "risk"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "appetite-map",
+          "label": "Map appetite statements to measurable limits"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Governance method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "three-lines",
+      "title": "Three lines model",
+      "body": "The IIA Three Lines Model separates management ownership of risk (first), risk/compliance challenge and monitoring (second), and independent assurance (third). Clarity of roles prevents both gaps and duplicated review that still misses the issue.",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "Merixa"
+      ],
+      "tags": [
+        "three-lines",
+        "governance",
+        "assurance"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "raci-lines",
+          "label": "Assign RACI across three lines for one process"
+        }
+      ],
+      "sources": [
+        {
+          "label": "IIA Three Lines (concept map)",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "frm-market-risk",
+      "title": "Market risk (practice map)",
+      "body": "Market risk is the risk of loss from movements in market prices (rates, FX, equities, commodities). In corporate finance teams, focus on exposures that actually hit P&L or cash—hedging policy, open FX on receivables/payables, and sensitivity of debt cost to rates.",
+      "bodies": [
+        "FRM",
+        "CFA",
+        "Merixa"
+      ],
+      "tags": [
+        "market-risk",
+        "FX",
+        "rates"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "exposure-list",
+          "label": "List material market exposures and owners"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Risk method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "frm-credit-risk",
+      "title": "Credit risk (practice map)",
+      "body": "Credit risk is the risk that a counterparty fails to meet obligations. For SMEs and mid-market, this often means customer concentration, overdue debtors, and supplier failure. Set credit limits, ageing discipline, and escalation before write-off becomes the control.",
+      "bodies": [
+        "FRM",
+        "CFA",
+        "ACCA",
+        "Merixa"
+      ],
+      "tags": [
+        "credit-risk",
+        "debtors",
+        "concentration"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "aged-debtors",
+          "label": "Review aged debtors with concentration cut"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Risk method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "frm-liquidity-risk",
+      "title": "Liquidity risk (practice map)",
+      "body": "Liquidity risk is the risk of being unable to meet cash obligations when due. Distinguish funding liquidity (access to cash) from market liquidity (ability to exit positions). Corporate teams should maintain a forward cash view and contingency funding triggers.",
+      "bodies": [
+        "FRM",
+        "CFA",
+        "Merixa"
+      ],
+      "tags": [
+        "liquidity",
+        "cash",
+        "funding"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "cash-horizon",
+          "label": "Maintain 13-week cash horizon",
+          "href": "merixa-micro://cash"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Insights — liquidity",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "cfa-time-value",
+      "title": "Time value of money",
+      "body": "Money available now is worth more than the same amount later because of earning potential and risk. Discount future cash flows at an appropriate rate to compare investments, projects, or instruments on a present-value basis.",
+      "bodies": [
+        "CFA",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "TVM",
+        "valuation",
+        "discounting"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "npv-pilot",
+          "label": "Run NPV on one capital request with stated WACC"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa FP&A method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "cfa-du-pont",
+      "title": "DuPont ROE decomposition",
+      "body": "DuPont decomposes ROE into margin × turnover × leverage (and extended variants). It shows whether returns come from pricing power, asset use, or gearing—critical before celebrating a headline ROE increase.",
+      "bodies": [
+        "CFA",
+        "CGMA",
+        "ACCA"
+      ],
+      "tags": [
+        "ROE",
+        "DuPont",
+        "ratios"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "dupont-pack",
+          "label": "Add DuPont bridge to the monthly pack"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Financial Analysis method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "unit-economics",
+      "title": "Unit economics",
+      "body": "Unit economics measure contribution per unit (customer, order, seat) after variable costs. Startups and product lines need clear unit definition, contribution margin, and payback before scaling spend. Aggregate P&L can hide unprofitable units.",
+      "bodies": [
+        "Merixa",
+        "CFA",
+        "CGMA"
+      ],
+      "tags": [
+        "unit-economics",
+        "startup",
+        "contribution"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "unit-def",
+          "label": "Define unit and contribution for one product line"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa FP&A method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "title": "Cash runway",
+      "body": "Runway estimates how long cash lasts at the current burn rate. Improve the estimate with a weekly cash forecast that includes committed outflows and expected receipts, not only average historical burn.",
+      "bodies": [
+        "Merixa",
+        "CFA",
+        "CGMA"
+      ],
+      "tags": [
+        "runway",
+        "startup",
+        "cash"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "runway-pulse",
+          "label": "Update Cash Pulse opening balance and scenarios",
+          "href": "merixa-micro://cash"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Cash method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "scenario-planning",
+      "title": "Scenario planning",
+      "body": "Scenarios test decisions under alternative futures (base, downside, upside, custom). Change a few high-impact drivers—price, volume, delay, cost—and read the cash and margin outcome. Avoid dozens of cosmetic cases that dilute action.",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "CFA",
+        "FRM"
+      ],
+      "tags": [
+        "scenarios",
+        "FP&A",
+        "planning"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "six-cases",
+          "label": "Stress Custom scenario in Management Micro",
+          "href": "merixa-micro://cash"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Planning method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "policy-architecture",
+      "title": "Policy architecture",
+      "body": "Policy architecture is the hierarchy of principles, policies, standards, and procedures that make expected behaviour enforceable. Gaps between ‘policy on paper’ and operating practice are a common root of control failure and audit findings.",
+      "bodies": [
+        "Merixa",
+        "IIA",
+        "CRMA"
+      ],
+      "tags": [
+        "policy",
+        "governance",
+        "controls"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "policy-map",
+          "label": "Map one process to policy → standard → procedure"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Insights — policy architecture",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "tech-debt-finance",
+      "title": "Finance tech debt",
+      "body": "Tech debt in finance shows up as brittle spreadsheets, undocumented macros, and reconciliations that only one person can run. Treat critical spreadsheets as systems: owners, versioning, access, and test cases before they become single points of failure.",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "IIA"
+      ],
+      "tags": [
+        "tech-debt",
+        "spreadsheets",
+        "transformation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "sheet-inventory",
+          "label": "Inventory critical finance spreadsheets and owners"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Insights — tech debt penalty",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "control-illusion",
+      "title": "The control illusion",
+      "body": "A control illusion exists when dashboards, sign-offs, or policies create comfort without changing risk outcomes. Challenge whether evidence would actually detect failure in time. Prefer fewer tested controls over many untested attestations.",
+      "bodies": [
+        "Merixa",
+        "IIA",
+        "CRMA"
+      ],
+      "tags": [
+        "controls",
+        "assurance",
+        "evidence"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "evidence-test",
+          "label": "Pick one control and verify last period’s evidence"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Insights — control illusion",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "impeccable-preparation",
+      "title": "Impeccable preparation",
+      "body": "Preparation quality determines review quality. Define the question, assemble source data with provenance, document assumptions, and surface judgements before partner review. Speed without preparation creates rework and weak client deliverables.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "delivery",
+        "working-papers",
+        "review"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "prep-checklist",
+          "label": "Run pre-review checklist on current workpaper"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Podcast / Insights",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "partner-judgement",
+      "title": "Partner judgement gates",
+      "body": "Material accounting judgements, significant control conclusions, and external-facing packs require partner challenge. Escalate early with a clear issue statement, options, and recommendation—not a dump of files.",
+      "bodies": [
+        "Merixa",
+        "IFRS",
+        "IIA"
+      ],
+      "tags": [
+        "partner",
+        "governance",
+        "delivery"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "issue-note",
+          "label": "Write one-page issue note with options"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa delivery principles",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "acca-performance",
+      "title": "Performance management (practice map)",
+      "body": "Performance management links strategy to measures, budgets, and behavioural incentives. Choose a short KPI set that management can act on weekly or monthly. Avoid KPI sprawl that obscures the few numbers that change decisions.",
+      "bodies": [
+        "ACCA",
+        "CGMA",
+        "Merixa"
+      ],
+      "tags": [
+        "performance",
+        "KPI",
+        "PM"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "kpi-trim",
+          "label": "Trim pack KPIs to decision-critical set"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Performance method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "cgma-decision",
+      "title": "Decision-useful management information",
+      "body": "Decision-useful MI is timely, comparable, and actionable. Prefer consistent definitions, clear owners, and a narrative that states ‘so what’ and ‘now what’. Decorative charts without decisions waste the close cycle.",
+      "bodies": [
+        "CGMA",
+        "Merixa",
+        "ACCA"
+      ],
+      "tags": [
+        "MI",
+        "reporting",
+        "decisions"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "so-what",
+          "label": "Add so-what / now-what to each pack section"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Management Reporting",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "working-capital",
+      "title": "Working capital levers",
+      "body": "Working capital is typically inventory + receivables − payables. Levers include collection discipline, billing speed, supplier terms, and inventory turns. Each lever has commercial trade-offs—track cash impact, not just ratio cosmetics.",
+      "bodies": [
+        "Merixa",
+        "CFA",
+        "CGMA",
+        "ACCA"
+      ],
+      "tags": [
+        "working-capital",
+        "cash",
+        "operations"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "wc-levers",
+          "label": "Rank three WC levers by cash impact this quarter"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Cash method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "budget-vs-forecast",
+      "title": "Budget versus forecast",
+      "body": "A budget is the approved plan for the period; a forecast is the latest expected outcome. Use budget for accountability and forecast for decisions. Confusing the two creates either rigid theatre or unowned targets.",
+      "bodies": [
+        "CGMA",
+        "ACCA",
+        "Merixa"
+      ],
+      "tags": [
+        "budget",
+        "forecast",
+        "FP&A"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "bf-split",
+          "label": "Label pack columns Budget / Forecast / Actual clearly"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Planning method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "materiality-practice",
+      "title": "Materiality in practice",
+      "body": "Materiality guides which misstatements or omissions could influence users. In advisory and reporting work, define quantitative thresholds and qualitative factors up front, then apply consistently to adjustments, disclosures, and escalation.",
+      "bodies": [
+        "IFRS",
+        "ACCA",
+        "IIA",
+        "Merixa"
+      ],
+      "tags": [
+        "materiality",
+        "judgement",
+        "reporting"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "mat-memo",
+          "label": "Draft materiality memo for the engagement period"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa reporting method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "evidence-standards",
+      "title": "Evidence standards",
+      "body": "Evidence should be sufficient, reliable, and relevant to the assertion or control being tested. Prefer independent or system-generated artefacts over verbal confirmation. Label period, source system, and extractor on every file.",
+      "bodies": [
+        "IIA",
+        "ACCA",
+        "Merixa"
+      ],
+      "tags": [
+        "evidence",
+        "audit",
+        "working-papers"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "evidence-label",
+          "label": "Re-label last three evidence files with provenance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa delivery method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "sod",
+      "title": "Segregation of duties (SoD)",
+      "body": "SoD separates incompatible duties (e.g. create vendor / approve payment / reconcile bank) so one person cannot complete a fraud or error cycle alone. Where headcount is thin, document compensating controls and review them harder.",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "Merixa"
+      ],
+      "tags": [
+        "SoD",
+        "controls",
+        "fraud"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "sod-matrix",
+          "label": "Complete SoD matrix for payments process"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Internal Controls method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "itac",
+      "title": "ITACs — IT application controls",
+      "body": "IT application controls are automated checks inside systems (edit checks, authorisations, configured workflows). Confirm configuration, access, and change control—not only that ‘the system does it’. Screenshots of settings beat narrative claims.",
+      "bodies": [
+        "IIA",
+        "CRMA",
+        "Merixa"
+      ],
+      "tags": [
+        "ITAC",
+        "systems",
+        "controls"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "itac-sample",
+          "label": "Evidence one ITAC configuration and access list"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Internal Controls method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "close-checklist",
+      "title": "Month-end close checklist",
+      "body": "A close checklist sequences cut-off, reconciliations, journals, reviews, and pack production with owners and due times. Status transparency beats heroic late nights. Blocked steps should escalate with a named resolver.",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "ACCA"
+      ],
+      "tags": [
+        "close",
+        "checklist",
+        "reporting"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "close-board",
+          "label": "Publish close checklist with owners for next close"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Management Reporting",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "board-pack-hygiene",
+      "title": "Board pack hygiene",
+      "body": "Board packs should be short enough to read, consistent in definitions, and explicit about decisions required. Put the ask on page one. Park appendix detail where it belongs—do not force leaders to excavate the point.",
+      "bodies": [
+        "Merixa",
+        "CGMA",
+        "CFA"
+      ],
+      "tags": [
+        "board",
+        "reporting",
+        "governance"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "pack-ask",
+          "label": "Rewrite pack cover with decisions required"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa reporting method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "capital-readiness",
+      "title": "Capital readiness",
+      "body": "Capital readiness is the ability to withstand external scrutiny—lenders, investors, or boards—with coherent numbers, controls, and narrative. Align management accounts, cash view, and risk disclosures before the ask, not during diligence.",
+      "bodies": [
+        "Merixa",
+        "CFA",
+        "CGMA"
+      ],
+      "tags": [
+        "capital",
+        "diligence",
+        "reporting"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "share-pack",
+          "label": "Export company pack from Management Micro Share",
+          "href": "merixa-micro://cash"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Insights — capital confidence",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "ethics-boundaries",
+      "title": "Professional boundaries",
+      "body": "Merixa advisory supports preparation, review, documentation, and challenge. It does not replace statutory audit opinions, legal advice, or regulated investment advice. State boundaries in scoping and escalate regulated questions to appropriate professionals.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "IIA"
+      ],
+      "tags": [
+        "ethics",
+        "scope",
+        "boundaries"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "scope-note",
+          "label": "Confirm service boundary language in current SoW"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa delivery principles",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "ask-grounding",
+      "title": "Grounded answers over Merixa corpus",
+      "body": "When you Ask in this Guide, answers should cite Guide cards. If the corpus does not cover the point, the honest answer is to say so and point to the official body Navigator or a workplace task—not to invent standards text.",
+      "bodies": [
+        "Merixa"
+      ],
+      "tags": [
+        "ML",
+        "ask",
+        "method"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "try-ask",
+          "label": "Ask: Why can profit rise while cash falls?"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa Practitioner’s Guide method",
+          "path": "seed"
+        }
+      ]
+    },
+    {
+      "id": "double-entry",
+      "title": "Double-entry bookkeeping",
+      "body": "Every transaction is recorded with equal debits and credits so the accounting equation stays in balance: Assets = Liabilities + Equity. Double-entry is the control spine of the ledger — it does not, by itself, prove the amounts are correct, only that the books are arithmetically balanced.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "encyclopedia",
+        "basics",
+        "ledger",
+        "foundation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "tie-out-tb",
+          "label": "Tie the trial balance to the statement of financial position"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa foundation encyclopedia",
+          "path": "seed"
+        }
+      ],
+      "teachingSummary": "Every transaction is recorded with equal debits and credits so Assets = Liabilities + Equity remains in balance. Balance proves arithmetic control, not that every amount is correct.",
+      "workedExample": "Post a cash sale: debit Cash, credit Revenue. Then confirm the trial balance still totals and the cash line reconciles to the bank.",
+      "commonMistake": "Treating a balanced trial balance as proof that classifications, cut-off, and valuations are correct.",
+      "checkQuestion": "If the trial balance balances but cash does not reconcile, what does double-entry still fail to prove?"
+    },
+    {
+      "id": "debit-and-credit",
+      "title": "Debit and credit",
+      "body": "Debit and credit are the two sides of every ledger entry. Debits increase assets and expenses; credits increase liabilities, equity, and income (with the opposite decreases). The labels are directional conventions in the ledger — not ‘good’ or ‘bad’ amounts.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "encyclopedia",
+        "basics",
+        "ledger",
+        "foundation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "explain-entry",
+          "label": "Explain one journal’s debit and credit to a non-finance owner"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa foundation encyclopedia",
+          "path": "seed"
+        }
+      ],
+      "teachingSummary": "Debits increase assets and expenses; credits increase liabilities, equity, and income. They are ledger directions, not value judgements.",
+      "workedExample": "Paying a supplier: debit Accounts payable (reduce liability), credit Cash (reduce asset). Walk the entry with the aged payables owner.",
+      "commonMistake": "Calling every debit ‘bad’ or every credit ‘good’, or flipping sides when mapping management P&L lines.",
+      "checkQuestion": "For a prepaid expense being released, which side hits the expense account and why?"
+    },
+    {
+      "id": "trial-balance",
+      "title": "Trial balance",
+      "body": "A trial balance lists every nominal ledger account with its debit or credit balance and proves that total debits equal total credits. It is the bridge from the ledger into the management P&L and statement of financial position — not a substitute for reconciliations or judgement.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "encyclopedia",
+        "basics",
+        "ledger",
+        "foundation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "tb-to-pl",
+          "label": "Map TB lines into the management P&L classification",
+          "href": "merixa-micro://accounts?level=1"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa foundation encyclopedia",
+          "path": "seed"
+        }
+      ],
+      "teachingSummary": "The trial balance lists each ledger account balance and proves debit totals equal credit totals. It feeds the management P&L and balance sheet; it does not replace reconciliations.",
+      "workedExample": "Export the TB, map revenue and cost lines into the management P&L, and list any suspense or clearing balances that still need investigation before the pack.",
+      "commonMistake": "Publishing management numbers from an unmapped or uncleared TB, or ignoring suspense balances because the TB ‘adds up’.",
+      "checkQuestion": "Which TB accounts must be cleared or explained before the board pack is final?"
+    },
+    {
+      "id": "accrual-basis",
+      "title": "Accrual basis of accounting",
+      "body": "Under the accrual basis, income and expenses are recognised when earned or incurred, not only when cash moves. Accruals and prepayments align the P&L with the period’s activity so profit is decision-useful — then cash must still be explained separately.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA",
+        "IFRS"
+      ],
+      "tags": [
+        "encyclopedia",
+        "basics",
+        "reporting",
+        "foundation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "accrual-schedule",
+          "label": "Complete the period-end accrual and prepayment schedule"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa foundation encyclopedia",
+          "path": "seed"
+        }
+      ],
+      "teachingSummary": "Accrual accounting recognises income and expenses when earned or incurred, not only when cash moves, so period profit reflects activity — cash still needs its own bridge.",
+      "workedExample": "Book an accrued services expense with supporting invoice estimate, owner, and reverse-next-period flag; then show the cash payment in the following month’s cash bridge.",
+      "commonMistake": "Leaving material services unaccrued because the invoice arrived after period end, or accruing without a supportable estimate and owner.",
+      "checkQuestion": "What evidence supports the accrued amount, and when will the accrual reverse?"
+    },
+    {
+      "id": "accounts-receivable",
+      "title": "Accounts receivable",
+      "body": "Accounts receivable (trade debtors) are amounts customers owe for goods or services already delivered. They sit between revenue recognition and cash collection — so ageing, concentration, and expected credit loss drive both working capital and risk.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA",
+        "CFA"
+      ],
+      "tags": [
+        "encyclopedia",
+        "basics",
+        "working-capital",
+        "foundation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "ar-ageing",
+          "label": "Review AR ageing with concentration and dispute notes"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa foundation encyclopedia",
+          "path": "seed"
+        }
+      ],
+      "teachingSummary": "Accounts receivable are amounts customers owe after delivery. Ageing, concentration, and credit risk sit between recognised revenue and cash collected.",
+      "workedExample": "Split the AR ageing into current, overdue, disputed, and concentrated customers; assign owners and expected cash week for the top overdue balances.",
+      "commonMistake": "Reporting revenue growth while ignoring a lengthening debtor book, disputes, or single-customer concentration.",
+      "checkQuestion": "Which overdue balances have a clear collection plan, owner, and expected cash date?"
+    },
+    {
+      "id": "accounts-payable",
+      "title": "Accounts payable",
+      "body": "Accounts payable (trade creditors) are amounts owed to suppliers for goods or services received. Stretching payables can fund cash in the short term but may hide cost inflation, lost discounts, or supply risk — track DPO with service levels.",
+      "bodies": [
+        "Merixa",
+        "ACCA",
+        "CGMA"
+      ],
+      "tags": [
+        "encyclopedia",
+        "basics",
+        "working-capital",
+        "foundation"
+      ],
+      "workplaceTasks": [
+        {
+          "id": "ap-terms",
+          "label": "Compare DPO to contracted supplier terms and disputes"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Merixa foundation encyclopedia",
+          "path": "seed"
+        }
+      ],
+      "teachingSummary": "Accounts payable are amounts owed to suppliers after receipt. DPO is a cash lever — only safe when terms, disputes, and supply risk are visible.",
+      "workedExample": "Reconcile AP ledger to supplier statements for the top ten vendors; flag held invoices, unmatched GRNs, and early-payment discount opportunities.",
+      "commonMistake": "Celebrating longer DPO without checking whether invoices are disputed, goods not received, or critical suppliers are being strained.",
+      "checkQuestion": "Which AP balances are past agreed terms, and what is the operational consequence?"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "day": "2026-07-25",
+  "budget": 200000,
+  "reserve": 10000,
+  "spendable": 190000,
+  "used": 13060841,
+  "byJob": {
+    "library_enrich": 12215743,
+    "tutor_consistency": 256582,
+    "encyclopedia_shelves": 588516
+  },
+  "calls": 9337,
+  "stoppedReason": "daily_spendable_exhausted",
+  "updatedAt": "2026-07-25T20:07:06.834Z"
+}

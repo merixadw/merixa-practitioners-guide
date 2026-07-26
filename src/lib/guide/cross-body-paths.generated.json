@@ -1,0 +1,128 @@
+[
+  {
+    "id": "tax-in-the-reporting-close",
+    "title": "Tax in the Reporting Close",
+    "summary": "A practical guide to managing current tax, deferred tax, effective tax rate reconciliation, and uncertain tax positions during the financial close process.",
+    "bodies": [
+      "ACCA",
+      "IFRS",
+      "FRC"
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Understanding Current Tax in the Close",
+        "summary": "Recognize and measure current tax liabilities and assets during the financial close.",
+        "cardId": "tax-current-tax-expense-recognition-and-measurement-y3vycmvudc"
+      },
+      {
+        "id": "s2",
+        "title": "Deferred Tax: Recognition and Measurement",
+        "summary": "Identify and measure deferred tax assets and liabilities arising from temporary differences.",
+        "cardId": "tax-recognition-and-measurement-of-deferred-tax-assets-cmvjb2duax"
+      },
+      {
+        "id": "s3",
+        "title": "Effective Tax Rate (ETR) Reconciliation in the Close Pack",
+        "summary": "Prepare and analyze the effective tax rate reconciliation to explain tax expense variations.",
+        "cardId": "tax-accounting-for-effective-tax-rate-fluctuations-in-consol-ywnjb3vudg"
+      },
+      {
+        "id": "s4",
+        "title": "Accounting for Uncertain Tax Positions",
+        "summary": "Assess and disclose uncertain tax positions in accordance with accounting standards.",
+        "cardId": "tax-uncertain-positions"
+      },
+      {
+        "id": "s5",
+        "title": "Integrating Tax Reporting into the Close Process",
+        "summary": "Coordinate tax data and disclosures effectively within the overall financial close timeline.",
+        "cardId": "tax-tax-considerations-in-the-financial-reporting-close-proc-dgf4ignvbn"
+      }
+    ]
+  },
+  {
+    "id": "transfer-pricing-governance",
+    "title": "Transfer Pricing and Group Tax Governance",
+    "summary": "A comprehensive practitioner learning path integrating transfer pricing documentation, intercompany recharge processes, and audit committee oversight to manage group tax risks effectively.",
+    "bodies": [
+      "ACCA",
+      "IFRS",
+      "IIA"
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Understanding Transfer Pricing Principles",
+        "summary": "Foundations of transfer pricing and its importance in group tax governance.",
+        "cardId": "tax-accounting-for-tax-impacts-of-cross-border-transfer-pric-ywnjb3vudg"
+      },
+      {
+        "id": "s2",
+        "title": "Transfer Pricing Documentation Requirements",
+        "summary": "Key documentation standards to support transfer pricing policies and compliance.",
+        "cardId": "tax-tax-reporting-requirements-for-transfer-pricing-document-dgf4ihjlcg"
+      },
+      {
+        "id": "s3",
+        "title": "Intercompany Recharge Processes and Controls",
+        "summary": "Managing intercompany recharges to ensure accurate cost allocation and compliance.",
+        "cardId": "tax-accounting-for-tax-effects-of-intercompany-service-fees--ywnjb3vudg"
+      },
+      {
+        "id": "s4",
+        "title": "Audit Committee Oversight of Tax and Transfer Pricing Risk",
+        "summary": "Role of the audit committee in overseeing tax governance and transfer pricing risk management.",
+        "cardId": "enc-audit-committee"
+      },
+      {
+        "id": "s5",
+        "title": "Integrating Transfer Pricing Governance Across Finance, Audit, and Risk",
+        "summary": "Coordinating finance, audit, and risk functions to strengthen transfer pricing governance.",
+        "cardId": "tax-accounting-for-transfer-pricing-risks-in-financial-repor-ywnjb3vudg"
+      }
+    ]
+  },
+  {
+    "id": "sustainability-disclosure-bridge",
+    "title": "Sustainability Metrics to Financial Statements",
+    "summary": "Integrate sustainability metrics into financial reporting by understanding materiality, climate risk, emissions boundaries, and disclosure controls through a finance-led approach.",
+    "bodies": [
+      "IFRS",
+      "ACCA",
+      "CFA"
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Understanding Materiality in Sustainability Reporting",
+        "summary": "Define and apply materiality principles bridging sustainability and financial reporting.",
+        "cardId": "enc-materiality-esg"
+      },
+      {
+        "id": "s2",
+        "title": "Climate Risk Integration into Financial Analysis",
+        "summary": "Embed climate-related risks into financial risk assessments and forecasts.",
+        "cardId": "sustain-enc-climate-risk-scenario-analysis"
+      },
+      {
+        "id": "s3",
+        "title": "Defining Emissions Boundaries for Reporting",
+        "summary": "Establish clear organizational and operational boundaries for emissions measurement and disclosure.",
+        "cardId": "enc-scope-emissions"
+      },
+      {
+        "id": "s4",
+        "title": "Designing Finance-Owned Disclosure Controls",
+        "summary": "Implement robust controls to ensure accuracy and completeness of sustainability data feeding financial reports.",
+        "cardId": "strategy-enc-sox-disclosure-controls-and-procedures-c294igrpc2"
+      },
+      {
+        "id": "s5",
+        "title": "Bridging Sustainability Metrics to Financial Statements",
+        "summary": "Translate sustainability metrics into financial statement impacts and disclosures.",
+        "cardId": "sustain-enc-financial-materiality-for-esg"
+      }
+    ]
+  }
+]

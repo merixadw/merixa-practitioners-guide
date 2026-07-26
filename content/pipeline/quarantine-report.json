@@ -1,0 +1,416 @@
+{
+  "generatedAt": "2026-07-20T15:13:13.881Z",
+  "cardsBefore": 1470,
+  "cardsKept": 1319,
+  "quarantined": 151,
+  "corpusSweep": 0,
+  "demoted": 8,
+  "reasons": {
+    "non-finance-title": 57,
+    "non-finance-source": 78,
+    "domain:Project delivery": 16
+  },
+  "quarantinedIds": [
+    {
+      "id": "activity-id-8060f4392f",
+      "title": "Activity ID",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "air-distribution-ducts-172845adaf",
+      "title": "Air Distribution Ducts",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "air-distribution-ducts-dampers-b86ca621d1",
+      "title": "Air distribution ducts dampers",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "air-handling-distribution-system-isometric-drawings-8c5cf548de",
+      "title": "Air handling & distribution system isometric drawings",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "apply-gypsum-plaster-cda22c9ad5",
+      "title": "Apply gypsum plaster",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "apply-leveling-concrete-1a5e966aa9",
+      "title": "Apply leveling concrete",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "apply-primary-coating-of-paint-0bed258699",
+      "title": "Apply primary coating of paint",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "architectural-design-report-b0da2d4f95",
+      "title": "Architectural design report",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "balustrades-and-handrails-4678ba5f9e",
+      "title": "Balustrades and handrails",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "building-equipment-sections-and-details-252302af4f",
+      "title": "Building Equipment Sections and Details",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "building-heating-and-cooling-system-piping-113fac25c6",
+      "title": "Building heating and cooling system piping",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "building-management-system-bms-1a8df5a82c",
+      "title": "Building Management System (BMS)",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "busbar-ducts-fce5425a6c",
+      "title": "Busbar ducts",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "busbar-layouts-a884edb93e",
+      "title": "Busbar Layouts",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "business-law-ethics-corner-591-5321a99ad8",
+      "title": "BUSINESS LAW & ETHICS CORNER 591",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "cable-termination-at-panelboards-3ce9dec040",
+      "title": "Cable termination at panelboards",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "cable-trays-and-ladders-be9287e315",
+      "title": "Cable trays and ladders",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "cctv-system-50e817f793",
+      "title": "CCTV System",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "change-communication-fc4e0f26fd",
+      "title": "Change communication",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "change-management-4d7e3d0a41",
+      "title": "Change Management",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "change-management-stages-696645094e",
+      "title": "Change management stages",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "change-process-stages-78cf9cada6",
+      "title": "Change process stages",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "change-resistance-f724499a6e",
+      "title": "Change resistance",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "communication-strategy-4862988c9f",
+      "title": "Communication strategy",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "renewable-and-sustainable-energy-reviews-27ded92fcd",
+      "title": "Comprehensive Cost-Benefit Analysis in Electric and Hydrogen Mobility Investments",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "concrete-works-38d4768ced",
+      "title": "Concrete works",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "conduits-installation-4aa5f529a2",
+      "title": "Conduits installation",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "constraints-766c97dc73",
+      "title": "Constraints",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "construction-drawings-c395c16f66",
+      "title": "Construction Drawings",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "crma-continuous-improvement",
+      "title": "Continuous improvement",
+      "reason": "domain:Project delivery"
+    },
+    {
+      "id": "control-panelboards-33d70b834e",
+      "title": "Control Panelboards",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "ddc-panels-plcs-93b34c3fd5",
+      "title": "DDC Panels & PLCs",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "deliverable-0d83e3fe17",
+      "title": "Deliverable",
+      "reason": "domain:Project delivery"
+    },
+    {
+      "id": "dilatation-profiles-d9bfad3d84",
+      "title": "Dilatation profiles",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "door-hardware-schedules-8bac352433",
+      "title": "Door & hardware schedules",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "earthing-grounding-system-a2e84aa000",
+      "title": "Earthing (Grounding) System",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "electrical-distribution-system-7b9e7ffe8f",
+      "title": "Electrical Distribution System",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "employee-feedback-523f334df0",
+      "title": "Employee feedback",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "exhaust-fans-b10a82fae4",
+      "title": "Exhaust fans",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "external-cladding-plans-sections-details-788c1214c8",
+      "title": "External cladding plans, sections & details",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "external-training-b89fcf1332",
+      "title": "External Training",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "facilities-tools-equipment-c940c45e4e",
+      "title": "Facilities/Tools/Equipment",
+      "reason": "domain:Project delivery"
+    },
+    {
+      "id": "feasibility-0652807916",
+      "title": "Feasibility",
+      "reason": "domain:Project delivery"
+    },
+    {
+      "id": "firat-kaya-x474-3-csow-purpose-10751ea01f",
+      "title": "Firat KAYA X474.3 CSOW: Purpose",
+      "reason": "domain:Project delivery"
+    },
+    {
+      "id": "fire-protection-system-a6b011c9e9",
+      "title": "Fire Protection System",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "fire-protection-system-horizontal-piping-62a38d6cfd",
+      "title": "Fire protection system horizontal piping",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "fire-protection-system-pumps-4afee5dea1",
+      "title": "Fire Protection System Pumps",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "fire-resistant-doors-34d59ad21a",
+      "title": "Fire resistant doors",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "floor-plans-383dc9ac3e",
+      "title": "Floor plans",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "floor-plans-sections-elevations-3d9ec44742",
+      "title": "Floor plans, sections & elevations",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "formwork-plans-dff8bd3d1b",
+      "title": "Formwork plans",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "formwork-plans-sections-details-8462ceadd2",
+      "title": "Formwork plans, sections & details",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "functional-employee-fa320c1869",
+      "title": "Functional Employee",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "glass-curtain-wall-2ebb0ebec3",
+      "title": "Glass curtain wall",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "grounding-earthing-system-7957d2f43c",
+      "title": "Grounding & Earthing System",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "gypsum-board-walls-fb6860ad40",
+      "title": "Gypsum board walls",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "gypsum-plaster-a6a2b27ec4",
+      "title": "Gypsum plaster",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "hepa-filters-1cceb1834e",
+      "title": "HEPA filters",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "hydrotesting-f0932b1ead",
+      "title": "Hydrotesting",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "ifc-drawings-and-documents-d6900da814",
+      "title": "IFC Drawings and Documents",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "ifr-drawings-and-documents-37d3da9440",
+      "title": "IFR Drawings and Documents",
+      "reason": "domain:Project delivery"
+    },
+    {
+      "id": "in-each-simulation-c9e2326258",
+      "title": "In each simulation,",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "install-ceramic-flooring-aea6c9299d",
+      "title": "Install ceramic flooring",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "install-demountable-partitions-c9164e273a",
+      "title": "Install demountable partitions",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "install-gypsum-board-walls-6a79b9ace4",
+      "title": "Install gypsum board walls",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "install-heat-gas-and-smoke-detectors-f6c9225039",
+      "title": "Install heat gas and smoke detectors",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "install-suspended-ceiling-hangers-3d5ff695c0",
+      "title": "Install suspended ceiling hangers",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "intentional-change-eb71d5883c",
+      "title": "Intentional change",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "internal-training-6fb34a28b0",
+      "title": "Internal Training",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "intruder-detection-system-4313f2fd1e",
+      "title": "Intruder Detection System",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "ips-sections-details-51b88c0c69",
+      "title": "IPS sections & details",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "isolated-power-system-cc94d5f187",
+      "title": "Isolated Power System",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "isolated-power-system-ips-riser-diagrams-db6b866c21",
+      "title": "Isolated Power System (IPS) Riser Diagrams",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "laminar-flow-boxes-85fcd19a2e",
+      "title": "Laminar flow boxes",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "leadership-support-7f7b804407",
+      "title": "Leadership support",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "leveling-concrete-9c5a110bc1",
+      "title": "Leveling Concrete",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "lighting-calculations-4dc7a186be",
+      "title": "Lighting Calculations",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "lighting-calculations-layouts-b3063cfc43",
+      "title": "Lighting Calculations & Layouts",
+      "reason": "non-finance-source"
+    },
+    {
+      "id": "lighting-fixture-schedules-34a4a80906",
+      "title": "Lighting Fixture Schedules",
+      "reason": "non-finance-title"
+    },
+    {
+      "id": "lighting-system-installation-a2ede91e85",
+      "title": "Lighting System Installation",
+      "reason": "non-finance-source"
+    }
+  ],
+  "pathReferenceUpdates": 0
+}

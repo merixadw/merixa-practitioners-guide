@@ -1,0 +1,1085 @@
+[
+  {
+    "domain": "Financial reporting",
+    "cards": 871,
+    "topicCount": 86,
+    "topics": [
+      {
+        "topic": "Revenue",
+        "cards": 90,
+        "shelves": "ingested+ifrs-ias+other-encyclopedia+domain-spine"
+      },
+      {
+        "topic": "Reporting framework",
+        "cards": 61,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Intangible assets",
+        "cards": 59,
+        "shelves": "ingested+ifrs-ias+domain-spine+tax"
+      },
+      {
+        "topic": "Property, plant and equipment",
+        "cards": 53,
+        "shelves": "ifrs-ias+ingested+other-encyclopedia+domain-spine"
+      },
+      {
+        "topic": "Impairment",
+        "cards": 49,
+        "shelves": "ingested+domain-spine+ifrs-ias+tax"
+      },
+      {
+        "topic": "Business combinations",
+        "cards": 47,
+        "shelves": "ifrs-ias+ingested+domain-spine"
+      },
+      {
+        "topic": "Leases",
+        "cards": 47,
+        "shelves": "ingested+ifrs-ias+domain-spine"
+      },
+      {
+        "topic": "Employee benefits",
+        "cards": 44,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Consolidation",
+        "cards": 42,
+        "shelves": "ingested+domain-spine+ifrs-ias"
+      },
+      {
+        "topic": "Financial instruments",
+        "cards": 39,
+        "shelves": "ingested+domain-spine+ifrs-ias"
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 38,
+        "shelves": "ingested+other-encyclopedia"
+      },
+      {
+        "topic": "Inventory",
+        "cards": 35,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "UK GAAP framework",
+        "cards": 22,
+        "shelves": "ingested+domain-spine"
+      },
+      {
+        "topic": "Valuation",
+        "cards": 21,
+        "shelves": "ingested+ifrs-ias+tax"
+      },
+      {
+        "topic": "Tax",
+        "cards": 14,
+        "shelves": "ingested+tax"
+      },
+      {
+        "topic": "Presentation of financial statements",
+        "cards": 13,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Assets held for sale",
+        "cards": 12,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Government grants",
+        "cards": 10,
+        "shelves": "ifrs-ias+ingested"
+      },
+      {
+        "topic": "Segment reporting",
+        "cards": 10,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Events after the reporting period",
+        "cards": 8,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Interim reporting",
+        "cards": 7,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Provisions and contingencies",
+        "cards": 7,
+        "shelves": "ingested+ifrs-ias"
+      },
+      {
+        "topic": "Business Combinations",
+        "cards": 5,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Conceptual Framework for Financial Reporting",
+        "cards": 5,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Internal control",
+        "cards": 5,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Revenue from Contracts with Customers",
+        "cards": 5,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Share-based Payment",
+        "cards": 5,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Accounting Policies, Changes in Estimates and Errors",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Consolidated Financial Statements",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Financial Instruments",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Financial Instruments: Disclosures",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "First-time Adoption of IFRS Accounting Standards",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Insurance Contracts",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Inventories",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Property, Plant and Equipment",
+        "cards": 4,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Accounting for Government Grants and Disclosure of Government Assistance",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Disclosure of Interests in Other Entities",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Fair Value Measurement",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Financial Instruments: Presentation",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Foreign currency",
+        "cards": 3,
+        "shelves": "domain-spine+ingested"
+      },
+      {
+        "topic": "Interim Financial Reporting",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Joint Arrangements",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Presentation and Disclosure in Financial Statements",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Presentation of Financial Statements",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Provisions, Contingent Liabilities and Contingent Assets",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Statement of Cash Flows",
+        "cards": 3,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Agriculture",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Borrowing Costs",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Earnings per Share",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Employee Benefits",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Impairment of Assets",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Income Taxes",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Intangible Assets",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Investment Property",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Non-current Assets Held for Sale and Discontinued Operations",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Provisions",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Related Party Disclosures",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Separate Financial Statements",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "The Effects of Changes in Foreign Exchange Rates",
+        "cards": 2,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Assets",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Audit evidence",
+        "cards": 1,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Budgeting and forecasting",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "close process",
+        "cards": 1,
+        "shelves": "tax"
+      },
+      {
+        "topic": "current tax",
+        "cards": 1,
+        "shelves": "tax"
+      },
+      {
+        "topic": "deferred tax",
+        "cards": 1,
+        "shelves": "tax"
+      },
+      {
+        "topic": "Disclosure controls",
+        "cards": 1,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "effective tax rate",
+        "cards": 1,
+        "shelves": "tax"
+      },
+      {
+        "topic": "Emissions boundaries",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Equity",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Events after reporting",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Events after the Reporting Period",
+        "cards": 1,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Expenses",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Going concern",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "IFRS framework",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Income taxes",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "intercompany recharge",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Investments in Associates and Joint Ventures",
+        "cards": 1,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Liabilities",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Materiality",
+        "cards": 1,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "Measurement",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Related parties",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Sustainability-finance bridge",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "transfer pricing",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "transfer pricing documentation",
+        "cards": 1,
+        "shelves": "ifrs-ias"
+      },
+      {
+        "topic": "uncertain tax positions",
+        "cards": 1,
+        "shelves": "tax"
+      },
+      {
+        "topic": "Variance analysis",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      }
+    ]
+  },
+  {
+    "domain": "Financial management",
+    "cards": 574,
+    "topicCount": 16,
+    "topics": [
+      {
+        "topic": "FSA",
+        "cards": 160,
+        "shelves": "fa"
+      },
+      {
+        "topic": "Valuation",
+        "cards": 112,
+        "shelves": "fa+domain-spine"
+      },
+      {
+        "topic": "Corporate",
+        "cards": 110,
+        "shelves": "fa"
+      },
+      {
+        "topic": "Quant",
+        "cards": 69,
+        "shelves": "fa"
+      },
+      {
+        "topic": "Fixed income",
+        "cards": 50,
+        "shelves": "fa"
+      },
+      {
+        "topic": "Corporate finance",
+        "cards": 30,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Portfolio",
+        "cards": 11,
+        "shelves": "fa"
+      },
+      {
+        "topic": "Economics",
+        "cards": 9,
+        "shelves": "fa"
+      },
+      {
+        "topic": "Investment appraisal",
+        "cards": 8,
+        "shelves": "other-encyclopedia+domain-spine"
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 5,
+        "shelves": "ingested+domain-spine"
+      },
+      {
+        "topic": "Performance measures",
+        "cards": 3,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Capital structure",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Cost of capital",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Cash flow",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Interest rate risk",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Market risk",
+        "cards": 1,
+        "shelves": "domain-spine"
+      }
+    ]
+  },
+  {
+    "domain": "Management reporting",
+    "cards": 492,
+    "topicCount": 15,
+    "topics": [
+      {
+        "topic": "Budgeting and forecasting",
+        "cards": 157,
+        "shelves": "other-encyclopedia+ingested"
+      },
+      {
+        "topic": "Management accounting",
+        "cards": 86,
+        "shelves": "ma"
+      },
+      {
+        "topic": "Variance analysis",
+        "cards": 86,
+        "shelves": "other-encyclopedia+ingested+domain-spine"
+      },
+      {
+        "topic": "guidance",
+        "cards": 40,
+        "shelves": "other-encyclopedia+frm+ifrs-ias"
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 36,
+        "shelves": "other-encyclopedia+ingested"
+      },
+      {
+        "topic": "Revenue",
+        "cards": 31,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Performance reporting",
+        "cards": 25,
+        "shelves": "ingested+other-encyclopedia"
+      },
+      {
+        "topic": "Cost and profitability",
+        "cards": 9,
+        "shelves": "ingested+other-encyclopedia"
+      },
+      {
+        "topic": "Investment appraisal",
+        "cards": 7,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Tax",
+        "cards": 6,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Performance measurement",
+        "cards": 4,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Cost behaviour",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Forecasting",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Presentation of financial statements",
+        "cards": 1,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Valuation",
+        "cards": 1,
+        "shelves": "ingested"
+      }
+    ]
+  },
+  {
+    "domain": "Risk management",
+    "cards": 374,
+    "topicCount": 36,
+    "topics": [
+      {
+        "topic": "Risk assessment",
+        "cards": 48,
+        "shelves": "ingested+coso+domain-spine"
+      },
+      {
+        "topic": "Quantitative",
+        "cards": 35,
+        "shelves": "frm"
+      },
+      {
+        "topic": "Market risk",
+        "cards": 32,
+        "shelves": "frm+domain-spine"
+      },
+      {
+        "topic": "Markets",
+        "cards": 31,
+        "shelves": "frm"
+      },
+      {
+        "topic": "Credit risk",
+        "cards": 30,
+        "shelves": "frm+domain-spine"
+      },
+      {
+        "topic": "Portfolio",
+        "cards": 24,
+        "shelves": "frm"
+      },
+      {
+        "topic": "Valuation",
+        "cards": 20,
+        "shelves": "frm"
+      },
+      {
+        "topic": "Liquidity",
+        "cards": 17,
+        "shelves": "frm"
+      },
+      {
+        "topic": "ERM",
+        "cards": 16,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Operational",
+        "cards": 12,
+        "shelves": "frm"
+      },
+      {
+        "topic": "Foundations",
+        "cards": 11,
+        "shelves": "frm"
+      },
+      {
+        "topic": "Control activities",
+        "cards": 10,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Internal control framework",
+        "cards": 9,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Risk mitigation",
+        "cards": 9,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Control objectives",
+        "cards": 6,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Information and communication",
+        "cards": 6,
+        "shelves": "coso"
+      },
+      {
+        "topic": "IT controls",
+        "cards": 6,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Monitoring activities",
+        "cards": 6,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Operating effectiveness",
+        "cards": 6,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Enterprise risk management",
+        "cards": 5,
+        "shelves": "coso"
+      },
+      {
+        "topic": "ERM performance",
+        "cards": 5,
+        "shelves": "coso"
+      },
+      {
+        "topic": "ERM strategy",
+        "cards": 5,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Scoping",
+        "cards": 5,
+        "shelves": "coso"
+      },
+      {
+        "topic": "ERM reporting",
+        "cards": 4,
+        "shelves": "coso"
+      },
+      {
+        "topic": "ERM review",
+        "cards": 3,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Hedging",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Liquidity risk",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Cash and liquidity",
+        "cards": 1,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Climate risk",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Governance",
+        "cards": 1,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Model risk",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Operational risk",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Risk governance",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Stress testing",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "tax governance",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "transfer pricing governance",
+        "cards": 1,
+        "shelves": "other-encyclopedia"
+      }
+    ]
+  },
+  {
+    "domain": "Audit and assurance",
+    "cards": 170,
+    "topicCount": 24,
+    "topics": [
+      {
+        "topic": "Assurance engagements",
+        "cards": 29,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Governance",
+        "cards": 23,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Risk assurance",
+        "cards": 15,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Analytics",
+        "cards": 12,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Engagement",
+        "cards": 12,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Fraud",
+        "cards": 12,
+        "shelves": "crma"
+      },
+      {
+        "topic": "IPPF",
+        "cards": 12,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Profession",
+        "cards": 12,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Quality",
+        "cards": 10,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Control assurance",
+        "cards": 8,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Internal control",
+        "cards": 6,
+        "shelves": "ingested+domain-spine"
+      },
+      {
+        "topic": "Employee benefits",
+        "cards": 4,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Inventory",
+        "cards": 3,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Audit opinion",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Analytical procedures",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Assurance",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Audit evidence",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Audit roles",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Fraud risk",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Going concern",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Materiality",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Risk assessment",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Sampling",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Substantive procedures",
+        "cards": 1,
+        "shelves": "domain-spine"
+      }
+    ]
+  },
+  {
+    "domain": "Governance and controls",
+    "cards": 114,
+    "topicCount": 13,
+    "topics": [
+      {
+        "topic": "Governance",
+        "cards": 48,
+        "shelves": "crma+ingested+domain-spine"
+      },
+      {
+        "topic": "Internal control",
+        "cards": 21,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Controls",
+        "cards": 17,
+        "shelves": "crma"
+      },
+      {
+        "topic": "Control environment",
+        "cards": 9,
+        "shelves": "domain-spine+coso"
+      },
+      {
+        "topic": "Integration",
+        "cards": 6,
+        "shelves": "coso"
+      },
+      {
+        "topic": "ERM governance",
+        "cards": 4,
+        "shelves": "coso"
+      },
+      {
+        "topic": "Control design",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "IT controls",
+        "cards": 2,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Entity-level controls",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Ethics",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Monitoring",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "RCM",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Segregation of duties",
+        "cards": 1,
+        "shelves": "domain-spine"
+      }
+    ]
+  },
+  {
+    "domain": "Strategy and performance",
+    "cards": 36,
+    "topicCount": 3,
+    "topics": [
+      {
+        "topic": "Strategy execution",
+        "cards": 31,
+        "shelves": "ingested+other-encyclopedia"
+      },
+      {
+        "topic": "Performance measurement",
+        "cards": 4,
+        "shelves": "other-encyclopedia"
+      },
+      {
+        "topic": "Performance measures",
+        "cards": 1,
+        "shelves": "domain-spine"
+      }
+    ]
+  },
+  {
+    "domain": "Project delivery",
+    "cards": 10,
+    "topicCount": 5,
+    "topics": [
+      {
+        "topic": "Project controls",
+        "cards": 6,
+        "shelves": "ingested+other-encyclopedia"
+      },
+      {
+        "topic": "Benefits management",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Business case",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Cost control",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Governance",
+        "cards": 1,
+        "shelves": "domain-spine"
+      }
+    ]
+  },
+  {
+    "domain": "Sustainability",
+    "cards": 7,
+    "topicCount": 6,
+    "topics": [
+      {
+        "topic": "Sustainability reporting",
+        "cards": 2,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Climate risk",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Disclosure",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Emissions reporting",
+        "cards": 1,
+        "shelves": "domain-spine"
+      },
+      {
+        "topic": "Governance",
+        "cards": 1,
+        "shelves": "ingested"
+      },
+      {
+        "topic": "Sustainability materiality",
+        "cards": 1,
+        "shelves": "domain-spine"
+      }
+    ]
+  }
+]

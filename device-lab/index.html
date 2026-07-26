@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Merixa Device Lab — iOS design preview</title>
+    <link rel="stylesheet" href="./lab.css" />
+  </head>
+  <body>
+    <header class="lab-header">
+      <div class="lab-brand">
+        <strong>Device Lab</strong>
+        <span>iOS design preview (Windows-safe)</span>
+      </div>
+      <div class="lab-controls">
+        <label class="lab-field">
+          <span>App URL</span>
+          <input
+            id="app-url"
+            type="url"
+            value="http://127.0.0.1:3000/ask/"
+            spellcheck="false"
+          />
+        </label>
+        <button type="button" id="btn-reload" class="lab-btn">Reload</button>
+        <button type="button" id="btn-open" class="lab-btn ghost">
+          Open URL
+        </button>
+      </div>
+      <p id="conn-banner" class="lab-conn" role="status" hidden></p>
+    </header>
+
+    <aside class="lab-sidebar">
+      <p class="lab-section-label">Devices</p>
+      <div id="device-list" class="lab-device-list"></div>
+
+      <p class="lab-section-label">Orientation</p>
+      <div class="lab-seg" role="group" aria-label="Orientation">
+        <button type="button" class="lab-seg-btn active" data-orient="portrait">
+          Portrait
+        </button>
+        <button type="button" class="lab-seg-btn" data-orient="landscape">
+          Landscape
+        </button>
+      </div>
+
+      <p class="lab-section-label">Scale</p>
+      <input
+        id="scale"
+        type="range"
+        min="40"
+        max="100"
+        value="72"
+        aria-label="Preview scale"
+      />
+      <p class="lab-scale-readout"><span id="scale-label">72</span>%</p>
+
+      <p class="lab-section-label">Chrome</p>
+      <label class="lab-check">
+        <input id="show-chrome" type="checkbox" checked />
+        Status bar + home indicator
+      </label>
+      <label class="lab-check">
+        <input id="show-safe" type="checkbox" />
+        Safe-area guides
+      </label>
+      <label class="lab-check">
+        <input id="dark-frame" type="checkbox" />
+        Dark device frame
+      </label>
+
+      <p class="lab-section-label">Presets</p>
+      <div class="lab-preset-row">
+        <button type="button" class="lab-btn ghost" id="preset-phone">
+          Phone only
+        </button>
+        <button type="button" class="lab-btn ghost" id="preset-compare">
+          Phone + SE
+        </button>
+        <button type="button" class="lab-btn ghost" id="preset-ipad">
+          + iPad
+        </button>
+      </div>
+
+      <div class="lab-note">
+        <p>
+          Run the app with <code>npm run dev</code>, then open this lab with
+          <code>npm run device-lab</code>.
+        </p>
+        <p>
+          This is a <strong>design / layout</strong> environment — not Xcode
+          Simulator. StoreKit, push, and Cap plugins need a Mac or cloud iOS.
+        </p>
+        <p>
+          See <code>device-lab/README.md</code> for real-iOS options.
+        </p>
+      </div>
+    </aside>
+
+    <main class="lab-stage" id="stage" aria-label="Device previews"></main>
+
+    <script src="./lab.js"></script>
+  </body>
+</html>
