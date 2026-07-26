@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T11:00:53.906Z",
+  "generatedAt": "2026-07-26T11:24:32.441Z",
   "phase0": {
     "stopped": [
       "library:hourly-progress:loop (left idle â€” no background loops restarted)"
@@ -16,7 +16,7 @@
       "ruflo mcp (unrelated)"
     ],
     "nodeProcessesAfterStabilize": 0,
-    "note": "M3 offline depth completed and persisted to GitHub; zero OpenAI API calls; M4 enrich still needs user quota."
+    "note": "M4-offline agent polish completed locally; OpenAI liveShare (E11) still needs billing. Volume freeze held."
   },
   "inventory": {
     "totalIndexCards": 14217,
@@ -198,9 +198,8 @@
   },
   "stillBrokenForOpenAIBilling": [
     "OpenAI enrich remaining (live enrichedAt polish still blocked by insufficient_quota)",
-    "All priority encyclopedia shelf floors closed (frm/crma closed in wave-4; others already at/above)",
-    "cohesion: title twin groups / domain mismatches for later cleanup",
-    "seamless runtime catalog remains a subset of index (10636 vs index 14217) — pre-existing loadGuideIndex filter"
+    "OpenAI corpus QA absolute bar (E12) still needs billing for judge re-sample",
+    "Public liveShareSeamless gate distinct from offlineShipReady"
   ],
   "enrichPaused": {
     "paused": true,
@@ -231,7 +230,7 @@
     "cardsPublished": 410,
     "agentAuthoredCardsCumulative": 3149,
     "seamless": "ok — 10636 cards, 42544 chunks",
-    "note": "M3 E6 volume freeze: no wave-4+ minting until M4 OpenAI polish. Depth-only offline. agent-shelf-fill/expand refuse without --force-after-freeze.",
+    "note": "M4-offline depth-only; volume freeze held. No shelf minting.",
     "before": {
       "ma": 1510,
       "tax": 2120,
@@ -271,7 +270,7 @@
     "cardGrowthSinceM3Baseline": 0
   },
   "truthBoard": {
-    "generatedAt": "2026-07-26T11:00:53.906Z",
+    "generatedAt": "2026-07-26T11:24:32.441Z",
     "liveSharePct": 21,
     "liveShareIndex": 0.215,
     "liveShareSeamless": 0.214,
@@ -285,31 +284,40 @@
     "indexSeamlessGapMax": 50,
     "indexSeamlessGapOk": true,
     "gapFullyClassified": true,
-    "gapReportAt": "2026-07-26T10:19:13.126Z",
-    "shipCheckFresh": true,
+    "gapReportAt": "2026-07-26T10:27:56.800Z",
+    "shipCheckFresh": false,
     "shipCheckReportAt": "2026-07-26T10:00:00.042Z",
-    "shipCheckReportAgeHours": 0.4,
+    "shipCheckReportAgeHours": 1.4,
     "shipCheckReportPassed": false,
     "shipCheckReportLiveShareCatalog": 0.275,
-    "shipCheckStaleReason": null,
-    "indexMtime": "2026-07-26T09:51:44.864Z",
+    "shipCheckStaleReason": "STALE_SHIP_REPORT:report_older_than_index",
+    "indexMtime": "2026-07-26T11:23:06.609Z",
     "maxReportAgeHours": 6,
     "enrichPaused": true,
     "enrichPauseReason": "insufficient_quota",
     "competitivenessScoreInformational": 50,
     "banShipOnStructural": true,
-    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless.",
-    "dualWriterResidual": false,
-    "volumeFreeze": true,
-    "withWorkplaceTasks": 8165,
-    "locallyDeepenedAt": 11128,
-    "provenanceBuckets": {
-      "codex-local": 4450,
-      "agent-authored": 3149,
-      "openai-live": 3056,
-      "formula-pack": 638,
-      "unknown": 2924
-    }
+    "offlineQuality": {
+      "generatedAt": "2026-07-26T11:24:32.437Z",
+      "pctLocallyDeepened": 88.5,
+      "pctAgentPolished": 55.6,
+      "pctWithWorkplaceTasks": 90.1,
+      "pctProvenanceStamped": 100,
+      "pathDeepenedAndTasksPct": 0.994,
+      "agentProvenanceCoveragePct": 100,
+      "indexSeamlessGap": 0,
+      "offlineShipReady": true,
+      "note": "Offline gate only — DISTINCT from OpenAI liveShare / enrichedAt public ship.",
+      "priorOpsSnapshot": {
+        "pctAgentPolished": 55.6,
+        "offlineShipReady": true
+      }
+    },
+    "offlineShipReady": true,
+    "withWorkplaceTasks": 12813,
+    "locallyDeepenedAt": 12576,
+    "agentPolishedAt": 7898,
+    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless. offlineShipReady is NOT the public OpenAI gate."
   },
   "m0": {
     "status": "completed",
@@ -456,8 +464,70 @@
     "note": "Agent volume ≠ liveShare progress. Drain after OpenAI quota restore (M4)."
   },
   "githubPersist": {
-    "at": "2026-07-26T11:06:13.730Z",
-    "milestone": "M3",
-    "note": "Committing/pushing M3 dual-writer lock, volume freeze, workplaceTasks, provenance, polish queue, formula pivot. M4 OpenAI enrich NOT started (quota)."
+    "at": "2026-07-26T11:25:47.109Z",
+    "milestone": "M4-offline",
+    "note": "Committing/pushing E11-offline agent polish scripts+scoreboard+plan. index.json gitignored. OpenAI M4 liveShare NOT started (quota)."
+  },
+  "offlineQuality": {
+    "generatedAt": "2026-07-26T11:24:28.610Z",
+    "note": "Offline quality scoreboard — DISTINCT from OpenAI liveShare / enrichedAt public gate. Never treat this as public ship-ready.",
+    "totals": {
+      "indexCards": 14217,
+      "seamlessCards": 14264,
+      "pathCards": 7703,
+      "withEnrichedAt": 3056
+    },
+    "pctLocallyDeepened": 88.5,
+    "pctAgentPolished": 55.6,
+    "pctWithWorkplaceTasks": 90.1,
+    "pctProvenanceStamped": 100,
+    "counts": {
+      "locallyDeepened": 12576,
+      "agentPolished": 7898,
+      "withWorkplaceTasks": 12813,
+      "provenanceStamped": 14217
+    },
+    "pathCoverage": {
+      "pathCards": 7703,
+      "pathDeepened": 7658,
+      "pathWithWorkplaceTasks": 7700,
+      "pathDeepenedAndTasks": 7658,
+      "pathDeepenedAndTasksPct": 0.994,
+      "pathDeepenedPct": 0.994
+    },
+    "provenanceBuckets": {
+      "openai-live": 3056,
+      "agent-authored": 3149,
+      "codex-local": 4450,
+      "formula-pack": 638,
+      "registry": 0,
+      "unknown": 2924
+    },
+    "agentProvenanceCoveragePct": 100,
+    "indexSeamlessGap": 0,
+    "offlineShipReady": true,
+    "offlineShipReadyCriteria": {
+      "pathDeepenedAndTasksPctMin": 0.8,
+      "pathDeepenedAndTasksPct": 0.994,
+      "agentProvenanceCoveragePctMin": 100,
+      "agentProvenanceCoveragePct": 100,
+      "indexSeamlessGapMustBe": 0,
+      "indexSeamlessGap": 0,
+      "distinctFromOpenAIPublicGate": true
+    }
+  },
+  "m4Offline": {
+    "status": "completed",
+    "completedAt": "2026-07-26T11:22:32.114Z",
+    "epic": "E11-offline",
+    "cardsPolished": 7895,
+    "qualitySkip": 105,
+    "qaFixes": [],
+    "offlineShipReady": true,
+    "note": "Offline agent polish wave — no OpenAI; enrichedAt untouched. E11-liveshare-openai remains blocked on billing.",
+    "agentPolishedAt": 7898,
+    "seamless": "ok — 14264 cards, 57056 chunks",
+    "enrichedAtUnchanged": 3056,
+    "openaiCalls": 0
   }
 }

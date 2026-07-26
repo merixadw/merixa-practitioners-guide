@@ -120,6 +120,7 @@ function buildTruthBoard() {
   let enrichPaused = false;
   let enrichPauseReason = null;
   let competitivenessScoreInformational = null;
+  let offlineQuality = null;
   if (existsSync(OPS_PATH)) {
     const ops = JSON.parse(readFileSync(OPS_PATH, "utf8"));
     enrichPaused = Boolean(
@@ -127,7 +128,75 @@ function buildTruthBoard() {
     );
     enrichPauseReason =
       ops.enrich?.reason || ops.enrichPaused?.reason || null;
+    if (ops.offlineQuality) offlineQuality = ops.offlineQuality;
   }
+
+  // Offline depth metrics (not liveShare / enrichedAt)
+  let locallyDeepened = 0;
+  let agentPolished = 0;
+  let withWorkplaceTasks = 0;
+  let provenanceStamped = 0;
+  let agentTotal = 0;
+  let agentProvenanceOk = 0;
+  let pathDeepenedAndTasks = 0;
+  for (const card of cards) {
+    if (card.locallyDeepenedAt || card.agentAuthoredAt || card.agentPolishedAt) {
+      locallyDeepened += 1;
+    }
+    if (card.agentPolishedAt) agentPolished += 1;
+    if (Array.isArray(card.workplaceTasks) && card.workplaceTasks.length > 0) {
+      withWorkplaceTasks += 1;
+    }
+    if (card.sourceProvenance) provenanceStamped += 1;
+    const isAgent =
+      card.sourceProvenance === "agent-authored" ||
+      Boolean(card.agentAuthoredAt) ||
+      (card.tags || []).includes("agent-authored");
+    if (isAgent) {
+      agentTotal += 1;
+      if (card.agentAuthoredAt && card.sourceProvenance) agentProvenanceOk += 1;
+    }
+    if (
+      pathIds.has(card.id) &&
+      (card.locallyDeepenedAt || card.agentAuthoredAt || card.agentPolishedAt) &&
+      Array.isArray(card.workplaceTasks) &&
+      card.workplaceTasks.length > 0
+    ) {
+      pathDeepenedAndTasks += 1;
+    }
+  }
+  const pctOf = (n) =>
+    Number((((n / Math.max(indexCards, 1)) * 100)).toFixed(1));
+  const agentProvenanceCoveragePct =
+    agentTotal === 0
+      ? 100
+      : Number(((agentProvenanceOk / agentTotal) * 100).toFixed(1));
+  const pathDeepenedAndTasksPct = pct(
+    pathDeepenedAndTasks,
+    pathCards || 1,
+  );
+  const offlineShipReady =
+    pathDeepenedAndTasksPct >= 0.8 &&
+    agentProvenanceCoveragePct >= 99.9 &&
+    indexSeamlessGap === 0;
+  const offlineQualityComputed = {
+    generatedAt: new Date().toISOString(),
+    pctLocallyDeepened: pctOf(locallyDeepened),
+    pctAgentPolished: pctOf(agentPolished),
+    pctWithWorkplaceTasks: pctOf(withWorkplaceTasks),
+    pctProvenanceStamped: pctOf(provenanceStamped),
+    pathDeepenedAndTasksPct,
+    agentProvenanceCoveragePct,
+    indexSeamlessGap,
+    offlineShipReady,
+    note: "Offline gate only — DISTINCT from OpenAI liveShare / enrichedAt public ship.",
+    priorOpsSnapshot: offlineQuality
+      ? {
+          pctAgentPolished: offlineQuality.pctAgentPolished,
+          offlineShipReady: offlineQuality.offlineShipReady,
+        }
+      : null,
+  };
   const diagPath = join(
     ROOT,
     "content",
@@ -177,7 +246,12 @@ function buildTruthBoard() {
     enrichPauseReason,
     competitivenessScoreInformational,
     banShipOnStructural: true,
-    note: "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless.",
+    offlineQuality: offlineQualityComputed,
+    offlineShipReady,
+    withWorkplaceTasks,
+    locallyDeepenedAt: locallyDeepened,
+    agentPolishedAt: agentPolished,
+    note: "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless. offlineShipReady is NOT the public OpenAI gate.",
   };
 }
 

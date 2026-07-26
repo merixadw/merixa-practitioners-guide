@@ -55,6 +55,8 @@
     "library:m3:workplace": "node scripts/pipeline/m3-offline-depth.mjs --phase=workplace",
     "library:m3:formula": "node scripts/pipeline/m3-offline-depth.mjs --phase=formula",
     "library:m3:polish-queue": "node scripts/pipeline/m3-offline-depth.mjs --phase=polish-queue",
+    "library:m4:offline-polish": "node scripts/pipeline/m4-offline-agent-polish.mjs",
+    "library:m4:offline-polish:scoreboard": "node scripts/pipeline/m4-offline-agent-polish.mjs --scoreboard-only",
     "library:p2:smoke": "node scripts/pipeline/p2-merge-smoke.mjs",
     "library:p6:smoke": "npx tsx scripts/pipeline/p6-custom-paths-smoke.mjs",
     "library:p7:smoke": "npx tsx scripts/pipeline/p7-retention-smoke.mjs",

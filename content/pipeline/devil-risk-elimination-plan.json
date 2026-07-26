@@ -110,6 +110,7 @@
       "node scripts/pipeline/codex-local-enrich.mjs",
       "npm run library:deepen-content",
       "node scripts/pipeline/agent-shelf-fill.mjs (frozen until conditions)",
+      "node scripts/pipeline/m4-offline-agent-polish.mjs / npm run library:m4:offline-polish",
       "node scripts/pipeline/hourly-progress.mjs",
       "node scripts/pipeline/tmp-path-dead-refs.ts / audit-path-coverage.mjs",
       "scripts/pipeline/codex-extract-formula-glossaries.py (already run)"
@@ -547,12 +548,72 @@
       }
     },
     {
+      "id": "E11-offline",
+      "name": "Offline agent polish (own resources)",
+      "primaryRisk": "waiting on OpenAI while path/seamless depth and workplace quality can advance offline",
+      "phase": "offline-depth",
+      "openaiRequired": "N",
+      "effort": "L",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:22:32.114Z",
+      "objective": "Polish openai-polish-queue cards with Merixa-owned formula/docs + agent workplace quality; stamp agentPolishedAt / locallyDeepenedAt only; never enrichedAt; expose offline scoreboard distinct from liveShare public gate.",
+      "successMetric": "Thousands of queue cards agent-polished; offlineQuality scoreboard in ops-status/truthBoard; offlineShipReady criteria met when path deepened+tasks ≥80%, agent provenance 100%, indexSeamlessGap=0; volume freeze held.",
+      "resources": [
+        "Cursor agent",
+        "scripts/pipeline/m4-offline-agent-polish.mjs",
+        "npm run library:m4:offline-polish",
+        "openai-polish-queue.json",
+        "codex-feed extracted-formulas/docs",
+        "safe-index-write + index-holder"
+      ],
+      "dependencies": [
+        "E5-dual-writer",
+        "E6-volume-vs-depth",
+        "E7-workplace-tasks",
+        "E9-provenance",
+        "E10-agent-cards-no-enrichedAt"
+      ],
+      "orderedTasks": [
+        "Build m4-offline-agent-polish path (queue path-first, quality-gated).",
+        "Polish definition/example/trap/workplaceTasks/sourceQuotes from owned packs + agent workplace prose.",
+        "Fix/quarantine known OpenAI QA fails offline where possible (tendering rewrite; BUSINESS LAW placeholders quarantine).",
+        "Cohesion light report (twins/domain mismatches) — no mass-delete.",
+        "Write offlineQuality + offlineShipReady to ops-status/truthBoard (distinct from liveShare).",
+        "ONE library:seamless after index change.",
+        "Commit+push scripts/reports (index.json gitignored)."
+      ],
+      "stopCondition": "Substantial polish wave persisted; offlineShipReady honest; E11-liveshare-openai still blocked until billing.",
+      "evidence": {
+        "report": "content/pipeline/m4-offline-agent-polish-report.json",
+        "cardsPolished": 7895,
+        "agentPolishedAt": 7898,
+        "pctAgentPolished": 55.6,
+        "pctLocallyDeepened": 88.5,
+        "pctWithWorkplaceTasks": 90.1,
+        "pctProvenanceStamped": 100,
+        "pathDeepenedAndTasksPct": 0.994,
+        "offlineShipReady": true,
+        "enrichedAtUnchanged": 3056,
+        "openaiCalls": 0,
+        "qualitySkipOffTopic": 105,
+        "qaFixes": {
+          "tendering": "rewrote-tendering-focus",
+          "businessLaw589": "quarantined-placeholder",
+          "businessLaw591": "quarantined-placeholder"
+        },
+        "cohesionLight": "content/pipeline/offline-cohesion-light-report.json",
+        "seamless": "14264 cards / 57056 chunks"
+      }
+    },
+    {
       "id": "E11-liveshare-openai",
       "name": "OpenAI liveShare recovery",
       "primaryRisk": "liveShare dilution (22% live; 10751 need enrichedAt; soft/public gates)",
       "phase": "openai-dependent",
       "openaiRequired": "Y",
       "effort": "L",
+      "status": "blocked",
+      "blocker": "OpenAI quota/billing restore — deferred after E11-offline",
       "objective": "After quota restore, path-first then catalog live enrich until gates are honestly green on fresh ship-check.",
       "successMetric": "liveSharePath ≥ 0.70 (soft); liveShareSeamless ≥ 0.40 (public); fresh ship-check passed=true; remainingNeedingEnrichedAt declining ≥150/day when running; no volume waves during enrich.",
       "resources": [
@@ -569,13 +630,14 @@
         "E5-dual-writer",
         "E6-volume-vs-depth",
         "E10-agent-cards-no-enrichedAt",
+        "E11-offline",
         "USER: OpenAI quota"
       ],
       "orderedTasks": [
         "USER: restore OpenAI billing; probe chat.completions success; clear enrichPaused.",
         "Reset/respect openai-daily-token-budget.json (currently exhausted historically).",
         "Run path-first enrich until liveSharePath ≥ 0.70 on fresh diagnostic.",
-        "Drain openai-polish-queue for path/seamless agent cards.",
+        "Drain openai-polish-queue for path/seamless agent cards (offline polish already applied — live stamp only).",
         "Catalog enrich toward liveShareSeamless ≥ 0.40 (public) then 0.70 (parity aspirational).",
         "Hourly-progress + ship-check every enrich session; abort if dual-writer or volume minting detected.",
         "Update killer-app-plan P8 note with real liveShareSeamless."
@@ -717,8 +779,41 @@
       }
     },
     {
+      "id": "M4-offline",
+      "name": "Offline agent polish (own resources)",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:22:32.114Z",
+      "epics": [
+        "E11-offline"
+      ],
+      "exitCriteria": [
+        "Agent offline polish wave on polish queue (path-first)",
+        "Never set enrichedAt offline",
+        "offlineQuality scoreboard in ops-status / truthBoard",
+        "offlineShipReady distinct from OpenAI public gate",
+        "Known QA fails rewritten or quarantined offline where possible",
+        "ONE library:seamless after index change",
+        "Volume freeze held (no shelf minting)"
+      ],
+      "exitEvidence": {
+        "cardsPolished": 7895,
+        "agentPolishedAt": 7898,
+        "pctAgentPolished": 55.6,
+        "pctLocallyDeepened": 88.5,
+        "pctWithWorkplaceTasks": 90.1,
+        "pctProvenanceStamped": 100,
+        "pathDeepenedAndTasksPct": 0.994,
+        "offlineShipReady": true,
+        "enrichedAtUnchanged": 3056,
+        "openaiCalls": 0,
+        "seamlessCards": 14264,
+        "seamlessChunks": 57056
+      }
+    },
+    {
       "id": "M4",
       "name": "OpenAI liveShare",
+      "status": "blocked",
       "epics": [
         "E11-liveshare-openai"
       ],
@@ -728,7 +823,7 @@
         "liveShareSeamless ≥0.40",
         "Fresh public ship-check passed=true"
       ],
-      "blocker": "OpenAI quota/billing restore"
+      "blocker": "OpenAI quota/billing restore — after M4-offline"
     },
     {
       "id": "M5",
@@ -741,25 +836,28 @@
         "QA report frame = seamless catalog",
         "Absolute fail-rate target met or written waiver",
         "ops-status.qualityBar green"
-      ]
+      ],
+      "note": "Offline: tendering rewritten + 2 placeholders quarantined; OpenAI judge re-sample still required for absolute bar."
     }
   ],
   "executionNotes": {
     "parallelism": "E5 can start after E0 in parallel with E2 once M0 done; E3/E4 after M0; never parallelize index writers.",
     "userBlockers": [
-      "Git remote URL for E2/M1",
-      "OpenAI billing for E11–E12/M4–M5"
+      "OpenAI billing for E11-liveshare-openai / E12 / M4–M5"
     ],
     "firstCommandAfterPlanApproval": "npm run library:enrich:diagnostic && npm run library:ship-check -- --gate=public --report-only",
     "explicitlyNotInThisPlan": [
       "Running enrich/expand/OpenAI now",
-      "Committing",
       "Heuristic shelf floods",
-      "Inventing a git remote URL"
-    ]
+      "Inventing a git remote URL",
+      "Faking enrichedAt offline"
+    ],
+    "m4OfflineNote": "E11-offline / M4-offline completed with own resources; do not wait on OpenAI for depth. Public liveShare still needs billing."
   },
   "m1CompletedAt": "2026-07-26T10:45:46.265Z",
   "m1Status": "completed",
   "m3CompletedAt": "2026-07-26T11:00:00.000Z",
-  "m3Status": "completed"
+  "m3Status": "completed",
+  "m4OfflineCompletedAt": "2026-07-26T11:22:32.114Z",
+  "m4OfflineStatus": "completed"
 }

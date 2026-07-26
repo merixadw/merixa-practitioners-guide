@@ -113,5 +113,26 @@
     },
     "updatedAt": "2026-07-25T18:08:17.614Z"
   },
-  "openFailIds": 3
+  "openFailIds": 3,
+  "offlineFixesAt": "2026-07-26T11:22:21.459Z",
+  "offlineFixes": [
+    {
+      "id": "audit-committees-and-the-external-audit-minimum-standard-tendering-92f1b68b3b",
+      "action": "rewrote-tendering-focus",
+      "stillNeedsOpenAIJudge": true
+    },
+    {
+      "id": "business-law-ethics-corner-589-9504341f7a",
+      "action": "quarantined-placeholder",
+      "stillNeedsOpenAIJudge": false,
+      "note": "Content not teachable offline without a real source concept."
+    },
+    {
+      "id": "business-law-ethics-corner-591-5321a99ad8",
+      "action": "quarantined-placeholder",
+      "stillNeedsOpenAIJudge": false,
+      "note": "Content not teachable offline without a real source concept."
+    }
+  ],
+  "offlineNote": "Tendering card rewritten offline; two BUSINESS LAW placeholders quarantined. OpenAI judge re-sample still required for absolute bar (E12)."
 }

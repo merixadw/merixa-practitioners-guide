@@ -1,0 +1,52 @@
+{
+  "startedAt": "2026-07-26T11:24:24.360Z",
+  "scoreboardOnly": true,
+  "scoreboard": {
+    "generatedAt": "2026-07-26T11:24:28.610Z",
+    "note": "Offline quality scoreboard — DISTINCT from OpenAI liveShare / enrichedAt public gate. Never treat this as public ship-ready.",
+    "totals": {
+      "indexCards": 14217,
+      "seamlessCards": 14264,
+      "pathCards": 7703,
+      "withEnrichedAt": 3056
+    },
+    "pctLocallyDeepened": 88.5,
+    "pctAgentPolished": 55.6,
+    "pctWithWorkplaceTasks": 90.1,
+    "pctProvenanceStamped": 100,
+    "counts": {
+      "locallyDeepened": 12576,
+      "agentPolished": 7898,
+      "withWorkplaceTasks": 12813,
+      "provenanceStamped": 14217
+    },
+    "pathCoverage": {
+      "pathCards": 7703,
+      "pathDeepened": 7658,
+      "pathWithWorkplaceTasks": 7700,
+      "pathDeepenedAndTasks": 7658,
+      "pathDeepenedAndTasksPct": 0.994,
+      "pathDeepenedPct": 0.994
+    },
+    "provenanceBuckets": {
+      "openai-live": 3056,
+      "agent-authored": 3149,
+      "codex-local": 4450,
+      "formula-pack": 638,
+      "registry": 0,
+      "unknown": 2924
+    },
+    "agentProvenanceCoveragePct": 100,
+    "indexSeamlessGap": 0,
+    "offlineShipReady": true,
+    "offlineShipReadyCriteria": {
+      "pathDeepenedAndTasksPctMin": 0.8,
+      "pathDeepenedAndTasksPct": 0.994,
+      "agentProvenanceCoveragePctMin": 100,
+      "agentProvenanceCoveragePct": 100,
+      "indexSeamlessGapMustBe": 0,
+      "indexSeamlessGap": 0,
+      "distinctFromOpenAIPublicGate": true
+    }
+  }
+}
