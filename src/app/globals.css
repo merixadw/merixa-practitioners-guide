@@ -999,6 +999,10 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.paths-filters {
+  margin-bottom: 0.35rem;
+}
+
 .library-filters .chip-rail.soft {
   flex-wrap: wrap;
   overflow: visible;

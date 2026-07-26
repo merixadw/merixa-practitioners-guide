@@ -1,14 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
+  pathShelf,
   shelvePaths,
   type PathShelf,
 } from "@/lib/guide/flagship-paths";
 import { coachActionHref } from "@/lib/guide/coach-actions";
 import { pathLessonHref, rankPathsForLearner } from "@/lib/guide/recommend";
-import type { LearningPath } from "@/lib/guide/types";
+import { ALL_BODIES, type BodyId, type LearningPath } from "@/lib/guide/types";
 import {
   loadCustomPaths,
   touchCustomPath,
@@ -20,7 +21,7 @@ import {
   pathProgressLabel,
   stepOpened,
 } from "@/lib/guide/path-progress";
-import { BodyMark } from "./BodyMark";
+import { BodyMark, bodyLabel } from "./BodyMark";
 import { AiUpgradeSheet } from "./AiUpgradeSheet";
 import { useEntitlements } from "./EntitlementsProvider";
 import { launchModeFromAiTier } from "@/lib/entitlements";
@@ -60,6 +61,55 @@ const SHELF_COPY: Record<
     lead: "Additional practitioner routes.",
   },
 };
+
+const SHELF_ORDER: PathShelf[] = [
+  "yours",
+  "flagship",
+  "standards",
+  "frm",
+  "financial-analysis",
+  "practice",
+  "more",
+];
+
+const SHELF_FILTERS: { id: "all" | PathShelf; label: string }[] = [
+  { id: "all", label: "All shelves" },
+  { id: "yours", label: "Yours" },
+  { id: "flagship", label: "Start here" },
+  { id: "standards", label: "Standards" },
+  { id: "frm", label: "FRM / risk" },
+  { id: "financial-analysis", label: "Financial analysis" },
+  { id: "practice", label: "Practice" },
+  { id: "more", label: "More" },
+];
+
+type ProgressFilter = "all" | "not_started" | "in_progress" | "done";
+
+const PROGRESS_FILTERS: { id: ProgressFilter; label: string }[] = [
+  { id: "all", label: "Any progress" },
+  { id: "not_started", label: "Not started" },
+  { id: "in_progress", label: "In progress" },
+  { id: "done", label: "Done" },
+];
+
+function matchesProgress(
+  path: LearningPath,
+  filter: ProgressFilter,
+  recent: string[],
+  saved: string[],
+): boolean {
+  if (filter === "all") return true;
+  const progress = pathProgress(path, recent, saved);
+  if (filter === "done") return progress.complete;
+  if (filter === "not_started") return progress.opened === 0;
+  return progress.opened > 0 && !progress.complete;
+}
+
+function matchesSearch(path: LearningPath, query: string): boolean {
+  if (!query) return true;
+  const haystack = `${path.title} ${path.summary}`.toLowerCase();
+  return haystack.includes(query);
+}
 
 function PathArticle({
   path,
@@ -253,12 +303,18 @@ export function PathList({
   /** @deprecated unused — kept for call-site compatibility */
   cardIds?: string[];
 }) {
-  const { insights, ready } = useHabits();
+  const { insights, track, ready } = useHabits();
   const { recent, saved, markJourney } = useGuideState();
   const { aiTier } = useEntitlements();
   const launchMode = launchModeFromAiTier(aiTier);
   const [upgradeOpen, setUpgradeOpen] = useState(false);
   const [customPaths, setCustomPaths] = useState<LearningPath[]>([]);
+  const [query, setQuery] = useState("");
+  const [shelfFilter, setShelfFilter] = useState<"all" | PathShelf>("all");
+  const [bodyFilter, setBodyFilter] = useState<BodyId | "all">("all");
+  const [progressFilter, setProgressFilter] =
+    useState<ProgressFilter>("all");
+  const searchTimer = useRef<number | null>(null);
 
   useEffect(() => {
     const refresh = () => {
@@ -273,6 +329,17 @@ export function PathList({
     };
   }, []);
 
+  useEffect(() => {
+    if (!query.trim()) return;
+    if (searchTimer.current) window.clearTimeout(searchTimer.current);
+    searchTimer.current = window.setTimeout(() => {
+      track("search", query.trim());
+    }, 700);
+    return () => {
+      if (searchTimer.current) window.clearTimeout(searchTimer.current);
+    };
+  }, [query, track]);
+
   const catalog = useMemo(
     () => [...customPaths, ...paths],
     [customPaths, paths],
@@ -281,56 +348,200 @@ export function PathList({
     () => (ready ? rankPathsForLearner(catalog, insights) : catalog),
     [catalog, insights, ready],
   );
-  const shelves = useMemo(() => shelvePaths(ranked), [ranked]);
+
+  const normalizedQuery = query.trim().toLowerCase();
+  const filtersOn =
+    shelfFilter !== "all" ||
+    bodyFilter !== "all" ||
+    progressFilter !== "all" ||
+    Boolean(normalizedQuery);
+
+  const filtered = useMemo(() => {
+    return ranked.filter((path) => {
+      if (shelfFilter !== "all" && pathShelf(path) !== shelfFilter) {
+        return false;
+      }
+      if (bodyFilter !== "all" && !path.bodies.includes(bodyFilter)) {
+        return false;
+      }
+      if (!matchesProgress(path, progressFilter, recent, saved)) {
+        return false;
+      }
+      return matchesSearch(path, normalizedQuery);
+    });
+  }, [
+    bodyFilter,
+    normalizedQuery,
+    progressFilter,
+    ranked,
+    recent,
+    saved,
+    shelfFilter,
+  ]);
+
+  const shelves = useMemo(() => shelvePaths(filtered), [filtered]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   useEffect(() => {
     const hash = window.location.hash.replace(/^#/, "");
-    if (hash && ranked.some((path) => path.id === hash)) {
+    if (!hash || !ranked.some((path) => path.id === hash)) return;
+    const timer = window.setTimeout(() => {
       setSelectedId(hash);
       if (hash.startsWith("custom-")) void touchCustomPath(hash);
-      const node = document.getElementById(hash);
-      node?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+      document
+        .getElementById(hash)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, [ranked]);
 
   const openId =
     selectedId ??
     shelves.yours[0]?.id ??
     shelves.flagship[0]?.id ??
-    ranked[0]?.id ??
+    filtered[0]?.id ??
     "";
-  const shelfOrder: PathShelf[] = [
-    "yours",
-    "flagship",
-    "standards",
-    "frm",
-    "financial-analysis",
-    "practice",
-    "more",
-  ];
 
   const buildPathHref = coachActionHref("compose_path", {
     title: "your concepts",
     mode: launchMode,
   });
 
+  const showYoursEmpty =
+    !filtersOn &&
+    (shelfFilter === "all" || shelfFilter === "yours") &&
+    shelves.yours.length === 0;
+
+  const shelfFilterLabel =
+    SHELF_FILTERS.find((item) => item.id === shelfFilter)?.label ?? shelfFilter;
+  const progressFilterLabel =
+    PROGRESS_FILTERS.find((item) => item.id === progressFilter)?.label ??
+    progressFilter;
+
+  function clearFilters() {
+    setQuery("");
+    setShelfFilter("all");
+    setBodyFilter("all");
+    setProgressFilter("all");
+  }
+
   return (
     <div className="screen-stack">
       <p className="screen-lead">
         Browse journeys offline. Live path training unlocks with AI Premium.
       </p>
-      {shelfOrder.map((shelf) => {
+
+      <div className="library-filters paths-filters">
+        <div className="mobile-search">
+          <label className="search-box">
+            <span className="sr-only">Search paths</span>
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              type="search"
+              enterKeyHint="search"
+              placeholder="Search paths"
+            />
+          </label>
+          {filtersOn ? (
+            <button type="button" className="chip-clear" onClick={clearFilters}>
+              Clear
+            </button>
+          ) : null}
+        </div>
+
+        <div className="chip-rail soft" aria-label="Shelf">
+          {SHELF_FILTERS.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              className={
+                shelfFilter === item.id ? "rail-chip active" : "rail-chip"
+              }
+              onClick={() => {
+                setShelfFilter(item.id);
+                if (item.id !== "all") track("topic_filter", item.id);
+              }}
+              aria-pressed={shelfFilter === item.id}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="chip-rail" aria-label="Professional body">
+          <button
+            type="button"
+            className={bodyFilter === "all" ? "rail-chip active" : "rail-chip"}
+            onClick={() => setBodyFilter("all")}
+            aria-pressed={bodyFilter === "all"}
+          >
+            All bodies
+          </button>
+          {ALL_BODIES.map((item) => (
+            <button
+              key={item}
+              type="button"
+              className={
+                bodyFilter === item ? "rail-chip active" : "rail-chip"
+              }
+              onClick={() => {
+                setBodyFilter(item);
+                track("body_filter", item);
+              }}
+              aria-pressed={bodyFilter === item}
+              aria-label={bodyLabel(item)}
+            >
+              <BodyMark body={item} />
+            </button>
+          ))}
+        </div>
+
+        <div className="chip-rail soft" aria-label="Progress">
+          {PROGRESS_FILTERS.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              className={
+                progressFilter === item.id ? "rail-chip active" : "rail-chip"
+              }
+              onClick={() => setProgressFilter(item.id)}
+              aria-pressed={progressFilter === item.id}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="list-meta" role="status">
+          {filtered.length.toLocaleString("en-GB")}{" "}
+          {filtered.length === 1 ? "path" : "paths"}
+          {shelfFilter === "all" ? "" : ` · ${shelfFilterLabel}`}
+          {bodyFilter === "all" ? "" : ` · ${bodyLabel(bodyFilter)}`}
+          {progressFilter === "all" ? "" : ` · ${progressFilterLabel}`}
+        </div>
+      </div>
+
+      {filtered.length === 0 && !showYoursEmpty ? (
+        <div className="empty-state">
+          <h2>No match</h2>
+          <p>Clear filters, or try a shorter search.</p>
+          <button type="button" className="path-continue" onClick={clearFilters}>
+            Clear filters
+          </button>
+        </div>
+      ) : null}
+
+      {SHELF_ORDER.map((shelf) => {
         const shelfPaths = shelves[shelf];
         const copy = SHELF_COPY[shelf];
-        if (shelf !== "yours" && shelfPaths.length === 0) return null;
-        return (
-          <section key={shelf} className="path-shelf">
-            <header className="path-shelf-head">
-              <h2>{copy.title}</h2>
-              <p>{copy.lead}</p>
-            </header>
-            {shelf === "yours" && shelfPaths.length === 0 ? (
+        if (shelf === "yours" && showYoursEmpty) {
+          return (
+            <section key={shelf} className="path-shelf">
+              <header className="path-shelf-head">
+                <h2>{copy.title}</h2>
+                <p>{copy.lead}</p>
+              </header>
               <div className="path-empty yours-empty">
                 <p>No custom paths on this device yet.</p>
                 {launchMode === "premium" ? (
@@ -347,15 +558,24 @@ export function PathList({
                   </button>
                 )}
               </div>
-            ) : (
-              <div className="path-stack">
-                {shelfPaths.map((path) => {
-                  const progress = pathProgress(path, recent, saved);
-                  const weekHint = finishThisWeekSuggestion(
-                    progress,
-                    insights.pace,
-                  );
-                  return (
+            </section>
+          );
+        }
+        if (shelfPaths.length === 0) return null;
+        return (
+          <section key={shelf} className="path-shelf">
+            <header className="path-shelf-head">
+              <h2>{copy.title}</h2>
+              <p>{copy.lead}</p>
+            </header>
+            <div className="path-stack">
+              {shelfPaths.map((path) => {
+                const progress = pathProgress(path, recent, saved);
+                const weekHint = finishThisWeekSuggestion(
+                  progress,
+                  insights.pace,
+                );
+                return (
                   <PathArticle
                     key={path.id}
                     path={path}
@@ -372,7 +592,7 @@ export function PathList({
                     onJourney={markJourney}
                     onPremiumUpsell={() => setUpgradeOpen(true)}
                     nextRecommended={nextRecommendedPath(
-                      ranked,
+                      filtered,
                       path.id,
                       recent,
                       saved,
@@ -385,10 +605,9 @@ export function PathList({
                     }}
                     weekHint={weekHint}
                   />
-                  );
-                })}
-              </div>
-            )}
+                );
+              })}
+            </div>
           </section>
         );
       })}
