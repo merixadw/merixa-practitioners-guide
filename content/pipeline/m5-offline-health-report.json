@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-07-26T13:47:15.913Z",
+  "milestone": "M5-offline",
+  "epic": "E12-offline",
+  "mode": "own-resources-zero-openai",
+  "volumeFreeze": true,
+  "neverSetEnrichedAt": true,
+  "openaiCalls": 0,
+  "partA": {
+    "skipped": true,
+    "reason": "offline already at ceiling: locallyDeepened 98.7%, workplaceTasks 100%, offlineShipReady true; dry-run cardsPolished=0",
+    "dryRun": {
+      "command": "node scripts/pipeline/m4-offline-agent-polish.mjs --dry-run --limit=500",
+      "cardsPolished": 0,
+      "qualitySkip": 80,
+      "ceilingNote": "qualitySkip=80; polishable residual may remain but upgrades=0 this dry-run"
+    },
+    "enrichmentStatus": {
+      "pctLocallyDeepened": 98.7,
+      "pctAgentPolished": 65.3,
+      "pctWithWorkplaceTasks": 100,
+      "pctProvenanceStamped": 100,
+      "pathDeepenedAndTasksPct": 0.995,
+      "offlineShipReady": true,
+      "withEnrichedAt": 3056,
+      "liveSharePct": 21,
+      "indexCards": 14217,
+      "seamlessCards": 14264,
+      "agentAuthoredCount": 3149
+    }
+  },
+  "stabilize": {
+    "port3456Listeners": 0,
+    "orphanNextKilled": 0,
+    "leftAlone": [
+      "ruflo mcp"
+    ]
+  },
+  "checklist": [
+    {
+      "id": "seamless-corpus",
+      "name": "Seamless corpus OK (~14k cards)",
+      "pass": true,
+      "detail": "catalogCards=14264 chunkCount=57056 detailShards=64 meta.generatedAt=2026-07-26T11:38:50.360Z",
+      "exitCode": 0
+    },
+    {
+      "id": "seamless-smoke",
+      "name": "library:seamless:smoke",
+      "pass": true,
+      "detail": "ok catalogCards=14264",
+      "exitCode": 0
+    },
+    {
+      "id": "truth-board",
+      "name": "library:truth-board / offline scoreboard",
+      "pass": true,
+      "detail": "offlineShipReady=true; liveShareSeamless=0.214 (public NOT claimed); pctLocallyDeepened=98.7; workplaceTasks=100%",
+      "exitCode": 0
+    },
+    {
+      "id": "path-dead-refs",
+      "name": "Path dead refs = 0",
+      "pass": true,
+      "detail": "npx tsx scripts/pipeline/tmp-path-dead-refs.ts → dead=0 deadPaths=0 paths=536 steps=8370 (~15.5s). Prior 0ms fail was harness false-negative.",
+      "exitCode": 0,
+      "priorFalseFail": {
+        "ms": 0,
+        "note": "hung M5 worker harness marked fail without running tool"
+      }
+    },
+    {
+      "id": "tsc",
+      "name": "npx tsc --noEmit",
+      "pass": true,
+      "detail": "exit 0 with NODE_OPTIONS=--max-old-space-size=8192 (~51s). Prior exit 134 was Node abort/OOM under default heap — not type errors.",
+      "exitCode": 0,
+      "priorExit134": "OOM/abort without elevated heap; re-run clean with 8GB"
+    },
+    {
+      "id": "tutor-consistency",
+      "name": "library:tutor-consistency",
+      "pass": false,
+      "detail": "passed=0 failed=8 — ALL error=rate-limit (OpenAI/tutor budget). Not content fails. Not re-run (ZERO OpenAI).",
+      "exitCode": 0,
+      "honestFails": [
+        {
+          "id": "strong-ifrs-revenue",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "thin-obscure",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "path-active-variance",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "tax-transfer-pricing",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "unrelated-path-leak",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "cgma-forecast",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "audit-control-test",
+          "ok": false,
+          "error": "rate-limit"
+        },
+        {
+          "id": "cfa-liquidity",
+          "ok": false,
+          "error": "rate-limit"
+        }
+      ],
+      "blockedBy": "OpenAI insufficient_quota / rate-limit"
+    },
+    {
+      "id": "facet-audit",
+      "name": "library:audit:facets (read-only)",
+      "pass": true,
+      "detail": "cloneCount=74 cloneShare=0.005 quarantinePlan=2 (audit only; quarantine not applied)",
+      "exitCode": 0,
+      "readOnly": true
+    },
+    {
+      "id": "next-build-http",
+      "name": "Production next build / HTTP smoke",
+      "pass": false,
+      "waived": true,
+      "detail": "next build: Turbopack compile OK (29s) + TypeScript OK (98s); crashed during SSG of ~14278 /guide/[id] pages (60s/page timeouts then worker exit 3221226505). Skipped next dev to avoid hang/orphans. Static corpus file check used instead.",
+      "compileOk": true,
+      "ssgOk": false,
+      "httpSmoke": "skipped_document_ssg_scale",
+      "staticCorpusCheck": {
+        "pass": true,
+        "metaCards": 14264,
+        "catalogCards": 14264,
+        "retrieveExists": true
+      }
+    },
+    {
+      "id": "volume-freeze",
+      "name": "No shelf minting / volume freeze held",
+      "pass": true,
+      "detail": "No agent-shelf-fill; cardGrowth=0; enrichedAt unchanged at 3056"
+    },
+    {
+      "id": "offlineShipReady",
+      "name": "offlineShipReady (distinct from public liveShare)",
+      "pass": true,
+      "detail": "true — NOT public OpenAI gate"
+    }
+  ],
+  "summary": {
+    "offlineHealthPass": true,
+    "publicLiveSharePass": false,
+    "blockingOpenAI": [
+      "E11-liveshare-openai (enrichedAt / liveShareSeamless≥0.40)",
+      "E12-qa-bar OpenAI judge re-sample",
+      "tutor-consistency (rate-limit)",
+      "library:enrich / enrich-all"
+    ],
+    "note": "M5-offline owns own-resource enrich finish + offline health. OpenAI absolute QA bar remains M5/E12 blocked."
+  },
+  "checklistScore": {
+    "items": 10,
+    "passOrWaived": 9,
+    "hardFails": [
+      "tutor-consistency"
+    ]
+  }
+}

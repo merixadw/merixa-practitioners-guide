@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-25T20:45:27.886Z",
-  "catalogCards": 5973,
+  "generatedAt": "2026-07-26T13:33:39.322Z",
+  "catalogCards": 14217,
   "cloneCount": 74,
-  "cloneShare": 0.012,
+  "cloneShare": 0.005,
   "plan": {
-    "families": 5809,
+    "families": 14053,
     "familiesWithClones": 53,
     "cloneCount": 74,
     "keptLenses": 72,
     "quarantineCount": 2,
-    "visibleAfter": 5971,
+    "visibleAfter": 14215,
     "cullShareOfClones": 0.027
   },
   "targetCullShareOfClones": 0.5,

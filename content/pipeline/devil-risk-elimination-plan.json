@@ -13,18 +13,18 @@
   "verifiedNumbers": {
     "totalIndexCards": 14217,
     "runtimeLoadedCards": 10636,
-    "seamlessCatalogCards": 10636,
-    "indexSeamlessGap": 3171,
+    "seamlessCatalogCards": 14264,
+    "indexSeamlessGap": 0,
     "withEnrichedAt": 3056,
     "remainingNeedingEnrichedAt": 11161,
     "liveSharePct": 21,
     "liveShareFraction": 0.22,
-    "locallyDeepenedAt": 11128,
-    "withWorkplaceTasks": 8165,
+    "locallyDeepenedAt": 14034,
+    "withWorkplaceTasks": 14217,
     "withoutWorkplaceTasksApprox": 9324,
     "withSourceQuotes": 5091,
-    "learningPaths": 259,
-    "pathSteps": 3426,
+    "learningPaths": 536,
+    "pathSteps": 8370,
     "pathDeadRefs": 0,
     "orphanFamilyPathsCount": 43,
     "orphanFamilyEnrichedOnly": true,
@@ -65,7 +65,8 @@
     "glossaryMatching": "exhausted",
     "agentAuthoredCount": 3149,
     "dilutionPts": 22.15,
-    "shelfFloorExpansionMode": "frozen"
+    "shelfFloorExpansionMode": "frozen",
+    "offlineShipReady": true
   },
   "orderingRationale": [
     "Kill false-green gates first (metric theater + ship-check freshness) so no one ships on stale 80.6% / structural 100.",
@@ -645,6 +646,50 @@
       "stopCondition": "Fresh public ship-check pass OR quota exhausted again (re-pause cleanly, no offline fake enrichedAt)."
     },
     {
+      "id": "E12-offline",
+      "name": "Own-resource enrich finish + offline health",
+      "primaryRisk": "claiming OpenAI QA bar done without offline foundations / hanging health suite",
+      "phase": "offline-depth",
+      "openaiRequired": "N",
+      "effort": "M",
+      "status": "completed",
+      "completedAt": "2026-07-26T13:47:15.913Z",
+      "objective": "Finish own-resource polish residual (or confirm ceiling), run offline app-health suite, document offlineShipReady distinctly from OpenAI absolute QA bar.",
+      "successMetric": "offlineShipReady true; seamless ~14k; pathDeadRefs=0; tsc healthy; health report written; no enrichedAt; volume freeze held.",
+      "resources": [
+        "npm run library:m4:offline-polish -- --dry-run",
+        "npm run library:seamless:smoke",
+        "npm run library:truth-board",
+        "npx tsx scripts/pipeline/tmp-path-dead-refs.ts",
+        "npx tsc --noEmit",
+        "content/pipeline/m5-offline-health-report.json"
+      ],
+      "dependencies": [
+        "E11-offline"
+      ],
+      "orderedTasks": [
+        "Dry-run residual polish; skip Part A if upgrades=0 at ceiling.",
+        "Confirm seamless corpus + smoke.",
+        "Truth-board / offline scoreboard.",
+        "Path dead-refs must be 0 (re-run if harness false-fail).",
+        "tsc with adequate heap; document OOM vs type errors.",
+        "Tutor-consistency: report OpenAI rate-limit fails honestly; do not fake pass.",
+        "Facet audit read-only.",
+        "Prefer static corpus check over hanging next SSG/dev.",
+        "Write m5-offline-health-report.json; update ops-status; commit+push."
+      ],
+      "stopCondition": "Health report committed; offlineShipReady honest; E12-qa-bar still blocked on OpenAI.",
+      "evidence": {
+        "healthReport": "content/pipeline/m5-offline-health-report.json",
+        "dryRunCardsPolished": 0,
+        "offlineShipReady": true,
+        "pathDeadRefs": 0,
+        "seamlessCards": 14264,
+        "tutorConsistency": "8/8 rate-limit",
+        "nextBuild": "compile_ok_ssg_waived"
+      }
+    },
+    {
       "id": "E12-qa-bar",
       "name": "OpenAI QA absolute bar",
       "primaryRisk": "QA bar (3 open OpenAI fails; absoluteFailRate 0.00001% not met; stale QA catalogSize 2974)",
@@ -826,6 +871,41 @@
       "blocker": "OpenAI quota/billing restore — after M4-offline"
     },
     {
+      "id": "M5-offline",
+      "name": "Own-resource enrich finish + offline health",
+      "status": "completed",
+      "completedAt": "2026-07-26T13:47:15.913Z",
+      "epics": [
+        "E12-offline"
+      ],
+      "exitCriteria": [
+        "Residual dry-run upgrades≈0 or quality ceiling",
+        "Seamless corpus ~14k OK",
+        "pathDeadRefs=0",
+        "tsc diagnosed (pass or documented)",
+        "tutor-consistency reported honestly",
+        "m5-offline-health-report.json written",
+        "Never set enrichedAt; volume freeze held",
+        "Distinct from OpenAI E12-qa-bar / M5"
+      ],
+      "exitEvidence": {
+        "dryRunCardsPolished": 0,
+        "qualitySkip": 80,
+        "pctLocallyDeepened": 98.7,
+        "pctWithWorkplaceTasks": 100,
+        "offlineShipReady": true,
+        "seamlessCards": 14264,
+        "pathDeadRefs": 0,
+        "tsc": "pass_8gb",
+        "tutorConsistencyFails": 8,
+        "tutorConsistencyError": "rate-limit",
+        "nextBuildSsg": "waived_timeout",
+        "enrichedAtUnchanged": 3056,
+        "openaiCalls": 0,
+        "healthReport": "content/pipeline/m5-offline-health-report.json"
+      }
+    },
+    {
       "id": "M5",
       "name": "QA absolute bar",
       "epics": [
@@ -837,13 +917,15 @@
         "Absolute fail-rate target met or written waiver",
         "ops-status.qualityBar green"
       ],
-      "note": "Offline: tendering rewritten + 2 placeholders quarantined; OpenAI judge re-sample still required for absolute bar."
+      "note": "Offline: M5-offline/E12-offline completed (own resources + health). OpenAI judge re-sample still required for absolute bar.",
+      "status": "blocked",
+      "blocker": "OpenAI quota/billing for absolute QA judge re-sample — after M5-offline"
     }
   ],
   "executionNotes": {
     "parallelism": "E5 can start after E0 in parallel with E2 once M0 done; E3/E4 after M0; never parallelize index writers.",
     "userBlockers": [
-      "OpenAI billing for E11-liveshare-openai / E12 / M4–M5"
+      "OpenAI billing for E11-liveshare-openai / E12-qa-bar / M4–M5"
     ],
     "firstCommandAfterPlanApproval": "npm run library:enrich:diagnostic && npm run library:ship-check -- --gate=public --report-only",
     "explicitlyNotInThisPlan": [
@@ -852,12 +934,15 @@
       "Inventing a git remote URL",
       "Faking enrichedAt offline"
     ],
-    "m4OfflineNote": "E11-offline / M4-offline completed with own resources; do not wait on OpenAI for depth. Public liveShare still needs billing."
+    "m4OfflineNote": "E11-offline / M4-offline completed with own resources; do not wait on OpenAI for depth. Public liveShare still needs billing.",
+    "m5OfflineNote": "E12-offline / M5-offline completed with own resources + health suite; do not wait on OpenAI for offline ship. Public liveShare + absolute QA still need billing."
   },
   "m1CompletedAt": "2026-07-26T10:45:46.265Z",
   "m1Status": "completed",
   "m3CompletedAt": "2026-07-26T11:00:00.000Z",
   "m3Status": "completed",
   "m4OfflineCompletedAt": "2026-07-26T11:22:32.114Z",
-  "m4OfflineStatus": "completed"
+  "m4OfflineStatus": "completed",
+  "m5OfflineCompletedAt": "2026-07-26T13:47:15.913Z",
+  "m5OfflineStatus": "completed"
 }

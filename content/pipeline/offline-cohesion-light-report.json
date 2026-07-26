@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-26T11:22:31.075Z",
+  "generatedAt": "2026-07-26T13:33:25.379Z",
   "note": "Light cohesion pass — report only; no mass-delete.",
   "titleTwinGroups": 82,
-  "sameDefinitionTwinGroups": 7,
+  "sameDefinitionTwinGroups": 8,
   "worstSameDefinitionTwins": [
     {
       "title": "management internal control authorization",
@@ -54,6 +54,15 @@
       "ids": [
         "definition-of-performance-obligations-37e0bc5973",
         "definition-of-performance-obligations-78043bc1fa"
+      ],
+      "sameDefinition": true
+    },
+    {
+      "title": "financial reporting provisions onerous contracts recognition and measurement",
+      "count": 2,
+      "ids": [
+        "ifrs-enc-financial-reporting-provisions-onerous-contracts-recogni-zmluyw5jaw",
+        "ifrs-enc-financial-reporting-provisions-onerous-contracts-recogni-zmluyw5jaw-797018"
       ],
       "sameDefinition": true
     },

@@ -1,0 +1,50 @@
+﻿{
+    "ship-check-report":  {
+                              "tail":  "      \"id\": \"liveShareCatalog\",\r\n      \"ok\": false,\r\n      \"detail\": \"liveShareCatalog=0.214 min=0.4 (seamless denominator; liveShareIndex=0.215)\"\r\n    },\r\n    {\r\n      \"id\": \"qaFailRate\",\r\n      \"ok\": true,\r\n      \"detail\": \"qaFailRate=0.006 max=0.05\"\r\n    },\r\n    {\r\n      \"id\": \"topicMismatch\",\r\n      \"ok\": true,\r\n      \"detail\": \"topicMismatch=0.006 max=0.02\"\r\n    },\r\n    {\r\n      \"id\": \"customPathsWorking\",\r\n      \"ok\": true,\r\n      \"detail\": \"customPathsWorking=true required=true\"\r\n    }\r\n  ],\r\n  \"failed\": [\r\n    \"liveShareCatalog\"\r\n  ]\r\n}\r\n",
+                              "pass":  true,
+                              "code":  0,
+                              "ms":  7524
+                          },
+    "truth-board":  {
+                        "tail":  "  \"competitivenessScoreInformational\": 50,\r\n  \"banShipOnStructural\": true,\r\n  \"offlineQuality\": {\r\n    \"generatedAt\": \"2026-07-26T11:39:23.497Z\",\r\n    \"pctLocallyDeepened\": 98.7,\r\n    \"pctAgentPolished\": 65.3,\r\n    \"pctWithWorkplaceTasks\": 100,\r\n    \"pctProvenanceStamped\": 100,\r\n    \"pathDeepenedAndTasksPct\": 0.995,\r\n    \"agentProvenanceCoveragePct\": 100,\r\n    \"indexSeamlessGap\": 0,\r\n    \"offlineShipReady\": true,\r\n    \"note\": \"Offline gate only ΓÇö DISTINCT from OpenAI liveShare / enrichedAt public ship.\",\r\n    \"priorOpsSnapshot\": {\r\n      \"pctAgentPolished\": 65.3,\r\n      \"offlineShipReady\": true\r\n    }\r\n  },\r\n  \"offlineShipReady\": true,\r\n  \"withWorkplaceTasks\": 14217,\r\n  \"locallyDeepenedAt\": 14034,\r\n  \"agentPolishedAt\": 9279,\r\n  \"note\": \"competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless. offlineShipReady is NOT the public OpenAI gate.\"\r\n}\r\n",
+                        "pass":  true,
+                        "code":  0,
+                        "ms":  3604
+                    },
+    "tsc":  {
+                "tail":  "",
+                "pass":  false,
+                "code":  134,
+                "ms":  112441
+            },
+    "path-dead-refs":  {
+                           "tail":  "checked",
+                           "pass":  false,
+                           "code":  1,
+                           "ms":  0
+                       },
+    "seamless-smoke":  {
+                           "tail":  "\r\n\u003e merixa-practitioners-guide@0.1.0 library:seamless:smoke\r\n\u003e node scripts/pipeline/seamless-smoke.mjs\r\n\r\n{\r\n  \"ok\": true,\r\n  \"catalogCards\": 14264,\r\n  \"catalogMB\": \"14.14\",\r\n  \"retrieveMB\": \"108.59\",\r\n  \"meta\": {\r\n    \"version\": 1,\r\n    \"generatedAt\": \"2026-07-26T11:38:50.360Z\",\r\n    \"cardCount\": 14264,\r\n    \"chunkCount\": 57056,\r\n    \"catalogCardCount\": 14264,\r\n    \"detailShards\": 64\r\n  }\r\n}\r\n",
+                           "pass":  true,
+                           "code":  0,
+                           "ms":  1670
+                       },
+    "tutor-consistency":  {
+                              "tail":  "\r\n\u003e merixa-practitioners-guide@0.1.0 library:tutor-consistency\r\n\u003e node scripts/pipeline/tutor-consistency-check.mjs\r\n\r\n  tutor-check strong-ifrs-revenueΓÇª\r\n  tutor-check thin-obscureΓÇª\r\n  tutor-check path-active-varianceΓÇª\r\n  tutor-check tax-transfer-pricingΓÇª\r\n  tutor-check unrelated-path-leakΓÇª\r\n  tutor-check cgma-forecastΓÇª\r\n  tutor-check audit-control-testΓÇª\r\n  tutor-check cfa-liquidityΓÇª\r\ntutor-consistency: passed=0 failed=8 ΓåÆ C:\\Users\\hmkay\\Downloads\\merixa-practitioners-guide\\content\\pipeline\\tutor-consistency-report.json\r\n",
+                              "pass":  true,
+                              "code":  0,
+                              "ms":  32362
+                          },
+    "scoreboard":  {
+                       "tail":  "      \"pathDeepenedPct\": 0.995\r\n    },\r\n    \"provenanceBuckets\": {\r\n      \"openai-live\": 3056,\r\n      \"agent-authored\": 3149,\r\n      \"codex-local\": 4450,\r\n      \"formula-pack\": 638,\r\n      \"registry\": 0,\r\n      \"unknown\": 2924\r\n    },\r\n    \"agentProvenanceCoveragePct\": 100,\r\n    \"indexSeamlessGap\": 0,\r\n    \"offlineShipReady\": true,\r\n    \"offlineShipReadyCriteria\": {\r\n      \"pathDeepenedAndTasksPctMin\": 0.8,\r\n      \"pathDeepenedAndTasksPct\": 0.995,\r\n      \"agentProvenanceCoveragePctMin\": 100,\r\n      \"agentProvenanceCoveragePct\": 100,\r\n      \"indexSeamlessGapMustBe\": 0,\r\n      \"indexSeamlessGap\": 0,\r\n      \"distinctFromOpenAIPublicGate\": true\r\n    }\r\n  }\r\n}\r\n",
+                       "pass":  true,
+                       "code":  0,
+                       "ms":  5348
+                   },
+    "facet-audit":  {
+                        "tail":  "    },\r\n    {\r\n      \"id\": \"sustain-enc-financed-emissions-overview-change-control-gate\",\r\n      \"title\": \"Financed emissions overview ΓÇö change-control gate\"\r\n    },\r\n    {\r\n      \"id\": \"sustain-enc-financed-emissions-overview-risk-register-link\",\r\n      \"title\": \"Financed emissions overview ΓÇö risk register link\"\r\n    },\r\n    {\r\n      \"id\": \"sustain-enc-financial-materiality-for-esg-risk-register-link\",\r\n      \"title\": \"Financial materiality for ESG ΓÇö risk register link\"\r\n    },\r\n    {\r\n      \"id\": \"sustain-enc-financial-materiality-for-esg-change-control-gate\",\r\n      \"title\": \"Financial materiality for ESG ΓÇö change-control gate\"\r\n    },\r\n    {\r\n      \"id\": \"ma-fixed-overhead-expenditure-variance-workplace-evidence\",\r\n      \"title\": \"Fixed overhead expenditure variance ΓÇö workplace evidence\"\r\n    }\r\n  ],\r\n  \"next\": \"npm run library:quarantine:facets\"\r\n}\r\n",
+                        "pass":  true,
+                        "code":  0,
+                        "ms":  4790
+                    }
+}
