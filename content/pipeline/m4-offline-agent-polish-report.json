@@ -1,9 +1,9 @@
 {
-  "startedAt": "2026-07-26T13:33:21.382Z",
-  "finishedAt": "2026-07-26T13:33:25.741Z",
+  "startedAt": "2026-07-26T13:56:19.345Z",
+  "finishedAt": "2026-07-26T13:56:24.569Z",
   "dryRun": true,
   "qaOnly": false,
-  "limit": 500,
+  "limit": 5000,
   "cardsPolished": 0,
   "qualitySkip": 80,
   "skipReasons": {
@@ -45,7 +45,7 @@
     "offlineShipReady": true
   },
   "scoreboard": {
-    "generatedAt": "2026-07-26T13:33:25.741Z",
+    "generatedAt": "2026-07-26T13:56:24.569Z",
     "note": "Offline quality scoreboard — DISTINCT from OpenAI liveShare / enrichedAt public gate. Never treat this as public ship-ready.",
     "totals": {
       "indexCards": 14217,

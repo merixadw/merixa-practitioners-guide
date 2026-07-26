@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T13:47:30.229Z",
+  "generatedAt": "2026-07-26T14:05:16.840Z",
   "phase0": {
     "stopped": [
       "library:hourly-progress:loop (left idle â€” no background loops restarted)"
@@ -16,7 +16,7 @@
       "ruflo mcp (unrelated)"
     ],
     "nodeProcessesAfterStabilize": 0,
-    "note": "M5-offline completed locally; OpenAI liveShare (E11) and QA bar (E12) still need billing. Volume freeze held."
+    "note": "M6 path soak: residual offline polish upgrades=0 (volume freeze held). Orphan-family paths republished with quality-tier=any min-depth-score=900 → paths 861 / steps 14236 / deadRefs 0. No encyclopedia shelf minting. Zero OpenAI."
   },
   "inventory": {
     "totalIndexCards": 14217,
@@ -106,13 +106,13 @@
       "delta": 410
     },
     "pathDeadRefs": 0,
-    "learningPaths": 536,
-    "pathSteps": 8370,
-    "pathCardRefs": 7731,
+    "learningPaths": 861,
+    "pathSteps": 14236,
+    "pathCardRefs": 13597,
     "locallyDeepenedAt": 11128,
     "deepenedNotInPathBaseline": 8198,
-    "deepenedNotInPathAfterE4": 3580,
-    "deepenedNotInPathReductionPct": 56.3,
+    "deepenedNotInPathAfterE4": 487,
+    "deepenedNotInPathReductionPct": 95.9,
     "withWorkplaceTasks": 8165,
     "withSourceQuotes": 5271,
     "catalogCardsWithAliases": 106,
@@ -128,14 +128,15 @@
     },
     "provenanceBucketsSum": 14217,
     "dualWriterResidual": false,
-    "glossaryMatching": "exhausted"
+    "glossaryMatching": "exhausted",
+    "pathCoverageReportAt": "2026-07-26T14:05:16.991Z"
   },
   "artifacts": {
     "canonicalRegistryGeneratedWired": true,
     "pathRepairReport": true,
     "recoveredAliases": true,
     "orphanFamilyPathsGenerated": true,
-    "orphanFamilyPathsCount": 320,
+    "orphanFamilyPathsCount": 645,
     "orphanFamilyEnrichedOnly": false,
     "orphanFamilyQualityTier": "any",
     "indexSeamlessGapReport": true,
@@ -145,7 +146,9 @@
     "extractedFormulasTermCount": 4548,
     "seamlessCorpus": true,
     "catalogRegistryAliasesWired": true,
-    "agentShelfFill": true
+    "agentShelfFill": true,
+    "orphanFamilyMinDepthScore": 900,
+    "pathCoverageReport": true
   },
   "phases": {
     "phase1Rewire": {
@@ -270,7 +273,7 @@
     "cardGrowthSinceM3Baseline": 0
   },
   "truthBoard": {
-    "generatedAt": "2026-07-26T13:47:30.229Z",
+    "generatedAt": "2026-07-26T13:55:55.789Z",
     "liveSharePct": 21,
     "liveShareIndex": 0.215,
     "liveShareSeamless": 0.214,
@@ -298,26 +301,20 @@
     "competitivenessScoreInformational": 67,
     "banShipOnStructural": true,
     "offlineQuality": {
-      "generatedAt": "2026-07-26T13:47:30.225Z",
       "pctLocallyDeepened": 98.7,
       "pctAgentPolished": 65.3,
       "pctWithWorkplaceTasks": 100,
       "pctProvenanceStamped": 100,
       "pathDeepenedAndTasksPct": 0.995,
-      "agentProvenanceCoveragePct": 100,
-      "indexSeamlessGap": 0,
       "offlineShipReady": true,
-      "note": "Offline gate only — DISTINCT from OpenAI liveShare / enrichedAt public ship.",
-      "priorOpsSnapshot": {
-        "pctAgentPolished": 65.3,
-        "offlineShipReady": true
-      }
+      "note": "Offline gate only — not liveShare / enrichedAt public ship."
     },
     "offlineShipReady": true,
     "withWorkplaceTasks": 14217,
     "locallyDeepenedAt": 14034,
     "agentPolishedAt": 9279,
-    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless. offlineShipReady is NOT the public OpenAI gate."
+    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless. offlineShipReady is NOT the public OpenAI gate.",
+    "volumeFreeze": true
   },
   "m0": {
     "status": "completed",
@@ -375,6 +372,15 @@
         "after": 0.382,
         "note": "Denominator grew with deepened path steps; enrichedAt stamp unchanged (soft-launch semantics preserved)."
       }
+    },
+    "pathSoakFollowOn": {
+      "at": "2026-07-26T14:05:16.991Z",
+      "orphanFamilyPaths": 645,
+      "learningPaths": 861,
+      "pathSteps": 14236,
+      "pathDeadRefs": 0,
+      "deepenedNotInPath": 487,
+      "deepenedNotInPathReductionPct": 95.9
     }
   },
   "m1": {
@@ -469,7 +475,7 @@
     "note": "Committing/pushing M5-offline health report + plan/ops status. index.json gitignored. No OpenAI."
   },
   "offlineQuality": {
-    "generatedAt": "2026-07-26T13:47:15.913Z",
+    "generatedAt": "2026-07-26T13:55:55.789Z",
     "note": "Offline quality scoreboard — DISTINCT from OpenAI liveShare / enrichedAt public gate. Never treat this as public ship-ready.",
     "totals": {
       "indexCards": 14217,
@@ -517,12 +523,30 @@
     }
   },
   "m4Offline": {
-    "status": "scoreboard-only",
-    "completedAt": "2026-07-26T11:42:06.078Z",
+    "status": "completed",
+    "completedAt": "2026-07-26T13:55:55.789Z",
     "epic": "E11-offline",
     "cardsPolished": 0,
-    "qualitySkip": 0,
-    "qaFixes": [],
+    "qualitySkip": 80,
+    "qaFixes": [
+      {
+        "id": "audit-committees-and-the-external-audit-minimum-standard-tendering-92f1b68b3b",
+        "action": "rewrote-tendering-focus",
+        "stillNeedsOpenAIJudge": true
+      },
+      {
+        "id": "business-law-ethics-corner-589-9504341f7a",
+        "action": "quarantined-placeholder",
+        "stillNeedsOpenAIJudge": false,
+        "note": "Content not teachable offline without a real source concept."
+      },
+      {
+        "id": "business-law-ethics-corner-591-5321a99ad8",
+        "action": "quarantined-placeholder",
+        "stillNeedsOpenAIJudge": false,
+        "note": "Content not teachable offline without a real source concept."
+      }
+    ],
     "offlineShipReady": true,
     "note": "Offline agent polish wave — no OpenAI; enrichedAt untouched. E11-liveshare-openai remains blocked on billing."
   },
@@ -544,5 +568,38 @@
     "openaiCalls": 0,
     "volumeFreezeHeld": true,
     "note": "Own-resource enrich at quality ceiling + offline health suite. Distinct from OpenAI E12-qa-bar / M5 public QA absolute bar."
+  },
+  "pathSoak": {
+    "at": "2026-07-26T14:05:16.991Z",
+    "mode": "paths-from-existing-cards",
+    "openai": "none",
+    "polishResidualUpgrades": 0,
+    "cardsPolishedThisRun": 0,
+    "neverSetEnrichedAt": true,
+    "volumeFreezeHeld": true,
+    "orphanFamilyPathsBefore": 320,
+    "orphanFamilyPathsAfter": 645,
+    "learningPathsBefore": 536,
+    "learningPathsAfter": 861,
+    "pathStepsBefore": 8370,
+    "pathStepsAfter": 14236,
+    "newPathsAdded": 325,
+    "pathDeadRefs": 0,
+    "deepenedNotInPathAfter": 487,
+    "deepenedNotInPathReductionPct": 95.9,
+    "minDepthScore": 900,
+    "qualityTier": "any",
+    "themes": [
+      "CRMA",
+      "IIA",
+      "COSO",
+      "FRM",
+      "Tax",
+      "MA",
+      "FA",
+      "IFRS",
+      "Strategy"
+    ],
+    "note": "Domain-shelf regenerate skipped (membership already 95.6% > target); prior domain-shelf JSON restored. Sibling PathList UI left untouched."
   }
 }

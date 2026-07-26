@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-26T10:21:46.773Z",
+  "generatedAt": "2026-07-26T14:00:18.340Z",
   "stepsPerPath": 18,
   "qualityTier": "any",
-  "minDepthScore": 1100,
+  "minDepthScore": 900,
   "enrichedOnly": false,
   "dualTierPublished": true,
-  "paths": 320,
-  "totalSteps": 5679,
+  "paths": 645,
+  "totalSteps": 11545,
   "liveSteps": 1023,
-  "deepenedSteps": 4656,
+  "deepenedSteps": 10522,
   "byFamily": {
     "strategy": {
       "orphanPool": 210,
@@ -18,18 +18,18 @@
       "steps": 210
     },
     "ma": {
-      "orphanPool": 1102,
+      "orphanPool": 1455,
       "liveInPool": 223,
-      "deepenedInPool": 879,
-      "paths": 62,
-      "steps": 1102
+      "deepenedInPool": 1232,
+      "paths": 81,
+      "steps": 1455
     },
     "tax": {
-      "orphanPool": 162,
+      "orphanPool": 1118,
       "liveInPool": 147,
-      "deepenedInPool": 15,
-      "paths": 9,
-      "steps": 162
+      "deepenedInPool": 971,
+      "paths": 62,
+      "steps": 1116
     },
     "sustain": {
       "orphanPool": 40,
@@ -60,51 +60,51 @@
       "steps": 49
     },
     "coso": {
-      "orphanPool": 537,
+      "orphanPool": 1380,
       "liveInPool": 26,
-      "deepenedInPool": 511,
-      "paths": 30,
-      "steps": 537
+      "deepenedInPool": 1354,
+      "paths": 77,
+      "steps": 1380
     },
     "frm": {
-      "orphanPool": 209,
+      "orphanPool": 1223,
       "liveInPool": 6,
-      "deepenedInPool": 203,
-      "paths": 12,
-      "steps": 209
+      "deepenedInPool": 1217,
+      "paths": 68,
+      "steps": 1223
     },
     "crma": {
-      "orphanPool": 672,
+      "orphanPool": 1448,
       "liveInPool": 131,
-      "deepenedInPool": 541,
-      "paths": 38,
-      "steps": 672
+      "deepenedInPool": 1317,
+      "paths": 81,
+      "steps": 1448
     },
     "fa": {
-      "orphanPool": 766,
+      "orphanPool": 1736,
       "liveInPool": 13,
-      "deepenedInPool": 753,
-      "paths": 43,
-      "steps": 766
+      "deepenedInPool": 1723,
+      "paths": 97,
+      "steps": 1736
     },
     "ifrs": {
-      "orphanPool": 1059,
+      "orphanPool": 1340,
       "liveInPool": 103,
-      "deepenedInPool": 956,
-      "paths": 59,
-      "steps": 1059
+      "deepenedInPool": 1237,
+      "paths": 75,
+      "steps": 1340
     },
     "iia": {
-      "orphanPool": 801,
+      "orphanPool": 1478,
       "liveInPool": 6,
-      "deepenedInPool": 795,
-      "paths": 45,
-      "steps": 801
+      "deepenedInPool": 1472,
+      "paths": 82,
+      "steps": 1476
     }
   },
-  "baselineDeepenedNotInPath": 8198,
-  "afterDeepenedNotInPath": 3580,
-  "deepenedNotInPathReductionPct": 56.3,
+  "baselineDeepenedNotInPath": 12001,
+  "afterDeepenedNotInPath": 487,
+  "deepenedNotInPathReductionPct": 95.9,
   "softLaunchNote": "soft-launch liveSharePath still uses enrichedAt-only — this publisher never stamps enrichedAt; deepened tier is visibility/path membership only.",
   "inventoryPath": "content/pipeline/path-orphan-deepen-inventory.json"
 }

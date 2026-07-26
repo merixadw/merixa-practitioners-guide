@@ -1,6 +1,6 @@
 {
-  "pathCardRefs": 7731,
-  "inIndex": 7703,
+  "pathCardRefs": 13597,
+  "inIndex": 13569,
   "missing": 28,
   "missingIds": [
     "accrual-basis",
@@ -32,14 +32,11 @@
     "variance-lens",
     "working-capital"
   ],
-  "thinOnPath": 1540,
+  "thinOnPath": 7096,
   "thinOnPathIds": [
-    "ifrs-enc-financial-reporting-application-of-ifrs-conceptual-frame-zmluyw5jaw",
     "ifrs-enc-financial-reporting-presentation-of-financial-statements-zmluyw5jaw",
-    "ifrs-enc-financial-reporting-provisions-recognition-and-measureme-zmluyw5jaw-63278",
     "ifrs-enc-ifrs-1-first-time-adoption-of-international-financial-re-awzycyaxic",
     "ifrs-1-exemptions",
-    "ifrs-1-disclosure",
     "ifrs-enc-ifrs-2-share-based-payment-awzycyayic",
     "ifrs-2-vesting",
     "ifrs-2-modifications",
@@ -53,16 +50,12 @@
     "ifrs-enc-ifrs-13-fair-value-measurement-awzycyaxmy",
     "ifrs-enc-ifrs-15-revenue-from-contracts-with-customers-awzycyaxns",
     "ifrs-enc-ifrs-17-insurance-contracts-awzycyaxny",
-    "ifrs-17-csm",
     "ifrs-17-disclosure",
     "ifrs-enc-ifrs-18-presentation-and-disclosure-in-financial-stateme-awzycyaxoc",
     "ifrs-enc-ias-1-presentation-of-financial-statements-awfzidegls",
-    "ias-1-offsetting",
-    "ifrs-enc-financial-reporting-inventory-valuation-and-cost-formula-zmluyw5jaw-57866",
     "ifrs-enc-ias-7-statement-of-cash-flows-awfzidcgls",
     "ifrs-enc-ias-7-group-cash-flow-disclosure-completion-awfzidcgz3",
     "ifrs-enc-ias-8-accounting-policies-changes-in-accounting-estimate-awfzidggls",
-    "ias-8-estimates",
     "ias-8-errors",
     "ifrs-enc-ias-10-events-after-the-reporting-period-awfzidewic",
     "ifrs-enc-ias-16-property-plant-and-equipment-awfzide2ic",
@@ -73,6 +66,13 @@
     "ifrs-enc-ias-24-related-party-disclosures-awfzidi0ic",
     "ifrs-enc-ias-27-separate-financial-statements-awfzidi3ic",
     "ifrs-enc-consolidation-accounting-for-associates-and-joint-ventur-y29uc29saw",
-    "ifrs-enc-financial-reporting-classification-and-measurement-of-fi-zmluyw5jaw"
+    "ifrs-enc-financial-reporting-classification-and-measurement-of-fi-zmluyw5jaw",
+    "ifrs-enc-ias-32-financial-instruments-presentation-awfzidmyic",
+    "ifrs-enc-ias-34-interim-financial-reporting-awfzidm0ic",
+    "ifrs-enc-ias-36-impairment-of-assets-awfzidm2ic",
+    "ifrs-enc-financial-reporting-impairment-reversal-of-impairment-lo-zmluyw5jaw-334214",
+    "ifrs-enc-ias-37-provisions-contingent-liabilities-and-contingent--awfzidm3ic",
+    "ifrs-enc-ias-38-intangible-assets-awfzidm4ic",
+    "ias-41-produce"
   ]
 }
