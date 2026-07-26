@@ -4,9 +4,20 @@
  * to every catalog card id (+ aliases) so Capacitor deep links resolve without
  * running 14k React SSG renders.
  *
+ * Prefer hardlinks for leaf files (fast + smaller disk); fall back to copy.
+ *
  * Usage: node scripts/pipeline/stamp-guide-shell.mjs
  */
-import { cpSync, existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
+import {
+  copyFileSync,
+  existsSync,
+  linkSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  rmSync,
+  statSync,
+} from "node:fs";
 import { join } from "node:path";
 
 const ROOT = process.cwd();
@@ -26,8 +37,42 @@ function fail(message) {
   process.exit(1);
 }
 
+function listFilesRecursive(dir, prefix = "") {
+  const out = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
+    const abs = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      out.push(...listFilesRecursive(abs, rel));
+    } else {
+      out.push(rel);
+    }
+  }
+  return out;
+}
+
+function stampOne(shellFiles, destRoot) {
+  if (existsSync(destRoot)) {
+    rmSync(destRoot, { recursive: true, force: true });
+  }
+  mkdirSync(destRoot, { recursive: true });
+  for (const rel of shellFiles) {
+    const src = join(SHELL_DIR, ...rel.split("/"));
+    const dest = join(destRoot, ...rel.split("/"));
+    mkdirSync(join(dest, ".."), { recursive: true });
+    try {
+      linkSync(src, dest);
+    } catch {
+      copyFileSync(src, dest);
+    }
+  }
+}
+
 if (!existsSync(SHELL_DIR)) {
   fail(`missing ${SHELL_DIR} — run next build first`);
+}
+if (!existsSync(join(SHELL_DIR, "index.html"))) {
+  fail(`missing ${join(SHELL_DIR, "index.html")}`);
 }
 if (!existsSync(CATALOG_PATH)) {
   fail(`missing ${CATALOG_PATH} — run npm run library:seamless first`);
@@ -55,15 +100,17 @@ if (existsSync(ALIAS_PATH)) {
 
 ids.delete("_shell");
 
+const shellFiles = listFilesRecursive(SHELL_DIR);
+if (shellFiles.length === 0) fail("shell directory is empty");
+
+const t0 = Date.now();
 let stamped = 0;
 for (const id of ids) {
-  const dest = join(OUT_GUIDE, id);
-  if (existsSync(dest)) {
-    rmSync(dest, { recursive: true, force: true });
-  }
-  mkdirSync(dest, { recursive: true });
-  cpSync(SHELL_DIR, dest, { recursive: true });
+  stampOne(shellFiles, join(OUT_GUIDE, id));
   stamped += 1;
+  if (stamped % 2000 === 0) {
+    console.error(`stamp-guide-shell: ${stamped}/${ids.size}…`);
+  }
 }
 
 console.log(
@@ -71,8 +118,14 @@ console.log(
     {
       ok: true,
       shell: "_shell",
+      shellFiles: shellFiles.length,
       stamped,
       catalogCards: (catalog.cards ?? []).length,
+      ms: Date.now() - t0,
+      shellBytes: shellFiles.reduce(
+        (sum, rel) => sum + statSync(join(SHELL_DIR, ...rel.split("/"))).size,
+        0,
+      ),
     },
     null,
     2,

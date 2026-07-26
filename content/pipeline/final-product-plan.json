@@ -4,29 +4,41 @@
   "focus": "Ship what users open and use. Stop operational-efficiency / shelf-minting work unless it blocks the product shell.",
   "context": {
     "liveShareGates": "soft/public ~21% fail — accepted; offlineShipReady=true (offline depth only)",
-    "ios": "Not ready — ios/ stub only; next build SSG of 14k guides breaks; out/ incomplete without stamp",
+    "ios": "Not ready — ios/ stub only; P-Web export+stamp unblocks Cap webDir (no 14k SSG)",
     "paths": "861+ with filters on cursor/paths-ui-filter",
-    "openai": "ZERO OpenAI API until product shell ships"
+    "openai": "ZERO OpenAI API until product shell ships",
+    "pWebLastBuild": {
+      "ssgPages": 13,
+      "guideShell": "/guide/_shell",
+      "catalogCards": 14264,
+      "stampedGuides": 14266,
+      "detailShards": 64,
+      "outCorpus": {
+        "catalogMB": 14.14,
+        "retrieveMB": 108.59
+      },
+      "smoke": "scripts/pipeline/smoke-out-web.mjs ok"
+    }
   },
   "deprioritized": [
     "More agent encyclopedia shelf cards / volume minting",
     "OpenAI enrich / liveShare soft-gate churn",
-    "Devil-risk epic work that does not block Tutor/Library/Paths/Saved ship"
+    "Devil-risk epic work that does not block Tutor/Library/Paths/Saved ship",
+    "Stale Turbopack OOM agent work — superseded by webpack default + no 150MB static import (6a6371c+)"
   ],
   "milestones": [
     {
       "id": "P-Dev",
       "name": "Local/dev & build reliability",
-      "status": "in_progress",
+      "status": "done",
       "acceptance": [
         "npm run dev serves / with HTTP 200 on Windows without Turbopack OOM",
         "Homepage does not statically import content/index.json (~150MB)",
-        "Heavy path packs load from public/corpus/path-packs, not the bundler graph",
+        "Heavy path packs load from public/path-packs, not the bundler graph",
         "dev:webpack is the default; dev:turbo optional"
       ],
       "work": [
         "fs-read corpus index (no JSON import)",
-        "Skip generateStaticParams corpus walk in development",
         "Client-hydrate domain-shelf + orphan-family path packs",
         "Default next dev --webpack"
       ]
@@ -34,17 +46,18 @@
     {
       "id": "P-Web",
       "name": "Production static export with corpus (no 14k SSG crash)",
-      "status": "in_progress",
+      "status": "done",
       "acceptance": [
         "next build emits out/ with app shell + public/corpus copied",
         "/guide/[id] is a client shell (useParams + detail shards)",
         "stamp-guide-shell copies one shell HTML to every catalog id (+ aliases)",
-        "build:web = seamless + next build + stamp; Cap webDir out/ has deep-linkable guides"
+        "build:web = seamless + next build + stamp + smoke; Cap webDir out/ has deep-linkable guides"
       ],
       "work": [
-        "GuideDetailClient + generateStaticParams([{id:'_shell'}])",
-        "scripts/pipeline/stamp-guide-shell.mjs",
-        "Wire stamp into build:web / ios:sync path"
+        "GuideDetailClient + generateStaticParams([{id:'_shell'}]) + dynamicParams=false literal",
+        "scripts/pipeline/stamp-guide-shell.mjs (hardlink stamp)",
+        "scripts/pipeline/build-web.mjs + smoke-out-web.mjs",
+        "Verified: 13 SSG routes, 14266 stamped guides, out/corpus present"
       ]
     },
     {

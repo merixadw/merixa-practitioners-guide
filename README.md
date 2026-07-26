@@ -70,8 +70,11 @@ npm run library:verify   # Re-measure live corpus against this week's goals
 npm run library:circle -- --cycles=3
 npm run library:review   # Model editorial pass when OPENAI_API_KEY is set
 npm run ingest:full      # extract + ingest + enrich
-npm run dev              # Next.js 16 Turbopack — heap raised for Windows
-npm run dev:webpack      # Webpack fallback if Turbopack still OOMs
+npm run dev              # webpack (default) — avoids Turbopack OOM on Windows
+npm run dev:turbo        # Turbopack optional
+npm run dev:webpack      # same as npm run dev
+npm run build:web        # seamless (if needed) → next export → stamp guides → smoke out/
+npm run build:web:smoke  # static check that out/corpus + stamped guides exist
 npm run build
 ```
 
@@ -79,6 +82,10 @@ Heavy corpus files (`content/index.json`, practice path packs) are read from dis
 or fetched from `/path-packs/…` at runtime — they are **not** statically imported into
 the app compile graph (that crashed Turbopack on Windows with
 `memory allocation of … bytes failed`).
+
+**P-Web ship path:** `next build` SSGs only `/guide/_shell` (not 14k pages). Then
+`stamp-guide-shell` hardlinks that HTML to every catalog id so Capacitor deep links
+work, while Library loads cards from `out/corpus/` (copied from `public/corpus`).
 
 **Final product milestones** (not more shelf minting): see
 `content/pipeline/final-product-plan.json` — P-Dev → P-Web → P-UX → P-Cap → P-Store.

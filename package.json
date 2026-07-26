@@ -105,12 +105,12 @@
     "build": "npm run ingest && npm run enrich && npm run library:seamless && next build",
     "library:seamless": "npx --yes tsx scripts/pipeline/publish-seamless-corpus.ts",
     "library:seamless:smoke": "node scripts/pipeline/seamless-smoke.mjs",
-    "build:web": "npm run library:seamless && next build && node scripts/pipeline/stamp-guide-shell.mjs",
+    "build:web": "node scripts/pipeline/build-web.mjs",
     "build:web:stamp": "node scripts/pipeline/stamp-guide-shell.mjs",
     "cap:sync": "npx cap sync ios",
     "cap:open": "npx cap open ios",
     "ios:sync": "npm run build:web && npx cap sync ios",
-    "dev": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev",
+    "dev": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --webpack",
     "dev:webpack": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --webpack",
     "device-lab": "node device-lab/server.mjs --open",
     "device-lab:serve": "node device-lab/server.mjs",
@@ -123,7 +123,9 @@
     "learn:deploy": "npx wrangler deploy",
     "learn:circle": "node scripts/pipeline/circle.mjs",
     "ask:deploy": "npx wrangler deploy --config wrangler.ask.toml",
-    "iap:deploy": "npx wrangler deploy --config wrangler.iap.toml"
+    "iap:deploy": "npx wrangler deploy --config wrangler.iap.toml",
+    "build:web:smoke": "node scripts/pipeline/smoke-out-web.mjs",
+    "dev:turbo": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --turbopack"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.2",
