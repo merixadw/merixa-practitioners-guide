@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-07-26T10:58:40.440Z",
+  "dryRun": false,
+  "limit": 3000,
+  "candidates": 3000,
+  "filled": 2990,
+  "qualitySkip": 10,
+  "withWorkplaceTasks": 8165,
+  "pathCards": 7703,
+  "pathWithWorkplaceTasks": 7606,
+  "pathWorkplaceCoverage": 0.987,
+  "stopReason": null,
+  "samples": [
+    {
+      "id": "fa-141-operating-working-capital-ratio-mtqxic0gb3",
+      "title": "141 - Operating Working Capital Ratio",
+      "tasks": [
+        "Name the owner who must evidence “141 - Operating Working Capital Ratio” before pack or file sign-off",
+        "Recompute the key figure for “141 - Operating Working Capital Ratio” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-142-return-on-assets-mtqyic0gcm",
+      "title": "142 - Return on Assets",
+      "tasks": [
+        "Name the owner who must evidence “142 - Return on Assets” before pack or file sign-off",
+        "Recompute the key figure for “142 - Return on Assets” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-143-operating-return-on-assets-mtqzic0gb3",
+      "title": "143 - Operating Return on Assets",
+      "tasks": [
+        "Name the owner who must evidence “143 - Operating Return on Assets” before pack or file sign-off",
+        "Recompute the key figure for “143 - Operating Return on Assets” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-144-return-on-equity-mtq0ic0gcm",
+      "title": "144 - Return on Equity",
+      "tasks": [
+        "Name the owner who must evidence “144 - Return on Equity” before pack or file sign-off",
+        "Recompute the key figure for “144 - Return on Equity” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-145-return-on-common-equity-mtq1ic0gcm",
+      "title": "145 - Return on Common Equity",
+      "tasks": [
+        "Name the owner who must evidence “145 - Return on Common Equity” before pack or file sign-off",
+        "Recompute the key figure for “145 - Return on Common Equity” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-146-return-on-capital-employed-mtq2ic0gcm",
+      "title": "146 - Return on Capital Employed",
+      "tasks": [
+        "Name the owner who must evidence “146 - Return on Capital Employed” before pack or file sign-off",
+        "Recompute the key figure for “146 - Return on Capital Employed” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-147-return-on-invested-capital-mtq3ic0gcm",
+      "title": "147 - Return on Invested Capital",
+      "tasks": [
+        "Name the owner who must evidence “147 - Return on Invested Capital” before pack or file sign-off",
+        "Recompute the key figure for “147 - Return on Invested Capital” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    },
+    {
+      "id": "fa-148-return-on-sales-mtq4ic0gcm",
+      "title": "148 - Return on Sales",
+      "tasks": [
+        "Name the owner who must evidence “148 - Return on Sales” before pack or file sign-off",
+        "Recompute the key figure for “148 - Return on Sales” from source extracts and keep the inputs",
+        "Stress-test the reverse conclusion — watch for: Mixing periods, currencies or populations. Using unaudited, unreconciled or sta…"
+      ]
+    }
+  ]
+}

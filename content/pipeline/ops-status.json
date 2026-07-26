@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T10:45:46.265Z",
+  "generatedAt": "2026-07-26T11:00:53.906Z",
   "phase0": {
     "stopped": [
       "library:hourly-progress:loop (left idle â€” no background loops restarted)"
@@ -16,7 +16,7 @@
       "ruflo mcp (unrelated)"
     ],
     "nodeProcessesAfterStabilize": 0,
-    "note": "Single sequenced rewire+owned-resource enrich run. Zero OpenAI API calls. No commit."
+    "note": "M3 offline depth completed and persisted to GitHub; zero OpenAI API calls; M4 enrich still needs user quota."
   },
   "inventory": {
     "totalIndexCards": 14217,
@@ -109,15 +109,26 @@
     "learningPaths": 536,
     "pathSteps": 8370,
     "pathCardRefs": 7731,
-    "locallyDeepenedAt": 8237,
+    "locallyDeepenedAt": 11128,
     "deepenedNotInPathBaseline": 8198,
     "deepenedNotInPathAfterE4": 3580,
     "deepenedNotInPathReductionPct": 56.3,
-    "withWorkplaceTasks": 4483,
-    "withSourceQuotes": 5091,
+    "withWorkplaceTasks": 8165,
+    "withSourceQuotes": 5271,
     "catalogCardsWithAliases": 106,
     "indexSeamlessGap": 0,
-    "seamlessCards": 14264
+    "seamlessCards": 14264,
+    "agentAuthoredCount": 3149,
+    "provenanceBuckets": {
+      "codex-local": 4450,
+      "agent-authored": 3149,
+      "openai-live": 3056,
+      "formula-pack": 638,
+      "unknown": 2924
+    },
+    "provenanceBucketsSum": 14217,
+    "dualWriterResidual": false,
+    "glossaryMatching": "exhausted"
   },
   "artifacts": {
     "canonicalRegistryGeneratedWired": true,
@@ -214,13 +225,13 @@
   },
   "shelfFloorExpansion": {
     "at": "2026-07-26T09:55:29.022Z",
-    "mode": "agent-authored",
+    "mode": "frozen",
     "wave": 4,
     "openai": "insufficient_quota (unused)",
     "cardsPublished": 410,
     "agentAuthoredCardsCumulative": 3149,
     "seamless": "ok — 10636 cards, 42544 chunks",
-    "note": "Final wave closed frm and crma floors exactly at 1500. Quality-first banks; no --allow-heuristic. No commit. Floors fully closed across priority shelves.",
+    "note": "M3 E6 volume freeze: no wave-4+ minting until M4 OpenAI polish. Depth-only offline. agent-shelf-fill/expand refuse without --force-after-freeze.",
     "before": {
       "ma": 1510,
       "tax": 2120,
@@ -255,10 +266,12 @@
       "coso": 0,
       "frm": 0
     },
-    "floorsFullyClosed": true
+    "floorsFullyClosed": true,
+    "frozenAt": "2026-07-26T11:00:53.906Z",
+    "cardGrowthSinceM3Baseline": 0
   },
   "truthBoard": {
-    "generatedAt": "2026-07-26T10:23:49.102Z",
+    "generatedAt": "2026-07-26T11:00:53.906Z",
     "liveSharePct": 21,
     "liveShareIndex": 0.215,
     "liveShareSeamless": 0.214,
@@ -285,7 +298,18 @@
     "enrichPauseReason": "insufficient_quota",
     "competitivenessScoreInformational": 50,
     "banShipOnStructural": true,
-    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless."
+    "note": "competitivenessScore / shelf pct / agent wave counts are NOT release gates. Public gate uses liveShareSeamless.",
+    "dualWriterResidual": false,
+    "volumeFreeze": true,
+    "withWorkplaceTasks": 8165,
+    "locallyDeepenedAt": 11128,
+    "provenanceBuckets": {
+      "codex-local": 4450,
+      "agent-authored": 3149,
+      "openai-live": 3056,
+      "formula-pack": 638,
+      "unknown": 2924
+    }
   },
   "m0": {
     "status": "completed",
@@ -367,6 +391,73 @@
       "tipSha": "627dd84834c5e59b00536298e2ba787228c8eac1",
       "pushedAt": "2026-07-26T10:45:46.265Z",
       "tracking": "origin/cursor/enrich-live-stamp-fail-parking"
+    },
+    "remoteNote": "M1 remote is DONE (not blocked): origin https://github.com/merixadw/merixa-practitioners-guide.git pushed."
+  },
+  "dualWriter": {
+    "residual": false,
+    "auditedAt": "2026-07-26T11:00:53.906Z",
+    "report": "content/pipeline/dual-writer-audit-report.json",
+    "lockProtocol": "content/pipeline/index.lock via scripts/pipeline/index-holder.mjs",
+    "safeWrite": "scripts/lib/safe-index-write.mjs"
+  },
+  "m3": {
+    "status": "completed",
+    "completedAt": "2026-07-26T11:00:53.906Z",
+    "epics": {
+      "E5-dual-writer": "completed",
+      "E6-volume-vs-depth": "completed",
+      "E7-workplace-tasks": "completed",
+      "E8-glossary-exhausted-pivot": "completed",
+      "E9-provenance": "completed",
+      "E10-agent-cards-no-enrichedAt": "completed"
+    },
+    "exitCriteria": {
+      "dualWriterResidual": false,
+      "volumeFreezeHeld": true,
+      "cardGrowth": 0,
+      "withWorkplaceTasks": 8165,
+      "pathWorkplaceCoverage": 0.987,
+      "formulaUpgrades": 830,
+      "glossaryMatching": "exhausted",
+      "agentProvenanceCoveragePct": 100,
+      "openaiPolishQueue": "content/pipeline/openai-polish-queue.json",
+      "dilutionPts": 22.15
+    },
+    "beforeAfter": {
+      "totalIndexCards": {
+        "before": 14217,
+        "after": 14217
+      },
+      "locallyDeepenedAt": {
+        "before": 8237,
+        "after": 11128
+      },
+      "withWorkplaceTasks": {
+        "before": 4483,
+        "after": 8165
+      },
+      "thinExamples": {
+        "before": 2745,
+        "after": 2745
+      },
+      "liveSharePct": {
+        "before": 21,
+        "after": 21,
+        "note": "unchanged — no volume dilution; enrichedAt unchanged"
+      }
     }
+  },
+  "openaiPolishQueue": {
+    "path": "content/pipeline/openai-polish-queue.json",
+    "needingEnrichedAt": 11161,
+    "agentWithoutEnrichedAt": 3149,
+    "dilutionPts": 22.15,
+    "note": "Agent volume ≠ liveShare progress. Drain after OpenAI quota restore (M4)."
+  },
+  "githubPersist": {
+    "at": "2026-07-26T11:06:13.730Z",
+    "milestone": "M3",
+    "note": "Committing/pushing M3 dual-writer lock, volume freeze, workplaceTasks, provenance, polish queue, formula pivot. M4 OpenAI enrich NOT started (quota)."
   }
 }

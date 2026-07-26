@@ -275,6 +275,37 @@ function main() {
     ),
   };
 
+  // Provenance buckets (E9) — never treat locallyDeepenedAt as enrichedAt.
+  const provenanceBuckets = {
+    "openai-live": 0,
+    "agent-authored": 0,
+    "codex-local": 0,
+    "formula-pack": 0,
+    registry: 0,
+    unknown: 0,
+  };
+  for (const card of allCards) {
+    let key = card.sourceProvenance;
+    if (!provenanceBuckets[key]) {
+      if (card.enrichedAt) key = "openai-live";
+      else if (
+        card.agentAuthoredAt ||
+        (card.tags || []).includes("agent-authored")
+      ) {
+        key = "agent-authored";
+      } else if (
+        (card.tags || []).includes("codex-sourced") ||
+        card.codexDeepenedAt ||
+        card.locallyDeepenedAt
+      ) {
+        key = "codex-local";
+      } else if (card.formulaPackAt) key = "formula-pack";
+      else if (Array.isArray(card.aliases) && card.aliases.length) key = "registry";
+      else key = "unknown";
+    }
+    provenanceBuckets[key] = (provenanceBuckets[key] || 0) + 1;
+  }
+
   const report = {
     generatedAt: new Date().toISOString(),
     catalog: {
@@ -289,6 +320,11 @@ function main() {
     metrics,
     competitivenessScore,
     competitivenessScoreIsNotShipGate: true,
+    provenanceBuckets,
+    provenanceBucketsSum: Object.values(provenanceBuckets).reduce(
+      (a, b) => a + b,
+      0,
+    ),
     shipMetrics,
     verdict:
       competitivenessScore >= 85

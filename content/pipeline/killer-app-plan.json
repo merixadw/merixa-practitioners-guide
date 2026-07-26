@@ -94,13 +94,14 @@
     {
       "step": 3,
       "id": "encyclopedia-shelves",
-      "action": "npm run library:shelves:expand:aggressive -- --ignore-budget (ma/tax/fa/ifrs/crma/iia/coso/frm → floors; Merixa×Codex seeds; OpenAI definitions)",
-      "status": "paused",
-      "note": "Priority shelves raised to 1500–2000 floors; tax floor 2000; runs in parallel with enrich",
-      "pausedAt": "2026-07-25T20:07:26.080Z",
-      "pausedReason": "OpenAI insufficient_quota — paused pending OpenAI billing top-up. Run exited cleanly (no offline-heuristic flood; 1 template card minted: ifrs-enc-financial-reporting-accounting-for-tax-effects-of-govern-zmluyw5jaw-925113). Resume: npm run library:shelves:expand:aggressive -- --ignore-budget"
+      "action": "npm run library:shelves:expand:aggressive — BLOCKED by volume freeze (E6)",
+      "status": "frozen",
+      "note": "M3 E6: agent volume ≠ liveShare progress. Floors closed; wave-4+ minting frozen until OpenAI polish (M4). agent-shelf-fill / expand refuse without --force-after-freeze + distinctness report.",
+      "frozenAt": "2026-07-26T10:35:00.000Z",
+      "frozenReason": "VOLUME_FREEZE — deepen existing cards; do not mint shelf waves"
     }
   ],
+  "m3Note": "Agent-authored / locallyDeepened cards without enrichedAt are expected and dilute liveSharePct. Drain content/pipeline/openai-polish-queue.json after quota restore — do not treat card-count waves as liveShare progress.",
   "softLaunchGate": {
     "liveSharePath": 0.7,
     "qaFailRateMax": 0.05,

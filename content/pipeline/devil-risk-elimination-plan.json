@@ -11,16 +11,16 @@
   "m2CompletedAt": "2026-07-26T10:23:49.102Z",
   "m2Status": "completed",
   "verifiedNumbers": {
-    "totalIndexCards": 13807,
+    "totalIndexCards": 14217,
     "runtimeLoadedCards": 10636,
     "seamlessCatalogCards": 10636,
     "indexSeamlessGap": 3171,
     "withEnrichedAt": 3056,
-    "remainingNeedingEnrichedAt": 10751,
-    "liveSharePct": 22,
+    "remainingNeedingEnrichedAt": 11161,
+    "liveSharePct": 21,
     "liveShareFraction": 0.22,
-    "locallyDeepenedAt": 7827,
-    "withWorkplaceTasks": 4483,
+    "locallyDeepenedAt": 11128,
+    "withWorkplaceTasks": 8165,
     "withoutWorkplaceTasksApprox": 9324,
     "withSourceQuotes": 5091,
     "learningPaths": 259,
@@ -59,8 +59,13 @@
     "openaiQaLastRunAt": "2026-07-25T18:08:02.787Z",
     "enrichPaused": true,
     "enrichPauseReason": "insufficient_quota",
-    "gitRemote": "NONE",
-    "competitivenessScoreInformational": 100
+    "gitRemote": "DONE https://github.com/merixadw/merixa-practitioners-guide.git",
+    "competitivenessScoreInformational": 100,
+    "dualWriterResidual": false,
+    "glossaryMatching": "exhausted",
+    "agentAuthoredCount": 3149,
+    "dilutionPts": 22.15,
+    "shelfFloorExpansionMode": "frozen"
   },
   "orderingRationale": [
     "Kill false-green gates first (metric theater + ship-check freshness) so no one ships on stale 80.6% / structural 100.",
@@ -192,7 +197,7 @@
     {
       "id": "E2-git-remote",
       "name": "Deploy safety — git remote + backup path",
-      "primaryRisk": "no git remote (cannot push/recover off-machine)",
+      "primaryRisk": "git remote established (M1 DONE; was: no git remote)",
       "phase": "deploy-safety",
       "openaiRequired": "N",
       "effort": "S",
@@ -200,7 +205,7 @@
       "successMetric": "git remote -v shows origin URL supplied by user; git push -u origin HEAD succeeds once; content/pipeline/backups/ or corpus-backup policy documented for pre-write snapshots.",
       "resources": [
         "git (local)",
-        "user-provided remote URL (BLOCKER)",
+        "user-provided remote URL (DONE — origin configured)",
         "scripts/lib/corpus-backup.mjs"
       ],
       "dependencies": [
@@ -335,7 +340,16 @@
         "Keep index-backup-* rotation but stop treating backups as recovery theater — restore drill once after lock lands.",
         "Record dualWriterResidual=false in ops-status when audit clean."
       ],
-      "stopCondition": "Audit clean + lock protocol used on next offline deepen run; no parallel writer invocations."
+      "stopCondition": "Audit clean + lock protocol used on next offline deepen run; no parallel writer invocations.",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "evidence": {
+        "dualWriterResidual": false,
+        "audit": "content/pipeline/dual-writer-audit-report.json",
+        "holder": "scripts/pipeline/index-holder.mjs",
+        "safeWrite": "scripts/lib/safe-index-write.mjs",
+        "residualsMigrated": 30
+      }
     },
     {
       "id": "E6-volume-vs-depth",
@@ -364,7 +378,23 @@
         "Track dilution: liveSharePct must not fall further from volume; if card count rises, enrichedAt must rise proportionally or wave aborts.",
         "Leave frm 366 / crma 44 gaps accepted until depth bars met."
       ],
-      "stopCondition": "No net card minting week; deepen metrics up; liveSharePct not decreased by volume."
+      "stopCondition": "No net card minting week; deepen metrics up; liveSharePct not decreased by volume.",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "evidence": {
+        "mode": "frozen",
+        "cardGrowth": 0,
+        "locallyDeepenedAt": {
+          "before": 8237,
+          "after": 11128
+        },
+        "thinExamples": {
+          "before": 2745,
+          "after": 2745
+        },
+        "liveSharePctUnchanged": 21,
+        "wave4PlusBlocked": true
+      }
     },
     {
       "id": "E7-workplace-tasks",
@@ -394,7 +424,19 @@
         "Smoke 20 random cards in UI/ConceptDetail for task rendering.",
         "Update ops-status.inventory.withWorkplaceTasks."
       ],
-      "stopCondition": "withWorkplaceTasks ≥ 7000 or path-card workplaceTasks coverage ≥ 80% (whichever comes first); stop if templates become repetitive spam (qualitySkip rises)."
+      "stopCondition": "withWorkplaceTasks ≥ 7000 or path-card workplaceTasks coverage ≥ 80% (whichever comes first); stop if templates become repetitive spam (qualitySkip rises).",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "evidence": {
+        "withWorkplaceTasks": {
+          "before": 4483,
+          "after": 8165
+        },
+        "pathWorkplaceCoverage": 0.987,
+        "filled": 2990,
+        "qualitySkip": 10,
+        "report": "content/pipeline/workplace-tasks-fill-report.json"
+      }
     },
     {
       "id": "E8-glossary-exhausted-pivot",
@@ -423,7 +465,16 @@
         "Dry-run then apply ≤1 writer; record upgrades in codex-local-enrich-report or new formula-enrich-report.",
         "If upgrades <50 after matcher, stop and wait for OpenAI phase rather than inventing content."
       ],
-      "stopCondition": "Matcher run complete; either ≥200 upgrades or documented residual-owned-source exhaustion."
+      "stopCondition": "Matcher run complete; either ≥200 upgrades or documented residual-owned-source exhaustion.",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "evidence": {
+        "glossaryMatching": "exhausted",
+        "upgrades": 830,
+        "formulaTermsIndexed": 4382,
+        "docsTermsIndexed": 232,
+        "report": "content/pipeline/formula-enrich-report.json"
+      }
     },
     {
       "id": "E9-provenance",
@@ -449,7 +500,16 @@
         "Add diagnostic buckets to ops-status.inventory.",
         "Ensure ship-check never treats locallyDeepenedAt as enrichedAt."
       ],
-      "stopCondition": "Spot-check 30 cards: no agent card displays as 'live enriched'; diagnostic buckets sum to totalIndexCards."
+      "stopCondition": "Spot-check 30 cards: no agent card displays as 'live enriched'; diagnostic buckets sum to totalIndexCards.",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "evidence": {
+        "agentCoveragePct": 100,
+        "bucketsSum": 14217,
+        "uiChip": "ConceptDetail provenance-chip",
+        "diagnostic": "enrichment-diagnostic provenanceBuckets",
+        "report": "content/pipeline/provenance-backfill-report.json"
+      }
     },
     {
       "id": "E10-agent-cards-no-enrichedAt",
@@ -476,7 +536,15 @@
         "Document in killer-app-plan that agent volume ≠ liveShare progress.",
         "Keep never-set-enrichedAt offline rule in agent-shelf-fill."
       ],
-      "stopCondition": "Queue file exists; dilution math visible; offline writers still cannot set enrichedAt."
+      "stopCondition": "Queue file exists; dilution math visible; offline writers still cannot set enrichedAt.",
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "evidence": {
+        "queue": "content/pipeline/openai-polish-queue.json",
+        "agentWithoutEnrichedAt": 3149,
+        "dilutionPts": 22.15,
+        "neverSetEnrichedAtOffline": true
+      }
     },
     {
       "id": "E11-liveshare-openai",
@@ -632,7 +700,21 @@
         "glossary exhausted pivot run complete",
         "provenance buckets visible",
         "openai-polish-queue.json ready"
-      ]
+      ],
+      "status": "completed",
+      "completedAt": "2026-07-26T11:00:00.000Z",
+      "exitEvidence": {
+        "dualWriterResidual": false,
+        "volumeFreezeHeld": true,
+        "cardGrowth": 0,
+        "withWorkplaceTasks": 8165,
+        "pathWorkplaceCoverage": 0.987,
+        "formulaUpgrades": 830,
+        "glossaryMatching": "exhausted",
+        "agentProvenanceCoveragePct": 100,
+        "openaiPolishQueueReady": true,
+        "dilutionPts": 22.15
+      }
     },
     {
       "id": "M4",
@@ -677,5 +759,7 @@
     ]
   },
   "m1CompletedAt": "2026-07-26T10:45:46.265Z",
-  "m1Status": "completed"
+  "m1Status": "completed",
+  "m3CompletedAt": "2026-07-26T11:00:00.000Z",
+  "m3Status": "completed"
 }

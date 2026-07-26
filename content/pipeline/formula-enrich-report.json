@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-07-26T10:58:38.676Z",
+  "dryRun": false,
+  "glossaryMatching": "exhausted",
+  "formulaTermsIndexed": 4382,
+  "docsTermsIndexed": 232,
+  "matched": 859,
+  "upgrades": 830,
+  "fieldCounts": {
+    "formula": 0,
+    "trap": 0,
+    "sourceQuotes": 180,
+    "workplaceTasks": 692,
+    "implication": 0
+  },
+  "residualOwnedSourceExhaustion": false,
+  "samples": [
+    {
+      "id": "ma-absolute-forecast-error-ywjzb2x1dg",
+      "title": "Absolute forecast error",
+      "origin": "formula",
+      "fields": [
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "ma-absolute-percentage-error-ywjzb2x1dg",
+      "title": "Absolute percentage error",
+      "origin": "formula",
+      "fields": [
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "ma-absorbed-overhead-ywjzb3jizw",
+      "title": "Absorbed overhead",
+      "origin": "formula",
+      "fields": [
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "ma-absorption-cost-per-unit-ywjzb3jwdg",
+      "title": "Absorption Cost per Unit",
+      "origin": "formula",
+      "fields": [
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "coso-accounting-controlling-ywnjb3vudg",
+      "title": "Accounting & Controlling",
+      "origin": "docs",
+      "fields": [
+        "sourceQuotes",
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "ifrs-enc-accounting-equation-ywnjb3vudg",
+      "title": "Accounting equation",
+      "origin": "formula",
+      "fields": [
+        "sourceQuotes",
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "ma-accounting-rate-of-return-ywnjb3vudg",
+      "title": "Accounting rate of return",
+      "origin": "formula",
+      "fields": [
+        "sourceQuotes",
+        "workplaceTasks"
+      ]
+    },
+    {
+      "id": "ifrs-enc-accrued-expenses-closing-ywnjcnvlzc",
+      "title": "Accrued expenses closing",
+      "origin": "formula",
+      "fields": [
+        "sourceQuotes",
+        "workplaceTasks"
+      ]
+    }
+  ]
+}

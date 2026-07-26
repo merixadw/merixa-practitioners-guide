@@ -104,7 +104,27 @@ export type GuideCard = {
   /** Typed links to related Guide cards */
   relatedConcepts?: ConceptRelation[];
   sourceQuotes?: SourceQuote[];
+  /** OpenAI live enrich stamp only — never set by offline/agent/codex writers */
   enrichedAt?: string;
+  /** Offline deepen stamp (codex-local / formula / spine fill) */
+  locallyDeepenedAt?: string;
+  /** Agent-authored shelf-fill stamp */
+  agentAuthoredAt?: string;
+  /** Codex deepen stamp when distinct from locallyDeepenedAt */
+  codexDeepenedAt?: string;
+  /** Formula-pack matcher stamp */
+  formulaPackAt?: string;
+  /**
+   * Provenance bucket for UI + diagnostics.
+   * openai-live | agent-authored | codex-local | formula-pack | registry | unknown
+   */
+  sourceProvenance?:
+    | "openai-live"
+    | "agent-authored"
+    | "codex-local"
+    | "formula-pack"
+    | "registry"
+    | "unknown";
   classification?: GuideClassification;
   editorialStatus?:
     | "machine-reviewed"

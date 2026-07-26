@@ -42,6 +42,59 @@ function relationLabel(kind: ConceptRelationKind): string {
   }
 }
 
+type ProvenanceKind =
+  | "openai-live"
+  | "agent-authored"
+  | "codex-local"
+  | "formula-pack"
+  | "registry"
+  | "unknown";
+
+function resolveProvenance(card: GuideCard): ProvenanceKind {
+  const stamped = card.sourceProvenance;
+  if (
+    stamped === "openai-live" ||
+    stamped === "agent-authored" ||
+    stamped === "codex-local" ||
+    stamped === "formula-pack" ||
+    stamped === "registry" ||
+    stamped === "unknown"
+  ) {
+    return stamped;
+  }
+  if (card.enrichedAt) return "openai-live";
+  if (card.agentAuthoredAt || card.tags?.includes("agent-authored")) {
+    return "agent-authored";
+  }
+  if (card.tags?.includes("codex-sourced") || card.codexDeepenedAt) {
+    return "codex-local";
+  }
+  if (card.formulaPackAt) return "formula-pack";
+  if (card.locallyDeepenedAt) return "codex-local";
+  return "unknown";
+}
+
+function provenanceLabel(kind: ProvenanceKind): string {
+  switch (kind) {
+    case "openai-live":
+      return "Live enriched";
+    case "agent-authored":
+      return "Agent authored";
+    case "codex-local":
+      return "Local deepen";
+    case "formula-pack":
+      return "Formula pack";
+    case "registry":
+      return "Registry";
+    case "unknown":
+      return "Provenance pending";
+    default: {
+      const _exhaustive: never = kind;
+      return _exhaustive;
+    }
+  }
+}
+
 function uniqueOfficialReferences(
   refs: OfficialReference[],
 ): OfficialReference[] {
@@ -300,6 +353,22 @@ export function ConceptDetail({
               : ""}
           </p>
         ) : null}
+        {(() => {
+          const provenance = resolveProvenance(liveCard);
+          // Never imply agent/offline cards are live-enriched.
+          return (
+            <p
+              className={`provenance-chip provenance-${provenance}`}
+              title={
+                provenance === "openai-live"
+                  ? "OpenAI live enrich (enrichedAt)"
+                  : "Not live-enriched — offline or agent provenance"
+              }
+            >
+              {provenanceLabel(provenance)}
+            </p>
+          );
+        })()}
         <h1>{liveCard.title}</h1>
 
         {/* Accruals-ratio learning cycle — always present */}

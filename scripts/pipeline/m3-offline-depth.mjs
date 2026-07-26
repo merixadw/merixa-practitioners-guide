@@ -147,10 +147,6 @@ function phaseProvenance(cards, { dryRun }) {
       provenance === PROVENANCE.AGENT ||
       Boolean(card.agentAuthoredAt) ||
       (card.tags || []).includes("agent-authored");
-    if (isAgent) {
-      agentTotal += 1;
-      if (card.agentAuthoredAt && card.sourceProvenance) agentWithStamp += 1;
-    }
 
     let changed = false;
     const out = { ...card };
@@ -164,12 +160,15 @@ function phaseProvenance(cards, { dryRun }) {
       agentAuthoredAtBackfill += 1;
       changed = true;
     }
+    if (isAgent) {
+      agentTotal += 1;
+      if (out.agentAuthoredAt && out.sourceProvenance) agentWithStamp += 1;
+    }
     if (changed) stamped += 1;
     return out;
   });
 
-  const agentCoverage =
-    agentTotal === 0 ? 1 : (agentWithStamp + agentAuthoredAtBackfill) / agentTotal;
+  const agentCoverage = agentTotal === 0 ? 1 : agentWithStamp / agentTotal;
 
   const report = {
     generatedAt: now,
@@ -603,7 +602,14 @@ async function run(argv) {
       cards = result.cards;
       summary.phases.provenanceDry = result.report;
     }
-    summary.phases.polishQueue = phasePolishQueue(cards);
+    const queue = phasePolishQueue(cards);
+    summary.phases.polishQueue = {
+      generatedAt: queue.generatedAt,
+      totals: queue.totals,
+      priorityOrder: queue.priorityOrder,
+      itemsWritten: queue.items.length,
+      path: POLISH_PATH,
+    };
   }
 
   summary.after = {

@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-26T10:58:38.648Z",
+  "dryRun": false,
+  "stamped": 14217,
+  "agentAuthoredAtBackfill": 0,
+  "agentTotal": 3149,
+  "agentWithStampAfter": 3149,
+  "agentCoveragePct": 100,
+  "buckets": {
+    "openai-live": 3056,
+    "agent-authored": 3149,
+    "codex-local": 4450,
+    "formula-pack": 638,
+    "registry": 0,
+    "unknown": 2924
+  },
+  "bucketsSum": 14217,
+  "totalCards": 14217,
+  "note": "Post-backfill: 100% of agentAuthored cards carry agentAuthoredAt + sourceProvenance. Buckets reflect final index state after formula phase."
+}

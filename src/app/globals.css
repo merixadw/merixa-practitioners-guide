@@ -641,6 +641,31 @@ html.translated-rtl {
   text-transform: uppercase;
 }
 
+.provenance-chip {
+  display: inline-block;
+  margin: 0 0 0.55rem;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted, #5a655c);
+  background: transparent;
+}
+
+.provenance-chip.provenance-openai-live {
+  color: var(--forest);
+  border-color: color-mix(in srgb, var(--forest) 35%, var(--line));
+}
+
+.provenance-chip.provenance-agent-authored,
+.provenance-chip.provenance-codex-local,
+.provenance-chip.provenance-formula-pack {
+  color: var(--ink);
+}
+
 .detail-secondary {
   display: block;
   margin-top: 0.55rem;
