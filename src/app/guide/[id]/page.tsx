@@ -6,9 +6,11 @@ import { GuideDetailClient } from "@/components/GuideDetailClient";
  * copies that HTML to every catalog id. The client reads `useParams()` from the URL
  * and loads the card from `/corpus/details/*.json`.
  *
- * In development, skip generateStaticParams so Turbopack never walks the corpus.
+ * In development, generateStaticParams returns [] so Turbopack never walks the
+ * 14k-card catalog. `dynamicParams` must be a static boolean for Next.js.
+ * With `output: 'export'` Next treats it as false and uses stamped shells.
  */
-export const dynamicParams = process.env.NODE_ENV !== "production";
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   if (process.env.NODE_ENV !== "production") {
