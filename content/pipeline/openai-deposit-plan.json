@@ -1,0 +1,143 @@
+{
+  "title": "OpenAI API deposit calculator — prepaid Premium first-month float",
+  "updatedAt": "2026-07-26",
+  "repo": "merixa-practitioners-guide",
+  "status": "planning-tool",
+  "scope": "No OpenAI API calls. Deposit math only — prepaid IAP revenue is not the OpenAI wallet.",
+  "honesty": {
+    "prepaidRevenueIsNotDeposit": true,
+    "note": "£7.99 unlock / £7.99 mo (Apple net after cut) funds business cashflow. The OpenAI deposit / prepaid credit is a separate float that covers Ask burn before renewals and payout lag. Size deposit from peak concurrent API spend × buffer, not from list price × users."
+  },
+  "commercialOffer": {
+    "guideUnlock": {
+      "productId": "uk.co.merixa.practitionersguide.unlock",
+      "priceGbp": 7.99,
+      "priceEur": 8.99,
+      "priceUsd": 9.99,
+      "includes": "Library offline + full AI Premium for UNLOCK_PREMIUM_TRIAL_DAYS (30) from unlockedAt"
+    },
+    "aiPremiumMonthly": {
+      "productId": "uk.co.merixa.practitionersguide.ai.premium.monthly",
+      "priceGbp": 7.99,
+      "priceEur": 8.99,
+      "priceUsd": 9.99,
+      "kind": "auto-renewable prepaid month"
+    },
+    "productPolicy": {
+      "prepaidIsFullPremium": true,
+      "notCrippledMiniOnlyTrial": true,
+      "afterMonthWithoutRenew": "offline only — Library stays if unlocked; live Ask must stop"
+    },
+    "sources": [
+      "content/pipeline/p0-pricing-complete.json",
+      "src/lib/entitlements/products.ts",
+      "store/ASC_SETUP.md"
+    ]
+  },
+  "askCostInputs": {
+    "fairUseClient": {
+      "dailyLiveAsks": 10,
+      "dailyHeavyCoach": 5,
+      "storageKey": "mpg-ai-fair-use-v2",
+      "enforcement": "client localStorage only — not a wallet"
+    },
+    "worker": {
+      "file": "workers/ask.js",
+      "lightModel": "gpt-5-mini (OPENAI_MODEL_PREMIUM_LIGHT)",
+      "coachModel": "gpt-5 (OPENAI_MODEL_PREMIUM)",
+      "maxTokens": { "light": 1200, "coach": 1800, "multiTabCoach": 2200 },
+      "serverRateLimits": false,
+      "serverEntitlementCheck": false,
+      "tierGate": "client-sent tier:premium|lite → else HTTP 402"
+    },
+    "openaiListPricesUsdPer1M_asOfPlan": {
+      "gpt5": { "input": 1.25, "output": 10.0 },
+      "gpt5Mini": { "input": 0.25, "output": 2.0 },
+      "note": "Edit assumptions in openai-deposit-calculator.mjs / CLI flags when OpenAI changes list prices."
+    }
+  },
+  "entitlementAutoCeaseOpenAI": {
+    "goal": "After ~1 month without renew → offline only; OpenAI Ask must automatically cease.",
+    "exists": [
+      {
+        "layer": "client-entitlement",
+        "what": "expireAiIfNeeded() drops ai.kind to offline when expiresAt is past; Guide unlock stays",
+        "path": "src/lib/entitlements/store.ts"
+      },
+      {
+        "layer": "client-load",
+        "what": "loadEntitlements() runs expireAiIfNeeded on read so UI sees offline after expiry",
+        "path": "src/lib/entitlements/store.ts"
+      },
+      {
+        "layer": "client-gate",
+        "what": "canUseLiveAsk / Ask UI only send live calls when Premium is active; offline uses paced Tutor",
+        "path": "src/components/EntitlementsProvider.tsx"
+      },
+      {
+        "layer": "worker-tier-string",
+        "what": "ask.js returns 402 if client omits tier:premium|lite",
+        "path": "workers/ask.js",
+        "gap": "Does NOT verify expiresAt / Apple entitlement — trusts client-sent tier"
+      }
+    ],
+    "mustBuild": [
+      {
+        "priority": "P0",
+        "what": "Server must reject Ask if Premium entitlement expired (or never granted)",
+        "how": "Short-lived Ask session token from iap-verify (or signed expiresAt) checked in ask.js before OpenAI; return 402/403 with offline message",
+        "why": "Expired clients, modified clients, or curl can still POST tier:premium and burn the shared key"
+      },
+      {
+        "priority": "P0",
+        "what": "Per-device daily Ask caps in ask.js (KV/DO)",
+        "why": "Client fair-use is bypassable; deposit math assumes caps roughly hold"
+      },
+      {
+        "priority": "P1",
+        "what": "ASK_DISABLED kill switch + OpenAI project hard monthly budget",
+        "why": "Last fuse if deposit or renewals lag"
+      }
+    ],
+    "verdict": "Client auto-cease exists and is restore-safe for unlock trial windows. Server auto-cease does NOT exist yet — must build before treating deposit as bounded."
+  },
+  "assumptionsEditable": {
+    "priceGbpUnlock": 7.99,
+    "priceGbpPremiumMo": 7.99,
+    "dauRateAmongPremium": 0.25,
+    "asksPerDauPerDay": 3,
+    "heavyAskShare": 0.35,
+    "tokensPerAsk": {
+      "light": { "input": 2800, "output": 700 },
+      "coach": { "input": 3200, "output": 1400 }
+    },
+    "usdPer1M": {
+      "gpt5": { "input": 1.25, "output": 10.0 },
+      "gpt5Mini": { "input": 0.25, "output": 2.0 }
+    },
+    "retention": { "d15": 0.55, "d30": 0.4, "d45": 0.18, "d60": 0.12 },
+    "safetyBufferPct": 40,
+    "scenarios": {
+      "conservative": { "cohortUsers": 50 },
+      "base": { "cohortUsers": 200 },
+      "aggressive": { "cohortUsers": 1000 }
+    },
+    "notes": [
+      "Retention after d30 is renewers only for OpenAI spend (prepaid month ends).",
+      "DAU × asks/day is usage intensity among still-entitled Premium — not fair-use max.",
+      "Full Premium mix: light → gpt-5-mini, heavy → gpt-5 (not mini-only trial)."
+    ]
+  },
+  "calculator": {
+    "script": "content/pipeline/openai-deposit-calculator.mjs",
+    "run": "node content/pipeline/openai-deposit-calculator.mjs",
+    "customUsers": "node content/pipeline/openai-deposit-calculator.mjs --users=500",
+    "writesResultsIntoThisFile": false,
+    "stdout": "markdown tables + JSON summary"
+  },
+  "recommendedDepositMethod": {
+    "primary": "recommendedDepositUsd = max(peakMonthSpendUsd, first30DayBurnUsd) × (1 + safetyBufferPct/100)",
+    "peakMonth": "Highest contiguous 30-day OpenAI burn in the 60-day projection (usually days 1–30 for a single launch cohort).",
+    "bands": "Report conservative / base / aggressive as deposit bands for the same usage assumptions."
+  }
+}
