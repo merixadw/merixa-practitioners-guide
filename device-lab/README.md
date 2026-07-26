@@ -4,6 +4,8 @@ Local **environment suite** for layout and UI testing of Merixa (and any URL) in
 
 This is **not** Apple’s Simulator. On Windows you cannot run Xcode Simulator natively. Use this lab for design; use a Mac or cloud Mac for StoreKit / Cap plugins / TestFlight.
 
+Native Capacitor ship steps (Windows prep + Mac `cap add ios`): see [`CAPACITOR_SHIP.md`](../CAPACITOR_SHIP.md). `ios/` in this repo is a stub until a Mac creates the real project.
+
 ## Quick start
 
 **Terminal 1 — app**

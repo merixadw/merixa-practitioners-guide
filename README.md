@@ -30,9 +30,13 @@ npx wrangler secret put APPLE_PRIVATE_KEY --config wrangler.iap.toml
 # optional legacy: APPLE_IAP_SHARED_SECRET
 npm run iap:deploy
 
-# On a Mac with Xcode:
-npm run ios:sync          # next export → out/ → cap sync ios
-npx cap add ios           # once, if ios/ missing
+# Windows prep (webDir=out):
+npm run cap:prep          # build:web + cap:check
+npm run cap:sync          # no-op until a real ios/android project exists
+
+# On a Mac with Xcode (see CAPACITOR_SHIP.md):
+npx cap add ios           # once — replaces ios/ stub
+npm run ios:sync          # build:web → out/ → cap sync ios
 npx cap open ios
 ```
 

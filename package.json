@@ -107,9 +107,9 @@
     "library:seamless:smoke": "node scripts/pipeline/seamless-smoke.mjs",
     "build:web": "node scripts/pipeline/build-web.mjs",
     "build:web:stamp": "node scripts/pipeline/stamp-guide-shell.mjs",
-    "cap:sync": "npx cap sync ios",
+    "cap:sync": "node scripts/pipeline/cap-sync.mjs",
     "cap:open": "npx cap open ios",
-    "ios:sync": "npm run build:web && npx cap sync ios",
+    "ios:sync": "npm run build:web && node scripts/pipeline/cap-sync.mjs --ios",
     "dev": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --webpack",
     "dev:webpack": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --webpack",
     "device-lab": "node device-lab/server.mjs --open",
@@ -125,7 +125,10 @@
     "ask:deploy": "npx wrangler deploy --config wrangler.ask.toml",
     "iap:deploy": "npx wrangler deploy --config wrangler.iap.toml",
     "build:web:smoke": "node scripts/pipeline/smoke-out-web.mjs",
-    "dev:turbo": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --turbopack"
+    "dev:turbo": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next dev --turbopack",
+    "cap:check": "node scripts/pipeline/cap-ready.mjs",
+    "cap:prep": "npm run build:web && npm run cap:check",
+    "android:sync": "npm run build:web && node scripts/pipeline/cap-sync.mjs --android"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.2",

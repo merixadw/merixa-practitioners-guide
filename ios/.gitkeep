@@ -1,13 +1,14 @@
-# Native iOS shell — create on a Mac with Xcode (P3):
+# ios/ is a STUB — not a Capacitor/Xcode project.
 #
-#   npx cap add ios
-#   npm run ios:sync
+# Windows cannot create or sync a real iOS app. On a Mac with Xcode:
+#
+#   npm run build:web
+#   npx cap add ios          # once — creates the native project
+#   npm run ios:sync         # build:web + cap sync ios
 #   npx cap open ios
 #
 # Attach storekit/Products.storekit to the Xcode scheme
 # (Edit Scheme → Run → Options → StoreKit Configuration).
 #
-# Then follow:
-#   store/ASC_SETUP.md
-#   store/SCREENSHOTS.md
-#   store/SUBSCRIPTION_TESTS.md
+# Full checklist: ../CAPACITOR_SHIP.md
+# Store leftovers: ../store/ASC_SETUP.md, SCREENSHOTS.md, SUBSCRIPTION_TESTS.md

@@ -4,7 +4,8 @@
   "focus": "Ship what users open and use. Stop operational-efficiency / shelf-minting work unless it blocks the product shell.",
   "context": {
     "liveShareGates": "soft/public ~21% fail — accepted; offlineShipReady=true (offline depth only)",
-    "ios": "Not ready — ios/ stub only; P-Web export+stamp unblocks Cap webDir (no 14k SSG)",
+    "ios": "Stub only (ios/.gitkeep) — Mac must run cap add ios; Windows prep via cap:prep",
+    "android": "Not present (optional; gitignored)",
     "paths": "861+ with filters on cursor/paths-ui-filter",
     "openai": "ZERO OpenAI API until product shell ships",
     "pWebLastBuild": {
@@ -82,11 +83,17 @@
     {
       "id": "P-Cap",
       "name": "Capacitor webDir sync + Windows-doable prep; Mac checklist for ios add",
-      "status": "pending",
+      "status": "done",
       "acceptance": [
         "Windows: npm run build:web produces complete out/ including stamped guides + corpus",
         "npx cap sync (when ios/ present) targets webDir out/",
         "Mac checklist documented: xcode, cap add ios, ios:sync, open Xcode, StoreKit file"
+      ],
+      "work": [
+        "capacitor.config.ts webDir=out (documented)",
+        "scripts: cap:check, cap:sync, cap:prep, ios:sync, android:sync",
+        "CAPACITOR_SHIP.md — Windows prep + ordered Mac iOS/TestFlight steps",
+        "ios/.gitkeep remains stub-only (no fake Xcode project); android absent"
       ]
     },
     {
