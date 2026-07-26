@@ -1,62 +1,22 @@
-import { notFound, redirect } from "next/navigation";
-import { ConceptDetail } from "@/components/ConceptDetail";
-import {
-  getCanonicalCard,
-  getGeneratedIdAliases,
-} from "@/lib/guide/canonical";
-import { loadGuideIndex } from "@/lib/guide/corpus";
-import {
-  readCardDetailFromDisk,
-  readCatalogFromDisk,
-} from "@/lib/guide/seamless-disk";
+import { GuideDetailClient } from "@/components/GuideDetailClient";
 
-export const dynamicParams = false;
+/**
+ * Static export cannot afford 14k SSG pages (OOM / incomplete out/).
+ * Production builds emit one shell (`_shell`); `scripts/pipeline/stamp-guide-shell.mjs`
+ * copies that HTML to every catalog id. The client reads `useParams()` from the URL
+ * and loads the card from `/corpus/details/*.json`.
+ *
+ * In development, skip generateStaticParams so Turbopack never walks the corpus.
+ */
+export const dynamicParams = process.env.NODE_ENV !== "production";
 
 export function generateStaticParams() {
-  const catalog = readCatalogFromDisk();
-  const seen = new Set<string>();
-  const params: { id: string }[] = [];
-  const push = (id: string) => {
-    if (!id || seen.has(id)) return;
-    seen.add(id);
-    params.push({ id });
-  };
-
-  if (catalog) {
-    for (const card of catalog.cards) push(card.id);
-  } else {
-    const index = loadGuideIndex();
-    for (const card of index.cards) {
-      push(card.id);
-      for (const fromId of card.mergedFrom ?? []) push(fromId);
-    }
+  if (process.env.NODE_ENV !== "production") {
+    return [];
   }
-
-  const liveTargets = new Set(params.map((entry) => entry.id));
-  for (const [fromId, toId] of Object.entries(getGeneratedIdAliases())) {
-    if (liveTargets.has(toId)) push(fromId);
-  }
-  return params;
+  return [{ id: "_shell" }];
 }
 
-export default async function ConceptPage({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
-  const { id } = await params;
-
-  const fromDisk = readCardDetailFromDisk(id);
-  if (fromDisk) {
-    if (fromDisk.id !== id) redirect(`/guide/${fromDisk.id}/`);
-    return <ConceptDetail card={fromDisk} />;
-  }
-
-  const index = loadGuideIndex();
-  const card = getCanonicalCard(index, id);
-  if (!card) notFound();
-  if (card.id !== id) {
-    redirect(`/guide/${card.id}/`);
-  }
-  return <ConceptDetail card={card} />;
+export default function ConceptPage() {
+  return <GuideDetailClient />;
 }

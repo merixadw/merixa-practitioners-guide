@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { AccessGate } from "./AccessGate";
 import { CutEndCacheBootstrap } from "./CutEndCacheBootstrap";
@@ -10,6 +11,7 @@ import { HabitsProvider } from "./HabitsProvider";
 import { RetentionSheets } from "./RetentionSheets";
 import { ThemeToggle } from "./ThemeToggle";
 import { TranslateProvider } from "./TranslateProvider";
+import { loadLearningPaths } from "@/lib/guide/paths";
 import { SeamlessCorpusProvider } from "@/lib/guide/seamless-corpus";
 
 const NAV = [
@@ -55,6 +57,11 @@ function screenTitle(pathname: string): string | null {
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+
+  useEffect(() => {
+    void loadLearningPaths();
+  }, []);
+
   const legalRoute = ["/privacy", "/terms", "/support", "/language"].some(
     (route) => pathname.startsWith(route),
   );

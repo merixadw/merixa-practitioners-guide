@@ -61,8 +61,13 @@ set `ALLOW_JWS_CLAIMS_ONLY=true` on the worker and/or
 ## Local commands
 
 ```bash
+npm run dev              # webpack (default) — avoids Turbopack OOM on Windows
+npm run dev:turbo        # Turbopack (optional; may OOM if huge JSON re-enters the graph)
+npm run dev:webpack      # same as npm run dev
+npm run build:web        # seamless corpus → next export → stamp /guide shells into out/
 npm run extract          # PDF/DOCX/HTML text from allowlisted Codex roots
 npm run library:rebuild  # Four-stage backline → content/index.json + agenda
+npm run library:seamless # publish public/corpus for Library/Tutor/Paths
 npm run library:circle   # Continuous upgrade cycle across all 4 stages
 npm run library:sustain  # Fetch/attach official professional-body websites
 npm run library:week     # Plan weekly target, pursue, and fully verify
@@ -70,9 +75,12 @@ npm run library:verify   # Re-measure live corpus against this week's goals
 npm run library:circle -- --cycles=3
 npm run library:review   # Model editorial pass when OPENAI_API_KEY is set
 npm run ingest:full      # extract + ingest + enrich
-npm run dev
 npm run build
 ```
+
+**Final product milestones** (not more shelf minting): see
+`content/pipeline/final-product-plan.json` — P-Dev → P-Web → P-UX → P-Cap → P-Store.
+OpenAI enrich stays parked until the product shell ships.
 
 `extract` reads sibling Codex / glossary sources and writes `content/raw-cache/`.
 Pirate / commercial study-system paths are blocked.

@@ -1,0 +1,82 @@
+{
+  "title": "Merixa Practitioner’s Guide — final product plan",
+  "updatedAt": "2026-07-26",
+  "focus": "Ship what users open and use. Stop operational-efficiency / shelf-minting work unless it blocks the product shell.",
+  "context": {
+    "liveShareGates": "soft/public ~21% fail — accepted; offlineShipReady=true (offline depth only)",
+    "ios": "Not ready — ios/ stub only; next build SSG of 14k guides breaks; out/ incomplete without stamp",
+    "paths": "861+ with filters on cursor/paths-ui-filter",
+    "openai": "ZERO OpenAI API until product shell ships"
+  },
+  "deprioritized": [
+    "More agent encyclopedia shelf cards / volume minting",
+    "OpenAI enrich / liveShare soft-gate churn",
+    "Devil-risk epic work that does not block Tutor/Library/Paths/Saved ship"
+  ],
+  "milestones": [
+    {
+      "id": "P-Dev",
+      "name": "Local/dev & build reliability",
+      "status": "in_progress",
+      "acceptance": [
+        "npm run dev serves / with HTTP 200 on Windows without Turbopack OOM",
+        "Homepage does not statically import content/index.json (~150MB)",
+        "Heavy path packs load from public/corpus/path-packs, not the bundler graph",
+        "dev:webpack is the default; dev:turbo optional"
+      ],
+      "work": [
+        "fs-read corpus index (no JSON import)",
+        "Skip generateStaticParams corpus walk in development",
+        "Client-hydrate domain-shelf + orphan-family path packs",
+        "Default next dev --webpack"
+      ]
+    },
+    {
+      "id": "P-Web",
+      "name": "Production static export with corpus (no 14k SSG crash)",
+      "status": "in_progress",
+      "acceptance": [
+        "next build emits out/ with app shell + public/corpus copied",
+        "/guide/[id] is a client shell (useParams + detail shards)",
+        "stamp-guide-shell copies one shell HTML to every catalog id (+ aliases)",
+        "build:web = seamless + next build + stamp; Cap webDir out/ has deep-linkable guides"
+      ],
+      "work": [
+        "GuideDetailClient + generateStaticParams([{id:'_shell'}])",
+        "scripts/pipeline/stamp-guide-shell.mjs",
+        "Wire stamp into build:web / ios:sync path"
+      ]
+    },
+    {
+      "id": "P-UX",
+      "name": "Library / Paths / Ask polish for ship",
+      "status": "pending",
+      "acceptance": [
+        "Tutor home usable offline with seamless corpus",
+        "Library browse + open concept detail from shards",
+        "Paths filters (shelf/body/progress/search) work with full 861+ list after hydrate",
+        "Saved + retention sheets do not block first run"
+      ]
+    },
+    {
+      "id": "P-Cap",
+      "name": "Capacitor webDir sync + Windows-doable prep; Mac checklist for ios add",
+      "status": "pending",
+      "acceptance": [
+        "Windows: npm run build:web produces complete out/ including stamped guides + corpus",
+        "npx cap sync (when ios/ present) targets webDir out/",
+        "Mac checklist documented: xcode, cap add ios, ios:sync, open Xcode, StoreKit file"
+      ]
+    },
+    {
+      "id": "P-Store",
+      "name": "IAP / listing leftovers",
+      "status": "pending",
+      "acceptance": [
+        "Unlock + Premium products configured; verify worker deploy path known",
+        "Privacy/Terms/Support URLs ready for App Store Connect",
+        "No production ALLOW_JWS_CLAIMS_ONLY / unverified IAP flags"
+      ]
+    }
+  ]
+}

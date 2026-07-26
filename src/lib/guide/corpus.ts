@@ -1,4 +1,5 @@
-import ingested from "../../../content/index.json";
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import { buildGuideIndex } from "./index-build";
 import { SEED_CARDS } from "./seed-cards";
 import type {
@@ -12,6 +13,24 @@ import type {
   SourceQuote,
   WorkplaceTask,
 } from "./types";
+
+/**
+ * Read content/index.json from disk at runtime.
+ * Never statically import that file — it is ~150MB and crashes Turbopack/Windows
+ * during `next dev` when pulled into the compile graph.
+ */
+let cachedIngested: unknown | undefined;
+
+function readIngestedPayload(): unknown {
+  if (cachedIngested !== undefined) return cachedIngested;
+  const indexPath = join(process.cwd(), "content", "index.json");
+  if (!existsSync(indexPath)) {
+    cachedIngested = { cards: [] };
+    return cachedIngested;
+  }
+  cachedIngested = JSON.parse(readFileSync(indexPath, "utf8")) as unknown;
+  return cachedIngested;
+}
 
 const GUIDE_DOMAINS: GuideDomain[] = [
   "Financial reporting",
@@ -373,7 +392,7 @@ function withTeachingDefaults(card: GuideCard): GuideCard {
 
 export function loadGuideIndex(): GuideIndex {
   const byId = new Map<string, GuideCard>();
-  for (const card of readIngestedCards(ingested)) {
+  for (const card of readIngestedCards(readIngestedPayload())) {
     const prepared = prepareCard({ card, source: "ingested" });
     if (prepared) byId.set(prepared.id, prepared);
   }

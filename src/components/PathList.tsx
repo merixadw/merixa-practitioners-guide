@@ -9,6 +9,7 @@ import {
 } from "@/lib/guide/flagship-paths";
 import { coachActionHref } from "@/lib/guide/coach-actions";
 import { pathLessonHref, rankPathsForLearner } from "@/lib/guide/recommend";
+import { LEARNING_PATHS, loadLearningPaths } from "@/lib/guide/paths";
 import { ALL_BODIES, type BodyId, type LearningPath } from "@/lib/guide/types";
 import {
   loadCustomPaths,
@@ -297,9 +298,10 @@ function PathArticle({
 }
 
 export function PathList({
-  paths,
+  paths: pathsProp,
 }: {
-  paths: LearningPath[];
+  /** Optional override; defaults to light LEARNING_PATHS then hydrates packs. */
+  paths?: LearningPath[];
   /** @deprecated unused — kept for call-site compatibility */
   cardIds?: string[];
 }) {
@@ -309,12 +311,44 @@ export function PathList({
   const launchMode = launchModeFromAiTier(aiTier);
   const [upgradeOpen, setUpgradeOpen] = useState(false);
   const [customPaths, setCustomPaths] = useState<LearningPath[]>([]);
+  const [packPaths, setPackPaths] = useState<LearningPath[]>(
+    () => pathsProp ?? LEARNING_PATHS,
+  );
+  const [packsReady, setPacksReady] = useState(() => Boolean(pathsProp));
   const [query, setQuery] = useState("");
   const [shelfFilter, setShelfFilter] = useState<"all" | PathShelf>("all");
   const [bodyFilter, setBodyFilter] = useState<BodyId | "all">("all");
   const [progressFilter, setProgressFilter] =
     useState<ProgressFilter>("all");
   const searchTimer = useRef<number | null>(null);
+
+  useEffect(() => {
+    if (pathsProp) {
+      setPackPaths(pathsProp);
+      setPacksReady(true);
+    }
+    let cancelled = false;
+    void loadLearningPaths().then((next) => {
+      if (cancelled) return;
+      // Prefer caller override only when it already includes heavy packs.
+      if (
+        pathsProp &&
+        pathsProp.some(
+          (path) =>
+            path.id.startsWith("orphan-family-") ||
+            path.id.startsWith("domain-shelf-"),
+        )
+      ) {
+        setPackPaths(pathsProp);
+      } else {
+        setPackPaths(next);
+      }
+      setPacksReady(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [pathsProp]);
 
   useEffect(() => {
     const refresh = () => {
@@ -341,8 +375,8 @@ export function PathList({
   }, [query, track]);
 
   const catalog = useMemo(
-    () => [...customPaths, ...paths],
-    [customPaths, paths],
+    () => [...customPaths, ...packPaths],
+    [customPaths, packPaths],
   );
   const ranked = useMemo(
     () => (ready ? rankPathsForLearner(catalog, insights) : catalog),
@@ -430,6 +464,11 @@ export function PathList({
       <p className="screen-lead">
         Browse journeys offline. Live path training unlocks with AI Premium.
       </p>
+      {!packsReady ? (
+        <p className="muted" role="status">
+          Loading practice shelves…
+        </p>
+      ) : null}
 
       <div className="library-filters paths-filters">
         <div className="mobile-search">

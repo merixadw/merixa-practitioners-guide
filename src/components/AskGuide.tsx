@@ -14,7 +14,7 @@ import type { BodyWebVerification } from "@/lib/guide/body-web-verify";
 import { sessionCoachPrompts } from "@/lib/guide/coach-actions";
 import { resolveTutorJourney } from "@/lib/guide/journey";
 import type { LearningStep } from "@/lib/guide/learning";
-import { LEARNING_PATHS } from "@/lib/guide/paths";
+import { LEARNING_PATHS, loadLearningPaths } from "@/lib/guide/paths";
 import type { GuideCard } from "@/lib/guide/types";
 import { useRetrieveGuideIndex } from "@/lib/guide/seamless-corpus";
 import {
@@ -137,6 +137,10 @@ export function AskGuide() {
 
   useEffect(() => {
     void loadCustomPaths();
+  }, []);
+
+  useEffect(() => {
+    void loadLearningPaths();
   }, []);
 
   useEffect(() => {

@@ -4,9 +4,8 @@ import frmPathsGenerated from "./frm-paths.generated.json";
 import faPathsGenerated from "./fa-paths.generated.json";
 import crossBodyPathsGenerated from "./cross-body-paths.generated.json";
 import priorityDomainPathsGenerated from "./priority-domain-paths.generated.json";
-import domainShelfPathsGenerated from "./domain-shelf-paths.generated.json";
-import orphanFamilyPathsGenerated from "./orphan-family-paths.generated.json";
 import { withRemappedPathCards } from "./path-card-remap";
+import { loadHeavyPathPacks } from "./paths-heavy";
 
 /** Cross-domain practitioner journeys (non IFRS/IAS standard paths). */
 export const CORE_LEARNING_PATHS: LearningPath[] = [
@@ -710,29 +709,79 @@ export const CROSS_BODY_LEARNING_PATHS =
 export const PRIORITY_DOMAIN_LEARNING_PATHS =
   priorityDomainPathsGenerated as LearningPath[];
 
-/** Domain practice shelves — broad membership for competitive path coverage. */
-export const DOMAIN_SHELF_LEARNING_PATHS =
-  domainShelfPathsGenerated as LearningPath[];
-
-/** Enriched orphan families — Strategy, MA, Tax, sustain/audit/gov/project. */
-export const ORPHAN_FAMILY_LEARNING_PATHS =
-  orphanFamilyPathsGenerated as LearningPath[];
-
 const CORE_IDS_WITHOUT_IFRS_OVERLAP = new Set([
   "ifrs-revenue-path",
   "encyclopedia-ifrs-frs",
 ]);
 
-export const LEARNING_PATHS: LearningPath[] = withRemappedPathCards([
-  ...CORE_LEARNING_PATHS.filter((path) => !CORE_IDS_WITHOUT_IFRS_OVERLAP.has(path.id)),
-  ...CROSS_BODY_LEARNING_PATHS,
-  ...PRIORITY_DOMAIN_LEARNING_PATHS,
-  ...DOMAIN_SHELF_LEARNING_PATHS,
-  ...ORPHAN_FAMILY_LEARNING_PATHS,
-  ...IFRS_LEARNING_PATHS,
-  ...FRM_LEARNING_PATHS,
-  ...FA_LEARNING_PATHS,
-]);
+function buildLearningPaths(heavy: {
+  domainShelf: LearningPath[];
+  orphanFamily: LearningPath[];
+}): LearningPath[] {
+  return withRemappedPathCards([
+    ...CORE_LEARNING_PATHS.filter(
+      (path) => !CORE_IDS_WITHOUT_IFRS_OVERLAP.has(path.id),
+    ),
+    ...CROSS_BODY_LEARNING_PATHS,
+    ...PRIORITY_DOMAIN_LEARNING_PATHS,
+    ...heavy.domainShelf,
+    ...heavy.orphanFamily,
+    ...IFRS_LEARNING_PATHS,
+    ...FRM_LEARNING_PATHS,
+    ...FA_LEARNING_PATHS,
+  ]);
+}
+
+/** Domain practice shelves — hydrated via loadLearningPaths() from public/. */
+export const DOMAIN_SHELF_LEARNING_PATHS: LearningPath[] = [];
+
+/** Enriched orphan families — hydrated via loadLearningPaths() from public/. */
+export const ORPHAN_FAMILY_LEARNING_PATHS: LearningPath[] = [];
+
+/**
+ * Light path list safe for the client compile graph (no multi‑MB JSON imports).
+ * Call `loadLearningPaths()` in the browser to merge practice/orphan shelves.
+ */
+export const LEARNING_PATHS: LearningPath[] = buildLearningPaths({
+  domainShelf: [],
+  orphanFamily: [],
+});
+
+let learningPathsLoad: Promise<LearningPath[]> | null = null;
+
+function hasHeavyPaths(paths: LearningPath[]): boolean {
+  return paths.some(
+    (path) =>
+      path.id.startsWith("orphan-family-") ||
+      path.id.startsWith("domain-shelf-"),
+  );
+}
+
+/**
+ * Merge heavy path packs into LEARNING_PATHS (browser fetch).
+ * During SSR this returns the light list so client hydration matches.
+ */
+export async function loadLearningPaths(): Promise<LearningPath[]> {
+  if (typeof window === "undefined") {
+    return LEARNING_PATHS;
+  }
+  if (hasHeavyPaths(LEARNING_PATHS)) {
+    return LEARNING_PATHS;
+  }
+  if (!learningPathsLoad) {
+    learningPathsLoad = loadHeavyPathPacks().then((heavy) => {
+      const next = buildLearningPaths(heavy);
+      LEARNING_PATHS.length = 0;
+      LEARNING_PATHS.push(...next);
+      DOMAIN_SHELF_LEARNING_PATHS.length = 0;
+      DOMAIN_SHELF_LEARNING_PATHS.push(...heavy.domainShelf);
+      ORPHAN_FAMILY_LEARNING_PATHS.length = 0;
+      ORPHAN_FAMILY_LEARNING_PATHS.push(...heavy.orphanFamily);
+      return LEARNING_PATHS;
+    });
+  }
+  return learningPathsLoad;
+}
 
 export function isIfrsStandardPath(path: LearningPath): boolean {
   return path.id.startsWith("ifrs-path-");

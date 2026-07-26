@@ -35,6 +35,13 @@ const PATHS_OUT = join(
   "guide",
   "domain-shelf-paths.generated.json",
 );
+/** Served at runtime — keep out of the Next/Turbopack compile graph. */
+const PATHS_PUBLIC = join(
+  ROOT,
+  "public",
+  "path-packs",
+  "domain-shelf-paths.json",
+);
 
 const NON_FIN =
   /\b(formwork|trench excavation|gypsum plaster|ifc drawings|shop drawings|moh approval|detailed construction|detailed design schedule|install ceramic|install demountable|laminar flow|hepa filter|pneumatic conveying|activity id|leveling concrete|working meeting milestones)\b/i;
@@ -159,7 +166,10 @@ function main() {
   }
 
   mkdirSync(dirname(PATHS_OUT), { recursive: true });
-  writeFileSync(PATHS_OUT, `${JSON.stringify(paths, null, 2)}\n`, "utf8");
+  mkdirSync(dirname(PATHS_PUBLIC), { recursive: true });
+  const pathsJson = `${JSON.stringify(paths, null, 2)}\n`;
+  writeFileSync(PATHS_OUT, pathsJson, "utf8");
+  writeFileSync(PATHS_PUBLIC, pathsJson, "utf8");
 
   const report = {
     generatedAt: new Date().toISOString(),
