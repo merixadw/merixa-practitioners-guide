@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: merixa-yfinance-test
+    runtime: python
+    plan: free
+    region: frankfurt
+    rootDir: services/yfinance
+    buildCommand: pip install -r requirements.txt
+    startCommand: python service.py
+    healthCheckPath: /health
+    autoDeployTrigger: off
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PYTHON_VERSION
+        value: 3.12.12
+      - key: YFINANCE_SERVICE_TOKEN
+        generateValue: true
