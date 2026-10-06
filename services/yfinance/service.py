@@ -55,6 +55,9 @@ def company_data(args, provider=None):
     if provider is None:
         import yfinance as provider
         provider.config.network.retries = 0
+        # Yahoo may reject hosting-provider requests. Preserve that failure
+        # instead of allowing yfinance to turn it into an empty company.
+        provider.config.debug.hide_exceptions = False
     retrieved = dt.datetime.now(dt.timezone.utc).isoformat()
     if args['action'] == 'search':
         rows = provider.Search(args['query'], max_results=8, news_count=0).quotes
@@ -67,7 +70,10 @@ def company_data(args, provider=None):
     symbol = args['symbol']
     ticker = provider.Ticker(symbol)
     info = ticker.get_info()
-    if not info or info.get('quoteType') != 'EQUITY':
+    if not info or not info.get('quoteType'):
+        return {'status': 'unavailable', 'provider': 'yfinance-yahoo',
+                'code': 'YFINANCE_METADATA_UNAVAILABLE', 'retrievedAt': retrieved}
+    if info.get('quoteType') != 'EQUITY':
         return {'status': 'not_found', 'provider': 'yfinance-yahoo', 'symbol': symbol, 'retrievedAt': retrieved}
     actual_symbol = str(info.get('symbol') or symbol).upper()
     exchange = clean(info.get('exchange'))
@@ -118,7 +124,10 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Content-Length', str(len(encoded)))
         self.send_header('Cache-Control', 'private, no-store')
         self.end_headers()
-        self.wfile.write(encoded)
+        try:
+            self.wfile.write(encoded)
+        except (BrokenPipeError, ConnectionResetError):
+            pass  # The caller timed out or disconnected; do not respond twice.
 
     def do_GET(self):
         self.respond(200 if self.path == '/health' else 404, {'service': 'merixa-yfinance', 'version': '1'})

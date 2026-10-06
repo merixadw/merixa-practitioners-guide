@@ -32,6 +32,22 @@ class CompanyDataTests(unittest.TestCase):
         self.assertEqual(result['status'],'listing_mismatch')
         self.assertNotIn('statements',result)
 
+    def test_missing_metadata_is_not_a_missing_company(self):
+        for info in ({}, {'trailingPegRatio': 1.2}):
+            self.ticker.get_info.return_value = info
+            result = service.company_data(self.args, self.provider)
+            self.assertEqual(result['status'], 'unavailable')
+            self.assertNotIn('statements', result)
+
+    def test_provider_denial_is_not_swallowed(self):
+        self.ticker.get_info.side_effect = PermissionError('upstream denied')
+        with self.assertRaises(PermissionError):
+            service.company_data(self.args, self.provider)
+
+    def test_confirmed_non_equity_is_not_found(self):
+        self.ticker.get_info.return_value = {'quoteType': 'ETF'}
+        self.assertEqual(service.company_data(self.args, self.provider)['status'], 'not_found')
+
     def test_partial_statements_are_identified(self):
         self.ticker.balance_sheet = pd.DataFrame()
         result = service.company_data(self.args,self.provider)
